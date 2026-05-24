@@ -36,16 +36,16 @@ jobs:
 
       - name: Process Wiki Files
         run: |
-          mkdir -p website/public/wiki
+          mkdir -p public/wiki
           
           # Kopiere alle Markdown-Dateien
-          cp wiki-temp/*.md website/public/wiki/ || true
+          cp wiki-temp/*.md public/wiki/ || true
           
           # Kopiere auch Bilder falls vorhanden
-          cp wiki-temp/*.png wiki-temp/*.jpg wiki-temp/*.gif website/public/wiki/ 2>/dev/null || true
+          cp wiki-temp/*.png wiki-temp/*.jpg wiki-temp/*.gif public/wiki/ 2>/dev/null || true
           
           # Kopiere README vom Main-Repo
-          cp repo-temp/README.md website/public/wiki/README.md || true
+          cp repo-temp/README.md public/wiki/README.md || true
 
       - name: Commit Changes
         working-directory: website
