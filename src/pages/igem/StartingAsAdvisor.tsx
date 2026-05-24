@@ -1,10 +1,7 @@
-import React, {ReactNode} from "react";
+import React from "react";
 import IGEMTimeline from "../../components/other/IGEMTimeline";
 import { igemtimeline } from "../../data/igem/igemtimeline";
-
-function Section(props: { title: string, children: ReactNode }) {
-    return null;
-}
+import {Section} from "@liliana-sanfilippo/react-wiki-components";
 
 export function StartingAsAdvisor() {
 

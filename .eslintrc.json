@@ -9,6 +9,7 @@
     "react-hooks/exhaustive-deps": "off",
     "eqeqeq": "off",
     "no-useless-concat": "off",
-    "react/jsx-no-target-blank": "off"
+    "react/jsx-no-target-blank": "off",
+    "react/style-prop-object": "off"
   }
 }
