@@ -1,0 +1,81 @@
+import {Winner} from "../../components/Carousels/Carousel";
+
+export const winners25: Winner[] = [
+    {
+        id: 1,
+        team: "Bielefeld",
+        thumbnail: "https://static.igem.wiki/teams/5628/images/winnerbielefeld.webp",
+        prize: "Best Overall Project",
+        placement: "Winner",
+    },
+    {
+        id: 2,
+        team: "Prague",
+        thumbnail: "https://static.igem.wiki/teams/5628/images/prague.webp",
+        prize: "Best Overall Project",
+        placement: "Runner-Up",
+    },
+    {
+        id: 3,
+        team: "Mainz",
+        thumbnail: "https://static.igem.wiki/teams/5673/src/education/bfh/bfh-teams-min.webp",
+        prize: "Best Overall Project",
+        placement: "Third Place",
+    },
+    {
+        id: 4,
+        team: "Bochum",
+        thumbnail: "https://static.igem.wiki/teams/5628/images/winnerbochumagain.webp",
+        prize: "Best Booth",
+        placement: "Winner",
+    },
+    {
+        id: 5,
+        team: "Oslo",
+        thumbnail: "",
+        prize: "Best Booth",
+        placement: "Runner-Up",
+    },
+    {
+        id: 6,
+        team: "Prague",
+        thumbnail: "https://static.igem.wiki/teams/5628/images/prague.webp",
+        prize: "Best Project Presentation",
+        placement: "Winner",
+    },
+    {
+        id: 7,
+        team: "Darmstadt",
+        thumbnail: "https://static.igem.wiki/teams/5634/wiki/gallery/70.webp",
+        prize: "Best Project Presentation",
+        placement: "Runner-Up",
+    },
+    {
+        id: 8,
+        team: "Leuven",
+        thumbnail: "https://static.igem.wiki/teams/5691/publicengagement/bfh-meetup.webp",
+        prize: "Best Project Presentation",
+        placement: "Third Place",
+    },
+    {
+        id: 9,
+        team: "Graz",
+        thumbnail: "https://static.igem.wiki/teams/5628/images/winnergraz.webp",
+        prize: "Best Poster",
+        placement: "Winner",
+    },
+    {
+        id: 10,
+        team: "Marburg",
+        thumbnail: "https://static.igem.wiki/teams/5667/assets/team/photos/some-team-members-at-the-bfh-meet-up-1.webp",
+        prize: "Best Poster",
+        placement: "Runner-Up",
+    },
+    {
+        id: 11,
+        team: "Darmstadt",
+        thumbnail: "https://static.igem.wiki/teams/5634/wiki/gallery/70.webp",
+        prize: "Best Poster",
+        placement: "Third Place",
+    },
+];

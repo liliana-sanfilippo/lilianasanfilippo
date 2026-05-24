@@ -1,0 +1,30 @@
+
+
+
+.MuiTimelineItem-root{
+    .MuiTimelineContent-root{
+       padding: 6px 16px !important;
+    }
+}
+
+.MuiTimelineOppositeContent-root {
+   width: min-content !important;
+    min-width: 0 !important;
+}
+
+.MuiTimelineDot-root:after {
+    content:"";
+    background: gray;
+    position: absolute;
+    transform: translate(-1px);
+    height: 100%;
+    width: 1px;
+    margin: auto;
+    z-index: -100;
+}
+
+
+
+.css-ny8qih-MuiTimelineItem-root {
+    min-height: 0 !important;
+}

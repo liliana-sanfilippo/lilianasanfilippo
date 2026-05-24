@@ -1,0 +1,34 @@
+.Winner {
+    background-color: var(--accent-primary);
+}
+
+.Third-Place {
+    background-color: var(--accen-secondary);
+}
+
+.Runner-Up {
+    background-color: var(--cebitecgray);
+}
+
+.wheel-item-alternative .winner-card-img {
+    height: 100%;
+    max-height: 300px;
+    min-height: 200px;
+    width: 100%;
+    min-width: 500px;
+    object-position: bottom;
+    object-fit: cover;
+}
+
+.wheel-item-alternative {
+    background-color: white;
+}
+
+
+#Best-Project-PresentationThird-Place {
+    object-position: center;
+}
+
+#Best-PosterRunner-Up {
+    object-position: top;
+}

@@ -1,0 +1,62 @@
+name: Sync react-bibtex-reference-generator Wiki to Website
+
+on:
+  schedule:
+    - cron: '* * */7 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-wiki:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Website
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout Wiki
+        uses: actions/checkout@v4
+        with:
+          repository: liliana-sanfilippo/react-bibtex-reference-generator.wiki
+          path: wiki-temp
+
+      - name: Checkout Main Repo (für README)
+        uses: actions/checkout@v4
+        with:
+          repository: liliana-sanfilippo/react-bibtex-reference-generator
+          path: repo-temp
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Process Wiki Files
+        run: |
+          mkdir -p website/public/wiki-generator
+          
+          # Kopiere alle Markdown-Dateien
+          cp wiki-temp/*.md website/public/wiki-generator/ || true
+          
+          # Kopiere auch Bilder falls vorhanden
+          cp wiki-temp/*.png wiki-temp/*.jpg wiki-temp/*.gif website/public/wiki-generator/ 2>/dev/null || true
+          
+          # Kopiere README vom Main-Repo
+          cp repo-temp/README.md website/public/wiki-generator/README.md || true
+
+      - name: Commit Changes
+        working-directory: website
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add public/wiki-generator/
+          
+          if ! git diff --staged --quiet; then
+            git commit -m "Sync wiki from react-bibtex-reference-generator [skip ci]"
+            git push
+          else
+            echo "No changes to commit"
+          fi

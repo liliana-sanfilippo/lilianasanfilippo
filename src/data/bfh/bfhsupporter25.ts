@@ -1,0 +1,22 @@
+export const bfhsupporter25: string[] = [
+    "https://gasb.de/wp-content/uploads/2021/06/GASB.gif",
+    "https://static.igem.wiki/teams/5833/sponsoring/promega-logo.webp",
+    "https://static.igem.wiki/teams/5833/sponsoring/zymo-neuere-version.webp",
+    "https://genxpro.net/wp-content/uploads/2015/07/genxpro_logo.png",
+    "https://www.campus-tuete.de/wp-content/uploads/2022/09/CAMPUS-Tuete-Das-Original-blau-300x88.png",
+    "https://www.fiz-biotech.de/fileadmin/templates/fiz/img/fiz_logo_schwarz.png",
+    "https://static.igem.wiki/teams/5833/sponsoring/uni-bielefeld-dunkel-neuneu.webp",
+    "https://www.mn-net.com/media/image/bb/62/25/MN_Raute.png",
+    "https://www.stemcell.com/static/version1764719825/frontend/Magento/Stemcell/en_US/images/stemcell_logo.png",
+    "https://cdn.geneious.com/assets/19.4.45/assets/images/geneious/logo/logo-geneious.svg",
+    "https://www.invitris.com/favicon.png",
+    "https://www.sigmaaldrich.com/static/logos/purple/merck.svg",
+    "https://www.uni-frankfurt.de/goethe_logo_white.svg",
+    "https://static.igem.wiki/teams/5247/sponsors/gip.png",
+    "https://static.igem.org/websites/common/2022/logos/igem-logo-dark.svg",
+    "https://static.igem.wiki/teams/5247/sponsors/twist-bioscience-logo.png",
+    "https://www.vbio.de/_assets/8ab1ea789d111190782c85e36747721e/images/logo.svg",
+    "https://static.igem.org/websites/jamboree/2024/exhibitors/booths/operation-outbreak.webp",
+    "https://images.squarespace-cdn.com/content/v1/5c0571c05cfd7950e5a84c99/ecaa25cd-3e02-447a-b7fc-04a51af5b39a/igem-startups-parent.png?format=1000w",
+    "https://assets.rrz.uni-hamburg.de/assets/uhh-logo-16dab7756eecc70a7649a242498868c6bb37872e5eae6023b38026faeef923c3.svg"
+]
