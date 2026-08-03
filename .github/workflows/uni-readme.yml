@@ -1,0 +1,62 @@
+name: Sync uni to Website
+
+on:
+  schedule:
+    - cron: '* * */7 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-wiki:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Website
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout Wiki
+        uses: actions/checkout@v4
+        with:
+          repository: liliana-sanfilippo/uni.wiki
+          path: uni-temp
+
+      - name: Checkout Main Repo (für README)
+        uses: actions/checkout@v4
+        with:
+          repository: liliana-sanfilippo/uni
+          path: repo-temp
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Process Uni Files
+        run: |
+          mkdir -p public/uni
+          
+          # Kopiere alle Markdown-Dateien
+          cp uni-temp/*.md public/uni/ || true
+          
+          # uni auch Bilder falls vorhanden
+          cp uni-temp/*.png uni-temp/*.jpg uni-temp/*.gif public/uni/ 2>/dev/null || true
+          
+          # Kopiere README vom Main-Repo
+          cp repo-temp/README.md public/uni/README.md || true
+
+      - name: Commit Changes
+        working-directory: website
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add public/uni/
+          
+          if ! git diff --staged --quiet; then
+            git commit -m "Sync uni from uni [skip ci]"
+            git push
+          else
+            echo "No changes to commit"
+          fi
