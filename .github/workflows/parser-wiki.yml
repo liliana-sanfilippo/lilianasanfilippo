@@ -48,7 +48,6 @@ jobs:
           cp repo-temp/README.md public/wiki-parser/README.md || true
 
       - name: Commit Changes
-        working-directory: website
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
