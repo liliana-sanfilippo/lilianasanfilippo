@@ -58,6 +58,8 @@ const App = () => {
                                    element={<WikiPage folder={"wiki-parser"}/>}/>
                             <Route path={`${process.env.REACT_APP_REACT_AUTHOR_PARSER_PATH}/:pageName`}
                                    element={<WikiPage folder={"wiki-author"}/>}/>
+                            <Route path={`${process.env.REACT_APP_UNI_PATH}/:pageName`}
+                                   element={<WikiPage folder={"uni"}/>}/>
                             <Route path={`${process.env.REACT_APP_IGEM_BIELEFELD_PATH}/:pageName`}
                                    element={<WikiPage folder={"igemnotes"}/>}/>
                             <Route path={"/other/:pageName"}

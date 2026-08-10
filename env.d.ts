@@ -7,6 +7,7 @@ interface ImportMetaEnv {
     readonly REACT_APP_REACT_REFERENCE_GENERATOR_PATH: string
     readonly REACT_APP_REACT_BIBTEX_PARSER_PATH: string
     readonly REACT_APP_REACT_AUTHOR_PARSER_PATH: string
+    readonly REACT_APP_UNI_PATH: string
     readonly REACT_APP_PACKAGE_PATH: string
     readonly REACT_APP_PROJECT_ARCHIVE_PATH: string
     readonly REACT_APP_IGEM_BIELEFELD_OVERVIEW_PATH: string

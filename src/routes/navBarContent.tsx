@@ -12,6 +12,7 @@ import {ReactGenerator} from "../pages/packages/react-generator";
 import {BibtexParser} from "../pages/packages/bibtex-parser";
 import {AuthorNameParser} from "../pages/packages/author-name-parser";
 import {CounsellingChatbot} from "../pages/CounsellingChatbot";
+import {Uni} from "../pages/uni";
 
 export const NavBarContent: (PageRef | Folder)[] = [
     {
@@ -86,6 +87,12 @@ export const NavBarContent: (PageRef | Folder)[] = [
         title: "Intelligent Counselling System",
         path: "/intelligent-counselling-system",
         component: <CounsellingChatbot/>
+
+    },
+    {
+        name: "University Materials",
+        title: "University",
+        path: "/uni/README"
 
     }
     /*
