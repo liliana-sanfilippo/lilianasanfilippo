@@ -8,7 +8,13 @@ import Biteach2024, {metaBiteach2024} from "./finished/biteach-2024";
 import IgemHomecoming24, {metaIgemHomecoming24} from "./finished/igem-homecoming-24";
 import bfh2024, {metabfh2024} from "./finished/bfh2024";
 import meetupMuenster2024, {metamuensterMeetup2024} from "./finished/meetup-muenster-2024";
-import HannoverMesse2026, {metaHannoverMesse2026} from "./under_construction/hannover-messe-2026";
+import HannoverMesse2026, {metaHannoverMesse2026} from "./finished/hannover-messe-2026";
+import Lexartes, {metaLexartes} from "./under_construction/lexartes";
+import PrecysePaper, { metaPrecysePaper } from "./under_construction/precyse-paper";
+import SailEegHackathon, {metaEegHackathon} from "./under_construction/sail-eeg-hackathon";
+import {metaSailSpringSchool, SailSpringSchool} from "./under_construction/sail-spring-school";
+import {metazifModelsOfChange, zifModelsOfChange} from "./under_construction/zif-models-of-change";
+import AidareWebsiteLaunch, {metaAidareWebsiteLaunch} from "./under_construction/aidare-website-launch";
 
 export const posts: Post[] = [{
     ...metauniBlogPrecyse1, MDXComponent: uniBlogPrecyse1,
@@ -34,7 +40,32 @@ export const posts: Post[] = [{
     },
     {
         ...metaHannoverMesse2026, MDXComponent: HannoverMesse2026
-    }
+    },
+
+
+
+/*
+
+     {
+        ...metaLexartes, MDXComponent: Lexartes
+    },
+    {
+        ...metaPrecysePaper, MDXComponent: PrecysePaper
+    },
+    {
+        ...metaEegHackathon, MDXComponent: SailEegHackathon
+    },
+    {
+        ...metaSailSpringSchool, MDXComponent: SailSpringSchool
+    },
+    {
+        ...metazifModelsOfChange, MDXComponent: zifModelsOfChange
+    },
+    {
+        ...metaAidareWebsiteLaunch, MDXComponent: AidareWebsiteLaunch
+    },
+
+ */
 
     /*
      {
@@ -62,9 +93,7 @@ export const posts: Post[] = [{
 
 
 
-        {
-            ...metazifModelsOfChange, MDXComponent: zifModelsOfChange
-        }, {
+      {
             ...metajamboree2025, MDXComponent: jamboree2025,
         }, {
             ...metabfh2025, MDXComponent: bfh2025
@@ -74,26 +103,16 @@ export const posts: Post[] = [{
             ...metaCitationManagerFirstsTests, MDXComponent: CitationManagerFirstsTests
         }, {
             ...metaCellective, MDXComponent: Cellective
-        }, {
-            ...metaLexartes, MDXComponent: Lexartes
-        }, {
-            ...metaAidareWebsiteLaunch, MDXComponent: AidareWebsiteLaunch
-        }, {
+        },  {
             ...metaMeetupEindhoven2025, MDXComponent: MeetupEindhoven2025
-        }, {
-            ...metaPrecysePaper, MDXComponent: PrecysePaper
         }, {
             ...metaRoxenTraining,
             MDXComponent: RoxenTraining
         {
             ...metaWikiGuide1, MDXComponent: WikiGuide1
         }, {
-            ...metaSailSpringSchool, MDXComponent: SailSpringSchool
-        }, {
             ...metaJamboreePrep2024, MDXComponent: JamboreePrep2024
-        }, {
-            ...metaEegHackathon, MDXComponent: SailEegHackathon
-        }, {
+        },  {
             ...metaIgemHomecoming25, MDXComponent: IgemHomecoming25
         }, {
             ...metawiardaBlogAidare, MDXComponent: aidareWiardaBlog
