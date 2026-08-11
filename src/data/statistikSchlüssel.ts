@@ -20,14 +20,35 @@ DIREKTES_ABZÄHLEN: {
 
 
 /*
+ "list": ["Definieren Sie eine Zufallsvariable X, die..."],
+                            "child": {
+                                "id": "R0",
+                                "type": "solution",
+                                "title": "ZV als Abbildung",
+                                "points": [
+                                    "Definitionsbereich Ω, Wertebereich/Bildbereich X(Ω), Vorschrift ω↦X(ω).",
+                                    "Wertebereich (Argumente) ≠ Bildbereich (angenommene Werte).",
+                                    "Ref: K-1b."
+                                ],
+                                "aufgaben": [
+                                    "1.3.1a", "1.3.3b-c"
+                                ]
+                            }
  {
                     label: "ZV erst als Abbildung definieren",
                     list: [],
                     childId: "ZV_DEF",
                 },
+
+                Dazu: 1.5.3b Stellen Sie die Zufallsvariable X mit Hilfe der Zufallsvariablen T1, T2, T3 und T4 dar
  */
 
+// VF GRaph zeichnen:  "1.3.1b"
 // TODO Wfl bestimmen wie bei 1.3.1...
+
+// STAND: 143
+
+
 
 export const statistik_schlüssel_json: DecisionGraph = {
     rootId: "START",
@@ -113,7 +134,6 @@ export const statistik_schlüssel_json: DecisionGraph = {
             ],
         },
 
-
         UNABHÄNGIGKEIT: {
             id: "UNABHÄNGIGKEIT",
             type:
@@ -125,7 +145,10 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     {label: "Zwei Ereignisse", childId: "ZWEI_EREIGNISSE_UNABHÄNGIGKEIT"},
                     {label: "Mehrere Ereignisse „gemeinsam unabhängig?“", childId: "MEHRERE_EREIGNISSE_UNABHÄNGIGKEIT"},
                     {label: "P(B)∈{0,1}", childId: "TRIVIALES_EREIGNIS"},
-                    {label: "ZV über gemeinsame Dichte", childId: "UNABHÄNGIGKEIT_DICHTE"},
+                    {
+                        label: "ZV über gemeinsame Dichte",
+                        childId: "UNABHÄNGIGKEIT_DICHTE"
+                    },
                     {label: "Funktionen unabhängiger ZV", childId: "FUNKTIONEN_UNABHÄNGIGER_ZV"},
                 ],
         },
@@ -180,7 +203,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     "Schräger Träger {0≤x≤y≤1} koppelt die Variablen ⇒ nicht unabhängig.",
                 ],
             aufgaben:
-                ["1.4.2e", "PÜ 1.4.5", "PÜ 1.5.4d", "HA 1.5.1d"],
+                ["1.4.2e", "PÜ 1.4.5", "PÜ 1.5.4d", "1.5.1d"],
         },
 
         FUNKTIONEN_UNABHÄNGIGER_ZV: {
@@ -195,7 +218,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     "Gemeinsame Variable ⇒ i.A. nicht.",
                 ],
             aufgaben:
-                ["PÜ 1.5.5", "HA 1.5.3c"],
+                ["PÜ 1.5.5", "1.5.3c"],
         },
 
         ZV_DEF: {
@@ -243,11 +266,11 @@ export const statistik_schlüssel_json: DecisionGraph = {
             points:
                 [
                     "c aus ∫_Träger c·g(x)dx=1 ⇒ c=(∫g)^−1. Danach f≥0 und ∫f=1 bestätigen.",
-                    "Ref: K-2a; PÜ 1.5.4a; HA 1.2.4a, 1.5.1a, 2.1.2a."
+                    "Ref: K-2a; PÜ 1.5.4a; 2.1.2a."
                 ],
             aufgaben:
                 [
-                    "1.2.2a", "1.3.1b", "1.4.2a (gemeinsam)"
+                    "1.2.2a", "1.3.1b", "1.4.2a (gemeinsam)", "1.5.1a"
                 ]
         },
 
@@ -308,39 +331,103 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 ]
         },
 
-        F_X_DISKRET: {
+
+        F_X_AUS_RANDDICHTE : {
             type: "solution",
-            title:
-                "Diskrete Verteilungsfunktion bestimmen",
-            id:
-                "F_X_DISKRET",
-            points:
-                [
-                    "Rechtsstetige Treppenfunktion, Sprunghöhe an x=P(X=x). Stückweise angeben.",
-                    "Summieren",
-                    "Ref: K-1e/f."
-                ],
-            aufgaben:
-                [
-                    "1.3.1a", "1.3.2b", "1.3.3e"
-                ]
+            id: "F_X_AUS_RANDDICHTE",
+            title: "Verteilungsfunktion aus Randdichte berechnen",
+            aufgaben: [
+                "1.4.2d", "1.5.1c"
+            ]
         },
 
-        F_X_STETIG: {
+        F_X_AUS_DICHTE : {
             type: "solution",
-            title:
-                "Stetige Verteilungsfunktion bestimmen",
+            id: "F_X_AUS_DICHTE",
+            title: "Verteilungsfunktion aus Dichte berechnen",
+            points: [
+                "Integrieren: F(x)=∫_{−∞}^x f. Stückweise über Trägerintervalle; f=F'.",
+            ]
+        },
+
+        F_X_AUS_GRAPH : {
+            type: "solution",
+            id: "F_X_AUS_GRAPH",
+            title: "Stetige Verteilungsfunktion aus Graph ablesen",
+            points: [
+                "Rechtsstetige Treppenfunktion, Sprunghöhe an x=P(X=x). Stückweise angeben."
+            ],
+            aufgaben: [
+                "1.3.2b"
+            ]
+        },
+
+        // , "K-2b/c"
+        F_X_STETIG: {
+            type: "question",
+            question:
+                "Stetige Verteilungsfunktion bestimmen aus...",
             id:
                 "F_X_STETIG",
-            points:
-                [
-                    "Integrieren: F(x)=∫_{−∞}^x f. Stückweise über Trägerintervalle; f=F'.",
-                    "Ref: K-2b/c"
-                ],
-            aufgaben:
-                [
-                    "1.3.1b", "1.3.2a", "1.4.2d"
-                ]
+            options: [
+                {
+                    label: "Randdichte fX(x)",
+                    childId: "F_X_AUS_RANDDICHTE"
+                },
+                {
+                    label: "Verteilungsfunktion F(x) ohne Sprünge",
+                    childId: "F_X_AUS_GRAPH",
+                },
+                {
+                    label: " Dichte f(x)",
+                    childId: "F_X_AUS_DICHTE"
+                }
+            ]
+        },
+
+        F_X_AUS_WFK : {
+            type: "solution",
+            id: "F_X_AUS_WFK",
+            title: "Verteilungsfunktion aus Wahrscheinlichkeitsfunktion berechnen",
+            aufgaben: [
+                "1.3.1a"
+            ]
+        },
+        F_X_AUS_WS : {
+            type: "solution",
+            id: "F_X_AUS_WS",
+            title: "Verteilungsfunktion aus Wahrscheinlichkeiten P(X=x) berechnen"
+        },
+        F_X_AUS_VF : {
+            type: "solution",
+            id: "F_X_AUS_VF",
+            title: "Diskrete Verteilungsfunktion aus Graph ablesen",
+            aufgaben: [
+                "1.3.2b"
+            ]
+        },
+
+        //  "1.3.3e", "K-1e/f"
+        F_X_DISKRET: {
+            type: "question",
+            question:
+                "Diskrete Verteilungsfunktion bestimmen aus...",
+            id:
+                "F_X_DISKRET",
+            options: [
+                {
+                    label: "Aus Verteilungsfunktion F(x) mit Sprüngen",
+                    childId: "F_X_AUS_VF"
+                },
+                {
+                    label: "Aus Wahrscheinlichkeiten P(X=x)",
+                    childId: "F_X_AUS_WS"
+                },
+                {
+                    label: "Aus Wahrscheinlichkeitsfunktion μX",
+                    childId: "F_X_AUS_WFK"
+                }
+            ]
         },
 
         RANDDICHTE: {
@@ -351,7 +438,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "RANDDICHTE",
             aufgaben:
                 [
-                    "1.4.2c"
+                    "1.4.2c", "1.5.1b"
                 ]
         },
 
@@ -491,12 +578,17 @@ export const statistik_schlüssel_json: DecisionGraph = {
                         childId: "W_EIN_ZV",
                         list: [
                             "Bestimmen Sie die Wahrscheinlichkeit, daß René die Klausur besteht",
-                            "die Wahrscheinlichkeit, daß René mindestens die Note 2,3 erreicht"
+                            "die Wahrscheinlichkeit, daß René mindestens die Note 2,3 erreicht",
+                            "Wahrscheinlichkeit, daß Jean länger als 10 Minuten warten muß?"
                         ]
                     },
                     {
                         label: "Mehrerer Zufallsvariablen",
-                        childId: "W_MEHR_ZV"
+                        childId: "W_MEHR_ZV",
+                        list: [
+                            "Wahrscheinlichkeit, daß Jean insgesamt nicht länger als 20 Minuten benötigt vom Eintre!en" +
+                            " an der Haltestelle bis zur Ankunft an der Universität"
+                        ]
                     },
                     {
                         label: "Unsicher, ob Ereignis oder Zufallsvariable",
@@ -520,8 +612,18 @@ export const statistik_schlüssel_json: DecisionGraph = {
                             "Wir würfeln zweimal mit einem fairen Würfel...",
                             "Wir drehen ein Glücksrad dreimal hintereinander .. Das Glücksrad ist in vier gleichgroße Viertel unterteilt"
                         ]
-                    },
+                    }
                 ]
+        },
+
+
+        GR_KL_EXP: {
+            type: "solution",
+            id: "GR_KL_EXP",
+            title: "X < / > x berechnen",
+            aufgaben: [
+                "1.5.2a"
+            ], // TODO
         },
 
         W_MEHR_ERG: {
@@ -653,19 +755,44 @@ export const statistik_schlüssel_json: DecisionGraph = {
             options:
                 [
                     {
-                        label: "P(X ≤ x) bzw. P(X ≤ x) /dass eine Zufallsvariable mindestens oder maximal" +
+                        label: "P(X ≤ x) bzw. P(X ≤ x) / dass eine Zufallsvariable mindestens oder maximal" +
                             " einen bestimmten Wert hat",
-                        childId: "UNABHÄNGIG_GEQ_LEQ",
+                        childId: "GR_KL_EINE_ZV",
                         list: [
                             "Bestimmen Sie die Wahrscheinlichkeit, daß René die Klausur besteht",
-                            "die Wahrscheinlichkeit, daß René mindestens die Note 2,3 erreicht"
+                            "die Wahrscheinlichkeit, daß René mindestens die Note 2,3 erreicht",
+                            "Wahrscheinlichkeit, daß Jean länger als 10 Minuten warten muss"
                         ]
                     },
                     {
                         label: "Kontinuierliche Dichte einer einzelnen ZV",
                         childId: "KONTINUIERLICHE_DICHTE"
-                    },
+                    }
                 ]
+        },
+
+
+        GR_KL_EINE_ZV: {
+            question: "Unter welchen Bedingungen?",
+            type: "question",
+            id: "GR_KL_EINE_ZV",
+            options: [
+                {
+                    label: "Zufallsvariablen sind unabhängig",
+                    childId: "UNABHÄNGIG_GEQ_LEQ",
+                    list: [
+                        "Bernoulli-Experiment"
+                    ]
+                },
+                {
+                    label: "Zufallsvariablen sind nicht unabhängig? Oder Exponentialverteilt?",
+                    childId: "GR_KL_EXP",
+                    list: [
+                        "Wartezeit"
+                    ]
+                }
+            ]
+
         },
 
         W_MEHR_ZV: {
@@ -684,14 +811,36 @@ export const statistik_schlüssel_json: DecisionGraph = {
                         label: "Gemeinsame Dichte zweier ZV",
                         childId: "GEMEINSAME_DICHTE",
                         list: [
-                            "Bereich wie {2X>Y}, {X>Y}"
+                            "Bereich wie {2X>Y}, {X>Y}",
+                            "Berechnen Sie die Wahrscheinlichkeit P(X > Y )"
                         ]
                     },
                     {
                         label: "P(X+Y ≤ c) oder Dichte der Summe",
-                        childId: "FALTUNG_SUMME_UNABHÄNGIGER_ZV",
+                        childId: "SUMME_ZV",
+                        list: [
+                            "Wahrscheinlichkeit, daß Jean insgesamt nicht länger als 20 Minuten benötigt vom Eintre!en" +
+                            " an der Haltestelle bis zur Ankunft an der Universität"
+                        ]
                     },
                 ]
+        },
+
+
+        SUMME_ZV: {
+            type: "question",
+            question: "Unter welchen Bedingungen?",
+            id: "SUMME_ZV",
+            options: [
+                {
+                    label: "X und Y unabhängig",
+                    childId: "FALTUNG_SUMME_UNABHÄNGIGER_ZV",
+                    list: [
+                        "Wahrscheinlichkeit, daß Jean insgesamt nicht länger als 20 Minuten benötigt vom Eintre!en" +
+                        " an der Haltestelle bis zur Ankunft an der Universität"
+                    ]
+                }, // TODO nicht unabhängig
+            ]
         },
 
         FALTUNG_SUMME_UNABHÄNGIGER_ZV: {
@@ -705,9 +854,11 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     "f_{X+Y}(z)=∫f_X(x)f_Y(z−x)dx.",
                     "Summe von n unabh. Exp(λ)=Erlang: f_{S_n}(z)=λ^n z^{n−1}/(n−1)!·e^(−λz).",
                     "Alternativ Doppelintegral über {x+y≤c}∩Träger.",
-                    "Setzt Unabhängigkeit voraus.",
-                    "Ref: HA 1.5.2."
-                ]
+                    "Setzt Unabhängigkeit voraus."
+                ],
+            aufgaben: [
+                "1.5.2b-c"
+            ]
         },
 
         VERTEILUNGSFUNKTION_MAX_MIN: {
@@ -721,9 +872,11 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     "P(max≤x)=∏F_i(x).",
                     "P(min≤x)=1−∏(1−F_i(x)).",
                     "Minimum von n unabh. Exp(λ) ist Exp(nλ).",
-                    "Reihe⇒min, Parallel⇒max.",
-                    "Ref: HA 1.5.3."
-                ]
+                    "Reihe⇒min, Parallel⇒max."
+                ],
+            aufgaben: [
+                "1.5.3a"
+            ]
         },
 
         GEMEINSAME_DICHTE: {
@@ -736,8 +889,11 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 [
                     "Integrationsbereich {Bedingung} ∩ Träger skizzieren, dann integrieren.",
                     "z.B. P(X>Y)=∬_{x>y}f(x,y)dxdy.",
-                    "Ref: PÜ 1.5.4e; HA 1.4.2b, 1.5.1e."
-                ]
+                    "Ref: PÜ 1.5.4e; HA 1.4.2b"
+                ],
+            aufgaben: [
+                "1.5.1e"
+            ]
         },
 
         KONTINUIERLICHE_DICHTE: {
@@ -754,7 +910,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 ]
         },
 
-        UNABHÄNGIG_GEQ_LEQ: {
+        UNABHÄNGIG_GEQ_LEQ: { // TODO
             type: "solution",
             title:
                 "Wahrscheinlichkeit, dass eine ZV",
