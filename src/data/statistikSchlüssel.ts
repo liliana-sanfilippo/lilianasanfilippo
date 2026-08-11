@@ -41,12 +41,14 @@ DIREKTES_ABZÄHLEN: {
                 },
 
                 Dazu: 1.5.3b Stellen Sie die Zufallsvariable X mit Hilfe der Zufallsvariablen T1, T2, T3 und T4 dar
+                2.1.1b-c
  */
 
 // VF GRaph zeichnen:  "1.3.1b"
 // TODO Wfl bestimmen wie bei 1.3.1...
+// 2.1.3b-c keien AHnunhg wie man die löst
 
-// STAND: 143
+// STAND: als nächstes 2.1.3
 
 
 export const statistik_schlüssel_json: DecisionGraph = {
@@ -65,6 +67,8 @@ export const statistik_schlüssel_json: DecisionGraph = {
                         "Geben Sie eine für dieses Zufallsexperiment geeignete Wahrscheinlichkeitsfunktion µ ...",
                         "Geben Sie einen geeigneten Wahrscheinlichkeitsraum (Ω , µ) an, der dieses Experiment beschreibt...",
                         "Definieren Sie Ereignisse A, B und C als Teilmengen von Ω ...",
+                        "Geschenke werden am Ende der Feier zufällig verteilt, so daß jede der Freundinnen genau" +
+                        " ein Geschenk bekommt",
                     ],
                     childId: "M1",
                 },
@@ -268,11 +272,11 @@ export const statistik_schlüssel_json: DecisionGraph = {
             points:
                 [
                     "c aus ∫_Träger c·g(x)dx=1 ⇒ c=(∫g)^−1. Danach f≥0 und ∫f=1 bestätigen.",
-                    "Ref: K-2a; PÜ 1.5.4a; 2.1.2a."
+                    "Ref: K-2a; PÜ 1.5.4a."
                 ],
             aufgaben:
                 [
-                    "1.2.2a", "1.3.1b", "1.4.2a (gemeinsam)", "1.5.1a"
+                    "1.2.2a", "1.3.1b", "1.4.2a (gemeinsam)", "1.5.1a", "2.1.2a (gemeinsam)"
                 ]
         },
 
@@ -1065,7 +1069,9 @@ export const statistik_schlüssel_json: DecisionGraph = {
                             "Wir würfeln zweimal mit einem fairen Würfel...",
                             "...die von 1 bis 1000 nummeriert sind...",
                             "Wir drehen ein Glücksrad dreimal hintereinander ... Das Glücksrad ist in vier gleichgroße Viertel unterteil",
-                            "3 Kugeln, die in jeder Hinsicht identisch sind abgesehen von ihrer Nummer..."
+                            "3 Kugeln, die in jeder Hinsicht identisch sind abgesehen von ihrer Nummer...",
+                            "Geschenke werden am Ende der Feier zufällig verteilt, so daß jede der Freundinnen genau" +
+                            " ein Geschenk bekommt"
                         ],
                         childId: "LAPLACE",
                     },
@@ -1201,7 +1207,8 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 ],
             aufgaben:
                 [
-                    "1.1.1a-b", "1.1.2a", "1.1.3a-b", "1.1.4??", "1.2.3a", "1.3.3a", "1.4.4??",
+                    "1.1.1a-b", "1.1.2a", "1.1.3a-b", "1.1.4??", "1.2.3a", "1.3.3a", "2.1.1a", "2.1.3a",
+                    "1.4.4??",
                     "Erstklausur 1a???",
                     "Erstklausur 3a??"
                 ],
@@ -1212,17 +1219,40 @@ export const statistik_schlüssel_json: DecisionGraph = {
         ERWARTUNGSWERT_VARIANZ: {
             id: "ERWARTUNGSWERT_VARIANZ",
             type: "question",
-            question: "Erwartungswert & Varianz",
+            question: "Erwartungswert & Varianz in welcher Variation?",
             description:
                 "Existenz zuerst begründen: Endlicher Bildbereich ⇒ E und Var existieren stets; sonst Reihe/Integral auf Konvergenz prüfen.",
             options: [
-                {label: "Diskret, Verteilungstabelle da", childId: "ERWARTUNGSWERT_DISKRET"},
-                {label: "Stetig, Dichte da", childId: "ERWARTUNGSWERT_STETIG"},
+                {
+                    label:
+                        "Diskret",
+                    childId: "ERWARTUNGSWERT_DISKRET",
+                    list: [
+                        "Verteilungstabelle oder Wahrscheinlichkeiten gegeben oder errechenbar",
+                        "Berechnen Sie den erwarteten Gewinn"
+                    ]
+                },
+                {
+                    label: "Stetig",
+                    childId: "ERWARTUNGSWERT_STETIG",
+                    list: [
+                        "Dichte gegeben oder errechenbar"
+                    ]
+                },
                 {label: "Lineare Transformation Y=aX+b", childId: "LINEARE_TRANSFORMATION"},
-                {label: "Summe Z=X+Y, nur E?", childId: "ERWARTUNGSWERT_SUMME"},
+                {
+                    label: "Erwartungswert einer Summe",
+                    childId: "ERWARTUNGSWERT_SUMME",
+                    list: [
+                        "Berechnen Sie den Erwartungswert von 2X - Y"
+                    ]
+                },
                 {label: "Varianz einer Summe", childId: "VARIANZ_SUMME"},
                 {label: "„erwartete Anzahl von …“", childId: "INDIKATOR_ZERLEGUNG"},
-                {label: "E von max/min oder Gewinn", childId: "ERWARTUNGSWERT_MAX_MIN_GEWINN"},
+
+                /*
+                 {label: "E von max/min oder Gewinn", childId: "ERWARTUNGSWERT_MAX_MIN_GEWINN"},
+                 */
             ],
         },
 
@@ -1235,7 +1265,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "Standardverteilungen über Anhang V erkennen.",
             ],
             references: ["K-1g"],
-            aufgaben: ["PÜ 2.1.4", "PÜ 2.1.5"],
+            aufgaben: ["2.1.1d-e", "PÜ 2.1.4", "PÜ 2.1.5"],
         },
 
         ERWARTUNGSWERT_STETIG: {
@@ -1244,7 +1274,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             title: "Stetig",
             points: ["E(X)=∫xf dx, Var(X)=∫x²f dx−E(X)²."],
             references: ["K-2e"],
-            aufgaben: ["PÜ 2.1.6", "HA 2.1.2"],
+            aufgaben: ["PÜ 2.1.6", "2.1.2b"],
         },
 
         LINEARE_TRANSFORMATION: {
@@ -1263,7 +1293,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Erwartungswert einer Summe",
             points: ["E(X+Y)=E(X)+E(Y): immer; keine Unabhängigkeit nötig."],
-            aufgaben: ["PÜ 2.1.5f", "HA 2.1.2c"],
+            aufgaben: ["PÜ 2.1.5f", "2.1.2c"],
         },
 
         VARIANZ_SUMME: {
@@ -1289,6 +1319,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             aufgaben: ["HA 2.1.3", "PÜ 2.3.6b"],
         },
 
+      /*
         ERWARTUNGSWERT_MAX_MIN_GEWINN: {
             id: "ERWARTUNGSWERT_MAX_MIN_GEWINN",
             type: "solution",
@@ -1297,8 +1328,9 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "Verteilung von M=max,N=min bestimmen, dann E.",
                 "„Ist das Spiel fair?“ ⇔ E(Gewinn)=0.",
             ],
-            aufgaben: ["HA 2.1.1"],
+            aufgaben: ["2.1.1"],
         },
+       */
 
         APPROXIMATIONEN_GRENZWERTE_SCHRANKEN: {
             id: "APPROXIMATIONEN_GRENZWERTE_SCHRANKEN",
