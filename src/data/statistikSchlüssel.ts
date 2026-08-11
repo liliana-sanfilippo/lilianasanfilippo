@@ -35,7 +35,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
         START: {
             id: "START",
             type: "question",
-            question: "Aufgabentyp",
+            question: "Welchen Aufgabentyp oder welche Teilaufgabe möchtest du lösen?",
             options: [
                 {
                     label:
@@ -57,7 +57,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 },
                 {
                     label:
-                        "Wahrscheinlichkeit P(…) eines konkreten Ereignisses bzw. einer Zuvallsvariable",
+                        "Wahrscheinlichkeit P(…) eines konkreten Ereignisses bzw. einer Zuvallsvariable berechnen",
                     list: [
                         "Berechnen Sie mit Hilfe der Wahrscheinlichkeitsfunktion µ die Wahrscheinlichkeiten von A, B" +
                         " und C.",
@@ -67,48 +67,48 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     childId: "W1",
                 },
                 {
-                    label: "Zufallsvariablen, Verteilungen und Dichten",
+                    label: "Etwas zu Zufallsvariablen, Verteilungen und Dichten", // TODO Es möglich machen hierüber
+                    // (weil Dichte) die WS einer ZV zu berechnen
                     list: [
                         "Berechnen Sie die Verteilung von X, indem Sie die zugehörige Wahrscheinlichkeitsfunktion μX bestimmen.",
-                        "estimmen Sie jeweils die Verteilung der Zufallsvariablen",
-
+                        "bestimmen Sie jeweils die Verteilung der Zufallsvariablen",
                     ],
                     childId: "ZVG",
                 },
                 {
-                    label: "Unabhängigkeit bestimmen",
+                    label: "Unabhängigkeit prüfen oder bestimmen",
                     list: [],
                     childId: "UNABHÄNGIGKEIT",
                 },
                 {
-                    label: "Erwartungswert und Varianz",
+                    label: "Erwartungswert oder Varianz berechnen",
                     list: [],
-                    childId: "",
+                    childId: "ERWARTUNGSWERT_VARIANZ",
                 },
                 {
-                    label: "näherungsweise/approximativ, Schranke, Grenzwert, „wie groß muss n sein“",
+                    label: "Etwas näherungsweise/approximativ oder eine Schranke oder einen Grenzwert berechnen",
                     list: [],
-                    childId: "",
+                    childId: "APPROXIMATIONEN_GRENZWERTE_SCHRANKEN",
                 },
                 {
-                    label: "Konkreter Datensatz gegeben, Kennzahlen berechnen",
+                    label: "Kennzahlen berechnen, für die ein konkreter Datensatz gegeben ist",
                     list: [],
-                    childId: "",
+                    childId: "DESKRIPTIVE_STATISTIK",
                 },
                 {
-                    label: "Aussage über einen Schätzer",
+                    label: "Aussage über einen Schätzer treffen",
                     list: [],
-                    childId: "",
+                    childId: "SCHÄTZER",
                 },
                 {
-                    label: "Konfidenzintervalle",
+                    label: "Etwas mit Konfidenzintervallen",
                     list: [],
-                    childId: "",
+                    childId: "KONFIDENZINTERVALL",
                 },
                 {
                     label: "Hypothese testen",
                     list: [],
-                    childId: "",
+                    childId: "HYPOTHESENTEST",
                 },
             ],
         },
@@ -1012,6 +1012,431 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 ],
             warning:
                 "Die Augensumme mehrerer Würfel ist nicht Laplace-verteilt – auf dem Grundraum zählen!",
+        },
+
+        ERWARTUNGSWERT_VARIANZ: {
+            id: "ERWARTUNGSWERT_VARIANZ",
+            type: "question",
+            question: "Erwartungswert & Varianz",
+            description:
+                "Existenz zuerst begründen: Endlicher Bildbereich ⇒ E und Var existieren stets; sonst Reihe/Integral auf Konvergenz prüfen.",
+            options: [
+                {label: "Diskret, Verteilungstabelle da", childId: "ERWARTUNGSWERT_DISKRET"},
+                {label: "Stetig, Dichte da", childId: "ERWARTUNGSWERT_STETIG"},
+                {label: "Lineare Transformation Y=aX+b", childId: "LINEARE_TRANSFORMATION"},
+                {label: "Summe Z=X+Y, nur E?", childId: "ERWARTUNGSWERT_SUMME"},
+                {label: "Varianz einer Summe", childId: "VARIANZ_SUMME"},
+                {label: "„erwartete Anzahl von …“", childId: "INDIKATOR_ZERLEGUNG"},
+                {label: "E von max/min oder Gewinn", childId: "ERWARTUNGSWERT_MAX_MIN_GEWINN"},
+            ],
+        },
+
+        ERWARTUNGSWERT_DISKRET: {
+            id: "ERWARTUNGSWERT_DISKRET",
+            type: "solution",
+            title: "Diskret",
+            points: [
+                "E(X)=Σx·P(X=x), Var(X)=E(X²)−E(X)².",
+                "Standardverteilungen über Anhang V erkennen.",
+            ],
+            references: ["K-1g"],
+            aufgaben: ["PÜ 2.1.4", "PÜ 2.1.5"],
+        },
+
+        ERWARTUNGSWERT_STETIG: {
+            id: "ERWARTUNGSWERT_STETIG",
+            type: "solution",
+            title: "Stetig",
+            points: ["E(X)=∫xf dx, Var(X)=∫x²f dx−E(X)²."],
+            references: ["K-2e"],
+            aufgaben: ["PÜ 2.1.6", "HA 2.1.2"],
+        },
+
+        LINEARE_TRANSFORMATION: {
+            id: "LINEARE_TRANSFORMATION",
+            type: "solution",
+            title: "Lineare Transformation",
+            points: [
+                "E(aX+b)=aE(X)+b, Var(aX+b)=a²Var(X).",
+                "b fällt in der Varianz weg, a wird quadriert.",
+            ],
+            aufgaben: ["PÜ 2.1.4d", "PÜ 2.1.6b"],
+        },
+
+        ERWARTUNGSWERT_SUMME: {
+            id: "ERWARTUNGSWERT_SUMME",
+            type: "solution",
+            title: "Erwartungswert einer Summe",
+            points: ["E(X+Y)=E(X)+E(Y): immer; keine Unabhängigkeit nötig."],
+            aufgaben: ["PÜ 2.1.5f", "HA 2.1.2c"],
+        },
+
+        VARIANZ_SUMME: {
+            id: "VARIANZ_SUMME",
+            type: "solution",
+            title: "Varianz einer Summe",
+            points: [
+                "Var(X+Y)=Var(X)+Var(Y) nur bei Unkorreliertheit/Unabhängigkeit; sonst Kovarianz.",
+                "Bei Unabh.: Var(aX+bY+c)=a²Var(X)+b²Var(Y).",
+            ],
+            references: ["K-5"],
+        },
+
+        INDIKATOR_ZERLEGUNG: {
+            id: "INDIKATOR_ZERLEGUNG",
+            type: "solution",
+            title: "Indikator-Zerlegung",
+            points: [
+                "Zählgröße S=ΣX_i mit X_i=1_Ereignis_i.",
+                "E(1_E)=P(E), also E(S)=ΣP(X_i=1), auch bei abhängigen X_i.",
+                "Fixpunkte/Geschenke: E(S_N)=1; P(mind. ein Fixpunkt)→1−e^−1.",
+            ],
+            aufgaben: ["HA 2.1.3", "PÜ 2.3.6b"],
+        },
+
+        ERWARTUNGSWERT_MAX_MIN_GEWINN: {
+            id: "ERWARTUNGSWERT_MAX_MIN_GEWINN",
+            type: "solution",
+            title: "E von max/min-Gewinn",
+            points: [
+                "Verteilung von M=max,N=min bestimmen, dann E.",
+                "„Ist das Spiel fair?“ ⇔ E(Gewinn)=0.",
+            ],
+            aufgaben: ["HA 2.1.1"],
+        },
+
+        APPROXIMATIONEN_GRENZWERTE_SCHRANKEN: {
+            id: "APPROXIMATIONEN_GRENZWERTE_SCHRANKEN",
+            type: "question",
+            question: "Approximationen, Grenzwerte, Schranken",
+            options: [
+                {label: "Nur Schranke / zeige b_n→0", childId: "TSCHEBYSCHEFF"},
+                {label: "n groß, p klein, np=λ moderat", childId: "POISSON_APPROXIMATION"},
+                {label: "n groß, np(1−p) groß", childId: "NORMAL_DE_MOIVRE_LAPLACE"},
+                {label: "Summe/Mittel vieler iid, standardisieren", childId: "ZENTRALER_GRENZWERTSATZ"},
+                {
+                    label: "„wie viele Runden/Stichproben n für W. ≥ …“",
+                    childId: "STICHPROBENUMFANG_BESTIMMEN",
+                },
+                {label: "µ gesucht bei Normalverteilung", childId: "NORMAL_MU_QUANTIL"},
+            ],
+        },
+
+        TSCHEBYSCHEFF: {
+            id: "TSCHEBYSCHEFF",
+            type: "solution",
+            title: "Tschebyscheff",
+            points: ["P(|X−E(X)|≥ε)≤Var(X)/ε².", "Nur obere Schranke, oft grob."],
+            aufgaben: ["PÜ 2.2.5", "PÜ 2.2.6", "HA 2.2.1", "HA 2.2.2b"],
+        },
+
+        POISSON_APPROXIMATION: {
+            id: "POISSON_APPROXIMATION",
+            type: "solution",
+            title: "Poisson-Approximation",
+            points: ["Bin(n,p)≈Poi(λ), λ=np; P(X=k)≈e^−λ λ^k/k!."],
+            aufgaben: ["PÜ 2.3.4", "PÜ 2.3.5", "HA 2.3.1"],
+        },
+
+        NORMAL_DE_MOIVRE_LAPLACE: {
+            id: "NORMAL_DE_MOIVRE_LAPLACE",
+            type: "solution",
+            title: "Normal / de Moivre-Laplace",
+            points: [
+                "µ=np, σ=√(np(1−p)); Stetigkeitskorrektur ±½ beachten.",
+                "P(a≤S_n≤b)≈Φ((b+½−µ)/σ)−Φ((a−½−µ)/σ).",
+                "Φ^−1(0,95)≈1,645.",
+            ],
+            references: ["K-3e"],
+            aufgaben: ["PÜ 2.2.4", "PÜ 2.3.6", "HA 2.2.3"],
+        },
+
+        ZENTRALER_GRENZWERTSATZ: {
+            id: "ZENTRALER_GRENZWERTSATZ",
+            type: "solution",
+            title: "Zentraler Grenzwertsatz",
+            points: ["(S_n−nµ)/(σ√n) bzw. (X̄−µ)/(σ/√n)≈N(0,1), dann Φ."],
+            aufgaben: ["HA 2.3.3"],
+        },
+
+        STICHPROBENUMFANG_BESTIMMEN: {
+            id: "STICHPROBENUMFANG_BESTIMMEN",
+            type: "solution",
+            title: "n bestimmen",
+            points: [
+                "Ungleichung mit [Tschebyscheff] oder [Normal-Approximation] aufstellen und nach n auflösen.",
+            ],
+            aufgaben: ["HA 2.2.1d", "HA 2.2.2"],
+        },
+
+        NORMAL_MU_QUANTIL: {
+            id: "NORMAL_MU_QUANTIL",
+            type: "solution",
+            title: "µ über Quantil bestimmen",
+            points: ["P(Z≥µ−x)=Φ(x/σ), nach µ mit Quantil auflösen."],
+            aufgaben: ["HA 2.3.2"],
+        },
+
+        DESKRIPTIVE_STATISTIK: {
+            id: "DESKRIPTIVE_STATISTIK",
+            type: "question",
+            question: "Deskriptive Statistik",
+            options: [
+                {label: "Lagemaße", childId: "LAGEMASSE"},
+                {label: "Streumaße", childId: "STREUMASSE"},
+                {label: "Quantile / Quartile", childId: "QUANTILE"},
+                {label: "Alle Werte um c verschoben", childId: "VERSCHIEBUNG_KENNZAHLEN"},
+                {label: "Robustheit", childId: "ROBUSTHEIT"},
+                {label: "„Ist … ein Streumaß?“", childId: "STREUMASS_BEWEISEN"},
+            ],
+        },
+
+        LAGEMASSE: {
+            id: "LAGEMASSE",
+            type: "solution",
+            title: "Lagemaße",
+            points: [
+                "Mittel x̄=1/n Σx_i; Median: sortieren, bei geradem n Mittel der beiden mittleren; Modus: häufigster Wert.",
+            ],
+            aufgaben: ["PÜ 2.4.5a-c"],
+        },
+
+        STREUMASSE: {
+            id: "STREUMASSE",
+            type: "solution",
+            title: "Streumaße",
+            points: [
+                "Spannweite=max−min; Varianz s²=1/nΣ(x_i−x̄)²; SD=√s²; mittlere abs. Abw. vom Median=1/nΣ|x_i−x̃|.",
+                "1/n vs. 1/(n−1) nach Vorlesung prüfen.",
+            ],
+            aufgaben: ["PÜ 2.4.5f", "HA 2.4.1f"],
+        },
+
+        QUANTILE: {
+            id: "QUANTILE",
+            type: "solution",
+            title: "Quantile",
+            points: ["Q₁=x_0.25, Q₃=x_0.75; IQR=Q₃−Q₁; p-Quantilabstand=x_{1−p}−x_p."],
+            aufgaben: ["HA 2.4.1c/d"],
+        },
+
+        VERSCHIEBUNG_KENNZAHLEN: {
+            id: "VERSCHIEBUNG_KENNZAHLEN",
+            type: "solution",
+            title: "Verschiebung",
+            points: ["x̄+c und x̃+c verschieben sich; Varianz/SD/Spannweite unverändert."],
+            aufgaben: ["PÜ 2.4.5g-i"],
+        },
+
+        ROBUSTHEIT: {
+            id: "ROBUSTHEIT",
+            type: "solution",
+            title: "Robustheit",
+            points: [
+                "Median ändert sich kaum bei wenigen extrem veränderten Werten; Mittel stark.",
+            ],
+            aufgaben: ["HA 2.4.1g"],
+        },
+
+        STREUMASS_BEWEISEN: {
+            id: "STREUMASS_BEWEISEN",
+            type: "solution",
+            title: "Streumaß beweisen",
+            points: [
+                "s≥0; translationsinvariant s(x+c)=s(x); homogen s(ax)=|a|s(x); s=0 genau bei konstanten Daten.",
+            ],
+            aufgaben: ["HA 2.4.2"],
+        },
+
+        SCHÄTZER: {
+            id: "SCHÄTZER",
+            type: "question",
+            question: "Schätzer",
+            options: [
+                {label: "Erwartungstreu?", childId: "ERWARTUNGSTREUE"},
+                {label: "Risiko / MSE", childId: "RISIKO_MSE"},
+                {label: "Zwei Schätzer vergleichen", childId: "SCHÄTZER_VERGLEICHEN"},
+                {label: "Varianzschätzer p̂(1−p̂)", childId: "VARIANZSCHÄTZER"},
+            ],
+        },
+
+        ERWARTUNGSTREUE: {
+            id: "ERWARTUNGSTREUE",
+            type: "solution",
+            title: "Erwartungstreue",
+            points: [
+                "t erwartungstreu ⇔ E_θ[t(X)]=θ für alle θ; Bias=E_θ[t]−θ.",
+                "E(X̄)=E(X₁)=µ ⇒ erwartungstreu.",
+            ],
+            aufgaben: ["PÜ 2.4.4a", "HA 2.4.3d"],
+        },
+
+        RISIKO_MSE: {
+            id: "RISIKO_MSE",
+            type: "solution",
+            title: "Risiko / MSE",
+            points: ["R(θ,t)=E[(t−θ)²]=Var_θ(t)+Bias(t)².", "X̄: R=Var(X₁)/n→0."],
+            aufgaben: ["PÜ 2.4.4b/c"],
+        },
+
+        SCHÄTZER_VERGLEICHEN: {
+            id: "SCHÄTZER_VERGLEICHEN",
+            type: "solution",
+            title: "Schätzer vergleichen",
+            points: [
+                "t₁ mindestens so gut wie t₂ ⇔ R(θ,t₁)≤R(θ,t₂) für alle θ.",
+                "Erst Bias, dann R=Var+Bias²; erwartungstreu ≠ risikominimal.",
+            ],
+            aufgaben: ["HA 2.4.3e"],
+        },
+
+        VARIANZSCHÄTZER: {
+            id: "VARIANZSCHÄTZER",
+            type: "solution",
+            title: "Varianzschätzer",
+            points: [
+                "p̂=1/nΣx_i: E[t]=(1−1/n)θ(1−θ) ⇒ nicht erwartungstreu, aber asymptotisch.",
+            ],
+            aufgaben: ["HA 2.5.1"],
+        },
+
+        KONFIDENZINTERVALL: {
+            id: "KONFIDENZINTERVALL",
+            type: "question",
+            question: "Konfidenzintervall",
+            options: [
+                {label: "Anteil, Normal/Wald", childId: "WALD_KI"},
+                {label: "Exakt, ohne Approximation", childId: "EXAKTES_KI"},
+                {label: "t-Approximation", childId: "STUDENT_T_KI"},
+                {label: "Theorie: Überdeckung, Schnitt, Länge", childId: "KI_THEORIE"},
+            ],
+        },
+
+        WALD_KI: {
+            id: "WALD_KI",
+            type: "solution",
+            title: "Wald-KI",
+            points: [
+                "Ĵ=[p̂−z_{1−α/2}√(p̂(1−p̂)/n), p̂+z_{1−α/2}√(p̂(1−p̂)/n)]; z_0.975≈1,96.",
+                "Niveau 1−α bestimmt z_{1−α/2}=Φ^−1(1−α/2).",
+            ],
+            aufgaben: ["PÜ 2.5.4", "HA 2.5.2c"],
+        },
+
+        EXAKTES_KI: {
+            id: "EXAKTES_KI",
+            type: "solution",
+            title: "Exaktes KI",
+            points: ["Ohne Approximation (Computer)."],
+            aufgaben: ["HA 2.5.2a"],
+        },
+
+        STUDENT_T_KI: {
+            id: "STUDENT_T_KI",
+            type: "solution",
+            title: "Student-t",
+            points: ["t_{n−1}-Quantil statt z."],
+            aufgaben: ["HA 2.5.2b"],
+        },
+
+        KI_THEORIE: {
+            id: "KI_THEORIE",
+            type: "solution",
+            title: "KI-Theorie",
+            points: [
+                "Überdeckung P_p(p∈J_n)≥1−α; p ist fest, Intervall zufällig.",
+                "Niveau verdoppeln verdoppelt nicht die Länge. Schnitt zweier (1−α/2)-KI ist ein (1−α)-KI.",
+            ],
+            aufgaben: ["PÜ 2.5.5", "HA 2.5.3"],
+        },
+
+        HYPOTHESENTEST: {
+            id: "HYPOTHESENTEST",
+            type: "question",
+            question: "Hypothesentest",
+            options: [
+                {label: "Anteil/Wahrscheinlichkeit p, eine Stichprobe", childId: "ANTEILSTEST"},
+                {label: "Normalverteilt, Varianz bekannt", childId: "GAUSS_TEST"},
+                {label: "Normalverteilt, Varianz unbekannt", childId: "T_TEST"},
+                {label: "Verbundene Messpaare", childId: "GEPAARTER_T_TEST"},
+                {
+                    label: "Zwei getrennte Stichproben, Anteile vergleichen",
+                    childId: "ZWEI_STICHPROBEN_ANTEILSTEST",
+                },
+                {label: "Ein- vs. zweiseitig", childId: "TESTRICHTUNG_BESTIMMEN"},
+                {label: "Entscheidung", childId: "TESTENTSCHEIDUNG_FEHLER"},
+            ],
+        },
+
+        ANTEILSTEST: {
+            id: "ANTEILSTEST",
+            type: "solution",
+            title: "Anteilstest",
+            points: [
+                "Z=(p̂−p₀)/√(p₀(1−p₀)/n)≈N(0,1). Beispiel H₀:p=p₀ gegen H₁:p<p₀: verwerfe bei Z<−z_{1−α}.",
+            ],
+            references: ["K-4"],
+            aufgaben: ["PÜ 2.6.4"],
+        },
+
+        GAUSS_TEST: {
+            id: "GAUSS_TEST",
+            type: "solution",
+            title: "Gauß-Test",
+            points: ["Z=(X̄−µ₀)/(σ/√n)≈N(0,1). Varianz bekannt."],
+            aufgaben: ["HA 2.6.1"],
+        },
+
+        T_TEST: {
+            id: "T_TEST",
+            type: "solution",
+            title: "t-Test",
+            points: ["T=(X̄−µ₀)/(S/√n)~t_{n−1}, S²=1/(n−1)Σ(X_i−X̄)²."],
+            references: ["Theorie 2.6"],
+            aufgaben: ["HA 2.5.2b"],
+        },
+
+        GEPAARTER_T_TEST: {
+            id: "GEPAARTER_T_TEST",
+            type: "solution",
+            title: "Gepaarter t-Test",
+            points: [
+                "D_i=X_i−Y_i; Ein-Stichproben-Test auf H₀:µ_D=0.",
+                "Gepaarte Daten nicht als zwei unabhängige Stichproben behandeln.",
+            ],
+            aufgaben: ["HA 2.6.3"],
+        },
+
+        ZWEI_STICHPROBEN_ANTEILSTEST: {
+            id: "ZWEI_STICHPROBEN_ANTEILSTEST",
+            type: "solution",
+            title: "Zwei-Stichproben-Anteilstest",
+            points: [
+                "gepoolt p̂=(X₁+X₂)/(n₁+n₂); Z=(p̂₁−p̂₂)/√(p̂(1−p̂)(1/n₁+1/n₂))≈N(0,1).",
+            ],
+            aufgaben: ["HA 2.6.2"],
+        },
+
+        TESTRICHTUNG_BESTIMMEN: {
+            id: "TESTRICHTUNG_BESTIMMEN",
+            type: "solution",
+            title: "Richtung bestimmen",
+            points: [
+                "„gesunken / niedriger / stärker / häufiger / mindestens / höchstens“ ⇒ einseitig.",
+                "„beträgt / verändert / gleich“ ⇒ zweiseitig.",
+                "Verwerfungsbereich an der Alternative ausrichten.",
+            ],
+        },
+
+        TESTENTSCHEIDUNG_FEHLER: {
+            id: "TESTENTSCHEIDUNG_FEHLER",
+            type: "solution",
+            title: "Entscheidung und Fehler",
+            points: [
+                "Im Verwerfungsbereich ⇒ H₀ verwerfen; sonst „nicht verwerfen“ (nicht „H₀ bewiesen“).",
+                "Fehler 1. Art: H₀ verwerfen, obwohl wahr (≤α). Fehler 2. Art: H₀ behalten, obwohl falsch.",
+                "p-Wert = kleinstes α, bei dem noch verworfen wird.",
+            ],
         },
     },
 }
