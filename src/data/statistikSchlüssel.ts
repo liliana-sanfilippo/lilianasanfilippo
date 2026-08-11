@@ -43,7 +43,10 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     label:
                         "Wahrscheinlichkeit P(…) eines konkreten Ereignisses bzw. einer Zuvallsvariable",
                     list: [
-                        "Berechnen Sie mit Hilfe der Wahrscheinlichkeitsfunktion µ die Wahrscheinlichkeiten von A, B und C."
+                        "Berechnen Sie mit Hilfe der Wahrscheinlichkeitsfunktion µ die Wahrscheinlichkeiten von A, B" +
+                        " und C.",
+                        "Bestimmen Sie die Wahrscheinlichkeit, daß René die Klausur besteht",
+                        "die Wahrscheinlichkeit, daß René mindestens die Note 2,3 erreicht"
                     ],
                     childId: "W1",
                 },
@@ -56,6 +59,42 @@ export const statistik_schlüssel_json: DecisionGraph = {
             question: "Wahrscheinlichkeit eines Ereignisses bzw. einer Zufallsvariable berechnen",
             options: [
                 {
+                    label: "Eines Ereignisses",
+                    childId: "W_EIN_ERG",
+                    list: [
+                        "Berechnen Sie mit Hilfe der Wahrscheinlichkeitsfunktion µ die Wahrscheinlichkeiten von A, B und C."
+                    ],
+                },
+                {
+                    label: "Mehrerer Ereignisse",
+                    childId: "W_MEHR_ERG",
+                    // TODO - hier eventuell EIN_AUSSCHLUSS?
+                },
+                {
+                    label: "Einer Zufallsvariablen",
+                    childId: "W_EIN_ZV",
+                    list: [
+                        "Bestimmen Sie die Wahrscheinlichkeit, daß René die Klausur besteht",
+                        "die Wahrscheinlichkeit, daß René mindestens die Note 2,3 erreicht"
+                    ]
+                },
+                {
+                    label: "Mehrerer Zufallsvariablen",
+                    childId: "W_MEHR_ZV"
+                },
+                {
+                    label: "Unsicher, ob Ereignis oder Zufallsvariable",
+                    childId: "" // TODO
+                },
+            ],
+        },
+
+        W_EIN_ERG: {
+            type: "question",
+            question: "Fallunterscheidung: Wahrscheinlichkeit eines Ereignisses berechnen",
+            id: "W_EIN_ERG",
+            options: [
+                {
                     label: "Laplace / abzählbar (zählen)",
                     childId: "WLP1",
                     list: [
@@ -63,16 +102,47 @@ export const statistik_schlüssel_json: DecisionGraph = {
                         "Wir drehen ein Glücksrad dreimal hintereinander .. Das Glücksrad ist in vier gleichgroße Viertel unterteilt"
                     ]
                 },
+            ]
+        },
+
+        W_MEHR_ERG: {
+            type: "question",
+            question: "Wahrscheinlichkeit mehrerer Ereignisse berechnen",
+            id: "W_MEHR_ERG",
+            options: [
+                // TODO
+            ]
+        },
+
+        W_EIN_ZV: {
+            type: "question",
+            question: "Fall: Wahrscheinlichkeit einer Zufallsvariablen",
+            id: "W_EIN_ZV",
+            options: [
                 {
-                    label: "P(... ≤ x) oder P(... ≤ x)",
-                    childId: "WGRKL",
+                    label: "P(X ≤ x) bzw. P(X ≤ x) /dass eine Zufallsvariable mindestens oder maximal" +
+                        " einen bestimmten Wert hat",
+                    childId: "UNABHÄNGIG_GEQ_LEQ",
                     list: [
-                        "Bestimmen Sie die Wahrscheinlichkeit, daß René die Klausur besteht."
+                        "Bestimmen Sie die Wahrscheinlichkeit, daß René die Klausur besteht",
+                        "die Wahrscheinlichkeit, daß René mindestens die Note 2,3 erreicht"
                     ]
                 },
                 {
                     label: "Kontinuierliche Dichte einer einzelnen ZV",
                     childId: "KONTINUIERLICHE_DICHTE"
+                },
+            ]
+        },
+
+        W_MEHR_ZV: {
+            type: "question",
+            question: "Fall: Wahrscheinlichkeit mehrerer Zufallsvariablen",
+            id: "W_MEHR_ZV",
+            options: [
+                {
+                    label: "P(max ≤ x) oder P(min ≤ x) unabhängiger ZV",
+                    childId: "VERTEILUNGSFUNKTION_MAX_MIN"
                 },
                 {
                     label: "Gemeinsame Dichte zweier ZV",
@@ -85,11 +155,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     label: "P(X+Y ≤ c) oder Dichte der Summe",
                     childId: "FALTUNG_SUMME_UNABHÄNGIGER_ZV",
                 },
-            ],
-        },
-
-        W_ERG: {
-
+            ]
         },
 
         FALTUNG_SUMME_UNABHÄNGIGER_ZV: {
@@ -138,27 +204,6 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "P(Punkt)=0 (stetig) → offen/geschlossen egal: außer bei einem Sprung.",
                 "Ref: K-2d; HA 1.2.4."
             ]
-        },
-
-        WGRKL: {
-            id: "WGRKL",
-            type: "question",
-            question: "",
-            options: [
-                {
-                    label: "P(max ≤ x) oder P(min ≤ x) unabhängiger ZV",
-                    childId: "VERTEILUNGSFUNKTION_MAX_MIN"
-                },
-                {
-                    label: "P(X ≤ x) bzw. P(X ≤ x)/ dass eine unabhängige Zufallsvariable mindestens oder maximal" +
-                        " einen bestimmten Wert hat",
-                    childId: "UNABHÄNGIG_GEQ_LEQ",
-                    list: [
-                        "Bestimmen Sie die Wahrscheinlichkeit, daß René die Klausur besteht",
-                        "die Wahrscheinlichkeit, daß René mindestens die Note 2,3 erreicht"
-                    ]
-                }
-            ],
         },
 
         UNABHÄNGIG_GEQ_LEQ: {
