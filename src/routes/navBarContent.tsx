@@ -12,7 +12,8 @@ import {ReactGenerator} from "../pages/packages/react-generator";
 import {BibtexParser} from "../pages/packages/bibtex-parser";
 import {AuthorNameParser} from "../pages/packages/author-name-parser";
 import {CounsellingChatbot} from "../pages/CounsellingChatbot";
-import {Uni} from "../pages/uni";
+import {Uni} from "../pages/uni/uni";
+import {LearningMaterials} from "../pages/uni/learningMaterials";
 
 export const NavBarContent: (PageRef | Folder)[] = [
     {
@@ -48,6 +49,28 @@ export const NavBarContent: (PageRef | Folder)[] = [
                 ]
 
             },
+        ]
+    },
+    {
+        name: "Uni",
+        title: "Uni",
+        path: "/uni",
+        component: <Uni/>,
+        folder: [
+            {
+                name: "Learning Materials",
+                title: "Learning Materials",
+                path: "/learning-materials/",
+                component: <LearningMaterials/>,
+                folder: [
+                    {
+                        name: "Overview",
+                        title: "Overview",
+                        path: "/README",
+                    }
+                ]
+
+            }
         ]
     },
     {
@@ -87,12 +110,6 @@ export const NavBarContent: (PageRef | Folder)[] = [
         title: "Intelligent Counselling System",
         path: "/intelligent-counselling-system",
         component: <CounsellingChatbot/>
-
-    },
-    {
-        name: "University Materials",
-        title: "University",
-        path: "/uni/README"
 
     }
     /*
