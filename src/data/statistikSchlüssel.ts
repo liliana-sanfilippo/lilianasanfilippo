@@ -50,6 +50,24 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     ],
                     childId: "W1",
                 },
+                {
+                    label: "Zufallsvariablen, Verteilungen und Dichten",
+                    list: [
+                    ],
+                    childId: "",
+                },
+                {
+                    label: "Unabhängigkeit bestimmen",
+                    list: [
+                    ],
+                    childId: "",
+                },
+                {
+                    label: "",
+                    list: [
+                    ],
+                    childId: "",
+                },
             ],
         },
 
@@ -110,7 +128,102 @@ export const statistik_schlüssel_json: DecisionGraph = {
             question: "Wahrscheinlichkeit mehrerer Ereignisse berechnen",
             id: "W_MEHR_ERG",
             options: [
-                // TODO
+                {
+                    label: "Bedingte Wahrscheinlichkeit P(A|B), „gegeben, dass“, Rückwärts-Frage",
+                    childId: "BEDINGTE_WS"
+                },
+                // TODO hier ein Ausschluss??
+            ]
+        },
+
+        BEDINGTE_WS: {
+            question: "Bedingte Wahrscheinlichkeit & Bayes",
+            id: "BEDINGTE_WS",
+            type: "question",
+            options: [
+                {
+                    label: "Direkt P(A|B)",
+                    list: [
+                    ],
+                    childId: "DIREKT_BEDINGT",
+                },
+                {
+                    label: "Zweistufig: erst Urne/Münze wählen, dann ziehen, P(A) gesucht",
+                    list: [
+                    ],
+                    childId: "TOTALE_WS",
+                },
+                {
+                    label: "Vorwärts gegeben, rückwärts gesucht",
+                    list: [
+                    ],
+                    childId: "BAYES",
+                },
+                {
+                    label: "Rechenregeln für bedingte W.",
+                    list: [
+                    ],
+                    childId: "RECHENREGELN_BEDINGTE_WS",
+                },
+                {
+                    label: "Gedächtnislosigkeit der Exp-Verteilung",
+                    list: [
+                    ],
+                    childId: "GEDÄCHTNISLOSIGKEIT",
+                }
+            ]
+        },
+
+        DIREKT_BEDINGT: {
+            type: "solution",
+            title: "Direkte bedingte Wahrscheinlichkeit",
+            id: "DIREKT_BEDINGT",
+            points: [
+                "P(A|B)=P(A∩B)/P(B), P(B)>0.",
+                "Ref: PÜ 1.6.5."
+            ]
+        },
+
+        TOTALE_WS: {
+            type: "solution",
+            title: "Totale Wahrscheinlichkeit",
+            id: "TOTALE_WS",
+            points: [
+                "P(A)=Σ_i P(A|B_i)P(B_i).",
+                "Ref: PÜ 1.6.4d, 1.6.6d; HA 1.6.1c."
+            ]
+        },
+
+        BAYES: {
+            type: "solution",
+            title: "Bayes",
+            id: "BAYES",
+            points:  [
+                "P(B_k|A)=P(A|B_k)P(B_k)/Σ_iP(A|B_i)P(B_i).",
+                "Zweistufiges Experiment erkennen.",
+                "Ohne Zurücklegen ⇒ Züge abhängig.",
+                "Ref: PÜ 1.6.4e, 1.6.6e; HA 1.6.1d."
+            ]
+        },
+
+        RECHENREGELN_BEDINGTE_WS: {
+            type: "solution",
+            title: "Rechenregeln anwenden",
+            id: "RECHENREGELN_BEDINGTE_WS",
+            points: [
+                "P(Aᶜ|D)=1−P(A|D); P(A∪B|D)=P(A|D)+P(B|D)−P(A∩B|D).",
+                "P(A∩B|D) folgt nicht allein aus P(A|D),P(B|D).",
+                "Ref: PÜ 1.6.5."
+            ]
+        },
+
+        GEDÄCHTNISLOSIGKEIT: {
+            type: "solution",
+            title: "Gedächtnislosigkeit",
+            id: "GEDÄCHTNISLOSIGKEIT",
+            points: [
+                "P(X>t+s|X>s)=P(X>t)=e^(−λt).",
+                "Ref: HA 1.6.2."
             ]
         },
 
