@@ -13,6 +13,8 @@ import {BibtexParser} from "../pages/packages/bibtex-parser";
 import {AuthorNameParser} from "../pages/packages/author-name-parser";
 import {CounsellingChatbot} from "../pages/CounsellingChatbot";
 import {Uni} from "../pages/uni";
+import {DieDreiFragezeichen} from "../pages/die-drei-fragezeichen";
+import {BCherDaten} from "../pages/die-drei-fragezeichen/bücher-daten";
 
 export const NavBarContent: (PageRef | Folder)[] = [
     {
@@ -81,6 +83,19 @@ export const NavBarContent: (PageRef | Folder)[] = [
 
             },
         ]
+    },
+    {
+        name: "Die Drei Fragezeichen",
+        component: <DieDreiFragezeichen/>,
+        folder: [
+            {
+                name: "Bücher-Daten",
+                title: "Bücher-Daten",
+                path: "/bücher-daten",
+                component: <BCherDaten/>
+            },
+        ]
+
     },
     {
         name: "Intelligent Counselling System",
