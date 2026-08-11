@@ -49,7 +49,6 @@ DIREKTES_ABZÄHLEN: {
 // STAND: 143
 
 
-
 export const statistik_schlüssel_json: DecisionGraph = {
     rootId: "START",
     nodes: {
@@ -83,6 +82,9 @@ export const statistik_schlüssel_json: DecisionGraph = {
                         "Berechnen Sie mit Hilfe der Wahrscheinlichkeitsfunktion µ die Wahrscheinlichkeiten von A, B" +
                         " und C.",
                         "Bestimmen Sie die Wahrscheinlichkeit, daß René die Klausur besteht",
+                        "Wahrscheinlichkeit, daß die gewählte Münze fair ist, gegeben, sie zeigt Kopf",
+                        "Bestimmen Sie deren Wahrscheinlichkeiten bzw. bedingte" +
+                        " Wahrscheinlichkeiten.",
                         "die Wahrscheinlichkeit, daß René mindestens die Note 2,3 erreicht"
                     ],
                     childId: "W1",
@@ -332,7 +334,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
         },
 
 
-        F_X_AUS_RANDDICHTE : {
+        F_X_AUS_RANDDICHTE: {
             type: "solution",
             id: "F_X_AUS_RANDDICHTE",
             title: "Verteilungsfunktion aus Randdichte berechnen",
@@ -341,7 +343,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             ]
         },
 
-        F_X_AUS_DICHTE : {
+        F_X_AUS_DICHTE: {
             type: "solution",
             id: "F_X_AUS_DICHTE",
             title: "Verteilungsfunktion aus Dichte berechnen",
@@ -350,7 +352,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             ]
         },
 
-        F_X_AUS_GRAPH : {
+        F_X_AUS_GRAPH: {
             type: "solution",
             id: "F_X_AUS_GRAPH",
             title: "Stetige Verteilungsfunktion aus Graph ablesen",
@@ -385,7 +387,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             ]
         },
 
-        F_X_AUS_WFK : {
+        F_X_AUS_WFK: {
             type: "solution",
             id: "F_X_AUS_WFK",
             title: "Verteilungsfunktion aus Wahrscheinlichkeitsfunktion berechnen",
@@ -393,12 +395,12 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "1.3.1a"
             ]
         },
-        F_X_AUS_WS : {
+        F_X_AUS_WS: {
             type: "solution",
             id: "F_X_AUS_WS",
             title: "Verteilungsfunktion aus Wahrscheinlichkeiten P(X=x) berechnen"
         },
-        F_X_AUS_VF : {
+        F_X_AUS_VF: {
             type: "solution",
             id: "F_X_AUS_VF",
             title: "Diskrete Verteilungsfunktion aus Graph ablesen",
@@ -558,23 +560,28 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type:
                 "question",
             question:
-                "Wahrscheinlichkeit eines Ereignisses bzw. einer Zufallsvariable berechnen",
+                "Was und wie viele sind jeweils beteiligt?",
             options:
                 [
                     {
-                        label: "Eines Ereignisses",
+                        label: "Ein Ereigniss",
                         childId: "W_EIN_ERG",
                         list: [
                             "Berechnen Sie mit Hilfe der Wahrscheinlichkeitsfunktion µ die Wahrscheinlichkeiten von A, B und C."
                         ],
                     },
                     {
-                        label: "Mehrerer Ereignisse",
+                        label: "Mehrere Ereignisse",
                         childId: "W_MEHR_ERG",
                         // TODO - hier eventuell EIN_AUSSCHLUSS?
+                        list: [
+                            "Bestimmen Sie deren Wahrscheinlichkeiten bzw. bedingte" +
+                            " Wahrscheinlichkeiten.",
+                            "Wahrscheinlichkeit, daß die gewählte Münze fair ist, gegeben, sie zeigt Kopf"
+                        ]
                     },
                     {
-                        label: "Einer Zufallsvariablen",
+                        label: "Eine Zufallsvariable",
                         childId: "W_EIN_ZV",
                         list: [
                             "Bestimmen Sie die Wahrscheinlichkeit, daß René die Klausur besteht",
@@ -583,7 +590,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                         ]
                     },
                     {
-                        label: "Mehrerer Zufallsvariablen",
+                        label: "Mehrere Zufallsvariablen",
                         childId: "W_MEHR_ZV",
                         list: [
                             "Wahrscheinlichkeit, daß Jean insgesamt nicht länger als 20 Minuten benötigt vom Eintre!en" +
@@ -636,7 +643,12 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 [
                     {
                         label: "Bedingte Wahrscheinlichkeit P(A|B), „gegeben, dass“, Rückwärts-Frage",
-                        childId: "BEDINGTE_WS"
+                        childId: "BEDINGTE_WS",
+                        list: [
+                            "Bestimmen Sie deren Wahrscheinlichkeiten bzw. bedingte" +
+                            " Wahrscheinlichkeiten.",
+                            "Wahrscheinlichkeit, daß die gewählte Münze fair ist, gegeben, sie zeigt Kopf"
+                        ]
                     },
                     // TODO hier ein Ausschluss??
                 ]
@@ -656,13 +668,18 @@ export const statistik_schlüssel_json: DecisionGraph = {
                         childId: "DIREKT_BEDINGT",
                     },
                     {
-                        label: "Zweistufig: erst Urne/Münze wählen, dann ziehen, P(A) gesucht",
-                        list: [],
+                        label: "Zweistufig",
+                        list: [
+                            "erst Urne/Münze wählen, dann ziehen, P(A) gesucht",
+                            "eine faire oder unfaire Münze zufällig wählen und werfen"
+                        ],
                         childId: "TOTALE_WS",
                     },
                     {
                         label: "Vorwärts gegeben, rückwärts gesucht",
-                        list: [],
+                        list: [
+                            "Wahrscheinlichkeit, daß die gewählte Münze fair ist, gegeben, sie zeigt Kopf"
+                        ],
                         childId: "BAYES",
                     },
                     {
@@ -700,8 +717,11 @@ export const statistik_schlüssel_json: DecisionGraph = {
             points:
                 [
                     "P(A)=Σ_i P(A|B_i)P(B_i).",
-                    "Ref: PÜ 1.6.4d, 1.6.6d; HA 1.6.1c."
-                ]
+                    "Ref: PÜ 1.6.4d, 1.6.6d"
+                ],
+            aufgaben: [
+                "1.6.1c"
+            ]
         },
 
         BAYES: {
@@ -715,8 +735,11 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     "P(B_k|A)=P(A|B_k)P(B_k)/Σ_iP(A|B_i)P(B_i).",
                     "Zweistufiges Experiment erkennen.",
                     "Ohne Zurücklegen ⇒ Züge abhängig.",
-                    "Ref: PÜ 1.6.4e, 1.6.6e; HA 1.6.1d."
-                ]
+                    "Ref: PÜ 1.6.4e, 1.6.6e"
+                ],
+            aufgaben: [
+                "1.6.1d"
+            ]
         },
 
         RECHENREGELN_BEDINGTE_WS: {
@@ -1069,11 +1092,27 @@ export const statistik_schlüssel_json: DecisionGraph = {
                         label: "Rein zufällig aus einem Intervall / einer Fläche, kontinuierlich?",
                     },
                     {
+                        childId: "MEHRERE_FAKTOREN",
+                        label: "Ereignisraum aus mehreren Faktoren",
+                        list: [
+                            "Eine faire oder unfaire Münze zufällig wählen und werfen"
+                        ]
+                    },
+                    {
                         childId: "",
                         label: "Eine Stichprobe soll ausgewertet werden (Statistik-Aufgabe)"
                     }
 
                 ],
+        },
+
+        MEHRERE_FAKTOREN: { // TODO
+            type: "solution",
+            title: "Zusammengesetzter endlicher Ereignisraum",
+            aufgaben: [
+                "1.6.1a"
+            ],
+            id: "MEHRERE_FAKTOREN"
         },
 
         STATISTISCHES_MODELL: {
