@@ -764,9 +764,9 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "GEDÄCHTNISLOSIGKEIT",
             points:
                 [
-                    "P(X>t+s|X>s)=P(X>t)=e^(−λt).",
-                    "Ref: HA 1.6.2."
-                ]
+                    "P(X>t+s|X>s)=P(X>t)=e^(−λt)."
+                ],
+            aufgaben: ["1.6.2"]
         },
 
         W_EIN_ZV: {
