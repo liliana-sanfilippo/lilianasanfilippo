@@ -18,6 +18,15 @@ DIREKTES_ABZÄHLEN: {
         },
  */
 
+
+/*
+ {
+                    label: "ZV erst als Abbildung definieren",
+                    list: [],
+                    childId: "ZV_DEF",
+                },
+ */
+
 // TODO Wfl bestimmen wie bei 1.3.1...
 
 export const statistik_schlüssel_json: DecisionGraph = {
@@ -40,6 +49,13 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     childId: "M1",
                 },
                 {
+                    label: "Definieren von Ereignissen, Zufallsvariablen etc.",
+                    list: [
+                        //  "Definieren Sie eine Zufallsvariable X, die..."
+                    ], // TODO
+                    childId: "",
+                },
+                {
                     label:
                         "Wahrscheinlichkeit P(…) eines konkreten Ereignisses bzw. einer Zuvallsvariable",
                     list: [
@@ -53,22 +69,274 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 {
                     label: "Zufallsvariablen, Verteilungen und Dichten",
                     list: [
+                        "Berechnen Sie die Verteilung von X, indem Sie die zugehörige Wahrscheinlichkeitsfunktion μX bestimmen.",
+                        "estimmen Sie jeweils die Verteilung der Zufallsvariablen",
+
                     ],
-                    childId: "",
+                    childId: "ZVG",
                 },
                 {
                     label: "Unabhängigkeit bestimmen",
+                    list: [],
+                    childId: "",
+                },
+                {
+                    label: "Erwartungswert und Varianz",
+                    list: [],
+                    childId: "",
+                },
+                {
+                    label: "näherungsweise/approximativ, Schranke, Grenzwert, „wie groß muss n sein“",
+                    list: [],
+                    childId: "",
+                },
+                {
+                    label: "Konkreter Datensatz gegeben, Kennzahlen berechnen",
+                    list: [],
+                    childId: "",
+                },
+                {
+                    label: "Aussage über einen Schätzer",
+                    list: [],
+                    childId: "",
+                },
+                {
+                    label: "Konfidenzintervalle",
+                    list: [],
+                    childId: "",
+                },
+                {
+                    label: "Hypothese testen",
+                    list: [],
+                    childId: "",
+                },
+            ],
+        },
+
+        ZV_DEF: {
+            type: "solution",
+            title: "Zufallsvariable definieren",
+            id: "ZV_DEF",
+            points:  [
+                "Definitionsbereich Ω, Wertebereich/Bildbereich X(Ω), Vorschrift ω↦X(ω).",
+                "Wertebereich (Argumente) ≠ Bildbereich (angenommene Werte).",
+                "Ref: K-1b."
+            ],
+            aufgaben: [
+                "1.3.1a", "1.3.3b-c"
+            ]
+        },
+
+        DISKRETE_VERTEILUNG: {
+            type: "solution",
+            title: "Diskrete Verteilung",
+            id: "DISKRETE_VERTEILUNG",
+            points: [
+                "Für jedes x∈X(Ω): P(X=x) bestimmen; Σ=1 prüfen. Bei Laplace: abzählen.",
+                "Ref: K-1c/d; PÜ 1.3.4d."
+            ],
+            aufgaben: [
+                "1.3.1a", "1.3.3d"
+            ]
+        },
+
+        NORMKONSTANTE: {
+            type: "solution",
+            title: "Dichte / Konstante c",
+            // TODO noch für einfache / mehrfache dichte?
+            id: "NORMKONSTANTE",
+            points:  [
+                "c aus ∫_Träger c·g(x)dx=1 ⇒ c=(∫g)^−1. Danach f≥0 und ∫f=1 bestätigen.",
+                "Ref: K-2a; PÜ 1.5.4a; HA 1.2.4a, 1.5.1a, 2.1.2a."
+            ],
+            aufgaben: [
+                "1.2.2a", "1.3.1b", "1.4.2a (gemeinsam)"
+            ]
+        },
+
+        VERTEILUNG: {
+            type: "question",
+            question: "Verteilungen",
+            id: "VERTEILUNG",
+            options: [
+                {
+                    label: "Diskrete Verteilung µ_X(x)=P(X=x) als Tabelle",
+                    list: [
+                        "Berechnen Sie die Verteilung von X, indem Sie die zugehörige Wahrscheinlichkeitsfunktion μX bestimmen.",
+                        "Bestimmen Sie jeweils die Verteilung der Zufallsvariablen"
+                    ],
+                    childId: "DISKRETE_VERTEILUNG",
+                },
+                {
+                    childId: "GEMEINSAME_VERTEILUNG",
+                    list: [
+
+                    ],
+                    label: "Gemeinsame Verteilung zweier ZV"
+                },
+                {
+                    childId: "RANDVERTEILUNG",
+                    label: "Randverteilung aus gemeinsamer Verteilung bestimmen"
+                }
+            ]
+        },
+
+        F_X: {
+            type: "question",
+            question: "Welche Art von Verteilungsfunktion soll es sein?",
+            id: "F_X",
+            options: [
+                {
+                    childId: "F_X_DISKRET",
+                    label: "Diskrete Verteilungsfunktion",
+                    list:  [
+                        "Aus Wahrscheinlichkeiten P(X=x)",
+                        "Aus Verteilungsfunktion F(x) mit Sprüngen",
+                        "Aus Wahrscheinlichkeitsfunktion μX"
+                    ],
+                },
+                {
+                    label: "Stetige Verteilungsfunktion",
+                    childId: "F_X_STETIG",
+                    list:  [
+                        "Aus Dichte f(x)",
+                        "Aus Verteilungsfunktion F(x) ohne Sprünge",
+                        "Aus Randdichte fX(x)"
+                    ],
+                }
+            ]
+        },
+
+        F_X_DISKRET: {
+            type: "solution",
+            title: "Diskrete Verteilungsfunktion bestimmen",
+            id: "F_X_DISKRET",
+            points: [
+                "Rechtsstetige Treppenfunktion, Sprunghöhe an x=P(X=x). Stückweise angeben.",
+                "Summieren",
+                "Ref: K-1e/f."
+            ],
+            aufgaben:  [
+                "1.3.1a", "1.3.2b", "1.3.3e"
+            ]
+        },
+
+        F_X_STETIG: {
+            type: "solution",
+            title: "Stetige Verteilungsfunktion bestimmen",
+            id: "F_X_STETIG",
+            points:  [
+                "Integrieren: F(x)=∫_{−∞}^x f. Stückweise über Trägerintervalle; f=F'.",
+                "Ref: K-2b/c"
+            ],
+            aufgaben:  [
+                "1.3.1b", "1.3.2a", "1.4.2d"
+            ]
+        },
+
+        RANDDICHTE: {
+            type: "solution",
+            title: "Randdichte",
+            id: "RANDDICHTE",
+            aufgaben: [
+                "1.4.2c"
+            ]
+        },
+
+        GEMEINSAME_VERTEILUNG: {
+            type: "solution",
+            title: "Gemeinsame Verteilung zweier ZV",
+            id: "GEMEINSAME_VERTEILUNG",
+            points: [
+                "Matrix P(X=x,Y=y).",
+                "Mit Zurücklegen ⇒ unabhängig ⇒ Produkt der Ränder; ohne Zurücklegen ⇒ nicht.",
+                "Ref: K-1c; PÜ 1.3.4f/g"
+            ],
+            aufgaben:  [
+                "1.3.3f-g"
+            ]
+        },
+
+        RANDVERTEILUNG: {
+            type: "solution",
+            title: "Randverteilung",
+            id: "RANDVERTEILUNG",
+            points: [
+                "P(X=x)=Σ_y P(X=x,Y=y) (Zeilen-/Spaltensummen).",
+                "Ref: K-1d; PÜ 2.1.5d."
+            ]
+        },
+
+        VERTEILUNG_ERKENNEN: {
+            type: "solution", // TODO das muss noch ausgefüllt werden
+            title: "Welche Verteilung folgt aus...",
+            id: "VERTEILUNG_ERKENNEN"
+        },
+
+        VF_GRAPH: {
+            type: "solution",
+            title: "VF-Graph lesen",
+            id: "VF_GRAPH",
+            points: [
+                "Sprünge⇒diskreter Anteil, P(X=x)=Sprunghöhe.",
+                "Stetig steigend⇒Dichteanteil, f=F'.",
+                "Beides⇒gemischte Verteilung.",
+                "P(a<X≤b)=F(b)−F(a).",
+                "Bei einem Sprung ist P(X=x)>0: offene/geschlossene Grenzen sind dann nicht egal."
+            ],
+            aufgaben: ["1.3.1a-b", "1.3.2a-b"]
+        },
+
+        ZVG: {
+            question: "",
+            type: "question",
+            id: "",
+            options: [
+                {
+                    label: "Verteilungen bestimmen",
                     list: [
                     ],
+                    childId: "VERTEILUNG",
+                },
+                {
+                    label: "Verteilung erkennen",
+                    list: [],
+                    childId: "VERTEILUNG_ERKENNEN",
+                },
+                {
+                    label: "Dichteeigenschaften / Normkonstante c",
+                    list: [  "Bestimmen Sie c so, daß f eine Dichte ist."],
+                    childId: "NORMKONSTANTE",
+                },
+                {
+                    label: "Verteilungsfunktion F_X bestimmen",
+                    list: [],
+                    childId: "F_X",
+                },
+                {
+                    label: "Verteilungsfunktionen aus Graph", //  diskret / stetig / gemischt
+                    list: [
+                        "Skizzieren Sie den Graphen der Verteilungsfunktion.",
+                        "Die Funktion F sei durch den folgenden Graphen gegeben"
+                    ],
+                    childId: "VF_GRAPH",
+                },
+                {
+                    label: "Randdichte bestimmen",
+                    list: [],
+                    childId: "RANDDICHTE",
+                },
+                {
+                    label: "",
+                    list: [],
                     childId: "",
                 },
                 {
                     label: "",
-                    list: [
-                    ],
+                    list: [],
                     childId: "",
                 },
-            ],
+            ]
         },
 
         W1: {
@@ -143,32 +411,27 @@ export const statistik_schlüssel_json: DecisionGraph = {
             options: [
                 {
                     label: "Direkt P(A|B)",
-                    list: [
-                    ],
+                    list: [],
                     childId: "DIREKT_BEDINGT",
                 },
                 {
                     label: "Zweistufig: erst Urne/Münze wählen, dann ziehen, P(A) gesucht",
-                    list: [
-                    ],
+                    list: [],
                     childId: "TOTALE_WS",
                 },
                 {
                     label: "Vorwärts gegeben, rückwärts gesucht",
-                    list: [
-                    ],
+                    list: [],
                     childId: "BAYES",
                 },
                 {
                     label: "Rechenregeln für bedingte W.",
-                    list: [
-                    ],
+                    list: [],
                     childId: "RECHENREGELN_BEDINGTE_WS",
                 },
                 {
                     label: "Gedächtnislosigkeit der Exp-Verteilung",
-                    list: [
-                    ],
+                    list: [],
                     childId: "GEDÄCHTNISLOSIGKEIT",
                 }
             ]
@@ -198,7 +461,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Bayes",
             id: "BAYES",
-            points:  [
+            points: [
                 "P(B_k|A)=P(A|B_k)P(B_k)/Σ_iP(A|B_i)P(B_i).",
                 "Zweistufiges Experiment erkennen.",
                 "Ohne Zurücklegen ⇒ Züge abhängig.",
