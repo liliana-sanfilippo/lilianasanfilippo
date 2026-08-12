@@ -42,21 +42,29 @@ DIREKTES_ABZÄHLEN: {
 
                 Dazu: 1.5.3b Stellen Sie die Zufallsvariable X mit Hilfe der Zufallsvariablen T1, T2, T3 und T4 dar
                 2.1.1b-c
+                2.1.3d-e
+                1.6.1b
+                2.2.3b
+                2.3.3b-c
  */
 
 // VF GRaph zeichnen:  "1.3.1b"
 // TODO Wfl bestimmen wie bei 1.3.1...
 // 2.1.3b-c keien AHnunhg wie man die löst
 
-// STAND: als nächstes 2.1.3
+// STAND: als nächstes PÜs
+
+// TODO Verteilungen erkennen
 
 
 export const statistik_schlüssel_json: DecisionGraph = {
     rootId: "START",
     nodes: {
+
         START: {
             id: "START",
             type: "question",
+            crumb: "Aufgabentyp",
             question: "Welchen Aufgabentyp oder welche Teilaufgabe möchtest du lösen?",
             options: [
                 {
@@ -99,42 +107,70 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     list: [
                         "Berechnen Sie die Verteilung von X, indem Sie die zugehörige Wahrscheinlichkeitsfunktion μX bestimmen.",
                         "bestimmen Sie jeweils die Verteilung der Zufallsvariablen",
+                        "Bestimmen Sie c so, daß f eine Dichte ist"
                     ],
                     childId: "ZVG",
                 },
                 {
                     label: "Unabhängigkeit prüfen oder bestimmen",
-                    list: [],
+                    list: [
+                        "Die Ereignisse A, B, C, D seien unabhängig",
+                        "Sind die Ereignisse {X ≤ a} und {Y ≤ b} für alle a, b ∈ R unabhängig",
+                        "Beweisen Sie, dass X und Y unabhängige Zufallsvariablen sind.",
+                        "Zeigen Sie, dass A und B unabhängig sind"
+                    ],
                     childId: "UNABHÄNGIGKEIT",
                 },
                 {
                     label: "Erwartungswert oder Varianz berechnen",
-                    list: [],
+                    list: [
+                        "Verteilungstabelle oder Wahrscheinlichkeiten gegeben oder errechenbar",
+                        "Berechnen Sie den erwarteten Gewinn",
+                        "Berechnen Sie den Erwartungswert von 2X - Y",
+                        "Varianz für Y = -2X + 4",
+                        "Berechnen Sie Erwartungswert und Varianz von -4X - 1"
+                    ],
                     childId: "ERWARTUNGSWERT_VARIANZ",
                 },
                 {
                     label: "Etwas näherungsweise/approximativ oder eine Schranke oder einen Grenzwert berechnen",
-                    list: [],
+                    list: [
+                        "Bestimmen Sie näherungsweise...",
+                        "Geben Sie eine untere Schrank an..."
+                    ],
                     childId: "APPROXIMATIONEN_GRENZWERTE_SCHRANKEN",
                 },
                 {
                     label: "Kennzahlen berechnen, für die ein konkreter Datensatz gegeben ist",
-                    list: [],
+                    list: [
+                        "Bestimmen Sie arithmetisches Mittel, Median und Modalwert der Stichprobe.",
+                        "Bestimmen Sie die mittlere absolute Abweichung vom Median und vom arithmetischen Mittel",
+                        "Bestimmen Sie das untere Quartil und das 90%-Quantil der Stichprobe",
+                        "Bestimmen Sie die Varianz und Standardabweichung der Stichprobe."
+                    ],
                     childId: "DESKRIPTIVE_STATISTIK",
                 },
                 {
                     label: "Aussage über einen Schätzer treffen",
-                    list: [],
+                    list: [
+                        "Berechnen Sie das Risiko des Schätzers",
+                        "Ist t1 mindestens so gut wie t2?",
+                    ],
                     childId: "SCHÄTZER",
                 },
                 {
                     label: "Etwas mit Konfidenzintervallen",
-                    list: [],
+                    list: [
+                        "Bestimmen Sie das Konfidenzintervall approximativ mit ..."
+                    ],
                     childId: "KONFIDENZINTERVALL",
                 },
                 {
-                    label: "Hypothese testen",
-                    list: [],
+                    label: "Hypothese testen", // TODO noch aufteilen in Testart und dann ob einseitig ider
+                    // zweiseitig...
+                    list: [
+                        "Verwenden Sie einen geeigneten Hypothesentest zum Signifikanzniveau ..."
+                    ],
                     childId: "HYPOTHESENTEST",
                 },
             ],
@@ -142,20 +178,49 @@ export const statistik_schlüssel_json: DecisionGraph = {
 
         UNABHÄNGIGKEIT: {
             id: "UNABHÄNGIGKEIT",
+            crumb: "Unabhängigkeit",
             type:
                 "question",
             question:
                 "Unabhängigkeit prüfen, welcher Fall liegt vor?",
             options:
                 [
-                    {label: "Zwei Ereignisse", childId: "ZWEI_EREIGNISSE_UNABHÄNGIGKEIT"},
-                    {label: "Mehrere Ereignisse „gemeinsam unabhängig?“", childId: "MEHRERE_EREIGNISSE_UNABHÄNGIGKEIT"},
-                    {label: "P(B)∈{0,1}", childId: "TRIVIALES_EREIGNIS"},
+                    {
+                        label: "Zwei Ereignisse",
+                        childId: "ZWEI_EREIGNISSE_UNABHÄNGIGKEIT",
+                        list: [
+                            "Sind A und B unabhängig?"
+                        ]
+                    },
+                    {
+                        label: "Mehrere Ereignisse „gemeinsam unabhängig?“",
+                        childId: "MEHRERE_EREIGNISSE_UNABHÄNGIGKEIT",
+                        list: [
+                            "Die Ereignisse A, B, C, D seien unabhängig",
+                            "Zeigen Sie, dass A und B unabhängig sind"
+                        ]
+                    },
+                    {
+                        label: "P(B)∈{0,1}",
+                        childId: "TRIVIALES_EREIGNIS",
+                        list: [
+                            "Zeigen Sie, dass A und B unabhängig sind; mit P(B)∈{0,1}"
+                        ]
+                    },
                     {
                         label: "ZV über gemeinsame Dichte",
-                        childId: "UNABHÄNGIGKEIT_DICHTE"
+                        childId: "UNABHÄNGIGKEIT_DICHTE",
+                        list: [
+                            "Sind die Ereignisse {X ≤ a} und {Y ≤ b} für alle a, b ∈ R unabhängig"
+                        ]
                     },
-                    {label: "Funktionen unabhängiger ZV", childId: "FUNKTIONEN_UNABHÄNGIGER_ZV"},
+                    {
+                        label: "Funktionen unabhängiger ZV",
+                        childId: "FUNKTIONEN_UNABHÄNGIGER_ZV",
+                        list: [
+                            "Beweisen Sie, dass X und Y unabhängige Zufallsvariablen sind."
+                        ]
+                    },
                 ],
         },
 
@@ -167,6 +232,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "Zwei Ereignisse",
             points:
                 ["A,B unabhängig ⇔ P(A∩B)=P(A)·P(B)."],
+            // TODO keine Aufgabe
         },
 
         MEHRERE_EREIGNISSE_UNABHÄNGIGKEIT:
@@ -284,6 +350,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "question",
             question:
                 "Verteilungen",
+            crumb: "Verteilung",
             id:
                 "VERTEILUNG",
             options:
@@ -298,18 +365,24 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     },
                     {
                         childId: "GEMEINSAME_VERTEILUNG",
-                        list: [],
+                        list: [
+                            "Bestimmen Sie die gemeinsame Verteilung von X1 und Y"
+                        ],
                         label: "Gemeinsame Verteilung zweier ZV"
                     },
                     {
                         childId: "RANDVERTEILUNG",
-                        label: "Randverteilung aus gemeinsamer Verteilung bestimmen"
+                        label: "Randverteilung aus gemeinsamer Verteilung bestimmen",
+                        list: [
+                            "Berechnen Sie die Randverteilungen μX von X und μY von Y"
+                        ]
                     }
                 ]
         },
 
         F_X: {
             type: "question",
+            crumb: "Verteilungsfunktion",
             question:
                 "Welche Art von Verteilungsfunktion soll es sein?",
             id:
@@ -371,6 +444,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
         // , "K-2b/c"
         F_X_STETIG: {
             type: "question",
+            crumb: "Stetig",
             question:
                 "Stetige Verteilungsfunktion bestimmen aus...",
             id:
@@ -378,15 +452,24 @@ export const statistik_schlüssel_json: DecisionGraph = {
             options: [
                 {
                     label: "Randdichte fX(x)",
-                    childId: "F_X_AUS_RANDDICHTE"
+                    childId: "F_X_AUS_RANDDICHTE",
+                    list: [
+                        "Berechnen Sie die Verteilungsfunktion aus fX(x)"
+                    ]
                 },
                 {
                     label: "Verteilungsfunktion F(x) ohne Sprünge",
                     childId: "F_X_AUS_GRAPH",
+                    list: [
+                        "Die Funktion F sei durch den folgenden Graphen gegeben..."
+                    ]
                 },
                 {
                     label: " Dichte f(x)",
-                    childId: "F_X_AUS_DICHTE"
+                    childId: "F_X_AUS_DICHTE",
+                    list: [
+                        "Berechnen Sie die Verteilungsfunktion aus fX"
+                    ]
                 }
             ]
         },
@@ -416,6 +499,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
         //  "1.3.3e", "K-1e/f"
         F_X_DISKRET: {
             type: "question",
+            crumb: "Diskret",
             question:
                 "Diskrete Verteilungsfunktion bestimmen aus...",
             id:
@@ -423,15 +507,24 @@ export const statistik_schlüssel_json: DecisionGraph = {
             options: [
                 {
                     label: "Aus Verteilungsfunktion F(x) mit Sprüngen",
-                    childId: "F_X_AUS_VF"
+                    childId: "F_X_AUS_VF",
+                    list: [
+                        "Die Funktion F sei durch den folgenden Graphen gegeben..."
+                    ]
                 },
                 {
                     label: "Aus Wahrscheinlichkeiten P(X=x)",
-                    childId: "F_X_AUS_WS"
+                    childId: "F_X_AUS_WS",
+                    list: [
+                        "Berechnen Sie die Verteilungsfunktion aus den gegebenen Wahrscheinlichkeiten"
+                    ]
                 },
                 {
                     label: "Aus Wahrscheinlichkeitsfunktion μX",
-                    childId: "F_X_AUS_WFK"
+                    childId: "F_X_AUS_WFK",
+                    list: [
+                        "Berechnen Sie die Verteilungsfunktion aus μX"
+                    ]
                 }
             ]
         },
@@ -507,21 +600,26 @@ export const statistik_schlüssel_json: DecisionGraph = {
 
         ZVG: {
             question: "",
+            crumb: "Verteilungen & Dichten",
             type:
                 "question",
             id:
-                "",
+                "ZVG",
             options:
                 [
                     {
                         label: "Verteilungen bestimmen",
-                        list: [],
+                        list: [
+                            "Berechnen Sie die Verteilung von X, indem Sie die zugehörige Wahrscheinlichkeitsfunktion μX bestimmen.",
+                            "Bestimmen Sie jeweils die Verteilung der Zufallsvariablen",
+                            "Bestimmen Sie die gemeinsame Verteilung von X1 und Y "
+                        ],
                         childId: "VERTEILUNG",
                     },
                     {
                         label: "Verteilung erkennen",
                         list: [],
-                        childId: "VERTEILUNG_ERKENNEN",
+                        childId: "VERTEILUNG_ERKENNEN", // TODO
                     },
                     {
                         label: "Dichteeigenschaften / Normkonstante c",
@@ -530,7 +628,11 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     },
                     {
                         label: "Verteilungsfunktion F_X bestimmen",
-                        list: [],
+                        list: [
+                            "Bestimmen Sie jeweils die Verteilungsfunktion der Zufallsvariablen",
+                            "Bestimmen Sie die Verteilungsfunktionen von X und Y",
+                            "Berechnen Sie die Verteilungsfunktion FX von X"
+                        ],
                         childId: "F_X",
                     },
                     {
@@ -543,19 +645,11 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     },
                     {
                         label: "Randdichte bestimmen",
-                        list: [],
+                        list: [
+                            "Bestimmen Sie die Randdichten von X und Y "
+                        ],
                         childId: "RANDDICHTE",
-                    },
-                    {
-                        label: "",
-                        list: [],
-                        childId: "",
-                    },
-                    {
-                        label: "",
-                        list: [],
-                        childId: "",
-                    },
+                    }
                 ]
         },
 
@@ -563,6 +657,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             id: "W1",
             type:
                 "question",
+            crumb: "Anzahl & Typ",
             question:
                 "Was und wie viele sind jeweils beteiligt?",
             options:
@@ -577,11 +672,11 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     {
                         label: "Mehrere Ereignisse",
                         childId: "W_MEHR_ERG",
-                        // TODO - hier eventuell EIN_AUSSCHLUSS?
                         list: [
                             "Bestimmen Sie deren Wahrscheinlichkeiten bzw. bedingte" +
                             " Wahrscheinlichkeiten.",
-                            "Wahrscheinlichkeit, daß die gewählte Münze fair ist, gegeben, sie zeigt Kopf"
+                            "Wahrscheinlichkeit, daß die gewählte Münze fair ist, gegeben, sie zeigt Kopf",
+                            "Berechnen Sie P(A ∪ B ∪ C)"
                         ]
                     },
                     {
@@ -610,6 +705,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
 
         W_EIN_ERG: {
             type: "question",
+            crumb: "Ein Ereignis",
             question:
                 "Fallunterscheidung: Wahrscheinlichkeit eines Ereignisses berechnen",
             id:
@@ -621,7 +717,8 @@ export const statistik_schlüssel_json: DecisionGraph = {
                         childId: "WLP1",
                         list: [
                             "Wir würfeln zweimal mit einem fairen Würfel...",
-                            "Wir drehen ein Glücksrad dreimal hintereinander .. Das Glücksrad ist in vier gleichgroße Viertel unterteilt"
+                            "Wir drehen ein Glücksrad dreimal hintereinander .. Das Glücksrad ist in vier" +
+                            " gleichgroße Viertel unterteilt"
                         ]
                     }
                 ]
@@ -639,6 +736,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
 
         W_MEHR_ERG: {
             type: "question",
+            crumb: "Mehrere Ereignisse",
             question:
                 "Wahrscheinlichkeit mehrerer Ereignisse berechnen",
             id:
@@ -654,7 +752,13 @@ export const statistik_schlüssel_json: DecisionGraph = {
                             "Wahrscheinlichkeit, daß die gewählte Münze fair ist, gegeben, sie zeigt Kopf"
                         ]
                     },
-                    // TODO hier ein Ausschluss??
+                    {
+                        label: "Teilbarkeit, Vereinigung",
+                        childId: "EIN_AUSSCHLUSS",
+                        list: [
+                            "Berechnen Sie P(A ∪ B ∪ C)"
+                        ]
+                    }
                 ]
         },
 
@@ -662,6 +766,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             question: "Bedingte Wahrscheinlichkeit & Bayes",
             id:
                 "BEDINGTE_WS",
+            crumb: "Bedingte Wahrscheinlichkeit",
             type:
                 "question",
             options:
@@ -775,6 +880,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
 
         W_EIN_ZV: {
             type: "question",
+            crumb: "Eine Zufallsvariable",
             question:
                 "Fall: Wahrscheinlichkeit einer Zufallsvariablen",
             id:
@@ -793,15 +899,38 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     },
                     {
                         label: "Kontinuierliche Dichte einer einzelnen ZV",
-                        childId: "KONTINUIERLICHE_DICHTE"
+                        childId: "KONTINUIERLICHE_DICHTE",
+                        list: [
+                            "Gegeben Dichte: P(X > 0), P(( 1/2, unendl.)), P(X = 0)"
+                        ]
+                    },
+                   /*
+                    {
+                        label: "Exakte Berechnung auf Basis von Wahrscheinlichkeiten",
+                        childId: "ZV_WS_EXAKT",
+                        list: [
+                            ""
+                        ]
                     }
+                    */
                 ]
         },
-
+/*
+        ZV_WS_EXAKT: {
+            type: "solution",
+            title: "Wahrscheinlichkeit einer Zufallsvariable exakt berechnen",
+            id: "ZV_WS_EXAKT",
+            aufgaben: [
+                "2.3.1b"
+            ]
+            // TODO
+        },
+*/
 
         GR_KL_EINE_ZV: {
             question: "Unter welchen Bedingungen?",
             type: "question",
+            crumb: "Bedingungen",
             id: "GR_KL_EINE_ZV",
             options: [
                 {
@@ -824,6 +953,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
 
         W_MEHR_ZV: {
             type: "question",
+            crumb: "Mehrere Zufallsvariablen",
             question:
                 "Fall: Wahrscheinlichkeit mehrerer Zufallsvariablen",
             id:
@@ -832,7 +962,10 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 [
                     {
                         label: "P(max ≤ x) oder P(min ≤ x) unabhängiger ZV",
-                        childId: "VERTEILUNGSFUNKTION_MAX_MIN"
+                        childId: "VERTEILUNGSFUNKTION_MAX_MIN",
+                        list: [
+                            "P(min≤x)"
+                        ]
                     },
                     {
                         label: "Gemeinsame Dichte zweier ZV",
@@ -856,6 +989,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
 
         SUMME_ZV: {
             type: "question",
+            crumb: "Bedigungen",
             question: "Unter welchen Bedingungen?",
             id: "SUMME_ZV",
             options: [
@@ -945,12 +1079,13 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "UNABHÄNGIG_GEQ_LEQ",
             aufgaben:
                 [
-                    "1.4.3b-d"
+                    "1.4.3b-d", "2.3.1b??" // TODO überprüfen
                 ]
         },
 
         WLP1: {
             id: "WLP1",
+            crumb: "Laplace-Fall",
             type:
                 "question",
             question:
@@ -975,15 +1110,24 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     },
                     {
                         label: "x-groß oder größer / mindestens Wert x hat",
-                        childId: ""
+                        childId: "" // TODO
                     },
                     {
-                        label: "„mindestens eine von mehreren Eigenschaften“, Teilbarkeit, Vereinigung",
+                        label: "Ereignis lässt sich auf mehrere andere Ereignisse herunterbrechen; „mindestens eine" +
+                            " von mehreren Eigenschaften“, Teilbarkeit," +
+                            " Vereinigung",
                         childId: "EIN_AUSSCHLUSS",
+                        list: [
+                            "Berechnen Sie P(A ∪ B ∪ C)"
+                        ]
                     },
                     {
                         label: "Fixpunkte einer Permutation (genau k / mindestens k)",
                         childId: "FIXPUNKTE_PERMUTATIONEN",
+                        list: [
+                            "Wie groß ist die Wahrscheinlichkeit, daß mindestens eine der Freundinnen ihr eigenes" +
+                            " Geschenk zurückerhält?"
+                        ]
                     },
                 ]
         },
@@ -1001,8 +1145,11 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     "Genau k Fixpunkte: (1/k!)Σ_{j=0}^{n−k}(−1)^j/j! → e⁻¹/k! für n→∞.",
                     "Kein Fixpunkt: D_n=n!Σ_{j=0}^n(−1)^j/j!.",
                     "„mindestens k“ ≠ „genau k“; P(B_k)=P(C_k)−P(C_{k+1}).",
-                    "Ref: PÜ 1.0.3; HA 2.1.3."
-                ]
+                    "Ref: PÜ 1.0.3"
+                ],
+            aufgaben: [
+                "2.1.3"
+            ]
         },
 
         EIN_AUSSCHLUSS: {
@@ -1046,7 +1193,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "DIREKTES_ABZÄHLEN",
             "aufgaben":
                 [
-                    "1.1.1c-d", "1.1.2c-d", "1.1.3c-d", "1.4.4", "1.2.3b(-c)",
+                    "1.1.1c-d", "1.1.2b-c", "1.1.3c-d", "1.4.4", "1.2.3b(-c)",
                     "Erstklausur 1c"
                 ],
             points:
@@ -1059,8 +1206,9 @@ export const statistik_schlüssel_json: DecisionGraph = {
             id: "M1",
             type:
                 "question",
+            crumb: "Bedingungen",
             question:
-                "Modellieren",
+                "Modellieren unter welcher Bedingung oder Verteilung?",
             options:
                 [
                     {
@@ -1091,22 +1239,35 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     },
                     {
                         label: "„Wiederhole, bis zum ersten Mal …“: Wartezeit, unbekannt viele Schritte?",
-                        childId: "ABZÄHLBAR_UNENDLICHER_RAUM"
+                        childId: "ABZÄHLBAR_UNENDLICHER_RAUM",
+                        list: [
+                            "bis die Augensumme zum ersten Mal gleich 5 ist"
+                        ]
                     },
                     {
                         childId: "ÜBERABZÄHLBARER_RAUM",
                         label: "Rein zufällig aus einem Intervall / einer Fläche, kontinuierlich?",
+                        list: [
+                            "Sei (X, Y) uniform verteilt auf der Menge ...",
+                            "Aus dem Intervall [0, 1] wird rein zufällig eine Zahl gezogen",
+                            "Sowohl Gerd als auch Andrea treffen mit uniformer Verteilung zwischen 12:00 und 13:00" +
+                            " Uhr ein..."
+                        ]
                     },
                     {
                         childId: "MEHRERE_FAKTOREN",
                         label: "Ereignisraum aus mehreren Faktoren",
                         list: [
-                            "Eine faire oder unfaire Münze zufällig wählen und werfen"
+                            "Eine faire oder unfaire Münze zufällig wählen und werfen",
+                            "erst Urne wählen, dann ziehen"
                         ]
                     },
                     {
-                        childId: "",
-                        label: "Eine Stichprobe soll ausgewertet werden (Statistik-Aufgabe)"
+                        childId: "STATISTISCHES_MODELL",
+                        label: "Eine Stichprobe soll ausgewertet werden (Statistik-Aufgabe)",
+                        list: [
+                            "Geben Sie das zugehörige statistische Modell vollständig an"
+                        ]
                     }
 
                 ],
@@ -1132,8 +1293,11 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     "Angeben: Stichprobenraum X, Parameterraum Θ, Verteilungsannahme (P_θ)_{θ∈Θ}.",
                     "Bernoulli-Fall: X = {0,1}^n, Θ = (0,1) (bzw. [0,1]), X_i iid Bernoulli(θ).",
                     "Annahmen benennen (unabhängig, identisch verteilt).",
-                    "Ref: K-4a; HA 2.4.3, 2.5.1."
-                ]
+                    "Ref: K-4a, 2.5.1."
+                ],
+            aufgaben: [
+                "2.4.3a"
+            ]
         },
 
         ABZÄHLBAR_UNENDLICHER_RAUM:
@@ -1149,6 +1313,9 @@ export const statistik_schlüssel_json: DecisionGraph = {
                         "Weitere sinnvolle Wahlen: fein (ganze Wurffolge) vs. grob (nur Endsumme): die interessierende Größe muss messbar bleiben.",
                         "Ref: PÜ 1.0.2, 1.1.6, 2.2.6."
                     ],
+                aufgaben: [
+                    "2.3.3a", // TODO zu 2.3.3 mehr erklären
+                ]
 
             },
 
@@ -1175,7 +1342,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "Bernoulli-Experiment(e)",
             aufgaben:
                 [
-                    "1.4.3a"
+                    "1.4.3a", "2.2.3a", "2.3.1a",
                 ]
         },
 
@@ -1208,7 +1375,8 @@ export const statistik_schlüssel_json: DecisionGraph = {
             aufgaben:
                 [
                     "1.1.1a-b", "1.1.2a", "1.1.3a-b", "1.1.4??", "1.2.3a", "1.3.3a", "2.1.1a", "2.1.3a",
-                    "1.4.4??",
+                    "1.4.4??", "2.2.3a",
+                    // "2.2.2a",
                     "Erstklausur 1a???",
                     "Erstklausur 3a??"
                 ],
@@ -1217,6 +1385,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
         },
 
         ERWARTUNGSWERT_VARIANZ: {
+            crumb: "Umstände",
             id: "ERWARTUNGSWERT_VARIANZ",
             type: "question",
             question: "Erwartungswert & Varianz in welcher Variation?",
@@ -1239,7 +1408,14 @@ export const statistik_schlüssel_json: DecisionGraph = {
                         "Dichte gegeben oder errechenbar"
                     ]
                 },
-                {label: "Lineare Transformation Y=aX+b", childId: "LINEARE_TRANSFORMATION"},
+                {
+                    label: "Lineare Transformation Y=aX+b",
+                    childId: "LINEARE_TRANSFORMATION",
+                    list: [
+                        "Varianz für Y = -2X + 4",
+                        "Berechnen Sie Erwartungswert und Varianz von -4X - 1"
+                    ]
+                },
                 {
                     label: "Erwartungswert einer Summe",
                     childId: "ERWARTUNGSWERT_SUMME",
@@ -1247,8 +1423,22 @@ export const statistik_schlüssel_json: DecisionGraph = {
                         "Berechnen Sie den Erwartungswert von 2X - Y"
                     ]
                 },
-                {label: "Varianz einer Summe", childId: "VARIANZ_SUMME"},
-                {label: "„erwartete Anzahl von …“", childId: "INDIKATOR_ZERLEGUNG"},
+                {
+                    label: "Varianz einer Summe",
+                    childId: "VARIANZ_SUMME",
+                    list: [
+                        "Var(2X + Y − 1)"
+                    ]
+                },
+                {
+                    label: "„erwartete Anzahl von …“",
+                    childId: "INDIKATOR_ZERLEGUNG",
+                    list: [
+                        "Die gesuchte Größe ist eine Anzahl",
+                        "Anzahl der Treffen im Jahr",
+                        "wie viele Freundinnen ihr eigenes Geschenk bekommen"
+                    ]
+                },
 
                 /*
                  {label: "E von max/min oder Gewinn", childId: "ERWARTUNGSWERT_MAX_MIN_GEWINN"},
@@ -1256,6 +1446,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             ],
         },
 
+        // TODO Aufteilen für einzelne Verteilungen?
         ERWARTUNGSWERT_DISKRET: {
             id: "ERWARTUNGSWERT_DISKRET",
             type: "solution",
@@ -1265,7 +1456,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "Standardverteilungen über Anhang V erkennen.",
             ],
             references: ["K-1g"],
-            aufgaben: ["2.1.1d-e", "PÜ 2.1.4", "PÜ 2.1.5"],
+            aufgaben: ["2.1.1d-e", "2.2.3c", "PÜ 2.1.4", "PÜ 2.1.5"],
         },
 
         ERWARTUNGSWERT_STETIG: {
@@ -1316,7 +1507,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "E(1_E)=P(E), also E(S)=ΣP(X_i=1), auch bei abhängigen X_i.",
                 "Fixpunkte/Geschenke: E(S_N)=1; P(mind. ein Fixpunkt)→1−e^−1.",
             ],
-            aufgaben: ["HA 2.1.3", "PÜ 2.3.6b"],
+            aufgaben: ["HA 2.1.3?", "PÜ 2.3.6b"],
         },
 
       /*
@@ -1334,18 +1525,59 @@ export const statistik_schlüssel_json: DecisionGraph = {
 
         APPROXIMATIONEN_GRENZWERTE_SCHRANKEN: {
             id: "APPROXIMATIONEN_GRENZWERTE_SCHRANKEN",
+            crumb: "Nährungen",
             type: "question",
             question: "Approximationen, Grenzwerte, Schranken",
             options: [
-                {label: "Nur Schranke / zeige b_n→0", childId: "TSCHEBYSCHEFF"},
-                {label: "n groß, p klein, np=λ moderat", childId: "POISSON_APPROXIMATION"},
-                {label: "n groß, np(1−p) groß", childId: "NORMAL_DE_MOIVRE_LAPLACE"},
-                {label: "Summe/Mittel vieler iid, standardisieren", childId: "ZENTRALER_GRENZWERTSATZ"},
+                {
+                    label: "Nur Schranke / zeige b_n→0",
+                    childId: "TSCHEBYSCHEFF",
+                    list: [
+                        "Geben Sie mit Hilfe der Tschebyscheff-Ungleichung untere Schranke an",
+                        "Zeigen Sie mit Hilfe der Tschebyscheffschen Ungleichung, dass...",
+                        "Bestimmen Sie mit Hilfe der Tschebyscheffschen Ungleichung eine obere Schranke"
+                    ]
+                },
+                {
+                    label: "n groß, p klein, np=λ moderat",
+                    childId: "POISSON_APPROXIMATION",
+                    list: [
+                        "Im Schnitt weist eins von tausend produzierten Rotweingläsern kleine Bläschen auf",
+                        "im Schnitt jedes 50. Bauteil fehlerhaft",
+                        "Wahrscheinlichkeit für jeden Druckfehler 1/1000"
+                    ]
+                },
+                {
+                    label: "n groß, np(1−p) groß",
+                    childId: "NORMAL_DE_MOIVRE_LAPLACE",
+                    list: [
+                        "Bestimmen Sie näherungsweise unter Verwendung des Satzes von de Moivre-Laplace",
+                        "Wahrscheinlichkeit einer Überbuchung maximal 5% betragen soll...",
+                        "Aproximieren Sie mit Hilfe des Satzes von de Moivre-Laplace "
+                    ]
+                },
+                {
+                    label: "Summe/Mittel vieler iid, standardisieren",
+                    childId: "ZENTRALER_GRENZWERTSATZ",
+                    list: [
+                        "TODO" // TODO
+                    ]
+                },
                 {
                     label: "„wie viele Runden/Stichproben n für W. ≥ …“",
                     childId: "STICHPROBENUMFANG_BESTIMMEN",
+                    list: [
+                        "Schätzen Sie mit Hilfe der Tschebyscheff-Ungleichung ab, wie viele Runden mit dem in" +
+                        " bestimmten Spieleinsatz pro Runde mindestens gespielt werden müssen"
+                    ]
                 },
-                {label: "µ gesucht bei Normalverteilung", childId: "NORMAL_MU_QUANTIL"},
+                {
+                    label: "µ gesucht bei Normalverteilung",
+                    childId: "NORMAL_MU_QUANTIL",
+                    list: [
+                        "Wie groß muss μ mindestens sein, damit..."
+                    ]
+                },
             ],
         },
 
@@ -1354,7 +1586,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Tschebyscheff",
             points: ["P(|X−E(X)|≥ε)≤Var(X)/ε².", "Nur obere Schranke, oft grob."],
-            aufgaben: ["PÜ 2.2.5", "PÜ 2.2.6", "HA 2.2.1", "HA 2.2.2b"],
+            aufgaben: ["PÜ 2.2.5", "PÜ 2.2.6", "2.2.1c", "2.2.2b"],
         },
 
         POISSON_APPROXIMATION: {
@@ -1362,7 +1594,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Poisson-Approximation",
             points: ["Bin(n,p)≈Poi(λ), λ=np; P(X=k)≈e^−λ λ^k/k!."],
-            aufgaben: ["PÜ 2.3.4", "PÜ 2.3.5", "HA 2.3.1"],
+            aufgaben: ["PÜ 2.3.4", "PÜ 2.3.5", "2.3.1b"],
         },
 
         NORMAL_DE_MOIVRE_LAPLACE: {
@@ -1375,7 +1607,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "Φ^−1(0,95)≈1,645.",
             ],
             references: ["K-3e"],
-            aufgaben: ["PÜ 2.2.4", "PÜ 2.3.6", "HA 2.2.3"],
+            aufgaben: ["PÜ 2.2.4", "PÜ 2.3.6", "2.2.3d-e", "2.3.1b"],
         },
 
         ZENTRALER_GRENZWERTSATZ: {
@@ -1383,7 +1615,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Zentraler Grenzwertsatz",
             points: ["(S_n−nµ)/(σ√n) bzw. (X̄−µ)/(σ/√n)≈N(0,1), dann Φ."],
-            aufgaben: ["HA 2.3.3"],
+            aufgaben: ["2.3.3c"],
         },
 
         STICHPROBENUMFANG_BESTIMMEN: {
@@ -1393,7 +1625,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             points: [
                 "Ungleichung mit [Tschebyscheff] oder [Normal-Approximation] aufstellen und nach n auflösen.",
             ],
-            aufgaben: ["HA 2.2.1d", "HA 2.2.2"],
+            aufgaben: ["2.2.1d", "2.2.2c"],
         },
 
         NORMAL_MU_QUANTIL: {
@@ -1401,20 +1633,50 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "µ über Quantil bestimmen",
             points: ["P(Z≥µ−x)=Φ(x/σ), nach µ mit Quantil auflösen."],
-            aufgaben: ["HA 2.3.2"],
+            aufgaben: ["2.3.2c-d"],
         },
 
         DESKRIPTIVE_STATISTIK: {
             id: "DESKRIPTIVE_STATISTIK",
+            crumb: "Deskriptive Statistik",
             type: "question",
             question: "Deskriptive Statistik",
             options: [
-                {label: "Lagemaße", childId: "LAGEMASSE"},
-                {label: "Streumaße", childId: "STREUMASSE"},
-                {label: "Quantile / Quartile", childId: "QUANTILE"},
-                {label: "Alle Werte um c verschoben", childId: "VERSCHIEBUNG_KENNZAHLEN"},
-                {label: "Robustheit", childId: "ROBUSTHEIT"},
+                {
+                    label: "Lagemaße", childId: "LAGEMASSE",
+                    list: [
+                        "Bestimmen Sie arithmetisches Mittel, Median und Modalwert der Stichprobe",
+                        "Berechnen Sie den Modalwert der erreichten Punkte"
+                    ]
+                },
+                {
+                    label: "Streumaße", childId: "STREUMASSE",
+                    list: [
+                        "Bestimmen Sie die mittlere absolute Abweichung vom Median und vom arithmetischen Mittel",
+                        "Bestimmen Sie die Varianz und Standardabweichung der Stichprobe."
+                    ]
+                },
+                {
+                    label: "Quantile / Quartile", childId: "QUANTILE",
+                    list: [
+                        "Bestimmen Sie das untere Quartil und das 90%-Quantil der Stichprobe"
+                    ]
+                },
+                {
+                    label: "Alle Werte um c verschoben", childId: "VERSCHIEBUNG_KENNZAHLEN",
+                    list: [
+                        "Angenommen jede(r) der Studierenden hätte 3 Punkte mehr erreicht"
+                    ]
+                },
+                {
+                    label: "Robustheit", childId: "ROBUSTHEIT",
+                    list: [
+                        "Wie groß kann der Median der oben genannten Daten höchstens werden, wenn ..."
+                    ]
+                },
+               /*
                 {label: "„Ist … ein Streumaß?“", childId: "STREUMASS_BEWEISEN"},
+                */
             ],
         },
 
@@ -1425,7 +1687,9 @@ export const statistik_schlüssel_json: DecisionGraph = {
             points: [
                 "Mittel x̄=1/n Σx_i; Median: sortieren, bei geradem n Mittel der beiden mittleren; Modus: häufigster Wert.",
             ],
-            aufgaben: ["PÜ 2.4.5a-c"],
+            aufgaben: [
+                "2.4.1b",
+                "PÜ 2.4.5a-c"],
         },
 
         STREUMASSE: {
@@ -1436,7 +1700,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "Spannweite=max−min; Varianz s²=1/nΣ(x_i−x̄)²; SD=√s²; mittlere abs. Abw. vom Median=1/nΣ|x_i−x̃|.",
                 "1/n vs. 1/(n−1) nach Vorlesung prüfen.",
             ],
-            aufgaben: ["PÜ 2.4.5f", "HA 2.4.1f"],
+            aufgaben: ["PÜ 2.4.5f", "2.4.1e-f"],
         },
 
         QUANTILE: {
@@ -1444,7 +1708,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Quantile",
             points: ["Q₁=x_0.25, Q₃=x_0.75; IQR=Q₃−Q₁; p-Quantilabstand=x_{1−p}−x_p."],
-            aufgaben: ["HA 2.4.1c/d"],
+            aufgaben: ["2.4.1c-d"],
         },
 
         VERSCHIEBUNG_KENNZAHLEN: {
@@ -1477,13 +1741,31 @@ export const statistik_schlüssel_json: DecisionGraph = {
 
         SCHÄTZER: {
             id: "SCHÄTZER",
+            crumb: "Schätzer",
             type: "question",
             question: "Schätzer",
             options: [
-                {label: "Erwartungstreu?", childId: "ERWARTUNGSTREUE"},
-                {label: "Risiko / MSE", childId: "RISIKO_MSE"},
-                {label: "Zwei Schätzer vergleichen", childId: "SCHÄTZER_VERGLEICHEN"},
-                {label: "Varianzschätzer p̂(1−p̂)", childId: "VARIANZSCHÄTZER"},
+
+                /*
+                 {label: "Erwartungstreu?", childId: "ERWARTUNGSTREUE"}, TODO anders einbringen
+                 */
+                {
+                    label: "Risiko / MSE", childId: "RISIKO_MSE",
+                    list: [
+                        "Berechnen Sie das Risiko des Schätzers",
+                        "Wie verhält sich das Risiko von t für ..."
+                    ]
+                },
+                {
+                    label: "Zwei Schätzer vergleichen", childId: "SCHÄTZER_VERGLEICHEN",
+                    list: [
+                        "Ist t1 mindestens so gut wie t2?",
+                        "Ist einer der beiden Schätzer besser als der andere?"
+                    ]
+                },
+                /*
+                 {label: "Varianzschätzer p̂(1−p̂)", childId: "VARIANZSCHÄTZER"}, TODO Anders einbringen
+                 */
             ],
         },
 
@@ -1495,7 +1777,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "t erwartungstreu ⇔ E_θ[t(X)]=θ für alle θ; Bias=E_θ[t]−θ.",
                 "E(X̄)=E(X₁)=µ ⇒ erwartungstreu.",
             ],
-            aufgaben: ["PÜ 2.4.4a", "HA 2.4.3d"],
+            aufgaben: ["PÜ 2.4.4a", "2.4.3d"],
         },
 
         RISIKO_MSE: {
@@ -1514,7 +1796,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "t₁ mindestens so gut wie t₂ ⇔ R(θ,t₁)≤R(θ,t₂) für alle θ.",
                 "Erst Bias, dann R=Var+Bias²; erwartungstreu ≠ risikominimal.",
             ],
-            aufgaben: ["HA 2.4.3e"],
+            aufgaben: ["2.4.3e"],
         },
 
         VARIANZSCHÄTZER: {
@@ -1524,18 +1806,36 @@ export const statistik_schlüssel_json: DecisionGraph = {
             points: [
                 "p̂=1/nΣx_i: E[t]=(1−1/n)θ(1−θ) ⇒ nicht erwartungstreu, aber asymptotisch.",
             ],
-            aufgaben: ["HA 2.5.1"],
+            aufgaben: ["2.5.1"],
         },
 
         KONFIDENZINTERVALL: {
             id: "KONFIDENZINTERVALL",
+            crumb: "Konfidenzintervalle",
             type: "question",
             question: "Konfidenzintervall",
             options: [
-                {label: "Anteil, Normal/Wald", childId: "WALD_KI"},
-                {label: "Exakt, ohne Approximation", childId: "EXAKTES_KI"},
-                {label: "t-Approximation", childId: "STUDENT_T_KI"},
-                {label: "Theorie: Überdeckung, Schnitt, Länge", childId: "KI_THEORIE"},
+                {
+                    label: "Anteil, Normal/Wald",
+                    childId: "WALD_KI",
+                    list: [
+                        "Bestimmen Sie das Konfidenzintervall approximativ mit Hilfe der Normalverteilung"
+                        // TODO
+                    ]
+                },
+                {
+                    label: "Exakt, ohne Approximation", childId: "EXAKTES_KI",
+                    list: ["Bestimmen Sie das Konfidenzintervall ohne jede Approximation"]
+                },
+                {
+                    label: "t-Approximation", childId: "STUDENT_T_KI",
+                    list: [
+                        "Bestimmen Sie das Konfidenzintervall approximativ mit Hilfe der Studentschen t-Verteilung"
+                    ]
+                },
+               /*
+                {label: "Theorie: Überdeckung, Schnitt, Länge", childId: "KI_THEORIE"}, // TODO anders
+                */
             ],
         },
 
@@ -1547,7 +1847,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "Ĵ=[p̂−z_{1−α/2}√(p̂(1−p̂)/n), p̂+z_{1−α/2}√(p̂(1−p̂)/n)]; z_0.975≈1,96.",
                 "Niveau 1−α bestimmt z_{1−α/2}=Φ^−1(1−α/2).",
             ],
-            aufgaben: ["PÜ 2.5.4", "HA 2.5.2c"],
+            aufgaben: ["PÜ 2.5.4", "2.5.2c"],
         },
 
         EXAKTES_KI: {
@@ -1555,7 +1855,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Exaktes KI",
             points: ["Ohne Approximation (Computer)."],
-            aufgaben: ["HA 2.5.2a"],
+            aufgaben: ["2.5.2a"],
         },
 
         STUDENT_T_KI: {
@@ -1563,7 +1863,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Student-t",
             points: ["t_{n−1}-Quantil statt z."],
-            aufgaben: ["HA 2.5.2b"],
+            aufgaben: ["2.5.2b"],
         },
 
         KI_THEORIE: {
@@ -1574,24 +1874,64 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "Überdeckung P_p(p∈J_n)≥1−α; p ist fest, Intervall zufällig.",
                 "Niveau verdoppeln verdoppelt nicht die Länge. Schnitt zweier (1−α/2)-KI ist ein (1−α)-KI.",
             ],
-            aufgaben: ["PÜ 2.5.5", "HA 2.5.3"],
+            aufgaben: ["PÜ 2.5.5", "2.5.3"],
         },
 
         HYPOTHESENTEST: {
             id: "HYPOTHESENTEST",
             type: "question",
+            crumb: "Hypothesentest",
             question: "Hypothesentest",
             options: [
-                {label: "Anteil/Wahrscheinlichkeit p, eine Stichprobe", childId: "ANTEILSTEST"},
-                {label: "Normalverteilt, Varianz bekannt", childId: "GAUSS_TEST"},
-                {label: "Normalverteilt, Varianz unbekannt", childId: "T_TEST"},
-                {label: "Verbundene Messpaare", childId: "GEPAARTER_T_TEST"},
+                {
+                    label: "Anteil/Wahrscheinlichkeit p, eine Stichprobe", childId: "ANTEILSTEST",
+                    list: [
+                        "Anteil/Häufigkeit in Vergleich zu früherem Wert: letzte Wahl, etc.",
+                        "Anteil/Häufigkeit in Bezug auf Behauptung: Mindestens 90%, etc."
+                    ]
+                },
+                {
+                    label: "Normalverteilt, Varianz bekannt", childId: "GAUSS_TEST",
+                    list: [
+                        "Kontinuierliche Messgröße; Messwerte; ein physikalischer Wert pro Objekt",
+                        "Varianz von (5 g)² / σ = ... / σ² = ..."
+                    ]
+                },
+                {
+                    label: "Normalverteilt, Varianz unbekannt", childId: "T_TEST",
+                    list: [
+                        "Kontinuierliche Messgröße; Messwerte; ein physikalischer Wert pro Objekt",
+                        "Keine Varianz / σ² / σ gegeben"
+                    ]
+                },
+                {
+                    label: "Verbundene Messpaare", childId: "GEPAARTER_T_TEST",
+                    list: [
+                        "Kontinuierliche Messgröße; Messwerte; ein physikalischer Wert pro Objekt",
+                        "zwei Messungen an derselben Einheit: vorher/nachher, links/rechts, dominante/andere Hand",
+                        "Tabelle mit gepaarten Spalten pro Person/Objekt"
+                    ]
+                },
                 {
                     label: "Zwei getrennte Stichproben, Anteile vergleichen",
                     childId: "ZWEI_STICHPROBEN_ANTEILSTEST",
+                    list: [
+                        "Anteil/Häufigkeit",
+                        "im Hörsaal … vs. im Internet …"
+                    ]
                 },
-                {label: "Ein- vs. zweiseitig", childId: "TESTRICHTUNG_BESTIMMEN"},
-                {label: "Entscheidung", childId: "TESTENTSCHEIDUNG_FEHLER"},
+                {
+                    label: "Unsicher, ob ein- oder zweiseitig", childId: "TESTRICHTUNG_BESTIMMEN",
+                    list: [
+                        "Entscheidungshilfe"
+                    ]
+                },
+                {
+                    label: "Entscheidung über Verwerfung", childId: "TESTENTSCHEIDUNG_FEHLER",
+                    list: [
+                        "Entscheidungshilfe"
+                    ]
+                },
             ],
         },
 
@@ -1611,7 +1951,8 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Gauß-Test",
             points: ["Z=(X̄−µ₀)/(σ/√n)≈N(0,1). Varianz bekannt."],
-            aufgaben: ["HA 2.6.1"],
+            aufgaben: ["2.6.1"],
+            // TODO ist das echt alles Gauss?
         },
 
         T_TEST: {
@@ -1631,9 +1972,10 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "D_i=X_i−Y_i; Ein-Stichproben-Test auf H₀:µ_D=0.",
                 "Gepaarte Daten nicht als zwei unabhängige Stichproben behandeln.",
             ],
-            aufgaben: ["HA 2.6.3"],
+            aufgaben: ["2.6.3"],
         },
 
+        // Kommt in Klausur glaube ich nicht dran
         ZWEI_STICHPROBEN_ANTEILSTEST: {
             id: "ZWEI_STICHPROBEN_ANTEILSTEST",
             type: "solution",
@@ -1641,7 +1983,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             points: [
                 "gepoolt p̂=(X₁+X₂)/(n₁+n₂); Z=(p̂₁−p̂₂)/√(p̂(1−p̂)(1/n₁+1/n₂))≈N(0,1).",
             ],
-            aufgaben: ["HA 2.6.2"],
+            aufgaben: ["2.6.2"],
         },
 
         TESTRICHTUNG_BESTIMMEN: {

@@ -23,6 +23,7 @@ export interface QuestionNode extends NodeBase {
   question: string;
   description?: string;
   options: Option[];
+  crumb?: string;
 }
 
 /** Ein Endknoten mit der Lösung. */
@@ -33,6 +34,7 @@ export interface SolutionNode extends NodeBase {
   aufgaben?: string[];
   warning?: string;
   references?: string[];
+    crumb?: string;
 }
 
 export type DecisionNode = QuestionNode | SolutionNode;
@@ -69,7 +71,8 @@ export function isSolution(
 
 /** Lesbares Label für einen Knoten (Breadcrumb-Anzeige o. Ä.). */
 export function nodeLabel(node: DecisionNode, fallback = "Schritt"): string {
-  if (node.title) return node.title;
+    if (node.crumb) return node.crumb;
+    else if (node.title) return node.title;
   if (!isSolution(node) && node.question) return node.question;
   return fallback;
 }
