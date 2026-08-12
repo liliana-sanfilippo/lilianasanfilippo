@@ -1,3 +1,5 @@
+// noinspection JSNonASCIINames
+
 import type {DecisionGraph} from "../components/DecisionKey/decisionTree.types";
 
 /*
@@ -50,12 +52,15 @@ DIREKTES_ABZÄHLEN: {
 
 // VF GRaph zeichnen:  "1.3.1b"
 // TODO Wfl bestimmen wie bei 1.3.1...
-// 2.1.3b-c keien AHnunhg wie man die löst
+// 2.1.3b-c keine Ahnung wie man die löst
 
 // STAND: als nächstes PÜs
 
+// TODO K-3a-d einordnen & K5 noch irgendwie einbringen, evtl. doch Multiple Choice
+
 // TODO Verteilungen erkennen
 
+// TODO warum existiert Erwartungswert Schlüssel machen als Option in Erwartungswert und Varianz
 
 export const statistik_schlüssel_json: DecisionGraph = {
     rootId: "START",
@@ -89,7 +94,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 },
                 {
                     label:
-                        "Wahrscheinlichkeit P(…) eines konkreten Ereignisses bzw. einer Zuvallsvariable berechnen",
+                        "Wahrscheinlichkeit P(…) eines konkreten Ereignisses bzw. einer Zufallsvariable berechnen",
                     list: [
                         "Berechnen Sie mit Hilfe der Wahrscheinlichkeitsfunktion µ die Wahrscheinlichkeiten von A, B" +
                         " und C.",
@@ -356,7 +361,8 @@ export const statistik_schlüssel_json: DecisionGraph = {
             options:
                 [
                     {
-                        label: "Diskrete Verteilung µ_X(x)=P(X=x) als Tabelle",
+                        label: "Diskrete Verteilung µ_X(x)=P(X=x) oder μ(X,Y) als Tabelle", // TODO Aufteilen in
+                        // μ(X,Y ) und μX
                         list: [
                             "Berechnen Sie die Verteilung von X, indem Sie die zugehörige Wahrscheinlichkeitsfunktion μX bestimmen.",
                             "Bestimmen Sie jeweils die Verteilung der Zufallsvariablen"
@@ -904,28 +910,28 @@ export const statistik_schlüssel_json: DecisionGraph = {
                             "Gegeben Dichte: P(X > 0), P(( 1/2, unendl.)), P(X = 0)"
                         ]
                     },
-                   /*
-                    {
-                        label: "Exakte Berechnung auf Basis von Wahrscheinlichkeiten",
-                        childId: "ZV_WS_EXAKT",
-                        list: [
-                            ""
-                        ]
-                    }
-                    */
+                    /*
+                     {
+                         label: "Exakte Berechnung auf Basis von Wahrscheinlichkeiten",
+                         childId: "ZV_WS_EXAKT",
+                         list: [
+                             ""
+                         ]
+                     }
+                     */
                 ]
         },
-/*
-        ZV_WS_EXAKT: {
-            type: "solution",
-            title: "Wahrscheinlichkeit einer Zufallsvariable exakt berechnen",
-            id: "ZV_WS_EXAKT",
-            aufgaben: [
-                "2.3.1b"
-            ]
-            // TODO
-        },
-*/
+        /*
+                ZV_WS_EXAKT: {
+                    type: "solution",
+                    title: "Wahrscheinlichkeit einer Zufallsvariable exakt berechnen",
+                    id: "ZV_WS_EXAKT",
+                    aufgaben: [
+                        "2.3.1b"
+                    ]
+                    // TODO
+                },
+        */
 
         GR_KL_EINE_ZV: {
             question: "Unter welchen Bedingungen?",
@@ -1510,18 +1516,18 @@ export const statistik_schlüssel_json: DecisionGraph = {
             aufgaben: ["HA 2.1.3?", "PÜ 2.3.6b"],
         },
 
-      /*
-        ERWARTUNGSWERT_MAX_MIN_GEWINN: {
-            id: "ERWARTUNGSWERT_MAX_MIN_GEWINN",
-            type: "solution",
-            title: "E von max/min-Gewinn",
-            points: [
-                "Verteilung von M=max,N=min bestimmen, dann E.",
-                "„Ist das Spiel fair?“ ⇔ E(Gewinn)=0.",
-            ],
-            aufgaben: ["2.1.1"],
-        },
-       */
+        /*
+          ERWARTUNGSWERT_MAX_MIN_GEWINN: {
+              id: "ERWARTUNGSWERT_MAX_MIN_GEWINN",
+              type: "solution",
+              title: "E von max/min-Gewinn",
+              points: [
+                  "Verteilung von M=max, N=min bestimmen, dann E.",
+                  "„Ist das Spiel fair?“ ⇔ E(Gewinn)=0.",
+              ],
+              aufgaben: ["2.1.1"],
+          },
+         */
 
         APPROXIMATIONEN_GRENZWERTE_SCHRANKEN: {
             id: "APPROXIMATIONEN_GRENZWERTE_SCHRANKEN",
@@ -1553,7 +1559,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     list: [
                         "Bestimmen Sie näherungsweise unter Verwendung des Satzes von de Moivre-Laplace",
                         "Wahrscheinlichkeit einer Überbuchung maximal 5% betragen soll...",
-                        "Aproximieren Sie mit Hilfe des Satzes von de Moivre-Laplace "
+                        "Approximieren Sie mit Hilfe des Satzes von de Moivre-Laplace "
                     ]
                 },
                 {
@@ -1674,9 +1680,9 @@ export const statistik_schlüssel_json: DecisionGraph = {
                         "Wie groß kann der Median der oben genannten Daten höchstens werden, wenn ..."
                     ]
                 },
-               /*
-                {label: "„Ist … ein Streumaß?“", childId: "STREUMASS_BEWEISEN"},
-                */
+                /*
+                 {label: "„Ist … ein Streumaß?“ “, childId: "STREUMASS_BEWEISEN"},
+                 */
             ],
         },
 
@@ -1833,9 +1839,9 @@ export const statistik_schlüssel_json: DecisionGraph = {
                         "Bestimmen Sie das Konfidenzintervall approximativ mit Hilfe der Studentschen t-Verteilung"
                     ]
                 },
-               /*
-                {label: "Theorie: Überdeckung, Schnitt, Länge", childId: "KI_THEORIE"}, // TODO anders
-                */
+                /*
+                 {label: "Theorie: Überdeckung, Schnitt, Länge", childId: "KI_THEORIE"}, // TODO anders
+                 */
             ],
         },
 
