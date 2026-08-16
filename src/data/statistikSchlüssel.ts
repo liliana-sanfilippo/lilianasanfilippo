@@ -438,7 +438,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
         F_X_AUS_GRAPH: {
             type: "solution",
             id: "F_X_AUS_GRAPH",
-            title: "Stetige Verteilungsfunktion aus Graph ablesen",
+            title: "Diskrete Verteilungsfunktion aus Graph ablesen",
             points: [
                 "Rechtsstetige Treppenfunktion, Sprunghöhe an x=P(X=x). Stückweise angeben."
             ],
@@ -491,12 +491,18 @@ export const statistik_schlüssel_json: DecisionGraph = {
         F_X_AUS_WS: {
             type: "solution",
             id: "F_X_AUS_WS",
-            title: "Verteilungsfunktion aus Wahrscheinlichkeiten P(X=x) berechnen"
+            title: "Verteilungsfunktion aus Wahrscheinlichkeiten P(X=x) berechnen",
+            points: [
+                "(Von Claude erstellt, noch nicht vollständig überprüft)",
+                "F(x)=Σ_{x_i ≤ x} P(X=x_i): Wahrscheinlichkeiten von links aufaddieren.",
+                "Stückweise angeben (Treppe); rechtsstetig, Sprunghöhe an x = P(X=x).",
+            ],
+            aufgaben: ["K-1e??", "1.3.3e??"], // TODO überprüfen
         },
         F_X_AUS_VF: {
             type: "solution",
             id: "F_X_AUS_VF",
-            title: "Diskrete Verteilungsfunktion aus Graph ablesen",
+            title: "Stetige Verteilungsfunktion aus Graph ablesen",
             aufgaben: [
                 "1.3.2b"
             ]
@@ -561,7 +567,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 ],
             aufgaben:
                 [
-                    "1.3.3f-g"
+                    "1.3.3f-g", "K1-c"
                 ]
         },
 
@@ -578,12 +584,22 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 ]
         },
 
-        VERTEILUNG_ERKENNEN: {
-            type: "solution", // TODO das muss noch ausgefüllt werden
-            title:
-                "Welche Verteilung folgt aus...",
-            id:
-                "VERTEILUNG_ERKENNEN"
+        VERTEILUNG_ERKENNEN: { // Anmerkung: Von Claude erstellt
+            id: "VERTEILUNG_ERKENNEN",
+            type: "solution",
+            title: "Welche Verteilung liegt vor?",
+            points: [
+                "(Von Claude erstellt, noch nicht vollständig überprüft)",
+                "Einzelner Ja/Nein-Versuch ⇒ Bernoulli(p): E=p, Var=p(1−p).",
+                "Anzahl Erfolge in n unabhängigen, gleichen Versuchen ⇒ Binomial(n,p): E=np, Var=np(1−p).",
+                "Wartezeit „bis zum ersten Erfolg“ (Nummer des Versuchs) ⇒ Geometrisch(p): E=1/p, Var=(1−p)/p².",
+                "Anzahl seltener Ereignisse / „im Schnitt λ pro Einheit“ ⇒ Poisson(λ): E=Var=λ.",
+                "Rein zufällig aus [a,b] ⇒ Gleichverteilung: E=(a+b)/2, Var=(b−a)²/12.",
+                "Kontinuierliche Wartezeit/Lebensdauer, „exponentialverteilt mit Parameter λ“ ⇒ Exp(λ): E=1/λ, Var=1/λ², P(X>t)=e^(−λt).",
+                "Summe/Mittel vieler iid (Näherung) ⇒ Normal(µ,σ²).",
+            ],
+            warning: "Geometrisch: zwei Konventionen (ab 1 mit E=1/p vs. ab 0 mit E=(1−p)/p) — „Nummer des Wurfs“ ⇒ ab 1. Exp: „Parameter 1/5“ heißt λ=1/5, also E=5 (nicht 1/5). Binomial nur bei UNABHÄNGIGEN, gleich­verteilten Versuchen (mit Zurücklegen / feste Erfolgs-W.).",
+            aufgaben: ["K-3c", "2.2.3b", "2.3.3b", "PÜ 2.2.6d", "1.5.2"],
         },
 
         VF_GRAPH: {
@@ -734,10 +750,17 @@ export const statistik_schlüssel_json: DecisionGraph = {
         GR_KL_EXP: {
             type: "solution",
             id: "GR_KL_EXP",
-            title: "X < / > x berechnen",
+            title: "P(X>t) / P(X<t) einer exponentialverteilten ZV",
+            //title: "X < / > x berechnen",
             aufgaben: [
                 "1.5.2a"
             ], // TODO
+            points: [
+                "(Von Claude erstellt, noch nicht vollständig überprüft)",
+                "Exp(λ): P(X>t)=e^(−λt), P(X≤t)=1−e^(−λt) (t≥0).",
+                "„länger als t warten“ ⇒ direkt e^(−λt) (Survival-Funktion, kein Integral nötig).",
+                "Parameter-Konvention: „Parameter 1/5“ ⇒ λ=1/5, E=5. Beispiel 1.5.2a: P(X>10)=e^(−10/5)=e^(−2).",
+            ],
         },
 
         W_MEHR_ERG: {
@@ -1077,15 +1100,22 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 ]
         },
 
-        UNABHÄNGIG_GEQ_LEQ: { // TODO
+        UNABHÄNGIG_GEQ_LEQ: {
             type: "solution",
-            title:
-                "Wahrscheinlichkeit, dass eine ZV",
+            // title:  "Wahrscheinlichkeit, dass eine ZV",
+            title: "P(S≥k)/P(S≤k) einer Summe unabhängiger Bernoulli (Binomial)",
             id:
                 "UNABHÄNGIG_GEQ_LEQ",
+            points: [
+                "(Von Claude erstellt, noch nicht vollständig überprüft)",
+                "S = Σ X_i mit X_i iid Bernoulli(p) ⇒ S ~ Binomial(n,p).",
+                "P(S≥k)=Σ_{j=k}^n C(n,j) p^j (1−p)^(n−j); „mindestens k“ ⇒ untere Summationsgrenze k.",
+                "1.4.3: „besteht“ = ≥2K von 4K ⇒ P(S≥2K); „Note 2,3“ = ≥3K ⇒ P(S≥3K). Für konkrete K explizit ausrechnen.",
+                "Bei großem n statt exakt: Normal-/Poisson-Approximation (siehe Approximationen).",
+            ],
             aufgaben:
                 [
-                    "1.4.3b-d", "2.3.1b??" // TODO überprüfen
+                    "1.4.3b-d"
                 ]
         },
 
@@ -1199,8 +1229,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "DIREKTES_ABZÄHLEN",
             "aufgaben":
                 [
-                    "1.1.1c-d", "1.1.2b-c", "1.1.3c-d", "1.4.4", "1.2.3b(-c)",
-                    "Erstklausur 1c"
+                    "1.1.1c-d", "1.1.2b-c", "1.1.3c-d", "1.4.4", "1.2.3b(-c)"
                 ],
             points:
                 [
@@ -1348,8 +1377,17 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "Bernoulli-Experiment(e)",
             aufgaben:
                 [
-                    "1.4.3a", "2.2.3a", "2.3.1a",
-                ]
+                    "1.4.3a", "2.2.3a", "2.3.1a", "K-1a", "K-3a"
+                ],
+            points: [
+                "(Von Claude erstellt, noch nicht vollständig überprüft)",
+                "Jeder Versuch: Erfolg mit W. p, Misserfolg mit 1−p, unabhängig.",
+                "Ω = {0,1}^n; P({ω}) = p^(#Einsen)·(1−p)^(#Nullen). NUR für p=1/2 ist das Laplace!",
+                "Anzahl Erfolge S = Σ ω_i ~ Binomial(n,p).",
+                "Annahmen benennen: Versuche unabhängig, gleiche Erfolgs-W. p.",
+            ],
+            warning: "Verwechslungsgefahr mit Laplace: {0,1}^n ist NICHT gleichverteilt, sobald p≠1/2.",
+
         },
 
         ALLGEMEINER_ENDLICHER_RAUM: {
@@ -1362,6 +1400,12 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 [
                     "1.3.1"
                 ],
+            points: [
+                "(Von Claude erstellt, noch nicht vollständig überprüft)",
+                "Ω endlich, aber Ergebnisse NICHT gleichwahrscheinlich: P({ω}) einzeln festlegen, Σ P({ω})=1.",
+                "Gewichte oft aus der Geometrie: Feldgröße/Fläche ∝ Wahrscheinlichkeit.",
+                "Beispiel 1.3.1a (Glücksrad, Feld „1“ doppelt so groß): P(1)=2/5, P(2)=P(3)=P(4)=1/5.",
+            ],
             warning:
                 "Dies ist kein Laplace-Raum! Ein Laplace-Raum liegt nur vor, wenn alle Elementarergebnisse dieselbe Wahrscheinlichkeit haben."
         },
@@ -1383,8 +1427,6 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     "1.1.1a-b", "1.1.2a", "1.1.3a-b", "1.1.4??", "1.2.3a", "1.3.3a", "2.1.1a", "2.1.3a",
                     "1.4.4??", "2.2.3a",
                     // "2.2.2a",
-                    "Erstklausur 1a???",
-                    "Erstklausur 3a??"
                 ],
             warning:
                 "Die Augensumme mehrerer Würfel ist nicht Laplace-verteilt – auf dem Grundraum zählen!",
@@ -1591,7 +1633,12 @@ export const statistik_schlüssel_json: DecisionGraph = {
             id: "TSCHEBYSCHEFF",
             type: "solution",
             title: "Tschebyscheff",
-            points: ["P(|X−E(X)|≥ε)≤Var(X)/ε².", "Nur obere Schranke, oft grob."],
+            points: [
+                "P(|X−E(X)|≥ε)≤Var(X)/ε².",
+                "Nur obere Schranke, oft grob.",
+                "Vielfaches des Erwartungswerts: P(X ≥ k·E(X)) ≤ Var(X)/((k−1)²·E(X)²)",
+                "Nur obere Schranke, oft grob — starke Abweichung vom exakten Wert ist normal, kein Rechenfehler."
+            ],
             aufgaben: ["PÜ 2.2.5", "PÜ 2.2.6", "2.2.1c", "2.2.2b"],
         },
 
@@ -1612,8 +1659,12 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "P(a≤S_n≤b)≈Φ((b+½−µ)/σ)−Φ((a−½−µ)/σ).",
                 "Φ^−1(0,95)≈1,645.",
             ],
-            references: ["K-3e"],
-            aufgaben: ["PÜ 2.2.4", "PÜ 2.3.6", "2.2.3d-e", "2.3.1b"],
+           // warning: "''mehr als 140'' = S ≥ 141, also Schnittgrenze 140,5: P(S>140) ≈ 1 − Φ((140,5 − 125)/10) = 1
+            // −" +
+             //   " Φ(1,55) ≈ 0,061. Die Grenze 140,5 (Mitte zwischen 140 und 141) ist der springende Punkt — mit
+            //   139,5 (→ Φ(1,45)) würde man versehentlich P(S ≥ 140) rechnen.",
+            warning: "Richtung der Stetigkeitskorrektur genau prüfen: „> 140“ = „≥ 141“ ⇒ Schnittgrenze 140,5 (nicht 139,5). P(S>140)≈1−Φ((140,5−µ)/σ).",
+            aufgaben: ["PÜ 2.2.4", "PÜ 2.3.6", "2.2.3d-e", "2.3.1b", "K-3e"],
         },
 
         ZENTRALER_GRENZWERTSATZ: {
