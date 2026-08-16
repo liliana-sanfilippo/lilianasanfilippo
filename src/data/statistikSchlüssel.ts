@@ -88,8 +88,8 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 {
                     label: "Definieren von Ereignissen, Zufallsvariablen etc.",
                     list: [
-                        //  "Definieren Sie eine Zufallsvariable X, die..."
-                    ], // TODO
+                        "Definieren Sie eine Zufallsvariable X, die..."
+                    ],
                     childId: "DEFINIEREN",
                 },
                 {
@@ -675,7 +675,20 @@ export const statistik_schlüssel_json: DecisionGraph = {
             aufgaben: ["K-3c", "2.2.3b", "2.3.3b", "PÜ 2.2.6d", "1.5.2"],
         },
 
-        VF_GRAPH: {
+        VF_SKIZZIEREN: {
+            id: "VF_SKIZZIEREN",
+            type: "solution",
+            title: "Verteilungsfunktion skizzieren",
+            points: [
+                "Immer: links 0, rechts 1, monoton steigend, rechtsstetig.",
+                "Diskret: Treppenfunktion; Sprunghöhe an x = P(X=x); dazwischen waagerecht.",
+                "Stetig: stückweise steigende Kurve (Steigung = Dichte), keine Sprünge.",
+                "Gemischt: Sprünge UND steigende Stücke kombinieren.",
+            ],
+            // TODO aufgaben: ["1.3.1a(v)", "1.3.1b(iii)", "K-1f", "K-2c"],
+        },
+
+        VF_GRAPH_LESEN: {
             type: "solution",
             title:
                 "VF-Graph lesen",
@@ -734,9 +747,9 @@ export const statistik_schlüssel_json: DecisionGraph = {
                         label: "Verteilungsfunktionen aus Graph", //  diskret / stetig / gemischt
                         list: [
                             "Skizzieren Sie den Graphen der Verteilungsfunktion.",
-                            "Die Funktion F sei durch den folgenden Graphen gegeben"
+                            //"Die Funktion F sei durch den folgenden Graphen gegeben"
                         ],
-                        childId: "VF_GRAPH",
+                        childId: "VF_SKIZZIEREN",
                     },
                     {
                         label: "Randdichte bestimmen",
@@ -793,9 +806,20 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     },
                     {
                         label: "Unsicher, ob Ereignis oder Zufallsvariable",
-                        childId: "" // TODO
+                        childId: "EREIGNIS_ODER_ZV" // TODO list
                     },
                 ],
+        },
+
+        EREIGNIS_ODER_ZV: {
+            id: "EREIGNIS_ODER_ZV",
+            type: "solution",
+            title: "Ereignis oder Zufallsvariable?",
+            points: [
+                "Ereignis = eine Ja/Nein-Aussage über den Ausgang (Teilmenge von Ω); man fragt P(Ereignis).",
+                "Zufallsvariable = eine Zahl, die vom Ausgang abhängt (Abbildung Ω→ℝ); man fragt P(X≤x), E(X) usw.",
+                "Faustregel: steht eine Zahl/Größe im Zentrum (Anzahl, Wartezeit, Summe, Maximum) ⇒ ZV; steht ein Sachverhalt im Zentrum ⇒ Ereignis.",
+            ],
         },
 
         W_EIN_ERG: {
@@ -990,8 +1014,9 @@ export const statistik_schlüssel_json: DecisionGraph = {
             options:
                 [
                     {
-                        label: "P(X ≤ x) bzw. P(X ≤ x) / dass eine Zufallsvariable mindestens oder maximal" +
-                            " einen bestimmten Wert hat",
+                        //label: "P(X ≤ x) bzw. P(X ≤ x) / dass eine Zufallsvariable mindestens oder maximal" +
+                        //    " einen bestimmten Wert hat",
+                        label: "Summe/Anzahl unabhängiger Ja-Nein-Versuche (Binomial): P(S≥k) / P(S≤k)",
                         childId: "GR_KL_EINE_ZV",
                         list: [
                             "Bestimmen Sie die Wahrscheinlichkeit, daß René die Klausur besteht",
@@ -1043,7 +1068,8 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     ]
                 },
                 {
-                    label: "Zufallsvariablen sind nicht unabhängig? Oder Exponentialverteilt?",
+                    //label: "Zufallsvariablen sind nicht unabhängig? Oder Exponentialverteilt?",
+                    label: "Einzelne exponentialverteilte Wartezeit: P(X>t) / P(X<t)",
                     childId: "GR_KL_EXP",
                     list: [
                         "Wartezeit"
@@ -1219,7 +1245,8 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     },
                     {
                         label: "x-groß oder größer / mindestens Wert x hat",
-                        childId: "" // TODO
+                        childId: "MAX_MIN_DISKRET_LAPLACE"
+                         // TODO list
                     },
                     {
                         label: "Ereignis lässt sich auf mehrere andere Ereignisse herunterbrechen; „mindestens eine" +
@@ -1239,6 +1266,18 @@ export const statistik_schlüssel_json: DecisionGraph = {
                         ]
                     },
                 ]
+        },
+
+        MAX_MIN_DISKRET_LAPLACE: {
+            id: "MAX_MIN_DISKRET_LAPLACE",
+            type: "solution",
+            title: "„größte/kleinste Zahl > / < x“ im Produkt-Laplace",
+            points: [
+                "„alle ≤ k“ ⇒ (k/m)^n bei n Würfen mit m Seiten. „größte < 5“ = „alle ≤ 4“ = (4/6)^n.",
+                "„größte > k“ = 1 − „alle ≤ k“ (Gegenereignis).",
+                "„kleinste ≥ k“ = „alle ≥ k“ = ((m−k+1)/m)^n.",
+            ],
+            aufgaben: ["PÜ 1.4.4b (B, D)"],
         },
 
         FIXPUNKTE_PERMUTATIONEN: {
@@ -1560,11 +1599,30 @@ export const statistik_schlüssel_json: DecisionGraph = {
                         "wie viele Freundinnen ihr eigenes Geschenk bekommen"
                     ]
                 },
+                {
+                    label: "Warum existiert der Erwartungswert?",
+                    childId: "EXISTENZ_EW",
+                    list: [
+                        "Begründungen angeben"
+                    ]
+                }
 
                 /*
                  {label: "E von max/min oder Gewinn", childId: "ERWARTUNGSWERT_MAX_MIN_GEWINN"},
                  */
             ],
+        },
+
+        EXISTENZ_EW: {
+            id: "EXISTENZ_EW",
+            type: "solution",
+            title: "Warum existieren E und Var?",
+            points: [
+                "Endlicher Bildbereich (endlich viele Werte) ⇒ E und Var existieren IMMER (endliche Summe).",
+                "Beschränkte ZV auf kompaktem Träger (z.B. Dichte auf [a,b]) ⇒ existieren (Integral über beschränkten Bereich).",
+                "Sonst prüfen: Σ|x|·P(X=x) < ∞ bzw. ∫|x|·f(x) dx < ∞ (absolute Konvergenz); für Var zusätzlich E(X²) < ∞.",
+            ],
+            // TODO aufgaben: ["PÜ 2.1.5c", "PÜ 2.1.6a", "2.1.2b", "K-1g", "K-2e"],
         },
 
         // TODO Aufteilen für einzelne Verteilungen?
@@ -2136,6 +2194,25 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "Fehler 1. Art: H₀ verwerfen, obwohl wahr (≤α). Fehler 2. Art: H₀ behalten, obwohl falsch.",
                 "p-Wert = kleinstes α, bei dem noch verworfen wird.",
             ],
+        },
+
+        // TODO noch nicht benutzt:
+        THEORIE_WAHR_FALSCH: {
+            id: "THEORIE_WAHR_FALSCH",
+            type: "solution",
+            title: "Wahr/Falsch & Theorie — Schnellchecks",
+            points: [
+                "Median: mind. Hälfte ≥ und mind. Hälfte ≤ Median ⇒ WAHR (Definition).",
+                "p-Quantil ist ein Lagemaß ⇒ WAHR.",
+                "X̄ erwartungstreu für E(X) bei iid ⇒ WAHR (E(X̄)=E(X_1)); gilt auch für Exp-Stichprobe.",
+                "P(A|B)=P(A) ⇒ P(A|Bᶜ)=P(A) ⇒ WAHR (A,B unabhängig ⇒ A,Bᶜ unabhängig).",
+                "Var(X) ≤ E(X²) ⇒ WAHR (Var=E(X²)−E(X)² ≤ E(X²)).",
+                "Var(2X+Y−1)=4Var(X)+Var(Y) bei Unabh. ⇒ die Formel „2Var(X)+Var(Y)−1“ ist FALSCH (a wird quadriert, Konstante fällt weg).",
+                "Geometrisch(½): P(X≤3|X>2)=½ ⇒ WAHR (Gedächtnislosigkeit; {X≤3}∩{X>2}={X=3}, ½).",
+                "E(X)=0 ⇒ P(X>0)=P(X<0) ⇒ FALSCH (Gegenbeispiel: X=−1 mit 2/3, X=+2 mit 1/3).",
+            ],
+            references: ["K-5"],
+            warning: "Nicht auswendig lernen, sondern die 1-Zeilen-Begründung mitdenken — in der Klausur variieren die Zahlen.",
         },
     },
 }
