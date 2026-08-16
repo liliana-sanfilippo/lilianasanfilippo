@@ -508,9 +508,9 @@ export const statistik_schlüssel_json: DecisionGraph = {
             ]
         },
 
-        F_X_AUS_GRAPH: {
+        F_X_AUS_VF: {
             type: "solution",
-            id: "F_X_AUS_GRAPH",
+            id: "F_X_AUS_VF",
             title: "Diskrete Verteilungsfunktion aus Graph ablesen",
             points: [
                 "Rechtsstetige Treppenfunktion, Sprunghöhe an x=P(X=x). Stückweise angeben."
@@ -572,13 +572,19 @@ export const statistik_schlüssel_json: DecisionGraph = {
             ],
             aufgaben: ["K-1e??", "1.3.3e??"], // TODO überprüfen
         },
-        F_X_AUS_VF: {
+
+        F_X_AUS_GRAPH: {
             type: "solution",
-            id: "F_X_AUS_VF",
+            id: "F_X_AUS_GRAPH",
             title: "Stetige Verteilungsfunktion aus Graph ablesen",
             aufgaben: [
-                "1.3.2b"
-            ]
+                "1.3.2a"
+            ],
+            points: [
+                "Kein Sprung ⇒ stetige Verteilung; stückweise ablesen.",
+                "Dichte = Steigung: f(x)=F'(x) abschnittsweise.",
+                "P(a<X≤b)=F(b)−F(a); P(X=x)=0.",
+            ],
         },
 
         //  "1.3.3e", "K-1e/f"
@@ -693,7 +699,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             title:
                 "VF-Graph lesen",
             id:
-                "VF_GRAPH",
+                "VF_GRAPH_LESEN",
             points:
                 [
                     "Sprünge⇒diskreter Anteil, P(X=x)=Sprunghöhe.",
