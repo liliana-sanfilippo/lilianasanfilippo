@@ -90,7 +90,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     list: [
                         //  "Definieren Sie eine Zufallsvariable X, die..."
                     ], // TODO
-                    childId: "",
+                    childId: "DEFINIEREN",
                 },
                 {
                     label:
@@ -179,6 +179,96 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     childId: "HYPOTHESENTEST",
                 },
             ],
+        },
+
+        DEFINIEREN: {
+            id: "DEFINIEREN",
+            type: "question",
+            crumb: "Definieren",
+            question: "Was genau sollst du definieren?",
+            description: "Reihenfolge fast immer: (1) Definitions-/Wertebereich, (2) Bildbereich, (3) Zuordnungsvorschrift.",
+            options: [
+                {
+                    label: "Ereignis(se) als Teilmenge von Ω",
+                    childId: "EREIGNIS_DEF",
+                    list: [
+                        "Definieren Sie Ereignisse A, B und C als Teilmengen von Ω",
+                        "A: mindestens ein Würfel zeigt eine gerade Zahl",
+                    ],
+                },
+                {
+                    label: "Eine Zufallsvariable als Abbildung ω↦X(ω)",
+                    childId: "ZV_DEF",
+                    list: [
+                        "Definieren Sie eine Zufallsvariable X, die …",
+                        "Geben Sie Definitions-, Werte- und Bildbereich an",
+                    ],
+                },
+                {
+                    label: "Eine ZV aus anderen ZV (max/min/Summe/Differenz)",
+                    childId: "ZV_AUS_ZV",
+                    list: [
+                        "Stellen Sie X mit Hilfe der Zufallsvariablen T1, T2, T3 und T4 dar",
+                        "Definieren Sie G mit Hilfe der Zufallsvariablen M und N",
+                    ],
+                },
+                {
+                    label: "Zähl- oder Indikatorvariable („Anzahl von …“)",
+                    childId: "ZAEHL_INDIKATOR_DEF",
+                    list: [
+                        "Definieren Sie X_i, das genau dann 1 ist, wenn …",
+                        "Definieren Sie eine Zufallsvariable S, die angibt, wie viele …",
+                    ],
+                },
+            ],
+        },
+
+        EREIGNIS_DEF: {
+            id: "EREIGNIS_DEF",
+            type: "solution",
+            title: "Ereignis als Teilmenge",
+            points: [
+                "Ereignis explizit als Teilmenge von Ω schreiben (Aufzählung oder {ω : Bedingung}).",
+                "„und“ = ∩, „oder“ = ∪, „nicht“ = Komplement; „mindestens ein“ oft über das Komplement leichter.",
+                "Prüfen: Liegt jedes aufgezählte ω wirklich in Ω?",
+            ],
+           // TODO aufgaben: ["1.1.1c", "1.1.3c", "1.2.3b", "PÜ 1.4.4b", "1.6.1b", "PÜ 1.6.4b"],
+        },
+
+        ZV_DEF: {
+            id: "ZV_DEF",
+            type: "solution",
+            title: "Zufallsvariable als Abbildung",
+            points: [
+                "Angeben: Definitionsbereich Ω, Wertebereich, Bildbereich X(Ω), Vorschrift ω↦X(ω).",
+                "Wertebereich (mögliche Argumente) ≠ Bildbereich (tatsächlich angenommene Werte).",
+                "X ist eine Funktion auf Ω, keine Zahl: erst sagen, was ω ist, dann was X(ω) ist.",
+            ],
+            // TODO aufgaben: ["1.3.1a", "1.3.3b-c", "K-1b"],
+        },
+
+        ZV_AUS_ZV: {
+            id: "ZV_AUS_ZV",
+            type: "solution",
+            title: "ZV aus anderen ZV zusammensetzen",
+            points: [
+                "Zielgröße als Term in den gegebenen ZV ausdrücken (max, min, +, −, ·).",
+                "System-Zuverlässigkeit: Reihe ⇒ min, Parallel ⇒ max. „K1,K2 oder K3,K4“ ⇒ X=max{min(T1,T2), min(T3,T4)}.",
+                "Gewinn/Auszahlung: Auszahlung minus Einsatz, z.B. G=(M−N)−Einsatz.",
+            ],
+            // TODO aufgaben: ["1.5.3b", "2.1.1c"],
+        },
+
+        ZAEHL_INDIKATOR_DEF: {
+            id: "ZAEHL_INDIKATOR_DEF",
+            type: "solution",
+            title: "Zähl-/Indikatorvariable",
+            points: [
+                "Indikator: X_i = 1, falls Ereignis_i eintritt, sonst 0  (X_i = 1_{Ereignis_i}).",
+                "Zählgröße als Summe: S = Σ X_i (zählt, wie oft das Ereignis eintritt).",
+                "Für den Erwartungswert später: E(S)=Σ P(X_i=1) (Linearität) → Knoten „Indikator-Zerlegung“.",
+            ],
+            // TODO aufgaben: ["2.1.3d-e", "2.1.1b", "2.2.3b", "2.3.3b-c", "K-3b"],
         },
 
         UNABHÄNGIGKEIT: {
@@ -298,23 +388,6 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 ["PÜ 1.5.5", "1.5.3c"],
         },
 
-        ZV_DEF: {
-            type: "solution",
-            title:
-                "Zufallsvariable definieren",
-            id:
-                "ZV_DEF",
-            points:
-                [
-                    "Definitionsbereich Ω, Wertebereich/Bildbereich X(Ω), Vorschrift ω↦X(ω).",
-                    "Wertebereich (Argumente) ≠ Bildbereich (angenommene Werte).",
-                    "Ref: K-1b."
-                ],
-            aufgaben:
-                [
-                    "1.3.1a", "1.3.3b-c"
-                ]
-        },
 
         DISKRETE_VERTEILUNG: {
             type: "solution",
