@@ -17,6 +17,7 @@ import type {
 } from "./decisionTree.types";
 import {isSolution, nodeLabel} from "./decisionTree.types";
 import "../../componentStyling/DecisionTree.css";
+import {Accordion, AccordionBody, AccordionHeader, AccordionItem} from "react-bootstrap";
 
 export interface DecisionTreeProps {
     /** Der Entscheidungsgraph (flache Knotentabelle + Wurzel-ID). */
@@ -255,11 +256,24 @@ function SolutionView({
             {node.aufgaben && node.aufgaben.length > 0 && (
                 <div className="aufgaben">
                     <h3>Aufgaben aus der Vorlesung:</h3>
-                    <ul>
+                    <Accordion>
                         {node.aufgaben.map((a, i) => (
-                            <li key={i}><b>{a.nummer}: {a.text}</b></li>
+                            <AccordionItem eventKey={i.toString()}>
+                                <AccordionHeader>
+                                    <span> {a.nummer}{a.title && <span>: <small>{a.title}</small></span>}</span>
+                                </AccordionHeader>
+                                <AccordionBody>
+                                    {a.text}
+                                    {
+                                        a.loesung &&
+                                        <div>
+                                            <p><b>Lösung:</b></p>
+                                        </div>
+                                    }
+                                </AccordionBody>
+                            </AccordionItem>
                         ))}
-                    </ul>
+                    </Accordion>
                 </div>
             )}
 
