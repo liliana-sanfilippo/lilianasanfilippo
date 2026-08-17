@@ -8,6 +8,7 @@ import {AboutPage} from "../pages/meta/AboutPage";
 import {BlogPostWrapper} from "../components/pageRelated/BlogPostWrapper";
 import TagIndexPageWrapper from "../components/pageRelated/TagIndexWrapper";
 import TagPageWrapper from "../components/pageRelated/tags";
+import {StatistikSchlüssel} from "../pages/uni/statistik_schlüssel";
 
 const App = () => {
 
@@ -49,8 +50,10 @@ const App = () => {
                             )
                             }
 
+                            <Route path={`${process.env.REACT_APP_UNI_PATH}/learning-materials/wts/schlüssel`} element={<StatistikSchlüssel/>} />
 
-                            <Route path={`${process.env.REACT_APP_REACT_REFERENCE_MANAGER_PATH}/:pageName`}
+
+                                <Route path={`${process.env.REACT_APP_REACT_REFERENCE_MANAGER_PATH}/:pageName`}
                                    element={<WikiPage folder={"wiki"}/>}/>
                             <Route path={`${process.env.REACT_APP_REACT_REFERENCE_GENERATOR_PATH}/:pageName`}
                                    element={<WikiPage folder={"wiki-generator"}/>}/>
@@ -58,7 +61,7 @@ const App = () => {
                                    element={<WikiPage folder={"wiki-parser"}/>}/>
                             <Route path={`${process.env.REACT_APP_REACT_AUTHOR_PARSER_PATH}/:pageName`}
                                    element={<WikiPage folder={"wiki-author"}/>}/>
-                            <Route path={`${process.env.REACT_APP_UNI_PATH}/:pageName`}
+                            <Route path={`${process.env.REACT_APP_UNI_PATH}/learning-materials/:pageName`}
                                    element={<WikiPage folder={"uni"}/>}/>
                             <Route path={`${process.env.REACT_APP_IGEM_BIELEFELD_PATH}/:pageName`}
                                    element={<WikiPage folder={"igemnotes"}/>}/>
