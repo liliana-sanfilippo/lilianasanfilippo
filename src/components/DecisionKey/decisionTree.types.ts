@@ -8,6 +8,7 @@
 // verweisen über `childId`. Dadurch dürfen mehrere Optionen/Pfade auf
 // DENSELBEN Knoten (z. B. dieselbe Lösung) zeigen -> Graph statt Baum.
 
+import { ReactNode } from "react";
 import {StatistikAufgabe} from "../../types/statistik_types";
 
 export type NodeId = string;
@@ -17,6 +18,7 @@ interface NodeBase {
     id: NodeId;
     /** Optionaler Titel für Breadcrumb/Anzeige. */
     title?: string;
+    fertig?: boolean
 }
 
 /** Ein Entscheidungsknoten mit Auswahlmöglichkeiten. */
@@ -32,12 +34,14 @@ export interface QuestionNode extends NodeBase {
 export interface SolutionNode extends NodeBase {
     type: "solution";
     title: string;
-    points?: string[];
+    points?: ReactNode[];
     aufgaben?: StatistikAufgabe[];
-    warning?: string;
+    warning?: string | string[];
     references?: string[];
     crumb?: string;
 }
+
+export type StatistikItem =  string | React.ReactNode |HTMLElement;
 
 export type DecisionNode = QuestionNode | SolutionNode;
 

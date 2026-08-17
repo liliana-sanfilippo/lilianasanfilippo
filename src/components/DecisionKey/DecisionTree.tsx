@@ -228,7 +228,11 @@ function SolutionView({
     return (
         <>
             <div className="kicker">Lösung {node.id}</div>
-
+            {
+                !node.fertig && <div className="">
+                    <strong>(Noch nicht final kontrolliert / vollständig)</strong>
+                </div>
+            }
             <div className="solution">
                 <h2>{node.title}</h2>
 
@@ -240,10 +244,19 @@ function SolutionView({
                     </ul>
                 )}
 
-                {node.warning && (
+                {typeof node.warning == "string" && (
                     <div className="warning">
                         <strong>⚠ Hinweis:</strong> {node.warning}
                     </div>
+                )}
+
+                {typeof node.warning != "string" && node.warning && (
+                   node.warning.map((w, i) => (
+                       <div className="warning">
+                           <strong>⚠ Hinweis:</strong> {w}
+                       </div>
+                       )
+                   )
                 )}
 
                 {node.references && node.references.length > 0 && (
@@ -263,11 +276,15 @@ function SolutionView({
                                     <span> {a.nummer}{a.title && <span>: <small>{a.title}</small></span>}</span>
                                 </AccordionHeader>
                                 <AccordionBody>
-                                    {a.text}
+                                   <p> <div><b>Aufgabenstellung:</b>
+                                   </div>
+                                       {a.text}</p>
                                     {
                                         a.loesung &&
                                         <div>
-                                            <p><b>Lösung:</b></p>
+                                            <div><b>Lösung:</b>
+                                            </div>
+                                            {a.loesung}
                                         </div>
                                     }
                                 </AccordionBody>

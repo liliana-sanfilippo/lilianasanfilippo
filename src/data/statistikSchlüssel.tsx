@@ -240,6 +240,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "Wertebereich (mögliche Argumente) ≠ Bildbereich (tatsächlich angenommene Werte).",
                 "X ist eine Funktion auf Ω, keine Zahl: erst sagen, was ω ist, dann was X(ω) ist.",
             ],
+            warning: "Hinschreiben ∀ ω ∈ Ω, da es nur auf diese zutrifft.",
             aufgaben: [
                 statistikAufgaben["1.3.1a"], statistikAufgaben["1.3.3b-c"], statistikAufgaben["K-1b"]
             ],
@@ -473,7 +474,10 @@ export const statistik_schlüssel_json: DecisionGraph = {
             id: "F_X_AUS_DICHTE",
             type: "solution",
             title: "Verteilungsfunktion aus Dichte berechnen",
-            points: ["Integrieren: F(x)=∫_{−∞}^x f. Stückweise über Trägerintervalle; f=F'."],
+            points: [
+                <span> Integrieren: F(x)=∫<sup>x</sup><sub>{"−∞"}</sub> f</span>,
+                "Stückweise über Trägerintervalle", "f=F'"
+            ],
         },
 
         F_X_AUS_VF: {
@@ -568,6 +572,32 @@ export const statistik_schlüssel_json: DecisionGraph = {
             title: "Randdichte",
             aufgaben: [statistikAufgaben["1.4.2c"], statistikAufgaben["1.5.1b"]],
         },
+/*
+        GEMEINSAME_VERTEILUNG_DISKRET : {
+            id: "GEMEINSAME_VERTEILUNG_DISKRET",
+            type: "solution",
+            title: "",
+            points: [
+                "Bei diskreten Zufallsvariablen berechnet man die gemeinsame Wahrscheinlichkeitsfunktion"
+            ]
+        },
+
+        GEMEINSAME_VERTEILUNG_UNABHÄNGIG : {
+            id: "GEMEINSAME_VERTEILUNG_UNABHÄNGIG",
+            type: "solution",
+            title: "",
+            points: [
+                "Multiplizieren der Einzelverteilungen"
+            ]
+        },
+
+        GEMEINSAME_VERTEILUNG_STETIG : {
+            id: "GEMEINSAME_VERTEILUNG_STETIG",
+            type: "solution",
+            title: ""
+        },
+
+ */
 
         GEMEINSAME_VERTEILUNG: {
             id: "GEMEINSAME_VERTEILUNG",
@@ -575,8 +605,25 @@ export const statistik_schlüssel_json: DecisionGraph = {
             title: "Gemeinsame Verteilung zweier ZV",
             points: [
                 "Matrix P(X=x,Y=y).",
-                "Mit Zurücklegen ⇒ unabhängig ⇒ Produkt der Ränder; ohne Zurücklegen ⇒ nicht.",
-                // TODO "Ref: K-1c; 1.3.4f/g",
+                <ul>
+                    <li>
+                        Bei <b>diskreten</b> Zufallsvariablen berechnet man die gemeinsame Wahrscheinlichkeitsfunktion
+                    </li>
+                    <ul>
+                        <li>µ<sub>X,Y</sub>(x,y)=P(X=x,Y=y)</li>
+                    </ul>
+                    <li>Bei <b>unabhängigen</b> Zufallsvariablen multipliziert man die Einzelverteilungen</li>
+                    <ul>
+                        <li>P(X=x,Y=y)=P(X=x)⋅P(Y=y)
+                        </li>
+                    </ul>
+                    <li>Bei <b>stetigen</b> Zufallsvariablen verwendet man die gemeinsame Dichte</li>
+                    <ul>
+                        <li>f<sub>X,Y</sub>(x,y)</li>
+                    </ul>
+                </ul>,
+                "Mit Zurücklegen ⇒ unabhängig; ohne Zurücklegen oder bspw. min/max ⇒ nicht.",
+                //<span> ∑<sub>x ∈ Bx</sub>  ∑<sub>y ∈ By</sub> µ<sub></sub>  </span>,
             ],
             aufgaben: [statistikAufgaben["1.3.3f-g"], statistikAufgaben["K-1c"]],
         },
@@ -690,6 +737,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     list: ["Bestimmen Sie die Randdichten von X und Y "],
                     childId: "RANDDICHTE",
                 }
+                // TODO Dichte bestimmen generell / uniformverteilt
             ]
         },
 
@@ -852,7 +900,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             options: [
                 {
                     label: "Direkt P(A|B)",
-                    list: [],
+                    list: [], // TODO
                     childId: "DIREKT_BEDINGT",
                 },
                 {
@@ -1012,6 +1060,13 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     list: ["P(min≤x)"]
                 },
                 {
+                    label: "Bedingte Wahrscheinlichkeit P(A|B), „gegeben, dass“, Rückwärts-Frage",
+                    childId: "BEDINGTE_WS",
+                    list: [
+                       // TODO
+                    ]
+                },
+                {
                     label: "Gemeinsame Dichte zweier ZV",
                     childId: "GEMEINSAME_DICHTE",
                     list: [
@@ -1098,6 +1153,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             title: "Wahrscheinlichkeit über eine Dichte",
             points: [
                 "P((a,b]) = ∫_a^b f. Grenzen auf den Träger {f>0} einschränken.",
+                "P(a ≤ X ≤ b) = |[a,b]| / |I|",
                 "P(Punkt)=0 (stetig) → offen/geschlossen egal: außer bei einem Sprung.",
                 // TODO "Ref: K-2d; HA 1.2.4.",
             ]
@@ -1337,12 +1393,22 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Bernoulli-Experiment(e)",
             points: [
-                "Jeder Versuch: Erfolg mit W. p, Misserfolg mit 1−p, unabhängig.",
-                "Ω = {0,1}^n; P({ω}) = p^(#Einsen)·(1−p)^(#Nullen). NUR für p=1/2 ist das Laplace!",
+                "Jeder Versuch: Erfolg mit Ws. p, Misserfolg mit 1−p, unabhängig.",
+                <ul>
+                    <li>{"Ω = {0,1}^n"}</li>
+                    <li> ω = (ω1, ..., ωn) </li>
+                    <li>{"P({ω}) = p^(#Einsen)·(1−p)^(#Nullen)"}</li>
+                </ul>,
+                "NUR für p=1/2 ist das Laplace!",
                 "Anzahl Erfolge S = Σ ω_i ~ Binomial(n,p).",
-                "Annahmen benennen: Versuche unabhängig, gleiche Erfolgs-W. p.",
+                "Annahmen benennen: Versuche unabhängig, gleiche Erfolgs-Ws. p.",
             ],
-            warning: "Verwechslungsgefahr mit Laplace: {0,1}^n ist NICHT gleichverteilt, sobald p≠1/2.",
+            warning: [
+                "Verwechslungsgefahr mit Laplace: {0,1}^n ist NICHT gleichverteilt, sobald p≠1/2.",
+                "Wenn Ω = {0,1}^n, dann ist ein ω sowas wie (0,0) bzw. (0,...,0)! Also nicht stolpern und angeben" +
+                " P({0})=..., sondern unbedingt korrekt entweder P({(0,0)}) bzw. μ((0,0)). Sonst ist das nicht" +
+                " vollständig."
+            ],
             aufgaben: [
                 statistikAufgaben["1.4.3a"], statistikAufgaben["2.2.3a"], statistikAufgaben["2.3.1a"],
                 statistikAufgaben["K-1a"], statistikAufgaben["K-3a"],
@@ -1367,10 +1433,17 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Endlicher Laplace-Raum",
             points: [
-                "Ω explizit als Menge angeben; bei mehrstufig/wiederholt als Produktraum Ω = {…}^n.",
-                "P(A) = #A / #Ω = günstige / mögliche, µ({ω}) = 1/#Ω.",
-                "Nur bei echter Gleichwahrscheinlichkeit. Auf dem Grundraum zählen, nicht auf der Summenebene (die Augensumme dreier Würfel ist nicht Laplace-verteilt).",
+                "Je nach Aufgabenstellung:",
+                <ul>
+                <li>Ω explizit als Menge angeben</li>
+                    <li>{"Ω als Produktraum Ω = {...}^n, wenn mehrstufig/wiederholt"}</li>
+                </ul>,
+                "P(A) = #A / #Ω = günstige / mögliche",
+                "µ({ω}) = 1/#Ω",
+                "Nur bei echter Gleichwahrscheinlichkeit! Auf dem Grundraum zählen, nicht auf der Summenebene (siehe" +
+                " Warnung).",
             ],
+            fertig: false,
             warning: "Die Augensumme mehrerer Würfel ist nicht Laplace-verteilt – auf dem Grundraum zählen!",
             aufgaben: [
                 statistikAufgaben["1.1.1a-b"], statistikAufgaben["1.1.2a"], statistikAufgaben["1.1.3a-b"],
@@ -1487,7 +1560,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             title: "Diskret",
             points: [
                 "E(X)=Σx·P(X=x), Var(X)=E(X²)−E(X)².",
-                "Standardverteilungen über Anhang V erkennen.",
+                "Standardverteilungen kennen!", // TODO
             ],
             aufgaben: [
                 statistikAufgaben["2.1.1d-e"], statistikAufgaben["2.2.3c"],
