@@ -935,7 +935,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             title: "Direkte bedingte Wahrscheinlichkeit",
             points: [
                 "P(A|B)=P(A∩B)/P(B), P(B)>0.",
-                "Ref: 1.6.5.",
+                // TODO  "Ref: 1.6.5.",
             ]
         },
 
@@ -945,7 +945,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             title: "Totale Wahrscheinlichkeit",
             points: [
                 "P(A)=Σ_i P(A|B_i)P(B_i).",
-                "Ref: 1.6.4d, 1.6.6d",
+                // TODO "Ref: 1.6.4d, 1.6.6d",
             ],
             aufgaben: [statistikAufgaben["1.6.1c"]],
         },
@@ -958,7 +958,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "P(B_k|A)=P(A|B_k)P(B_k)/Σ_iP(A|B_i)P(B_i).",
                 "Zweistufiges Experiment erkennen.",
                 "Ohne Zurücklegen ⇒ Züge abhängig.",
-                "Ref: 1.6.4e, 1.6.6e",
+                // TODO "Ref: 1.6.4e, 1.6.6e",
             ],
             aufgaben: [statistikAufgaben["1.6.1d"]],
         },
@@ -970,7 +970,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             points: [
                 "P(Aᶜ|D)=1−P(A|D); P(A∪B|D)=P(A|D)+P(B|D)−P(A∩B|D).",
                 "P(A∩B|D) folgt nicht allein aus P(A|D),P(B|D).",
-                "Ref: 1.6.5.",
+                // TODO "Ref: 1.6.5.",
             ]
         },
 
@@ -1373,7 +1373,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             points: [
                 "Ω = ℕ (oder ℕ₀), Wahrscheinlichkeitsfunktion P({k}) = p_k mit Σ p_k = 1.",
                 "Weitere sinnvolle Wahlen: fein (ganze Wurffolge) vs. grob (nur Endsumme): die interessierende Größe muss messbar bleiben.",
-                "Ref: 1.0.2, 1.1.6, 2.2.6.",
+                // TODO "Ref: 1.0.2, 1.1.6, 2.2.6.",
             ],
             aufgaben: [statistikAufgaben["2.3.3a"]],
             // TODO zu 2.3.3 mehr erklären
