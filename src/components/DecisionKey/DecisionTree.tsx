@@ -86,7 +86,7 @@ export default function DecisionTree({
     return (
         <div className="decision-tree">
             <Breadcrumbs nodes={pathNodes} onNavigate={goTo} onReset={reset}/>
-
+            <p> Hinweis: Schlüssel insgesamt noch nicht vollständig!</p>
             {isSolution(current) ? (
                 <SolutionView
                     node={current}

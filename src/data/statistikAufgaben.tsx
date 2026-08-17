@@ -707,8 +707,15 @@ export const statistikAufgaben: Record<string, StatistikAufgabe> = {
     "K-2e": {
         nummer: "K-2e",
         title: "E(X) (Gleichverteilung)",
-        text: "Berechnen Sie den Erwartungswert der Gleichverteilung auf [−1, 2].",
-        loesung: "E(X) = (a+b)/2 = (−1+2)/2 = 1/2.",
+        text: "Berechnen Sie den Erwartungswert der Gleichverteilung auf [−1, 2]. Warum existiert der?",
+        loesung: <span>
+        <p>Existiert, weil X auf dem kompakten Intervall [-1,2] beschränkt ist und außerhalb gleich Null.</p>
+            Zwei Möglichkeiten zum Berechnen:
+        <ul>
+            <li> E(X) = (a+b)/2 = (−1+2)/2 = 1/2 </li>
+            <li> E(X) = ∫ x * f dx = ∫<sup>∞</sup><sub>-∞</sub> x * f dx = ∫<sup>2</sup><sub>-1</sub> x * 1/3 dx = 1/3 * x<sup>2</sup>/2 |<sup>2</sup><sub>-1</sub> = 1/6 [4-1] = 1/2</li>
+        </ul>
+        </span>
     },
     "K-3a": {
         nummer: "K-3a",
@@ -736,4 +743,5 @@ export const statistikAufgaben: Record<string, StatistikAufgabe> = {
         loesung: "P(S>140)=P(S≥141) ≈ 1 − Φ((140,5 − 125)/10) = 1 − Φ(1,55) ≈ 0,061.",
         warnung: "„> 140“ = „≥ 141“ ⇒ Schnittgrenze 140,5 (nicht 139,5).",
     },
+
 };

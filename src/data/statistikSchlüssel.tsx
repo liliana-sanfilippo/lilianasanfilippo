@@ -162,15 +162,15 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     ],
                     childId: "HYPOTHESENTEST",
                 },
-             /*
-                {
-                    label: "Wahr/Falsch-Ankreuzen / reine Theoriefrage",
-                    list: [
-                        "Kennzeichnen Sie durch Ankreuzen, welche Aussagen wahr und welche falsch sind"
-                    ],
-                    childId: "THEORIE_WAHR_FALSCH",
-                },
-              */
+                /*
+                   {
+                       label: "Wahr/Falsch-Ankreuzen / reine Theoriefrage",
+                       list: [
+                           "Kennzeichnen Sie durch Ankreuzen, welche Aussagen wahr und welche falsch sind"
+                       ],
+                       childId: "THEORIE_WAHR_FALSCH",
+                   },
+                 */
             ],
         },
 
@@ -390,7 +390,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "Für jedes x∈X(Ω): P(X=x) bestimmen; Σ=1 prüfen. Bei Laplace: abzählen.",
                 "Gewichte müssen nicht gleich sein — Wahrscheinlichkeit ∝ Feldgröße/Fläche (1.3.1a: µ_X(1)=2/5, sonst 1/5).",
                 "Parameter so wählen, dass alle P ≥ 0 und Σ = 1 (2.1.4a: p ∈ [0,1]).",
-               // TODO "Ref: K-1c/d; 1.3.4d.",
+                // TODO "Ref: K-1c/d; 1.3.4d.",
             ],
             aufgaben: [statistikAufgaben["1.3.1a"], statistikAufgaben["1.3.3d"]],
         },
@@ -572,32 +572,32 @@ export const statistik_schlüssel_json: DecisionGraph = {
             title: "Randdichte",
             aufgaben: [statistikAufgaben["1.4.2c"], statistikAufgaben["1.5.1b"]],
         },
-/*
-        GEMEINSAME_VERTEILUNG_DISKRET : {
-            id: "GEMEINSAME_VERTEILUNG_DISKRET",
-            type: "solution",
-            title: "",
-            points: [
-                "Bei diskreten Zufallsvariablen berechnet man die gemeinsame Wahrscheinlichkeitsfunktion"
-            ]
-        },
+        /*
+                GEMEINSAME_VERTEILUNG_DISKRET : {
+                    id: "GEMEINSAME_VERTEILUNG_DISKRET",
+                    type: "solution",
+                    title: "",
+                    points: [
+                        "Bei diskreten Zufallsvariablen berechnet man die gemeinsame Wahrscheinlichkeitsfunktion"
+                    ]
+                },
 
-        GEMEINSAME_VERTEILUNG_UNABHÄNGIG : {
-            id: "GEMEINSAME_VERTEILUNG_UNABHÄNGIG",
-            type: "solution",
-            title: "",
-            points: [
-                "Multiplizieren der Einzelverteilungen"
-            ]
-        },
+                GEMEINSAME_VERTEILUNG_UNABHÄNGIG : {
+                    id: "GEMEINSAME_VERTEILUNG_UNABHÄNGIG",
+                    type: "solution",
+                    title: "",
+                    points: [
+                        "Multiplizieren der Einzelverteilungen"
+                    ]
+                },
 
-        GEMEINSAME_VERTEILUNG_STETIG : {
-            id: "GEMEINSAME_VERTEILUNG_STETIG",
-            type: "solution",
-            title: ""
-        },
+                GEMEINSAME_VERTEILUNG_STETIG : {
+                    id: "GEMEINSAME_VERTEILUNG_STETIG",
+                    type: "solution",
+                    title: ""
+                },
 
- */
+         */
 
         GEMEINSAME_VERTEILUNG: {
             id: "GEMEINSAME_VERTEILUNG",
@@ -810,51 +810,51 @@ export const statistik_schlüssel_json: DecisionGraph = {
                         "Wir drehen ein Glücksrad dreimal hintereinander .. Das Glücksrad ist in vier gleichgroße Viertel unterteilt"
                     ]
                 },
-               /*
-                {
-                    label: "Nur mit Rechenregeln / Schranken (kein konkreter Raum)",
-                    childId: "SCHRANKEN_FRECHET",
-                    list: [
-                        "Welche Mengen können die Wahrscheinlichkeit 0 besitzen?",
-                        "Finden Sie c mit P(A\\B) ≤ c"
-                    ]
-                },
-                {
-                    label: "Folge A_n mit Grenzmenge: lim P(A_n)",
-                    childId: "STETIGKEIT_MASS",
-                    list: ["Zeigen Sie limₙ P(A_n) = P(A)"]
-                },
-                */
+                /*
+                 {
+                     label: "Nur mit Rechenregeln / Schranken (kein konkreter Raum)",
+                     childId: "SCHRANKEN_FRECHET",
+                     list: [
+                         "Welche Mengen können die Wahrscheinlichkeit 0 besitzen?",
+                         "Finden Sie c mit P(A\\B) ≤ c"
+                     ]
+                 },
+                 {
+                     label: "Folge A_n mit Grenzmenge: lim P(A_n)",
+                     childId: "STETIGKEIT_MASS",
+                     list: ["Zeigen Sie limₙ P(A_n) = P(A)"]
+                 },
+                 */
             ]
         },
 
-       /*
-        SCHRANKEN_FRECHET: {
-            id: "SCHRANKEN_FRECHET",
-            type: "solution",
-            title: "Schranken / Rechenregeln ohne konkreten Raum",
-            points: [
-                "P(Aᶜ)=1−P(A); A⊆B ⇒ P(A)≤P(B); P(A∪B)=P(A)+P(B)−P(A∩B).",
-                "Fréchet-/Bonferroni: max{0, P(A)+P(B)−1} ≤ P(A∩B) ≤ min{P(A),P(B)}.",
-                "„Kann Menge M die W. 0 haben?“ ⇒ prüfe, ob M leer sein kann. P(D∩Eᶜ)=0 nur möglich, wenn P(D)≤P(E).",
-                "„Finde c mit P(A\\B)≤c“ ⇒ Extremfall über die Schranken konstruieren.",
-            ],
-            aufgaben: [statistikAufgaben["1.2.1"]],
-        },
-        STETIGKEIT_MASS: {
-            id: "STETIGKEIT_MASS",
-            type: "solution",
-            title: "Stetigkeit des Maßes: lim P(A_n)",
-            points: [
-                "A_n ↑ A (aufsteigend) ⇒ P(A_n) → P(A) (Stetigkeit von unten).",
-                "A_n ↓ A (absteigend) ⇒ P(A_n) → P(A) (Stetigkeit von oben).",
-                "Zwei Wege: (i) P(A_n) explizit über die Dichte ausrechnen und Grenzwert bilden; (ii) allgemein nur über die Rechenregeln.",
-                "Randpunkte beachten: [1, 2−1/n] ↑ [1,2) — der offene Rand ist NICHT dabei.",
-            ],
-            aufgaben: [statistikAufgaben["1.2.2b-d"]],
-        },
+        /*
+         SCHRANKEN_FRECHET: {
+             id: "SCHRANKEN_FRECHET",
+             type: "solution",
+             title: "Schranken / Rechenregeln ohne konkreten Raum",
+             points: [
+                 "P(Aᶜ)=1−P(A); A⊆B ⇒ P(A)≤P(B); P(A∪B)=P(A)+P(B)−P(A∩B).",
+                 "Fréchet-/Bonferroni: max{0, P(A)+P(B)−1} ≤ P(A∩B) ≤ min{P(A),P(B)}.",
+                 "„Kann Menge M die W. 0 haben?“ ⇒ prüfe, ob M leer sein kann. P(D∩Eᶜ)=0 nur möglich, wenn P(D)≤P(E).",
+                 "„Finde c mit P(A\\B)≤c“ ⇒ Extremfall über die Schranken konstruieren.",
+             ],
+             aufgaben: [statistikAufgaben["1.2.1"]],
+         },
+         STETIGKEIT_MASS: {
+             id: "STETIGKEIT_MASS",
+             type: "solution",
+             title: "Stetigkeit des Maßes: lim P(A_n)",
+             points: [
+                 "A_n ↑ A (aufsteigend) ⇒ P(A_n) → P(A) (Stetigkeit von unten).",
+                 "A_n ↓ A (absteigend) ⇒ P(A_n) → P(A) (Stetigkeit von oben).",
+                 "Zwei Wege: (i) P(A_n) explizit über die Dichte ausrechnen und Grenzwert bilden; (ii) allgemein nur über die Rechenregeln.",
+                 "Randpunkte beachten: [1, 2−1/n] ↑ [1,2) — der offene Rand ist NICHT dabei.",
+             ],
+             aufgaben: [statistikAufgaben["1.2.2b-d"]],
+         },
 
-        */
+         */
 
 
         GR_KL_EXP: {
@@ -1063,7 +1063,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     label: "Bedingte Wahrscheinlichkeit P(A|B), „gegeben, dass“, Rückwärts-Frage",
                     childId: "BEDINGTE_WS",
                     list: [
-                       // TODO
+                        // TODO
                     ]
                 },
                 {
@@ -1099,13 +1099,13 @@ export const statistik_schlüssel_json: DecisionGraph = {
                         " an der Haltestelle bis zur Ankunft an der Universität"
                     ]
                 },
-              /* TODO nicht unabhängig
-                {
-                    label: "X, Y NICHT unabhängig (gemeinsame Dichte gegeben)",
-                    childId: "GEMEINSAME_DICHTE",
-                    list: ["P(X+Y ≤ c) über Doppelintegral im Bereich {x+y ≤ c} ∩ Träger"]
-                },
-               */
+                /* TODO nicht unabhängig
+                  {
+                      label: "X, Y NICHT unabhängig (gemeinsame Dichte gegeben)",
+                      childId: "GEMEINSAME_DICHTE",
+                      list: ["P(X+Y ≤ c) über Doppelintegral im Bereich {x+y ≤ c} ∩ Träger"]
+                  },
+                 */
             ]
         },
 
@@ -1273,7 +1273,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Direktes Abzählen",
             points: [
-               // "P(A) = #A/#Ω. Kombinatorik-Tabelle nutzen (siehe Anhang K)."
+                // "P(A) = #A/#Ω. Kombinatorik-Tabelle nutzen (siehe Anhang K)."
             ],
             aufgaben: [
                 statistikAufgaben["1.1.1c-d"], statistikAufgaben["1.1.2b-c"], statistikAufgaben["1.1.3c-d"],
@@ -1355,12 +1355,15 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Statistisches Modell",
             points: [
-                "Angeben: Stichprobenraum X, Parameterraum Θ, Verteilungsannahme (P_θ)_{θ∈Θ}.",
-                "Bernoulli-Fall: X = {0,1}^n, Θ = (0,1) (bzw. [0,1]), X_i iid Bernoulli(θ).",
+                "Angeben: Parameterraum Θ, Verteilungsannahme (P_θ)_{θ∈Θ}.",
+                "(ggf. Stichprobenraum X angeben)",
+                "Bernoulli-Fall: X = {0,1}^n, Θ = (0,1) (bzw. [0,1]), ggf. X_i iid Bernoulli(θ).",
                 "Annahmen benennen (unabhängig, identisch verteilt).",
-                "Ref: K-4a, 2.5.1.",
             ],
-            aufgaben: [statistikAufgaben["2.4.3a"]],
+            warning: ["Das Statistische Modell ist P = {P_Θ: θ∈Θ}!",
+                "Nicht vergessen die Wahrscheinlichkeitsfunktion anzugeben! (P_θ ist durch sie gegeben)"],
+            aufgaben: [statistikAufgaben["2.4.3a"], statistikAufgaben["2.5.1"], //statistikAufgaben["K-4a"]
+            ],
         },
 
         ABZÄHLBAR_UNENDLICHER_RAUM: {
@@ -1396,7 +1399,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "Jeder Versuch: Erfolg mit Ws. p, Misserfolg mit 1−p, unabhängig.",
                 <ul>
                     <li>{"Ω = {0,1}^n"}</li>
-                    <li> ω = (ω1, ..., ωn) </li>
+                    <li> ω = (ω1, ..., ωn)</li>
                     <li>{"P({ω}) = p^(#Einsen)·(1−p)^(#Nullen)"}</li>
                 </ul>,
                 "NUR für p=1/2 ist das Laplace!",
@@ -1435,7 +1438,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             points: [
                 "Je nach Aufgabenstellung:",
                 <ul>
-                <li>Ω explizit als Menge angeben</li>
+                    <li>Ω explizit als Menge angeben</li>
                     <li>{"Ω als Produktraum Ω = {...}^n, wenn mehrstufig/wiederholt"}</li>
                 </ul>,
                 "P(A) = #A / #Ω = günstige / mögliche",
@@ -1573,7 +1576,8 @@ export const statistik_schlüssel_json: DecisionGraph = {
             id: "ERWARTUNGSWERT_STETIG",
             type: "solution",
             title: "Stetig",
-            points: ["E(X)=∫xf dx, Var(X)=∫x²f dx−E(X)²."],
+            points: [
+                "E(X)=∫ x * f dx", "Var(X)=∫ x² * f dx − (E(X))²"],
             aufgaben: [statistikAufgaben["2.1.6"], statistikAufgaben["2.1.2b"], statistikAufgaben["K-2e"]],
         },
 
@@ -1708,9 +1712,9 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "P(a≤S_n≤b)≈Φ((b+½−µ)/σ)−Φ((a−½−µ)/σ).",
                 "Φ^−1(0,95)≈1,645.",
             ],
-           // warning: "''mehr als 140'' = S ≥ 141, also Schnittgrenze 140,5: P(S>140) ≈ 1 − Φ((140,5 − 125)/10) = 1
+            // warning: "''mehr als 140'' = S ≥ 141, also Schnittgrenze 140,5: P(S>140) ≈ 1 − Φ((140,5 − 125)/10) = 1
             // −" +
-             //   " Φ(1,55) ≈ 0,061. Die Grenze 140,5 (Mitte zwischen 140 und 141) ist der springende Punkt — mit
+            //   " Φ(1,55) ≈ 0,061. Die Grenze 140,5 (Mitte zwischen 140 und 141) ist der springende Punkt — mit
             //   139,5 (→ Φ(1,45)) würde man versehentlich P(S ≥ 140) rechnen.",
             warning: "Richtung der Stetigkeitskorrektur genau prüfen: „> 140“ = „≥ 141“ ⇒ Schnittgrenze 140,5 (nicht 139,5). P(S>140)≈1−Φ((140,5−µ)/σ).",
             aufgaben: [
