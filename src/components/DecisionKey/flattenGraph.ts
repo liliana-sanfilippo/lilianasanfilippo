@@ -9,6 +9,7 @@
 
 import type {DecisionGraph, DecisionNode, NodeId, Option,} from "./decisionTree.types";
 import {isSolution} from "./decisionTree.types";
+import {StatistikAufgabe} from "../../types/statistik_types";
 
 /** Rohformat: verschachtelter Baum mit inline `child`-Objekten (altes Format). */
 export interface RawOption {
@@ -26,7 +27,7 @@ export interface RawNode {
     description?: string;
     options?: RawOption[];
     points?: string[];
-    aufgaben?: string[];
+    aufgaben?: StatistikAufgabe[];
     warning?: string;
     crumb?: string;
     references?: string[];
