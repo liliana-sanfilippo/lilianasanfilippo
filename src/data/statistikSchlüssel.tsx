@@ -2050,8 +2050,9 @@ export const statistik_schlüssel_json: DecisionGraph = {
             ],
             warning: [
                 <span>
-                    <InlineMath math="\theta_0 > \bar x"/>? Dann wäre es sinnvoll ein - vor die Formel zu setzen, damit etwas positives heraus kommt. Aber Vorsicht: Dann müssen auch bei allen weiteren Schritten die {"</>"} umgekehrt werden.
-                </span>
+                    <InlineMath math="\theta_0 > \bar x"/>? Dann KANN man ein - vor die Formel zu setzen, damit etwas positives heraus kommt. Aber Vorsicht: Dann müssen auch bei allen weiteren Schritten die {"</>"} umgekehrt werden.
+                </span>,
+                <span>Hier sind noch keine Beträge benutzt! Das darf man für den zweiseitigen Test später nicht vergessen!</span>
             ]
         },
 
@@ -2067,8 +2068,9 @@ export const statistik_schlüssel_json: DecisionGraph = {
             ],
             warning: [
                 <span>
-                    <InlineMath math="\theta_0 > \bar x"/>? Dann wäre es sinnvoll ein - vor die Formel zu setzen, damit etwas positives heraus kommt. Aber Vorsicht: Dann müssen auch bei allen weiteren Schritten die {"</>"} umgekehrt werden.
-                </span>
+                    <InlineMath math="\theta_0 > \bar x"/>? Dann KANN man ein - vor die Formel zu setzen, damit etwas positives heraus kommt. Aber Vorsicht: Dann müssen auch bei allen weiteren Schritten die {"</>"} umgekehrt werden.
+                </span>,
+                <span>Hier sind noch keine Beträge benutzt! Das darf man für den zweiseitigen Test später nicht vergessen!</span>
             ]
         },
 
@@ -2113,7 +2115,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             id: "ZEG_PHI",
             points: [
                 <p><InlineMath
-                    math="\varphi(x) = \begin{cases} 1 & \text{falls } T(x) \geq z_{1-\alpha/2} \\ 0 & \text{sonst} \end{cases}"/>
+                    math="\varphi(x) = \begin{cases} 1 & \text{falls } |T(x)| \geq z_{1-\alpha/2} \\ 0 & \text{sonst} \end{cases}"/>
                 </p>,
                 //  <span>Also Verwerfungsbereich: <InlineMath math="|T| > z_{1-\alpha/2}"/></span>
             ]
@@ -2150,7 +2152,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             id: "ZET_PHI",
             points: [
                 <p><InlineMath
-                    math="\varphi(x) = \begin{cases} 1 & \text{falls } T(x) \geq t_{n-1,1-\alpha/2} \\ 0 & \text{sonst} \end{cases}"/>
+                    math="\varphi(x) = \begin{cases} 1 & \text{falls } |T(x)| \geq t_{n-1,1-\alpha/2} \\ 0 & \text{sonst} \end{cases}"/>
                 </p>,
             ]
         },
@@ -2368,7 +2370,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             points: [
                 <span> <b> IMMER hinschreiben:</b> {"𝒫 = { P_θ : θ ∈ Θ }"} </span>,
                 <ol className={"ml-3"} style={{listStyle: "n"}}>
-                    <li><b>Was ist der Stichprobenraum Θ?</b> (Gegenstück zum Ereignisraum): Woraus besteht die
+                    <li><b>Was ist der Parameterraum Θ?</b> (Gegenstück zum Ereignisraum): Woraus besteht die
                         Stichprobe?
                     </li>
                     <ol className={"pl-5 ml-5"} style={{listStyle: "circle"}}>
@@ -2503,7 +2505,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                         <li><b> H<sub>0</sub>: θ = θ<sub>0</sub> = 0,9 </b>, weil das ursprünglich angegebene (von der
                             Firma) 90% ist
                         </li>
-                        <li><b> H<sub>0</sub>: θ {"<"} θ<sub>0</sub> </b>, weil die Fragestellung ist,
+                        <li><b> H<sub>A</sub>: θ {"<"} θ<sub>0</sub> </b>, weil die Fragestellung ist,
                             ob es tatsächlich niedriger ist
                         </li>
                     </ul>
@@ -2513,7 +2515,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                             ist von der ursprünglichen Zustimmung
                             (30%) oder nicht
                         </li>
-                        <li><b> H<sub>0</sub>: θ {"<"} θ<sub>0</sub> </b>, weil die Fragestellung ist,
+                        <li><b> H<sub>A</sub>: θ {"<"} θ<sub>0</sub> </b>, weil die Fragestellung ist,
                             ob es tatsächlich niedriger ist
                         </li>
                     </ul>
@@ -2521,7 +2523,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     <ul className={"pl-5 ml-5"} style={{listStyle: "circle"}}>
                         <li><b> H<sub>0</sub>: θ = θ<sub>0</sub> = 0,2 </b>, ursprünglich waren es 20%
                         </li>
-                        <li><b> H<sub>0</sub>: θ {"<"} θ<sub>0</sub> </b>, weil es die Leute interessiert, ob es
+                        <li><b> H<sub>A</sub>: θ {"<"} θ<sub>0</sub> </b>, weil es die Leute interessiert, ob es
                             gesunken
                             ist
                         </li>
@@ -2530,7 +2532,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     <ul className={"pl-5 ml-5"} style={{listStyle: "circle"}}>
                         <li><b> H<sub>0</sub>: θ = θ<sub>0</sub> = 0,2 </b>, ursprünglich waren es 20%
                         </li>
-                        <li><b> H<sub>0</sub>: θ {"<"} θ<sub>0</sub> </b>, weil es die Leute interessiert, ob es
+                        <li><b> H<sub>A</sub>: θ {">"} θ<sub>0</sub> </b>, weil es die Leute interessiert, ob es
                             gestiegen
                             ist
                         </li>
