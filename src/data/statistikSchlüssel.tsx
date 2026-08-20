@@ -2,6 +2,10 @@
 
 import type {DecisionGraph} from "../components/DecisionKey/decisionTree.types";
 import {statistikAufgaben} from "./statistikAufgaben";
+// @ts-ignore
+import {BlockMath, InlineMath} from 'react-katex';
+import 'katex/dist/katex.min.css';
+
 /*
   {
                     label: "",
@@ -1336,10 +1340,17 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     ]
                 },
                 {
-                    childId: "STATISTISCHES_MODELL",
+                    childId: "HYPOTHESENTEST",
                     label: "Eine Stichprobe soll ausgewertet werden (Statistik-Aufgabe)",
-                    list: ["Geben Sie das zugehörige statistische Modell vollständig an"]
+                    list: ["HIERFÜR BITTE ZU HYPOTHESENTEST GEHEN"]
                 }
+                /*
+                 {
+                     childId: "STATISTISCHES_MODELL",
+                     label: "Eine Stichprobe soll ausgewertet werden (Statistik-Aufgabe)",
+                     list: ["Geben Sie das zugehörige statistische Modell vollständig an"]
+                 }
+                 */
             ],
         },
 
@@ -1350,21 +1361,6 @@ export const statistik_schlüssel_json: DecisionGraph = {
             aufgaben: [statistikAufgaben["1.6.1a"]],
         },
 
-        STATISTISCHES_MODELL: {
-            id: "STATISTISCHES_MODELL",
-            type: "solution",
-            title: "Statistisches Modell",
-            points: [
-                "Angeben: Parameterraum Θ, Verteilungsannahme (P_θ)_{θ∈Θ}.",
-                "(ggf. Stichprobenraum X angeben)",
-                "Bernoulli-Fall: X = {0,1}^n, Θ = (0,1) (bzw. [0,1]), ggf. X_i iid Bernoulli(θ).",
-                "Annahmen benennen (unabhängig, identisch verteilt).",
-            ],
-            warning: ["Das Statistische Modell ist P = {P_Θ: θ∈Θ}!",
-                "Nicht vergessen die Wahrscheinlichkeitsfunktion anzugeben! (P_θ ist durch sie gegeben)"],
-            aufgaben: [statistikAufgaben["2.4.3a"], statistikAufgaben["2.5.1"], //statistikAufgaben["K-4a"]
-            ],
-        },
 
         ABZÄHLBAR_UNENDLICHER_RAUM: {
             id: "ABZÄHLBAR_UNENDLICHER_RAUM",
@@ -1984,17 +1980,473 @@ export const statistik_schlüssel_json: DecisionGraph = {
             id: "HYPOTHESENTEST",
             type: "question",
             crumb: "Hypothesentest",
-            question: "Hypothesentest",
+            question: "Schritt auswählen",
+            description: "Dies folgt nicht dem strikt gelisteten Vorgehen, das wir in der Vorlesung gelernt haben." +
+                " Aber es ist meiner Ansicht nach so intuitiver.",
+            options: [
+                {
+                    label: "Schritt 1: Statistisches Modell angeben",
+                    childId: "STATISTISCHES_MODELL"
+                },
+                {
+                    label: "Schritt 2: Hypothese und Alternative wählen",
+                    childId: "HYPOTHESE_ALTERNATIVE"
+                },
+                {
+                    label: "Schritt 3: Art von Test wählen",
+                    childId: "TEST_BESTIMMEN"
+                },
+                {
+                    label: "Schritt 4: Teststatistik aufstellen",
+                    childId: "TESTSTATISTIK"
+                },
+                {
+                    label: "Schritt 5: z bzw. t berechnen",
+                    childId: "Z_T",
+                    list: [
+                        "Anmerkung: Es ginge auch der p-Wert"
+                    ]
+                },
+                {
+                    label: "Schritt 6: Test durchführen (φ(x) berechnen)",
+                    childId: "TEST_MACHEN",
+                },
+                {
+                    label: "Schritt 7: Entscheidung über Verwerfung",
+                    childId: "VERWERFUNGSBEREICHE",
+                },
+            ],
+        },
+
+        TESTSTATISTIK: {
+            id: "TESTSTATISTIK",
+            type: "question",
+            question: "Teststatistik aufstellen",
+            options: [
+                {
+                    label: "Einfacher Gauß-Test",
+                    childId: "EGT"
+                },
+                {
+                    label: "Einfacher T-Test",
+                    childId: "ETT"
+                },
+            ]
+        },
+
+        EGT: {
+            type: "solution",
+            title: "Einfacher Gauß-Test",
+            id: "EGT",
+            points: [
+                <span> Allgemeine Formel:  <InlineMath
+                    math="T(x) = \dfrac{\bar x - \theta_0}{ \sigma} \sqrt{n}"/> </span>,
+                <ul>
+                    <li><b>Bei Bernoulli:</b> <InlineMath
+                        math="T(x) =  \dfrac{\bar x - \theta_0}{ \sqrt{\theta_0 (1- \theta_0)}} \sqrt{n} \quad"/>,
+                        da <InlineMath math="\sigma^2 =  \theta_0 (1- \theta_0)"/></li>
+                </ul>,
+            ],
+            warning: [
+                <span>
+                    <InlineMath math="\theta_0 > \bar x"/>? Dann wäre es sinnvoll ein - vor die Formel zu setzen, damit etwas positives heraus kommt. Aber Vorsicht: Dann müssen auch bei allen weiteren Schritten die {"</>"} umgekehrt werden.
+                </span>
+            ]
+        },
+
+
+        ETT: {
+            type: "solution",
+            title: "Einfacher T-Test",
+            id: "ETT",
+            points: [
+                <span> Allgemeine Formel:  <InlineMath math="T(x) = \dfrac{\bar X - \mu_0}{ \widehat\sigma} \sqrt{n}"/> </span>,
+                <span>Dabei ist <InlineMath
+                    math="\widehat\sigma = \sqrt{\dfrac{1}{n-1} \sum^n_{i=1} (X_i - \bar X)^2 }"/>  </span>
+            ],
+            warning: [
+                <span>
+                    <InlineMath math="\theta_0 > \bar x"/>? Dann wäre es sinnvoll ein - vor die Formel zu setzen, damit etwas positives heraus kommt. Aber Vorsicht: Dann müssen auch bei allen weiteren Schritten die {"</>"} umgekehrt werden.
+                </span>
+            ]
+        },
+
+        TEST_MACHEN: {
+            id: "TEST_MACHEN",
+            type: "question",
+            question: "Für welchen Test?",
+            crumb: "Durchführung",
+            options: [
+                {
+                    label: "Zweiseitiger einfacher Gauß-Test",
+                    childId: "ZEG_PHI"
+                },
+                {
+                    label: "Linksseitiger einfacher Gauß-Test",
+                    childId: "LEG_PHI"
+                },
+                {
+                    label: "Rechtsseitiger einfacher Gauß-Test",
+                    childId: "REG_PHI"
+                },
+                {
+                    label: "Zweiseitiger einfacher T-Test",
+                    childId: "ZET_PHI"
+                },
+                {
+                    label: "Linksseitiger einfacher T-Test",
+                    childId: "LET_PHI"
+                },
+                {
+                    label: "Rechtsseitiger einfacher T-Test",
+                    childId: "RET_PHI"
+                },
+            ]
+        },
+
+
+        ZEG_PHI: {
+            type: "solution",
+            fertig: true,
+            title: "Zweiseitiger einfacher Gauß-Test",
+            id: "ZEG_PHI",
+            points: [
+                <p><InlineMath
+                    math="\varphi(x) = \begin{cases} 1 & \text{falls } T(x) \geq z_{1-\alpha/2} \\ 0 & \text{sonst} \end{cases}"/>
+                </p>,
+                //  <span>Also Verwerfungsbereich: <InlineMath math="|T| > z_{1-\alpha/2}"/></span>
+            ]
+        },
+
+        LEG_PHI: {
+            type: "solution",
+            //fertig: true,
+            title: "Linksseitiger einfacher Gauß-Test",
+            id: "LEG_PHI",
+            points: [
+                <p><InlineMath
+                    math="\varphi(x) = \begin{cases} 1 & \text{falls } T(x) \leq -z_{1-\alpha} \\ 0 & \text{sonst} \end{cases}"/>
+                </p>,
+            ]
+        },
+
+        REG_PHI: {
+            type: "solution",
+            //fertig: true,
+            title: "Rechtsseitiger einfacher Gauß-Test",
+            id: "REG_PHI",
+            points: [
+                <p><InlineMath
+                    math="\varphi(x) = \begin{cases} 1 & \text{falls } T(x) \geq z_{1-\alpha} \\ 0 & \text{sonst} \end{cases}"/>
+                </p>,
+            ]
+        },
+
+        ZET_PHI: {
+            type: "solution",
+            fertig: true,
+            title: "Zweiseitiger einfacher T-Test",
+            id: "ZET_PHI",
+            points: [
+                <p><InlineMath
+                    math="\varphi(x) = \begin{cases} 1 & \text{falls } T(x) \geq t_{n-1,1-\alpha/2} \\ 0 & \text{sonst} \end{cases}"/>
+                </p>,
+            ]
+        },
+
+        LET_PHI: {
+            type: "solution",
+            //fertig: true,
+            title: "Linksseitiger einfacher T-Test",
+            id: "LET_PHI",
+            points: [
+                <p><InlineMath
+                    math="\varphi(x) = \begin{cases} 1 & \text{falls } T(x) \leq -t_{n-1,1-\alpha} \\ 0 & \text{sonst} \end{cases}"/>
+                </p>,
+            ]
+        },
+
+        RET_PHI: {
+            type: "solution",
+            //fertig: true,
+            title: "Rechtsseitiger einfacher T-Test",
+            id: "RET_PHI",
+            points: [
+                <p><InlineMath
+                    math="\varphi(x) = \begin{cases} 1 & \text{falls } T(x) \geq t_{n-1,1-\alpha} \\ 0 & \text{sonst} \end{cases}"/>
+                </p>,
+            ]
+        },
+
+
+        VERWERFUNGSBEREICHE: {
+            id: "VERWERFUNGSBEREICHE",
+            type: "question",
+            question: "Für welchen Test?",
+            crumb: "Verwerfungsbereich",
+            options: [
+                {
+                    label: "Linksseitiger einfacher Gauß-Test",
+                    childId: "LEG"
+                },
+                {
+                    label: "Rechtssseitiger einfacher Gauß-Test",
+                    childId: "REG"
+                },
+                {
+                    label: "Zweiseitiger einfacher Gauß-Test",
+                    childId: "ZEG"
+                },
+                {
+                    label: "Linksseitiger einfacher T-Test",
+                    childId: "LET"
+                },
+                {
+                    label: "Rechtssseitiger einfacher T-Test",
+                    childId: "RET"
+                },
+                {
+                    label: "Zweiseitiger einfacher T-Test",
+                    childId: "ZET"
+                },
+            ]
+        },
+
+
+        REG: {
+            type: "solution",
+            title: "Rechtssseitiger einfacher Gauß-Test",
+            id: "REG",
+            fertig: true,
+            points: [
+                <span>
+                    Verwerfungsbereich: <InlineMath math="T>z_{1−\alpha}"/>
+                </span>
+            ]
+        },
+
+        LEG: {
+            type: "solution",
+            title: "Linksseitiger einfacher Gauß-Test",
+            id: "LEG",
+            fertig: true,
+            points: [
+                <span>
+                    Verwerfungsbereich: <InlineMath math="T < - z_{1−\alpha}"/>
+                </span>
+            ],
+            warning: [
+                <span>Nicht verwirren lassen! <InlineMath math="T< -z_{1−\alpha}  = T< z_{\alpha}"/> </span>
+            ]
+        },
+
+
+        RET: {
+            type: "solution",
+            title: "Rechtssseitiger einfacher T-Test",
+            id: "RET",
+            fertig: true,
+            points: [
+                <span>
+                    Verwerfungsbereich: <InlineMath math="T>t_{n-1, 1−\alpha}"/>
+                </span>
+            ]
+        },
+
+        LET: {
+            type: "solution",
+            title: "Linksseitiger einfacher T-Test",
+            id: "LET",
+            fertig: true,
+            points: [
+                <span>
+                    Verwerfungsbereich: <InlineMath math="T< -t_{n-1, 1−\alpha}"/>
+                </span>
+            ],
+            warning: [
+                <span>Nicht verwirren lassen! <InlineMath math="T< -t_{n-1, 1−\alpha}  = T< t_{n-1,\alpha}"/> </span>
+            ]
+        },
+
+        ZEG: {
+            type: "solution",
+            title: "Zweiseitiger einfacher Gauß-Test",
+            id: "ZEG",
+            fertig: true,
+            points: [
+                <span>
+                    Verwerfungsbereich: <InlineMath math="|T| > z_{1−\alpha / 2}"/>
+                </span>
+            ]
+        },
+
+        ZET: {
+            type: "solution",
+            title: "Zweiseitiger einfacher T-Test",
+            id: "ZET",
+            fertig: true,
+            points: [
+                <span>
+                    Verwerfungsbereich: <InlineMath math="|T| > t_{n-1, 1−\alpha / 2}"/>
+                </span>
+            ]
+        },
+
+
+        Z_T: {
+            id: "Z_T",
+            type: "question",
+            question: "Für welchen Test?",
+            crumb: "Quantil",
+            options: [
+                {
+                    label: "Zweiseitiger einfacher Gauß-Test",
+                    childId: "ZEG_Z_T"
+                },
+                {
+                    label: "Einseitiger einfacher Gauß-Test",
+                    childId: "EEG_Z_T"
+                },
+                {
+                    label: "Zweiseitiger einfacher T-Test",
+                    childId: "ZET_Z_T"
+                },
+                {
+                    label: "Einseitiger einfacher T-Test",
+                    childId: "EET_Z_T"
+                },
+            ]
+        },
+
+        ZEG_Z_T: {
+            type: "solution",
+            fertig: true,
+            title: "Zweiseitiger einfacher Gauß-Test",
+            id: "ZEG_Z_T",
+            points: [
+                <span>Berechne <InlineMath math="z_{1-\alpha/2}"/></span>
+            ]
+        },
+
+        EEG_Z_T: {
+            type: "solution",
+            fertig: true,
+            title: "Einseitiger einfacher Gauß-Test",
+            id: "EEG_Z_T",
+            points: [
+                <span>Berechne <InlineMath math="z_{1-\alpha}"/></span>
+            ]
+        },
+
+        ZET_Z_T: {
+            type: "solution",
+            fertig: true,
+            title: "Zweiseitiger einfacher T-Test",
+            id: "ZET_Z_T",
+            points: [
+                <span>Berechne <InlineMath math="t_{n-1, 1-\alpha/2}"/></span>
+            ]
+        },
+
+        EET_Z_T: {
+            type: "solution",
+            fertig: true,
+            title: "Einseitiger einfacher T-Test",
+            id: "EET_Z_T",
+            points: [
+                <span>Berechne <InlineMath math="t_{n-1, 1-\alpha}"/></span>
+            ]
+        },
+
+
+        STATISTISCHES_MODELL: {
+            id: "STATISTISCHES_MODELL",
+            type: "solution",
+            title: "Statistisches Modell",
+            fertig: true,
+            points: [
+                <span> <b> IMMER hinschreiben:</b> {"𝒫 = { P_θ : θ ∈ Θ }"} </span>,
+                <ol className={"ml-3"} style={{listStyle: "n"}}>
+                    <li><b>Was ist der Stichprobenraum Θ?</b> (Gegenstück zum Ereignisraum): Woraus besteht die
+                        Stichprobe?
+                    </li>
+                    <ol className={"pl-5 ml-5"} style={{listStyle: "circle"}}>
+                        <li><b>Anteil/Prozentsatz:</b> [0,1]</li>
+                        <li><b>kontinuierliche Messwerte:</b> ℝ (bzw. ℝ×(0,∞), wenn σ mitgeschätzt wird)</li>
+                    </ol>
+                    <li><b>Was ist P<sub>θ</sub>?</b> Generell gegeben durch Wahrscheinlichkeitsfunktion
+                        μ<sub>θ</sub> oder Dichte f<sub>θ</sub></li>
+                    <ul className={"pl-5 ml-5"} style={{listStyle: "circle"}}>
+                        <li>
+                            <b>Bernoulli:</b> µ<sub>θ</sub>(x)=θ<sup>(Σx_i)</sup>(1−θ)<sup>(n−Σx_i)</sup>
+                        </li>
+                        <ul className={"pl-5 ml-5"} style={{listStyle: "circle"}}>
+                            <li>Also: Bernoulli-Verteilung mit Parametern n
+                                und θ (Varianz automatisch bekannt)
+                            </li>
+                        </ul>
+                        <li>
+                            <b>Normal:</b> f ~ N(µ,σ²)
+                        </li>
+                        <ul className={"pl-5 ml-5"} style={{listStyle: "circle"}}>
+                            <li>Also: Normalverteilt normalveretilt mit EW μ und Varianz
+                                σ<sup>2</sup> (Varianz unbekannt, nur eine Variable)
+                            </li>
+                        </ul>
+                    </ul>
+                    <li><b>Stichprobenvariablen?</b></li>
+                    <ul className={"pl-5 ml-5"} style={{listStyle: "circle"}}>
+                        <li>X₁,…,X_n unabhängig</li>
+                        <li>identisch verteilt gemäß P_θ (also bspw. Bernoulli-verteilt)</li>
+                    </ul>
+                </ol>,
+            ],
+            warning: ["n explizit angeben, wenn vorhanden!",
+                "Nicht vergessen die Wahrscheinlichkeitsfunktion anzugeben! (P_θ ist durch sie gegeben)"],
+            frage: [
+                <span><b>Wie legt man bei Bernoulli fest, was der Erfolg ist?</b> Bernoulli-Erfolg (X_i=1) = das Ergebnis, auf dessen Anteil sich die Behauptung bezieht — so wählen, dass p = P(Erfolg) dem Wert p₀ entspricht </span>
+            ],
+            aufgaben: [statistikAufgaben["2.4.3a"], statistikAufgaben["2.5.1"], //statistikAufgaben["K-4a"]
+            ],
+        },
+
+        TEST_BESTIMMEN: {
+            id: "TEST_BESTIMMEN",
+            type: "question",
+            question: "Test wählen",
+            options: [
+                {
+                    label: "Schritt 1: Welcher allgemeine Typ ist es?",
+                    childId: "TEST_ART"
+                },
+                {
+                    label: "Schritt 2: Einseitig oder zweiseitig?",
+                    childId: "TESTRICHTUNG_BESTIMMEN"
+                },
+                {
+                    label: "Muss ich approximieren?",
+                    childId: "HT_APPROX",
+                    list: ["n groß, Binomial exakt unhandlich"]
+                },
+            ]
+        },
+
+        TEST_ART: {
+            id: "TEST_ART",
+            type: "question",
+            question: "Wie sieht die Stichprobe aus?",
+            crumb: "Test-Art",
             options: [
                 {
                     label: "Anteil/Wahrscheinlichkeit p, eine Stichprobe", childId: "ANTEILSTEST",
                     list: [
                         "Anteil/Häufigkeit in Vergleich zu früherem Wert: letzte Wahl, etc.",
                         "Anteil/Häufigkeit in Bezug auf Behauptung: Mindestens 90%, etc."
-                    ]
+                    ],
+                    klausur_irrelevant: true
                 },
                 {
-                    label: "Normalverteilt, Varianz bekannt", childId: "GAUSS_TEST",
+                    label: "Normalverteilt und Varianz bekannt oder Bernoulli-verteilt", childId: "GAUSS_TEST",
                     list: [
                         "Kontinuierliche Messgröße; Messwerte; ein physikalischer Wert pro Objekt",
                         "Varianz von (5 g)² / σ = ... / σ² = ..."
@@ -2013,7 +2465,8 @@ export const statistik_schlüssel_json: DecisionGraph = {
                         "Kontinuierliche Messgröße; Messwerte; ein physikalischer Wert pro Objekt",
                         "zwei Messungen an derselben Einheit: vorher/nachher, links/rechts, dominante/andere Hand",
                         "Tabelle mit gepaarten Spalten pro Person/Objekt"
-                    ]
+                    ],
+                    klausur_irrelevant: true
                 },
                 {
                     label: "Zwei getrennte Stichproben, Anteile vergleichen",
@@ -2021,17 +2474,78 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     list: [
                         "Anteil/Häufigkeit",
                         "im Hörsaal … vs. im Internet …"
-                    ]
-                },
-                {
-                    label: "Unsicher, ob ein- oder zweiseitig", childId: "TESTRICHTUNG_BESTIMMEN",
-                    list: ["Entscheidungshilfe"]
-                },
-                {
-                    label: "Entscheidung über Verwerfung", childId: "TESTENTSCHEIDUNG_FEHLER",
-                    list: ["Entscheidungshilfe"]
-                },
-            ],
+                    ],
+                    klausur_irrelevant: true
+                }
+            ]
+        },
+
+        HYPOTHESE_ALTERNATIVE: {
+            id: "HYPOTHESE_ALTERNATIVE",
+            type: "solution",
+            title: "Hypothesen",
+            fertig: true,
+            points: [
+                <ol className={"ml-3"} style={{listStyle: "n"}}>
+                    <li><b>Was ist H<sub>0</sub>?</b> Immer “Situation unverändert“ bzw. “sie sagen die Wahrheit“ in
+                        Bezug auf Behauptungen wie “Die
+                        durchschnittliche Verspätung ist 60 Sekunden“.
+                    </li>
+                    <li><b>Was ist H<sub>A</sub>?</b> Dass die wahre Situation anders ist als H<sub>0</sub>. Also
+                        größer, kleiner oder schlicht ungleich.
+                    </li>
+                </ol>, <br/>,
+                <span>Beispiele:</span>,
+                <ul style={{listStyle: "circle"}}>
+                    <li><b>Beispiel Keimrate:</b></li>
+                    <ul className={"pl-5 ml-5"} style={{listStyle: "circle"}}>
+                        <li><b> H<sub>0</sub>: θ = θ<sub>0</sub> = 0,9 </b>, weil das ursprünglich angegebene (von der
+                            Firma) 90% ist
+                        </li>
+                        <li><b> H<sub>0</sub>: θ {"<"} θ<sub>0</sub> </b>, weil die Fragestellung ist,
+                            ob es tatsächlich niedriger ist
+                        </li>
+                    </ul>
+                    <li><b>Beispiel Veränderung der Unterstützung:</b></li>
+                    <ul className={"pl-5 ml-5"} style={{listStyle: "circle"}}>
+                        <li><b> H<sub>0</sub>: θ = θ<sub>0</sub> = 0,3 </b>, weil es darum geht, ob es gesunken
+                            ist von der ursprünglichen Zustimmung
+                            (30%) oder nicht
+                        </li>
+                        <li><b> H<sub>0</sub>: θ {"<"} θ<sub>0</sub> </b>, weil die Fragestellung ist,
+                            ob es tatsächlich niedriger ist
+                        </li>
+                    </ul>
+                    <li><b>Beispiel Mensa Variante 1</b></li>
+                    <ul className={"pl-5 ml-5"} style={{listStyle: "circle"}}>
+                        <li><b> H<sub>0</sub>: θ = θ<sub>0</sub> = 0,2 </b>, ursprünglich waren es 20%
+                        </li>
+                        <li><b> H<sub>0</sub>: θ {"<"} θ<sub>0</sub> </b>, weil es die Leute interessiert, ob es
+                            gesunken
+                            ist
+                        </li>
+                    </ul>
+                    <li><b>Beispiel Mensa Variante 2</b></li>
+                    <ul className={"pl-5 ml-5"} style={{listStyle: "circle"}}>
+                        <li><b> H<sub>0</sub>: θ = θ<sub>0</sub> = 0,2 </b>, ursprünglich waren es 20%
+                        </li>
+                        <li><b> H<sub>0</sub>: θ {"<"} θ<sub>0</sub> </b>, weil es die Leute interessiert, ob es
+                            gestiegen
+                            ist
+                        </li>
+                    </ul>
+                    <li><b>Beispiel Durchschnittliche Verspätung</b></li>
+                    <ul className={"pl-5 ml-5"} style={{listStyle: "circle"}}>
+                        <li><b> H<sub>0</sub>: μ = μ<sub>0</sub> = 60 (Sekunden)</b>, weil gefragt ist, ob der
+                            Durchschnitt 60 ist
+                            oder nicht und μ ist der Erwartungswert
+                        </li>
+                        <li><b> H<sub>A</sub>: μ /= μ<sub>0</sub></b>, weil gefragt ist, ob der Durchschnitt 60 ist
+                            oder nicht und μ ist der Erwartungswert
+                        </li>
+                    </ul>
+                </ul>
+            ]
         },
 
         ANTEILSTEST: {
@@ -2048,7 +2562,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
         GAUSS_TEST: {
             id: "GAUSS_TEST",
             type: "solution",
-            title: "Gauß-Test",
+            title: "Einfacher Gauß-Test",
             points: ["Z=(X̄−µ₀)/(σ/√n)≈N(0,1). Varianz bekannt."],
             aufgaben: [statistikAufgaben["2.6.1"]],
         },
@@ -2056,7 +2570,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
         T_TEST: {
             id: "T_TEST",
             type: "solution",
-            title: "t-Test",
+            title: "Einfacher t-Test",
             points: ["T=(X̄−µ₀)/(S/√n)~t_{n−1}, S²=1/(n−1)Σ(X_i−X̄)²."],
             references: ["Theorie 2.6"],
             aufgaben: [statistikAufgaben["2.5.2b"]],
@@ -2086,13 +2600,89 @@ export const statistik_schlüssel_json: DecisionGraph = {
 
         TESTRICHTUNG_BESTIMMEN: {
             id: "TESTRICHTUNG_BESTIMMEN",
-            type: "solution",
-            title: "Richtung bestimmen",
-            points: [
-                "„gesunken / niedriger / stärker / häufiger / mindestens / höchstens“ ⇒ einseitig.",
-                "„beträgt / verändert / gleich“ ⇒ zweiseitig.",
-                "Verwerfungsbereich an der Alternative ausrichten.",
+            type: "question",
+            question: "Richtung bestimmen",
+            options: [
+                {
+                    label: "Gleichheit und Ungleichheit",
+                    list: [
+                        "„beträgt / verändert / gleich“",
+                        "μ = μ0  und μ  ̸= μ0 ",
+                        "θ = θ_0  und θ  ̸= θ_0 "
+                    ],
+                    childId: "ZWEISEITIG"
+                },
+                {
+                    label: "Größer oder kleiner",
+                    list: [
+                        "gesunken / niedriger / stärker / häufiger / mindestens / höchstens“",
+                        "μ =/</> μ0  und μ  </> μ0 ",
+                        "θ =/</>  θ_0  und θ </>  θ_0 "
+                    ],
+                    childId: "EINSEITIG"
+                }
+            ]
+        },
+
+        EINSEITIG: {
+            id: "EINSEITIG",
+            type: "question",
+            options: [
+                {
+                    label: "H_A: θ < θ_0",
+                    childId: "LINKS_SEITIG"
+                },
+                {
+                    label: "H_A: θ > θ_0",
+                    childId: "RECHTS_SEITIG"
+                }
             ],
+            question: "Links- oder rechtsseitig?"
+        },
+
+        ZWEISEITIG: {
+            id: "ZWEISEITIG",
+            type: "solution",
+            fertig: true,
+            points: ["Einfach merken für die Auswahl der korrekten Formeln später"],
+            title: "Zweiseitiger Test"
+        },
+
+        LINKS_SEITIG: {
+            id: "LINKS_SEITIG",
+            type: "solution",
+            fertig: true,
+            points: ["Einfach merken für die Auswahl der korrekten Formeln später"],
+            title: "Linksseitiger Test",
+            frage: [
+                <span><b>Merksatz:</b> Wenn man von klein zu groß geht ({"<"}), dann steht θ auf der linken Seite: {"θ < θ_0"}  </span>
+            ]
+        },
+
+        RECHTS_SEITIG: {
+            id: "RECHTS_SEITIG",
+            type: "solution",
+            fertig: true,
+            points: ["Einfach merken für die Auswahl der korrekten Formeln später"],
+            title: "Rechtsseitiger Test",
+            frage: [
+                <span><b>Merksatz:</b> Wenn man von klein zu groß geht ({"<"}), dann steht θ auf der rechten Seite: {"θ_0 < θ"}  </span>
+            ]
+        },
+
+
+        HT_APPROX: {
+            id: "HT_APPROX",
+            type: "solution",
+            title: "Approximativ?",
+            points: [
+                "Exakte Verteilung unhandlich (Binomial) und n groß ⇒ Normal-Approximation (de Moivre-Laplace / ZGS): Teststatistik ≈ N(0,1).",
+                "Anteilstest: Varianz unter H₀ fest (p₀(1−p₀)) ⇒ „Varianz bekannt“, approximativer Gauß-Test.",
+                "Gauß-Test (σ bekannt) und t-Test (unter Normalannahme) sind dagegen EXAKT, keine Approximation nötig.",
+            ],
+            frage: [
+                "Sollte in der Klausur nicht nötig sein..."
+            ]
         },
 
         TESTENTSCHEIDUNG_FEHLER: {

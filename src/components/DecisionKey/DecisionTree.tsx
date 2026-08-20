@@ -160,10 +160,10 @@ function QuestionView({node, canGoBack, onChoose, onBack}: QuestionViewProps) {
                     <button
                         key={`${option.childId}-${i}`}
                         type="button"
-                        className="option"
+                        className={`option ${option.klausur_irrelevant ?? "irrelevant"}`}
                         onClick={() => onChoose(option)}
                     >
-                        <span className="badge">{i + 1}</span>
+                        <span className="badge">{i + 1} </span>
                         <span className="option-body">
               <strong>{option.label}</strong>
                             {option.description && <small>{option.description}</small>}
@@ -176,7 +176,11 @@ function QuestionView({node, canGoBack, onChoose, onBack}: QuestionViewProps) {
                                     </ul>
                                 </small>
                             )}
+                            {
+                                option.klausur_irrelevant && <span><small>(Vermutlich nicht klausurrelevant)</small></span>
+                            }
             </span>
+
                     </button>
                 ))}
             </div>
@@ -251,12 +255,22 @@ function SolutionView({
                 )}
 
                 {typeof node.warning != "string" && node.warning && (
-                   node.warning.map((w, i) => (
-                       <div className="warning">
-                           <strong>⚠ Hinweis:</strong> {w}
-                       </div>
-                       )
-                   )
+                    node.warning.map((w, i) => (
+                            <div className="warning">
+                                <strong>⚠ Hinweis:</strong> {w}
+                            </div>
+                        )
+                    )
+                )}
+
+
+                {node.frage && (
+                    node.frage.map((w, i) => (
+                            <div className="frage">
+                                {w}
+                            </div>
+                        )
+                    )
                 )}
 
                 {node.references && node.references.length > 0 && (
@@ -276,9 +290,10 @@ function SolutionView({
                                     <span> {a.nummer}{a.title && <span>: <small>{a.title}</small></span>}</span>
                                 </AccordionHeader>
                                 <AccordionBody>
-                                   <p> <div><b>Aufgabenstellung:</b>
-                                   </div>
-                                       {a.text}</p>
+                                    <p>
+                                        <div><b>Aufgabenstellung:</b>
+                                        </div>
+                                        {a.text}</p>
                                     {
                                         a.loesung &&
                                         <div>

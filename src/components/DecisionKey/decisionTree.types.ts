@@ -36,9 +36,10 @@ export interface SolutionNode extends NodeBase {
     title: string;
     points?: ReactNode[];
     aufgaben?: StatistikAufgabe[];
-    warning?: string | string[];
+    warning?: string | ReactNode[];
     references?: string[];
     crumb?: string;
+    frage?: ReactNode[];
 }
 
 export type StatistikItem =  string | React.ReactNode |HTMLElement;
@@ -53,6 +54,7 @@ export interface Option {
     list?: string[];
     /** Verweis auf den nächsten Knoten in `DecisionGraph.nodes`. */
     childId: NodeId;
+    klausur_irrelevant?: boolean
 }
 
 /** Der komplette Graph: flache Knotentabelle + Wurzel-ID. */
