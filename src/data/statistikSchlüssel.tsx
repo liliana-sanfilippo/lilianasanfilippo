@@ -255,9 +255,9 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "ZV aus anderen ZV zusammensetzen",
             points: [
-                "Zielgröße als Term in den gegebenen ZV ausdrücken (max, min, +, −, ·).",
+                "Zielgröße als Term in den gegebenen ZV ausdrücken (max, min, +, -, ·).",
                 "System-Zuverlässigkeit: Reihe ⇒ min, Parallel ⇒ max. „K1,K2 oder K3,K4“ ⇒ X=max{min(T1,T2), min(T3,T4)}.",
-                "Gewinn/Auszahlung: Auszahlung minus Einsatz, z.B. G=(M−N)−Einsatz.",
+                "Gewinn/Auszahlung: Auszahlung minus Einsatz, z.B. G=(M-N)-Einsatz.",
             ],
             aufgaben: [
                 statistikAufgaben["1.5.3b"], statistikAufgaben["2.1.1c"],
@@ -404,7 +404,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Dichte / Konstante c",
             points: [
-                "c aus ∫_Träger c·g(x)dx=1 ⇒ c=(∫g)^−1. Danach f≥0 und ∫f=1 bestätigen.",
+                "c aus ∫_Träger c·g(x)dx=1 ⇒ c=(∫g)^-1. Danach f≥0 und ∫f=1 bestätigen.",
                 // TODO "Ref: K-2a; 1.5.4a.",
             ],
             aufgaben: [
@@ -479,7 +479,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Verteilungsfunktion aus Dichte berechnen",
             points: [
-                <span> Integrieren: F(x)=∫<sup>x</sup><sub>{"−∞"}</sub> f</span>,
+                <span> Integrieren: F(x)=∫<sup>x</sup><sub>{"-∞"}</sub> f</span>,
                 "Stückweise über Trägerintervalle", "f=F'"
             ],
         },
@@ -541,7 +541,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             points: [
                 "Kein Sprung ⇒ stetige Verteilung; stückweise ablesen.",
                 "Dichte = Steigung: f(x)=F'(x) abschnittsweise.",
-                "P(a<X≤b)=F(b)−F(a); P(X=x)=0.",
+                "P(a<X≤b)=F(b)-F(a); P(X=x)=0.",
             ],
             aufgaben: [statistikAufgaben["1.3.2a"]],
         },
@@ -647,15 +647,15 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Welche Verteilung liegt vor?",
             points: [
-                "Einzelner Ja/Nein-Versuch ⇒ Bernoulli(p): E=p, Var=p(1−p).",
-                "Anzahl Erfolge in n unabhängigen, gleichen Versuchen ⇒ Binomial(n,p): E=np, Var=np(1−p).",
-                "Wartezeit „bis zum ersten Erfolg“ (Nummer des Versuchs) ⇒ Geometrisch(p): E=1/p, Var=(1−p)/p².",
+                "Einzelner Ja/Nein-Versuch ⇒ Bernoulli(p): E=p, Var=p(1-p).",
+                "Anzahl Erfolge in n unabhängigen, gleichen Versuchen ⇒ Binomial(n,p): E=np, Var=np(1-p).",
+                "Wartezeit „bis zum ersten Erfolg“ (Nummer des Versuchs) ⇒ Geometrisch(p): E=1/p, Var=(1-p)/p².",
                 "Anzahl seltener Ereignisse / „im Schnitt λ pro Einheit“ ⇒ Poisson(λ): E=Var=λ.",
-                "Rein zufällig aus [a,b] ⇒ Gleichverteilung: E=(a+b)/2, Var=(b−a)²/12.",
-                "Kontinuierliche Wartezeit/Lebensdauer, „exponentialverteilt mit Parameter λ“ ⇒ Exp(λ): E=1/λ, Var=1/λ², P(X>t)=e^(−λt).",
+                "Rein zufällig aus [a,b] ⇒ Gleichverteilung: E=(a+b)/2, Var=(b-a)²/12.",
+                "Kontinuierliche Wartezeit/Lebensdauer, „exponentialverteilt mit Parameter λ“ ⇒ Exp(λ): E=1/λ, Var=1/λ², P(X>t)=e^(-λt).",
                 "Summe/Mittel vieler iid (Näherung) ⇒ Normal(µ,σ²).",
             ],
-            warning: "Geometrisch: zwei Konventionen (ab 1 mit E=1/p vs. ab 0 mit E=(1−p)/p) — „Nummer des Wurfs“ ⇒ ab 1. Exp: „Parameter 1/5“ heißt λ=1/5, also E=5 (nicht 1/5). Binomial nur bei UNABHÄNGIGEN, gleichverteilten Versuchen (mit Zurücklegen / feste Erfolgs-W.).",
+            warning: "Geometrisch: zwei Konventionen (ab 1 mit E=1/p vs. ab 0 mit E=(1-p)/p) — „Nummer des Wurfs“ ⇒ ab 1. Exp: „Parameter 1/5“ heißt λ=1/5, also E=5 (nicht 1/5). Binomial nur bei UNABHÄNGIGEN, gleichverteilten Versuchen (mit Zurücklegen / feste Erfolgs-W.).",
             aufgaben: [
                 statistikAufgaben["K-3c"], statistikAufgaben["2.2.3b"], statistikAufgaben["2.3.3b-c"],
                 statistikAufgaben["2.2.6d"], statistikAufgaben["1.5.2"],
@@ -686,7 +686,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "Sprünge⇒diskreter Anteil, P(X=x)=Sprunghöhe.",
                 "Stetig steigend⇒Dichteanteil, f=F'.",
                 "Beides⇒gemischte Verteilung.",
-                "P(a<X≤b)=F(b)−F(a).",
+                "P(a<X≤b)=F(b)-F(a).",
                 "Bei einem Sprung ist P(X=x)>0: offene/geschlossene Grenzen sind dann nicht egal.",
             ],
             aufgaben: [statistikAufgaben["1.3.1a-b"], statistikAufgaben["1.3.2a-b"]],
@@ -752,7 +752,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             question: "Was und wie viele sind jeweils beteiligt?",
             options: [
                 {
-                    label: "Ein Ereigniss",
+                    label: "Ein Ereignis",
                     childId: "W_EIN_ERG",
                     list: ["Berechnen Sie mit Hilfe der Wahrscheinlichkeitsfunktion µ die Wahrscheinlichkeiten von A, B und C."],
                 },
@@ -811,7 +811,8 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     childId: "WLP1",
                     list: [
                         "Wir würfeln zweimal mit einem fairen Würfel...",
-                        "Wir drehen ein Glücksrad dreimal hintereinander .. Das Glücksrad ist in vier gleichgroße Viertel unterteilt"
+                        "Wir drehen ein Glücksrad dreimal hintereinander .. Das Glücksrad ist in vier gleich große" +
+                        " Viertel unterteilt"
                     ]
                 },
                 /*
@@ -838,8 +839,8 @@ export const statistik_schlüssel_json: DecisionGraph = {
              type: "solution",
              title: "Schranken / Rechenregeln ohne konkreten Raum",
              points: [
-                 "P(Aᶜ)=1−P(A); A⊆B ⇒ P(A)≤P(B); P(A∪B)=P(A)+P(B)−P(A∩B).",
-                 "Fréchet-/Bonferroni: max{0, P(A)+P(B)−1} ≤ P(A∩B) ≤ min{P(A),P(B)}.",
+                 "P(Aᶜ)=1-P(A); A⊆B ⇒ P(A)≤P(B); P(A∪B)=P(A)+P(B)-P(A∩B).",
+                 "Fréchet-/Bonferroni: max{0, P(A)+P(B)-1} ≤ P(A∩B) ≤ min{P(A),P(B)}.",
                  "„Kann Menge M die W. 0 haben?“ ⇒ prüfe, ob M leer sein kann. P(D∩Eᶜ)=0 nur möglich, wenn P(D)≤P(E).",
                  "„Finde c mit P(A\\B)≤c“ ⇒ Extremfall über die Schranken konstruieren.",
              ],
@@ -853,7 +854,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                  "A_n ↑ A (aufsteigend) ⇒ P(A_n) → P(A) (Stetigkeit von unten).",
                  "A_n ↓ A (absteigend) ⇒ P(A_n) → P(A) (Stetigkeit von oben).",
                  "Zwei Wege: (i) P(A_n) explizit über die Dichte ausrechnen und Grenzwert bilden; (ii) allgemein nur über die Rechenregeln.",
-                 "Randpunkte beachten: [1, 2−1/n] ↑ [1,2) — der offene Rand ist NICHT dabei.",
+                 "Randpunkte beachten: [1, 2-1/n] ↑ [1,2) — der offene Rand ist NICHT dabei.",
              ],
              aufgaben: [statistikAufgaben["1.2.2b-d"]],
          },
@@ -867,9 +868,9 @@ export const statistik_schlüssel_json: DecisionGraph = {
             title: "P(X>t) / P(X<t) einer exponentialverteilten ZV",
             points: [
                 "(Von Claude erstellt, noch nicht vollständig überprüft)",
-                "Exp(λ): P(X>t)=e^(−λt), P(X≤t)=1−e^(−λt) (t≥0).",
-                "„länger als t warten“ ⇒ direkt e^(−λt) (Survival-Funktion, kein Integral nötig).",
-                "Parameter-Konvention: „Parameter 1/5“ ⇒ λ=1/5, E=5. Beispiel 1.5.2a: P(X>10)=e^(−10/5)=e^(−2).",
+                "Exp(λ): P(X>t)=e^(-λt), P(X≤t)=1-e^(-λt) (t≥0).",
+                "„länger als t warten“ ⇒ direkt e^(-λt) (Survival-Funktion, kein Integral nötig).",
+                "Parameter-Konvention: „Parameter 1/5“ ⇒ λ=1/5, E=5. Beispiel 1.5.2a: P(X>10)=e^(-10/5)=e^(-2).",
             ],
             aufgaben: [statistikAufgaben["1.5.2a"]], // TDP
         },
@@ -972,7 +973,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Rechenregeln anwenden",
             points: [
-                "P(Aᶜ|D)=1−P(A|D); P(A∪B|D)=P(A|D)+P(B|D)−P(A∩B|D).",
+                "P(Aᶜ|D)=1-P(A|D); P(A∪B|D)=P(A|D)+P(B|D)-P(A∩B|D).",
                 "P(A∩B|D) folgt nicht allein aus P(A|D),P(B|D).",
                 // TODO "Ref: 1.6.5.",
             ]
@@ -982,7 +983,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             id: "GEDÄCHTNISLOSIGKEIT",
             type: "solution",
             title: "Gedächtnislosigkeit",
-            points: ["P(X>t+s|X>s)=P(X>t)=e^(−λt)."],
+            points: ["P(X>t+s|X>s)=P(X>t)=e^(-λt)."],
             aufgaben: [statistikAufgaben["1.6.2"]],
         },
 
@@ -1118,8 +1119,8 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Faltung / Summe unabhängiger ZV",
             points: [
-                "f_{X+Y}(z)=∫f_X(x)f_Y(z−x)dx.",
-                "Summe von n unabh. Exp(λ)=Erlang: f_{S_n}(z)=λ^n z^{n−1}/(n−1)!·e^(−λz).",
+                "f_{X+Y}(z)=∫f_X(x)f_Y(z-x)dx.",
+                "Summe von n unabh. Exp(λ)=Erlang: f_{S_n}(z)=λ^n z^{n-1}/(n-1)!·e^(-λz).",
                 "Alternativ Doppelintegral über {x+y≤c}∩Träger.",
                 "Setzt Unabhängigkeit voraus.",
             ],
@@ -1132,7 +1133,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             title: "Verteilungsfunktion von max / min",
             points: [
                 "P(max≤x)=∏F_i(x).",
-                "P(min≤x)=1−∏(1−F_i(x)).",
+                "P(min≤x)=1-∏(1-F_i(x)).",
                 "Minimum von n unabh. Exp(λ) ist Exp(nλ).",
                 "Reihe⇒min, Parallel⇒max.",
             ],
@@ -1169,7 +1170,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             title: "P(S≥k)/P(S≤k) einer Summe unabhängiger Bernoulli (Binomial)",
             points: [
                 "S = Σ X_i mit X_i iid Bernoulli(p) ⇒ S ~ Binomial(n,p).",
-                "P(S≥k)=Σ_{j=k}^n C(n,j) p^j (1−p)^(n−j); „mindestens k“ ⇒ untere Summationsgrenze k.",
+                "P(S≥k)=Σ_{j=k}^n C(n,j) p^j (1-p)^(n-j); „mindestens k“ ⇒ untere Summationsgrenze k.",
                 "1.4.3: „besteht“ = ≥2K von 4K ⇒ P(S≥2K); „Note 2,3“ = ≥3K ⇒ P(S≥3K). Für konkrete K explizit ausrechnen.",
                 "Bei großem n statt exakt: Normal-/Poisson-Approximation (siehe Approximationen).",
             ],
@@ -1227,8 +1228,8 @@ export const statistik_schlüssel_json: DecisionGraph = {
             title: "„größte/kleinste Zahl > / < x“ im Produkt-Laplace",
             points: [
                 "„alle ≤ k“ ⇒ (k/m)^n bei n Würfen mit m Seiten. „größte < 5“ = „alle ≤ 4“ = (4/6)^n.",
-                "„größte > k“ = 1 − „alle ≤ k“ (Gegenereignis).",
-                "„kleinste ≥ k“ = „alle ≥ k“ = ((m−k+1)/m)^n.",
+                "„größte > k“ = 1 - „alle ≤ k“ (Gegenereignis).",
+                "„kleinste ≥ k“ = „alle ≥ k“ = ((m-k+1)/m)^n.",
             ],
             aufgaben: [statistikAufgaben["1.4.4b"]],
         },
@@ -1239,11 +1240,11 @@ export const statistik_schlüssel_json: DecisionGraph = {
             title: "Fixpunkte einer Permutation (genau k / mindestens k)",
             points: [
                 "A_l={ω(l)=l}, dann Inklusion-Exklusion.",
-                "Schnitt: P(A_{l₁}∩…∩A_{lⱼ})=(n−j)!/n!.",
-                "Genau k Fixpunkte: (1/k!)Σ_{j=0}^{n−k}(−1)^j/j! → e⁻¹/k! für n→∞.",
-                "„mindestens ein“: 1 − Σ_{k=0}^N (−1)^k/k! → 1 − e^(−1) ≈ 0,632.",
-                "Kein Fixpunkt: D_n=n!Σ_{j=0}^n(−1)^j/j!.",
-                "„mindestens k“ ≠ „genau k“; P(B_k)=P(C_k)−P(C_{k+1}).",
+                "Schnitt: P(A_{l₁}∩…∩A_{lⱼ})=(n-j)!/n!.",
+                "Genau k Fixpunkte: (1/k!)Σ_{j=0}^{n-k}(-1)^j/j! → e⁻¹/k! für n→∞.",
+                "„mindestens ein“: 1 - Σ_{k=0}^N (-1)^k/k! → 1 - e^(-1) ≈ 0,632.",
+                "Kein Fixpunkt: D_n=n!Σ_{j=0}^n(-1)^j/j!.",
+                "„mindestens k“ ≠ „genau k“; P(B_k)=P(C_k)-P(C_{k+1}).",
                 // TODO "Ref: 1.0.3",
             ],
             aufgaben: [statistikAufgaben["2.1.3"]],
@@ -1254,7 +1255,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Ein-/Ausschlussprinzip",
             points: [
-                "P(A∪B∪C) = ΣP − ΣP(Zweier-Schnitt) + P(Dreier-Schnitt) (Vorzeichen alternieren).",
+                "P(A∪B∪C) = ΣP - ΣP(Zweier-Schnitt) + P(Dreier-Schnitt) (Vorzeichen alternieren).",
                 "Teilbarkeit in {1,…,n}: #{k:d|k}=⌊n/d⌋; „durch d₁ und d₂“ = Teilbarkeit durch kgV(d₁,d₂).",
                 "Nicht P(durch 2)·P(durch 3), sondern ⌊n/6⌋/n für den Schnitt.",
             ],
@@ -1267,7 +1268,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             title: "Gegenereignis",
             points: [
                 "„mindestens einmal“ ist mühsam direkt: nimm das Komplement.",
-                "P(mind. einmal) = 1 − P(keinmal).",
+                "P(mind. einmal) = 1 - P(keinmal).",
             ],
             aufgaben: [statistikAufgaben["1.1.1c-d"], statistikAufgaben["1.1.5b"]],
         },
@@ -1392,11 +1393,11 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Bernoulli-Experiment(e)",
             points: [
-                "Jeder Versuch: Erfolg mit Ws. p, Misserfolg mit 1−p, unabhängig.",
+                "Jeder Versuch: Erfolg mit Ws. p, Misserfolg mit 1-p, unabhängig.",
                 <ul>
                     <li>{"Ω = {0,1}^n"}</li>
                     <li> ω = (ω1, ..., ωn)</li>
-                    <li>{"P({ω}) = p^(#Einsen)·(1−p)^(#Nullen)"}</li>
+                    <li>{"P({ω}) = p^(#Einsen)·(1-p)^(#Nullen)"}</li>
                 </ul>,
                 "NUR für p=1/2 ist das Laplace!",
                 "Anzahl Erfolge S = Σ ω_i ~ Binomial(n,p).",
@@ -1492,7 +1493,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     label: "Varianz einer Summe",
                     childId: "VARIANZ_SUMME",
                     list: [
-                        "Var(2X + Y − 1)"
+                        "Var(2X + Y - 1)"
                     ]
                 },
                 {
@@ -1543,8 +1544,8 @@ export const statistik_schlüssel_json: DecisionGraph = {
             title: "E von max/min bzw. Gewinn",
             points: [
                 "Erst Verteilung von M=max bzw. N=min bestimmen (Bildbereich + Wahrscheinlichkeiten), dann E(M), E(N).",
-                "E(M−N)=E(M)−E(N) (Linearität). Gewinn G=(M−N)−Einsatz ⇒ E(G)=E(M−N)−Einsatz.",
-                "Zwei faire Würfel: E(M)=161/36, E(N)=91/36, E(M−N)=70/36=35/18. Bei Einsatz 2€: E(G)=35/18−2=−1/18 ⇒ nicht fair.",
+                "E(M-N)=E(M)-E(N) (Linearität). Gewinn G=(M-N)-Einsatz ⇒ E(G)=E(M-N)-Einsatz.",
+                "Zwei faire Würfel: E(M)=161/36, E(N)=91/36, E(M-N)=70/36=35/18. Bei Einsatz 2€: E(G)=35/18-2=-1/18 ⇒ nicht fair.",
                 "„Fair?“ ⇔ E(Gewinn)=0.",
             ],
             aufgaben: [
@@ -1558,7 +1559,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Diskret",
             points: [
-                "E(X)=Σx·P(X=x), Var(X)=E(X²)−E(X)².",
+                "E(X)=Σx·P(X=x), Var(X)=E(X²)-E(X)².",
                 "Standardverteilungen kennen!", // TODO
             ],
             aufgaben: [
@@ -1573,7 +1574,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Stetig",
             points: [
-                "E(X)=∫ x * f dx", "Var(X)=∫ x² * f dx − (E(X))²"],
+                "E(X)=∫ x * f dx", "Var(X)=∫ x² * f dx - (E(X))²"],
             aufgaben: [statistikAufgaben["2.1.6"], statistikAufgaben["2.1.2b"], statistikAufgaben["K-2e"]],
         },
 
@@ -1614,7 +1615,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             points: [
                 "Zählgröße S=ΣX_i mit X_i=1_Ereignis_i.",
                 "E(1_E)=P(E), also E(S)=ΣP(X_i=1), auch bei abhängigen X_i.",
-                "Fixpunkte/Geschenke: E(S_N)=1; P(mind. ein Fixpunkt)→1−e^−1.",
+                "Fixpunkte/Geschenke: E(S_N)=1; P(mind. ein Fixpunkt)→1-e^-1.",
             ],
             aufgaben: [statistikAufgaben["2.1.3"], statistikAufgaben["2.3.6b"]],
         },
@@ -1644,7 +1645,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     ]
                 },
                 {
-                    label: "n groß, np(1−p) groß",
+                    label: "n groß, np(1-p) groß",
                     childId: "NORMAL_DE_MOIVRE_LAPLACE",
                     list: [
                         "Bestimmen Sie näherungsweise unter Verwendung des Satzes von de Moivre-Laplace",
@@ -1678,9 +1679,9 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Tschebyscheff",
             points: [
-                "P(|X−E(X)|≥ε)≤Var(X)/ε².",
+                "P(|X-E(X)|≥ε)≤Var(X)/ε².",
                 "Nur obere Schranke, oft grob.",
-                "Vielfaches des Erwartungswerts: P(X ≥ k·E(X)) ≤ Var(X)/((k−1)²·E(X)²).",
+                "Vielfaches des Erwartungswerts: P(X ≥ k·E(X)) ≤ Var(X)/((k-1)²·E(X)²).",
                 "Nur obere Schranke, oft grob — starke Abweichung vom exakten Wert ist normal, kein Rechenfehler.",
             ],
             aufgaben: [
@@ -1693,7 +1694,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             id: "POISSON_APPROXIMATION",
             type: "solution",
             title: "Poisson-Approximation",
-            points: ["Bin(n,p)≈Poi(λ), λ=np; P(X=k)≈e^−λ λ^k/k!."],
+            points: ["Bin(n,p)≈Poi(λ), λ=np; P(X=k)≈e^-λ λ^k/k!."],
             aufgaben: [
                 statistikAufgaben["2.3.4"], statistikAufgaben["2.3.5"], statistikAufgaben["2.3.1b"],
             ],
@@ -1704,15 +1705,15 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Normal / de Moivre-Laplace",
             points: [
-                "µ=np, σ=√(np(1−p)); Stetigkeitskorrektur ±½ beachten.",
-                "P(a≤S_n≤b)≈Φ((b+½−µ)/σ)−Φ((a−½−µ)/σ).",
-                "Φ^−1(0,95)≈1,645.",
+                "µ=np, σ=√(np(1-p)); Stetigkeitskorrektur ±½ beachten.",
+                "P(a≤S_n≤b)≈Φ((b+½-µ)/σ)-Φ((a-½-µ)/σ).",
+                "Φ^-1(0,95)≈1,645.",
             ],
-            // warning: "''mehr als 140'' = S ≥ 141, also Schnittgrenze 140,5: P(S>140) ≈ 1 − Φ((140,5 − 125)/10) = 1
-            // −" +
+            // warning: "''mehr als 140'' = S ≥ 141, also Schnittgrenze 140,5: P(S>140) ≈ 1 - Φ((140,5 - 125)/10) = 1
+            // -" +
             //   " Φ(1,55) ≈ 0,061. Die Grenze 140,5 (Mitte zwischen 140 und 141) ist der springende Punkt — mit
             //   139,5 (→ Φ(1,45)) würde man versehentlich P(S ≥ 140) rechnen.",
-            warning: "Richtung der Stetigkeitskorrektur genau prüfen: „> 140“ = „≥ 141“ ⇒ Schnittgrenze 140,5 (nicht 139,5). P(S>140)≈1−Φ((140,5−µ)/σ).",
+            warning: "Richtung der Stetigkeitskorrektur genau prüfen: „> 140“ = „≥ 141“ ⇒ Schnittgrenze 140,5 (nicht 139,5). P(S>140)≈1-Φ((140,5-µ)/σ).",
             aufgaben: [
                 statistikAufgaben["2.2.4"], statistikAufgaben["2.3.6"], statistikAufgaben["2.2.3d-e"],
                 statistikAufgaben["2.3.1b"], statistikAufgaben["K-3e"],
@@ -1723,7 +1724,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             id: "ZENTRALER_GRENZWERTSATZ",
             type: "solution",
             title: "Zentraler Grenzwertsatz",
-            points: ["(S_n−nµ)/(σ√n) bzw. (X̄−µ)/(σ/√n)≈N(0,1), dann Φ."],
+            points: ["(S_n-nµ)/(σ√n) bzw. (X̄-µ)/(σ/√n)≈N(0,1), dann Φ."],
             aufgaben: [statistikAufgaben["2.3.3c"]],
         },
 
@@ -1741,7 +1742,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             id: "NORMAL_MU_QUANTIL",
             type: "solution",
             title: "µ über Quantil bestimmen",
-            points: ["P(Z≥µ−x)=Φ(x/σ), nach µ mit Quantil auflösen."],
+            points: ["P(Z≥µ-x)=Φ(x/σ), nach µ mit Quantil auflösen."],
             aufgaben: [statistikAufgaben["2.3.2c-d"]],
         },
 
@@ -1798,8 +1799,8 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Streumaße",
             points: [
-                "Spannweite=max−min; Varianz s²=1/nΣ(x_i−x̄)²; SD=√s²; mittlere abs. Abw. vom Median=1/nΣ|x_i−x̃|.",
-                "1/n vs. 1/(n−1) nach Vorlesung prüfen.",
+                "Spannweite=max-min; Varianz s²=1/nΣ(x_i-x̄)²; SD=√s²; mittlere abs. Abw. vom Median=1/nΣ|x_i-x̃|.",
+                "1/n vs. 1/(n-1) nach Vorlesung prüfen.",
             ],
             aufgaben: [statistikAufgaben["2.4.5f"], statistikAufgaben["2.4.1e-f"]],
         },
@@ -1808,7 +1809,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             id: "QUANTILE",
             type: "solution",
             title: "Quantile",
-            points: ["Q₁=x_0.25, Q₃=x_0.75; IQR=Q₃−Q₁; p-Quantilabstand=x_{1−p}−x_p."],
+            points: ["Q₁=x_0.25, Q₃=x_0.75; IQR=Q₃-Q₁; p-Quantilabstand=x_{1-p}-x_p."],
             aufgaben: [statistikAufgaben["2.4.1c-d"]],
         },
 
@@ -1863,7 +1864,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     ]
                 },
                 /*
-                 {label: "Varianzschätzer p̂(1−p̂)", childId: "VARIANZSCHÄTZER"}, TODO Anders einbringen
+                 {label: "Varianzschätzer p̂(1-p̂)", childId: "VARIANZSCHÄTZER"}, TODO Anders einbringen
                  */
             ],
         },
@@ -1873,7 +1874,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Erwartungstreue",
             points: [
-                "t erwartungstreu ⇔ E_θ[t(X)]=θ für alle θ; Bias=E_θ[t]−θ.",
+                "t erwartungstreu ⇔ E_θ[t(X)]=θ für alle θ; Bias=E_θ[t]-θ.",
                 "E(X̄)=E(X₁)=µ ⇒ erwartungstreu.",
             ],
             aufgaben: [statistikAufgaben["2.4.4a"], statistikAufgaben["2.4.3d"]],
@@ -1883,7 +1884,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             id: "RISIKO_MSE",
             type: "solution",
             title: "Risiko / MSE",
-            points: ["R(θ,t)=E[(t−θ)²]=Var_θ(t)+Bias(t)².", "X̄: R=Var(X₁)/n→0."],
+            points: ["R(θ,t)=E[(t-θ)²]=Var_θ(t)+Bias(t)².", "X̄: R=Var(X₁)/n→0."],
             aufgaben: [statistikAufgaben["2.4.4b/c"]],
         },
 
@@ -1903,7 +1904,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Varianzschätzer",
             points: [
-                "p̂=1/nΣx_i: E[t]=(1−1/n)θ(1−θ) ⇒ nicht erwartungstreu, aber asymptotisch.",
+                "p̂=1/nΣx_i: E[t]=(1-1/n)θ(1-θ) ⇒ nicht erwartungstreu, aber asymptotisch.",
             ],
             aufgaben: [statistikAufgaben["2.5.1"]],
         },
@@ -1943,8 +1944,8 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Wald-KI",
             points: [
-                "Ĵ=[p̂−z_{1−α/2}√(p̂(1−p̂)/n), p̂+z_{1−α/2}√(p̂(1−p̂)/n)]; z_0.975≈1,96.",
-                "Niveau 1−α bestimmt z_{1−α/2}=Φ^−1(1−α/2).",
+                "Ĵ=[p̂-z_{1-α/2}√(p̂(1-p̂)/n), p̂+z_{1-α/2}√(p̂(1-p̂)/n)]; z_0.975≈1,96.",
+                "Niveau 1-α bestimmt z_{1-α/2}=Φ^-1(1-α/2).",
             ],
             aufgaben: [statistikAufgaben["2.5.4"], statistikAufgaben["2.5.2c"]],
         },
@@ -1961,7 +1962,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             id: "STUDENT_T_KI",
             type: "solution",
             title: "Student-t",
-            points: ["t_{n−1}-Quantil statt z."],
+            points: ["t_{n-1}-Quantil statt z."],
             aufgaben: [statistikAufgaben["2.5.2b"]],
         },
 
@@ -1970,8 +1971,8 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "KI-Theorie",
             points: [
-                "Überdeckung P_p(p∈J_n)≥1−α; p ist fest, Intervall zufällig.",
-                "Niveau verdoppeln verdoppelt nicht die Länge. Schnitt zweier (1−α/2)-KI ist ein (1−α)-KI.",
+                "Überdeckung P_p(p∈J_n)≥1-α; p ist fest, Intervall zufällig.",
+                "Niveau verdoppeln verdoppelt nicht die Länge. Schnitt zweier (1-α/2)-KI ist ein (1-α)-KI.",
             ],
             aufgaben: [statistikAufgaben["2.5.5"], statistikAufgaben["2.5.3"]],
         },
@@ -2190,7 +2191,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     childId: "LEG"
                 },
                 {
-                    label: "Rechtssseitiger einfacher Gauß-Test",
+                    label: "Rechtsseitiger einfacher Gauß-Test",
                     childId: "REG"
                 },
                 {
@@ -2202,7 +2203,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                     childId: "LET"
                 },
                 {
-                    label: "Rechtssseitiger einfacher T-Test",
+                    label: "Rechtsseitiger einfacher T-Test",
                     childId: "RET"
                 },
                 {
@@ -2215,12 +2216,12 @@ export const statistik_schlüssel_json: DecisionGraph = {
 
         REG: {
             type: "solution",
-            title: "Rechtssseitiger einfacher Gauß-Test",
+            title: "Rechtsseitiger einfacher Gauß-Test",
             id: "REG",
             fertig: true,
             points: [
                 <span>
-                    Verwerfungsbereich: <InlineMath math="T>z_{1−\alpha}"/>
+                    Verwerfungsbereich: <InlineMath math="T>z_{1-\alpha}"/>
                 </span>
             ]
         },
@@ -2232,23 +2233,23 @@ export const statistik_schlüssel_json: DecisionGraph = {
             fertig: true,
             points: [
                 <span>
-                    Verwerfungsbereich: <InlineMath math="T < - z_{1−\alpha}"/>
+                    Verwerfungsbereich: <InlineMath math="T < - z_{1-\alpha}"/>
                 </span>
             ],
             warning: [
-                <span>Nicht verwirren lassen! <InlineMath math="T< -z_{1−\alpha}  = T< z_{\alpha}"/> </span>
+                <span>Nicht verwirren lassen! <InlineMath math="T< -z_{1-\alpha}  \Leftrightarrow T< z_{\alpha}"/> </span>
             ]
         },
 
 
         RET: {
             type: "solution",
-            title: "Rechtssseitiger einfacher T-Test",
+            title: "Rechtsseitiger einfacher T-Test",
             id: "RET",
             fertig: true,
             points: [
                 <span>
-                    Verwerfungsbereich: <InlineMath math="T>t_{n-1, 1−\alpha}"/>
+                    Verwerfungsbereich: <InlineMath math="T>t_{n-1, 1-\alpha}"/>
                 </span>
             ]
         },
@@ -2260,11 +2261,11 @@ export const statistik_schlüssel_json: DecisionGraph = {
             fertig: true,
             points: [
                 <span>
-                    Verwerfungsbereich: <InlineMath math="T< -t_{n-1, 1−\alpha}"/>
+                    Verwerfungsbereich: <InlineMath math="T< -t_{n-1, 1-\alpha}"/>
                 </span>
             ],
             warning: [
-                <span>Nicht verwirren lassen! <InlineMath math="T< -t_{n-1, 1−\alpha}  = T< t_{n-1,\alpha}"/> </span>
+                <span>Nicht verwirren lassen! <InlineMath math="T< -t_{n-1, 1-\alpha}  \Leftrightarrow T< t_{n-1,\alpha}"/> </span>
             ]
         },
 
@@ -2275,7 +2276,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             fertig: true,
             points: [
                 <span>
-                    Verwerfungsbereich: <InlineMath math="|T| > z_{1−\alpha / 2}"/>
+                    Verwerfungsbereich: <InlineMath math="|T| > z_{1-\alpha / 2}"/>
                 </span>
             ]
         },
@@ -2287,7 +2288,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             fertig: true,
             points: [
                 <span>
-                    Verwerfungsbereich: <InlineMath math="|T| > t_{n-1, 1−\alpha / 2}"/>
+                    Verwerfungsbereich: <InlineMath math="|T| > t_{n-1, 1-\alpha / 2}"/>
                 </span>
             ]
         },
@@ -2378,7 +2379,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
                         μ<sub>θ</sub> oder Dichte f<sub>θ</sub></li>
                     <ul className={"pl-5 ml-5"} style={{listStyle: "circle"}}>
                         <li>
-                            <b>Bernoulli:</b> µ<sub>θ</sub>(x)=θ<sup>(Σx_i)</sup>(1−θ)<sup>(n−Σx_i)</sup>
+                            <b>Bernoulli:</b> µ<sub>θ</sub>(x)=θ<sup>(Σx_i)</sup>(1-θ)<sup>(n-Σx_i)</sup>
                         </li>
                         <ul className={"pl-5 ml-5"} style={{listStyle: "circle"}}>
                             <li>Also: Bernoulli-Verteilung mit Parametern n
@@ -2553,7 +2554,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Anteilstest",
             points: [
-                "Z=(p̂−p₀)/√(p₀(1−p₀)/n)≈N(0,1). Beispiel H₀:p=p₀ gegen H₁:p<p₀: verwerfe bei Z<−z_{1−α}.",
+                "Z=(p̂-p₀)/√(p₀(1-p₀)/n)≈N(0,1). Beispiel H₀:p=p₀ gegen H₁:p<p₀: verwerfe bei Z<-z_{1-α}.",
             ],
             references: ["K-4"],
             aufgaben: [statistikAufgaben["2.6.4"]],
@@ -2563,7 +2564,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             id: "GAUSS_TEST",
             type: "solution",
             title: "Einfacher Gauß-Test",
-            points: ["Z=(X̄−µ₀)/(σ/√n)≈N(0,1). Varianz bekannt."],
+            points: ["Z=(X̄-µ₀)/(σ/√n)≈N(0,1). Varianz bekannt."],
             aufgaben: [statistikAufgaben["2.6.1"]],
         },
 
@@ -2571,7 +2572,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             id: "T_TEST",
             type: "solution",
             title: "Einfacher t-Test",
-            points: ["T=(X̄−µ₀)/(S/√n)~t_{n−1}, S²=1/(n−1)Σ(X_i−X̄)²."],
+            points: ["T=(X̄-µ₀)/(S/√n)~t_{n-1}, S²=1/(n-1)Σ(X_i-X̄)²."],
             references: ["Theorie 2.6"],
             aufgaben: [statistikAufgaben["2.5.2b"]],
         },
@@ -2581,7 +2582,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Gepaarter t-Test",
             points: [
-                "D_i=X_i−Y_i; Ein-Stichproben-Test auf H₀:µ_D=0.",
+                "D_i=X_i-Y_i; Ein-Stichproben-Test auf H₀:µ_D=0.",
                 "Gepaarte Daten nicht als zwei unabhängige Stichproben behandeln.",
             ],
             aufgaben: [statistikAufgaben["2.6.3"]],
@@ -2593,7 +2594,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             type: "solution",
             title: "Zwei-Stichproben-Anteilstest",
             points: [
-                "gepoolt p̂=(X₁+X₂)/(n₁+n₂); Z=(p̂₁−p̂₂)/√(p̂(1−p̂)(1/n₁+1/n₂))≈N(0,1).",
+                "gepoolt p̂=(X₁+X₂)/(n₁+n₂); Z=(p̂₁-p̂₂)/√(p̂(1-p̂)(1/n₁+1/n₂))≈N(0,1).",
             ],
             aufgaben: [statistikAufgaben["2.6.2"]],
         },
@@ -2677,7 +2678,7 @@ export const statistik_schlüssel_json: DecisionGraph = {
             title: "Approximativ?",
             points: [
                 "Exakte Verteilung unhandlich (Binomial) und n groß ⇒ Normal-Approximation (de Moivre-Laplace / ZGS): Teststatistik ≈ N(0,1).",
-                "Anteilstest: Varianz unter H₀ fest (p₀(1−p₀)) ⇒ „Varianz bekannt“, approximativer Gauß-Test.",
+                "Anteilstest: Varianz unter H₀ fest (p₀(1-p₀)) ⇒ „Varianz bekannt“, approximativer Gauß-Test.",
                 "Gauß-Test (σ bekannt) und t-Test (unter Normalannahme) sind dagegen EXAKT, keine Approximation nötig.",
             ],
             frage: [
@@ -2706,10 +2707,10 @@ export const statistik_schlüssel_json: DecisionGraph = {
                 "p-Quantil ist ein Lagemaß ⇒ WAHR.",
                 "X̄ erwartungstreu für E(X) bei iid ⇒ WAHR (E(X̄)=E(X_1)); gilt auch für Exp-Stichprobe.",
                 "P(A|B)=P(A) ⇒ P(A|Bᶜ)=P(A) ⇒ WAHR (A,B unabhängig ⇒ A,Bᶜ unabhängig).",
-                "Var(X) ≤ E(X²) ⇒ WAHR (Var=E(X²)−E(X)² ≤ E(X²)).",
-                "Var(2X+Y−1)=4Var(X)+Var(Y) bei Unabh. ⇒ die Formel „2Var(X)+Var(Y)−1“ ist FALSCH (a wird quadriert, Konstante fällt weg).",
+                "Var(X) ≤ E(X²) ⇒ WAHR (Var=E(X²)-E(X)² ≤ E(X²)).",
+                "Var(2X+Y-1)=4Var(X)+Var(Y) bei Unabh. ⇒ die Formel „2Var(X)+Var(Y)-1“ ist FALSCH (a wird quadriert, Konstante fällt weg).",
                 "Geometrisch(½): P(X≤3|X>2)=½ ⇒ WAHR (Gedächtnislosigkeit; {X≤3}∩{X>2}={X=3}, ½).",
-                "E(X)=0 ⇒ P(X>0)=P(X<0) ⇒ FALSCH (Gegenbeispiel: X=−1 mit 2/3, X=+2 mit 1/3).",
+                "E(X)=0 ⇒ P(X>0)=P(X<0) ⇒ FALSCH (Gegenbeispiel: X=-1 mit 2/3, X=+2 mit 1/3).",
             ],
             references: ["K-5"],
             warning: "Nicht auswendig lernen, sondern die 1-Zeilen-Begründung mitdenken — in der Klausur variieren die Zahlen.",
