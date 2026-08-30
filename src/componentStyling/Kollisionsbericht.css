@@ -128,3 +128,58 @@
     background-color: lightgray;
 
 }
+
+
+
+.druck .druckKopf { margin-bottom: 8px; }
+.druck .druckAbschnitt { margin-top: 24px; }
+.druck .druckTabelle { margin-top: 12px; }
+.druck .druckListe { margin: 10px 0 0; padding-left: 20px; font-size: 13.5px; }
+.druck .druckListe li { margin-bottom: 4px; }
+
+/* Am Bildschirm steht in der Leiste ein Knopf, im Druck ein Feld ohne Funktion. */
+.druck .leiste { flex-direction: row; flex-wrap: wrap; gap: 6px 18px; }
+.druck .feld { display: inline-block;  width: 10px; height: 10px; }
+.druck .chipText { font-size: 10pt; }
+
+@media print {
+    @page { size: A4; margin: 1cm; }
+
+    .druck {
+        max-width: none;
+        padding: 1cm;
+        background: #fff;
+        font-size: 10.5pt;
+    }
+    .druckKnopf { display: none; }
+
+    /* Jede Variante beginnt auf einer neuen Seite, die erste nicht. */
+    .druck .druckKohorte {
+        break-before: page;
+        page-break-before: always;
+    }
+    .druck .druckKohorte:first-of-type {
+        break-before: auto;
+        page-break-before: auto;
+    }
+
+    /* Raster und Tabellenzeilen nicht mitten durchtrennen. */
+    .druck .raster,
+    .druck .urteil,
+    .druck .block { break-inside: avoid; page-break-inside: avoid; }
+    .druck tr { break-inside: avoid; page-break-inside: avoid; }
+    .druck thead { display: table-header-group; }
+
+    /* Sticky-Kopfzeilen ergeben auf Papier keinen Sinn. */
+    .druck .rahmen th { position: static; }
+    .druck .rahmen { overflow: visible; }
+
+    /* Flaechen und Schraffuren muessen mitgedruckt werden. */
+    .druck * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+    .druck details { border: 0; padding: 0; }
+    .druck details > summary { display: none; }
+    .druck .fuss { break-before: auto; }
+    .druck a { text-decoration: none; color: inherit; }
+
+}

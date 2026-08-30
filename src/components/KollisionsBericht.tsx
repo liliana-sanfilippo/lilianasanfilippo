@@ -2,6 +2,8 @@ import { useMemo, useState } from 'react';
 import {Analyse, Kohorte, Konflikt, Schwere, WOCHENTAG_KURZ} from "../types/additional_unibi_types";
 import {angebotName, angebotTyp, zeit} from "../utils/ekvv_utils";
 import { Wochenraster } from './Wochenraster';
+import {DruckKnopf} from "./DruckKnopf";
+import {Col, Row} from "react-bootstrap";
 
 const RANG: Record<Schwere, number> = { hart: 3, teilweise: 2, unsicher: 1 };
 const SORTIERUNG: Record<Schwere, number> = { hart: 0, teilweise: 1, unsicher: 2 };
@@ -15,7 +17,7 @@ export function KollisionsBericht({ analyse }: Props) {
     const [schwere, setSchwere] = useState<'' | Schwere>('');
     const [kohorteId, setKohorteId] = useState('');
     const [tag, setTag] = useState('');
-    const [nurQuelle, setNurQuelle] = useState(true);
+    const [nurQuelle, setNurQuelle] = useState(false);
     const [ohneModulintern, setOhneModulintern] = useState(false);
 
     const kohortenNachId = useMemo(
@@ -214,16 +216,24 @@ export function KollisionsBericht({ analyse }: Props) {
 
     return (
         <div className="huelle">
-            <p className="augenbraue">Kollisionsprüfung · {analyse.semesterName}</p>
-            <h1>{titel}</h1>
-            <p className="unterzeile">
-                {analyse.quelle.veranstaltungId
-                    ? `Veranstaltung ${analyse.quelle.veranstaltungId}`
-                    : 'Modulbasierte Prüfung'}
-                {' · '}{sichtbareKohorten.length} aktive Varianten
-                {' · '}{analyse.statistik.veranstaltungen} Veranstaltungen im Vergleich
-                {' · '}Stand {new Date(analyse.erzeugtAm).toLocaleString('de-DE')}
-            </p>
+            <Row>
+                <Col md={9}>
+                    <h3>{titel}</h3>
+                    <p className="unterzeile">
+                        {analyse.quelle.veranstaltungId
+                            ? `Veranstaltung ${analyse.quelle.veranstaltungId}`
+                            : 'Modulbasierte Prüfung'}
+                        {' · '}{sichtbareKohorten.length} aktive Varianten
+                        {' · '}{analyse.statistik.veranstaltungen} Veranstaltungen im Vergleich
+                        {' · '}Stand {new Date(analyse.erzeugtAm).toLocaleString('de-DE')}
+                    </p>
+                </Col>
+                <Col>
+                    <DruckKnopf analyse={analyse} beschriftung={"Vollständigen Bericht drucken"} alles/>
+
+                    <DruckKnopf analyse={analyse} beschriftung={"Übersicht drucken"}/>
+                </Col>
+            </Row>
 
             <div className={urteilKlasse}>
                 <p>{urteilSatz}</p>
@@ -235,6 +245,7 @@ export function KollisionsBericht({ analyse }: Props) {
             </div>
 
             {/* Varianten ---------------------------------------------------- */}
+            <br/>
             <h2>Studiengangsvarianten</h2>
             <p className="hinweis">
                 Ein Feld je Variante, eingefärbt nach dem schwersten Befund, gebündelt
@@ -271,7 +282,23 @@ export function KollisionsBericht({ analyse }: Props) {
                 ))}
             </div>
 
+
+            {(analyse.sprachhinweise?.length ?? 0) > 0 && (
+                <><br/>
+                    <h2>Nur englischsprachige Module</h2>
+                    <ul>
+                        {analyse.sprachhinweise!.map((h) => (
+                            <li key={`${h.kohorteId}-${h.modulId}`}>
+                                <strong>{h.modulKuerzel}</strong> [{h.pflicht ? 'Pflicht' : 'Wahlpflicht'}]{' '}
+                                {h.modulName} — {h.kohorteBezeichnung}
+                            </li>
+                        ))}
+                    </ul>
+                </>
+            )}
+
             {/* Konflikte ---------------------------------------------------- */}
+            <br/>
             <h2>Überschneidungen</h2>
             <div className="filter">
                 <label>
@@ -292,7 +319,7 @@ export function KollisionsBericht({ analyse }: Props) {
                         <option value="unsicher">unsicher</option>
                     </select>
                 </label>
-                <label>
+                <label style={{maxWidth: "100%"}}>
                     Variante
                     <select value={kohorteId} onChange={(e) => setKohorteId(e.target.value)}>
                         <option value="">alle</option>
@@ -363,6 +390,7 @@ export function KollisionsBericht({ analyse }: Props) {
             )}
 
             {/* Wochenraster ------------------------------------------------- */}
+            <br/>
             <h2>Wochenraster</h2>
             <Wochenraster
                 kohorte={gewaehlteKohorte}
@@ -371,6 +399,7 @@ export function KollisionsBericht({ analyse }: Props) {
             />
 
             {/* Datenlage ---------------------------------------------------- */}
+            <br/>
             <h2>Datenlage</h2>
 
             <details>
@@ -418,7 +447,7 @@ export function KollisionsBericht({ analyse }: Props) {
                 </div>
             </details>
 
-            <details open>
+            <details>
                 <summary>Varianten und Prüfungsordnungen</summary>
                 <div className="rahmen">
                     <table>

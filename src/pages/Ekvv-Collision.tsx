@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import {Accordion, AccordionBody, AccordionHeader, AccordionItem} from "react-bootstrap";
+import {Accordion, AccordionBody, AccordionHeader, AccordionItem, Button} from "react-bootstrap";
 import "../componentStyling/Kollisionsbericht.css"
 import {H1, H2} from "../components/other/H2";
 import {KollisionsBericht} from "../components/KollisionsBericht";
@@ -50,6 +50,8 @@ export function EkvvCollision() {
                         Auswertung von Daten aus dem eKVV der Universität Bielefeld. Daten können veraltet sein, bitte auf Datum schauen.
                     </AccordionBody>
                 </AccordionItem>
+                <br/>
+                <Button variant={"primary"}  href={"https://github.com/liliana-sanfilippo/lilianasanfilippo/issues/2"}>Nicht vorhandenen Bericht oder Update anfragen</Button>
 
                 <H2>Kursbezogene Kompabilitätsprüfung</H2>
 

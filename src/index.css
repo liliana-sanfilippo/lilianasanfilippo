@@ -66,6 +66,8 @@ code {
 
     --raster: 44px;
 
+    --button-bg: white;
+
 }
 
 
@@ -228,6 +230,18 @@ a:hover, .nav-link:hover, .dropdown-item:hover {
 
 .dropdown-item:active {
     background-color: transparent;
+}
+
+.btn-primary:hover {
+    color: var(--text-primary);
+    border-color: revert;
+    background-color: var(--button-bg);
+}
+
+.btn-primary {
+    color: var(--text-primary);
+    border-color: var(--text-primary);
+    background-color: var(--button-bg);
 }
 
 
