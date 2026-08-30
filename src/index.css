@@ -62,6 +62,9 @@ code {
     --igemdarkgreen: #006530;
     --igemmediumgreen: #019968;
     --igemlightgreen: #99cb9a;
+    --toned-down-text: var(--lightblue-zwei);
+
+    --raster: 44px;
 
 }
 
