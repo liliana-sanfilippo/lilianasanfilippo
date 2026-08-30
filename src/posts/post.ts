@@ -9,7 +9,7 @@ import IgemHomecoming24, {metaIgemHomecoming24} from "./finished/igem-homecoming
 import bfh2024, {metabfh2024} from "./finished/bfh2024";
 import meetupMuenster2024, {metamuensterMeetup2024} from "./finished/meetup-muenster-2024";
 import HannoverMesse2026, {metaHannoverMesse2026} from "./finished/hannover-messe-2026";
-import Lexartes, {metaLexartes} from "./under_construction/lexartes";
+import Lexartes, {metaLexartes} from "./okayish/lexartes";
 import PrecysePaper, { metaPrecysePaper } from "./under_construction/precyse-paper";
 import SailEegHackathon, {metaEegHackathon} from "./under_construction/sail-eeg-hackathon";
 import {metaSailSpringSchool, SailSpringSchool} from "./under_construction/sail-spring-school";
@@ -41,14 +41,14 @@ export const posts: Post[] = [{
     {
         ...metaHannoverMesse2026, MDXComponent: HannoverMesse2026
     },
-
+    {
+        ...metaLexartes, MDXComponent: Lexartes
+    },
 
 
 /*
 
-     {
-        ...metaLexartes, MDXComponent: Lexartes
-    },
+
     {
         ...metaPrecysePaper, MDXComponent: PrecysePaper
     },
