@@ -14,6 +14,7 @@ import {AuthorNameParser} from "../pages/packages/author-name-parser";
 import {CounsellingChatbot} from "../pages/CounsellingChatbot";
 import {Uni} from "../pages/uni/uni";
 import {LearningMaterials} from "../pages/uni/learningMaterials";
+import {Tools} from "../pages/Tools";
 
 export const NavBarContent: (PageRef | Folder)[] = [
     {
@@ -106,11 +107,28 @@ export const NavBarContent: (PageRef | Folder)[] = [
         ]
     },
     {
-        name: "Intelligent Counselling System",
-        title: "Intelligent Counselling System",
-        path: "/intelligent-counselling-system",
-        component: <CounsellingChatbot/>
+        name: "Student Counselling", component: <></>, folder: [
+            {
+                name: "Overview",
+                title: "Overview",
+                path: "/"
 
+            },
+            {
+                name: "Intelligent Counselling System",
+                title: "Intelligent Counselling System",
+                path: "/intelligent-counselling-system",
+                component: <CounsellingChatbot/>
+
+            },
+            {
+                name: "Tools",
+                title: "Tools",
+                path: "/tools",
+                component: <Tools/>
+
+            }
+        ]
     }
     /*
     {
