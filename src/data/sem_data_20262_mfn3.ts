@@ -1,5 +1,5 @@
 export const sem_data_20262_mfn3 = {
-    "erzeugtAm": "2026-08-29T18:13:00.427Z",
+    "erzeugtAm": "2026-08-29T21:12:55.366Z",
     "semester": 20262,
     "semesterName": "WiSe 2026/27",
     "quelle": {
@@ -20084,7 +20084,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv29612089",
             "amodulID": 420523059,
             "bmodulID": 26787444,
-            "schwere": "teilweise",
+            "schwere": "hart",
             "betrifftQuelle": true,
             "freieKombinationen": 3,
             "gesamteKombinationen": 4,
@@ -20127,25 +20127,33 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 14:00-16:00"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 732698770,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 732698770,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 732698770,
                     "bKursId": 653874947,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Mi 14:00–16:00 (120 min) – wöchentliche Überschneidung"
@@ -20157,7 +20165,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420523241",
             "amodulID": 420523059,
             "bmodulID": 420523238,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -20166,43 +20174,57 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 732698806,
                     "bKursId": 737632256,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 737632989,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774167652,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168234,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168816,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774169038,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
@@ -20242,7 +20264,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 GZI"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -20330,7 +20354,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -20385,7 +20411,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -20397,7 +20425,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392685",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -20406,31 +20434,41 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168816,
@@ -20470,19 +20508,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 S0-209"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -20494,7 +20538,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392686",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 6,
             "gesamteKombinationen": 8,
@@ -20503,25 +20547,33 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168485,
@@ -20561,19 +20613,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169214,
@@ -20646,7 +20704,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung | Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -20658,7 +20718,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv467052162",
             "amodulID": 420523238,
             "bmodulID": 467052073,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 31,
             "gesamteKombinationen": 32,
@@ -20667,13 +20727,17 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
@@ -20713,181 +20777,241 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 14-16 U10-146"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Do 14:00–16:00 (120 min) – wöchentliche Überschneidung"
@@ -20899,7 +21023,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv29615193",
             "amodulID": 420523238,
             "bmodulID": 26787441,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -20908,43 +21032,57 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 653870797,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 653870797,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 653870797,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 653870797,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 653870797,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 653870797,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 653870797,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169214,
@@ -20984,7 +21122,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -20996,7 +21136,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv29612089",
             "amodulID": 420523238,
             "bmodulID": 26787444,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 29,
             "gesamteKombinationen": 32,
@@ -21005,67 +21145,89 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 653874947,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 653874947,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774167652,
@@ -21138,25 +21300,33 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mo 8-10 einmalig Übung 1, Florian Schneider"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774168234,
@@ -21229,49 +21399,65 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Di 12-14 einmalig Übung 5, Florian Schneider"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 653874947,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774168816,
@@ -21410,55 +21596,73 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 einmalig Übung 6 (12-13 Uhr) + Tutorium 6 (13-14 Uhr), Stefan Hopp"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 653874947,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 653874947,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Mo 08:00–10:00 (120 min) – wöchentliche Überschneidung | Mo 08:00–10:00 (120 min) – Einzeltermin ohne Datumsangabe | Di 12:00–14:00 (120 min) – wöchentliche Überschneidung | Di 12:00–14:00 (120 min) – Einzeltermin ohne Datumsangabe | Do 12:00–14:00 (120 min) – wöchentliche Überschneidung | Do 12:00–14:00 (120 min) – Einzeltermin ohne Datumsangabe"
@@ -21470,7 +21674,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv29612089",
             "amodulID": 70750995,
             "bmodulID": 26787444,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 3,
             "gesamteKombinationen": 4,
@@ -21479,19 +21683,25 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 747228485,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 747228485,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 747228485,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 747228485,
@@ -21630,7 +21840,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 einmalig Übung 6 (12-13 Uhr) + Tutorium 6 (13-14 Uhr), Stefan Hopp"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung | Do 12:00–14:00 (120 min) – Einzeltermin ohne Datumsangabe"
@@ -21642,7 +21854,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv29612086",
             "amodulID": 70750995,
             "bmodulID": 26787460,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 2,
             "gesamteKombinationen": 3,
@@ -21718,19 +21930,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 12-14"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 748241633,
                     "bKursId": 653870661,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 748241633,
                     "bKursId": 653870728,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Kl"
                 }
             ],
             "zusammenfassung": "Do 11:00–12:00 (60 min) – wöchentliche Überschneidung | Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -21818,7 +22036,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -21830,7 +22050,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv29612089",
             "amodulID": 70750995,
             "bmodulID": 26787444,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 3,
             "gesamteKombinationen": 4,
@@ -21873,25 +22093,33 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 10:00-11:00"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 748241633,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 748241633,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 748241633,
                     "bKursId": 653874947,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Do 10:00–11:00 (60 min) – wöchentliche Überschneidung"
@@ -21946,7 +22174,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Di 10-11"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Di 10:00–11:00 (60 min) – wöchentliche Überschneidung"
@@ -21958,7 +22188,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420523241",
             "amodulID": 420523059,
             "bmodulID": 420523238,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -21967,43 +22197,57 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 732698806,
                     "bKursId": 737632256,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 737632989,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774167652,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168234,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168816,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774169038,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
@@ -22043,7 +22287,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 GZI"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -22131,7 +22377,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -22143,7 +22391,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392685",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -22152,31 +22400,41 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168816,
@@ -22216,19 +22474,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 S0-209"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -22240,7 +22504,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392686",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 6,
             "gesamteKombinationen": 8,
@@ -22249,25 +22513,33 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168485,
@@ -22307,19 +22579,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169214,
@@ -22392,7 +22670,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung | Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -22404,7 +22684,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv467052162",
             "amodulID": 420523238,
             "bmodulID": 467052073,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 31,
             "gesamteKombinationen": 32,
@@ -22413,13 +22693,17 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
@@ -22459,181 +22743,241 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 14-16 U10-146"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Do 14:00–16:00 (120 min) – wöchentliche Überschneidung"
@@ -22645,7 +22989,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv29615050",
             "amodulID": 420523238,
             "bmodulID": 26801061,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -22654,31 +22998,41 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 715333863,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 715333863,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 715333863,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 715333863,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 715333863,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168816,
@@ -22718,19 +23072,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 AUDIMAX"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 715333863,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 715333863,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -22785,7 +23145,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 AUDIMAX"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -22797,7 +23159,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420523241",
             "amodulID": 420523059,
             "bmodulID": 420523238,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -22806,43 +23168,57 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 732698806,
                     "bKursId": 737632256,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 737632989,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774167652,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168234,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168816,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774169038,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
@@ -22882,7 +23258,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 GZI"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -22970,7 +23348,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -22982,7 +23362,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392685",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -22991,31 +23371,41 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168816,
@@ -23055,19 +23445,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 S0-209"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -23079,7 +23475,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392686",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 6,
             "gesamteKombinationen": 8,
@@ -23088,25 +23484,33 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168485,
@@ -23146,19 +23550,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169214,
@@ -23231,7 +23641,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung | Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -23243,7 +23655,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv467052162",
             "amodulID": 420523238,
             "bmodulID": 467052073,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 31,
             "gesamteKombinationen": 32,
@@ -23252,13 +23664,17 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
@@ -23298,181 +23714,241 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 14-16 U10-146"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Do 14:00–16:00 (120 min) – wöchentliche Überschneidung"
@@ -23484,7 +23960,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv533150466",
             "amodulID": 420523238,
             "bmodulID": 533150403,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 30,
             "gesamteKombinationen": 32,
@@ -23493,7 +23969,9 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
@@ -23533,109 +24011,145 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 14-16 V3-204"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
@@ -23675,79 +24189,105 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 V5-148"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Do 14:00–16:00 (120 min) – wöchentliche Überschneidung | Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -23802,7 +24342,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 12-14 H16"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -23857,7 +24399,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 10-12 V2-105/115"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -23869,7 +24413,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv533150466",
             "amodulID": 70750995,
             "bmodulID": 533150403,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 3,
             "gesamteKombinationen": 4,
@@ -23878,19 +24422,25 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 748241633,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 748241633,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 748241633,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 748241633,
@@ -23930,7 +24480,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 V5-148"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -23985,7 +24537,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Di 10-12 U2-205"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Di 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -23997,7 +24551,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv533150466",
             "amodulID": 467052073,
             "bmodulID": 533150403,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 15,
             "gesamteKombinationen": 16,
@@ -24006,55 +24560,73 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 744123934,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 744123934,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 744123934,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 744123934,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 744127275,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 744127275,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 744127275,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 744127275,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 744127838,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 744127838,
@@ -24094,43 +24666,57 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 14-16 V3-204"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 744127838,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 744127838,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 744128781,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 744128781,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 744128781,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 744128781,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Do 14:00–16:00 (120 min) – wöchentliche Überschneidung"
@@ -24142,7 +24728,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420523241",
             "amodulID": 420523059,
             "bmodulID": 420523238,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -24151,43 +24737,57 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 732698806,
                     "bKursId": 737632256,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 737632989,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774167652,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168234,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168816,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774169038,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
@@ -24227,7 +24827,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 GZI"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -24315,7 +24917,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -24327,7 +24931,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392685",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -24336,31 +24940,41 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168816,
@@ -24400,19 +25014,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 S0-209"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -24424,7 +25044,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392686",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 6,
             "gesamteKombinationen": 8,
@@ -24433,25 +25053,33 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168485,
@@ -24491,19 +25119,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169214,
@@ -24576,7 +25210,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung | Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -24588,7 +25224,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv467052162",
             "amodulID": 420523238,
             "bmodulID": 467052073,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 31,
             "gesamteKombinationen": 32,
@@ -24597,13 +25233,17 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
@@ -24643,181 +25283,241 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 14-16 U10-146"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Do 14:00–16:00 (120 min) – wöchentliche Überschneidung"
@@ -24829,7 +25529,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420564645",
             "amodulID": 420523238,
             "bmodulID": 420564638,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 15,
             "gesamteKombinationen": 16,
@@ -24838,79 +25538,105 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 748227787,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 748227787,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 748227787,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 748227787,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 748227787,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 748227787,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
@@ -24950,19 +25676,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 16-18 S1-501"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 748227787,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Do 16:00–18:00 (120 min) – wöchentliche Überschneidung"
@@ -24974,7 +25706,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420564651",
             "amodulID": 420523238,
             "bmodulID": 420564638,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -24983,19 +25715,25 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 748212809,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 748212809,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 748212809,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168234,
@@ -25035,31 +25773,41 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Di 12-14 H6"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 748212809,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 748212809,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 748212809,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 748212809,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Di 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -25114,7 +25862,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 10-12 CITEC"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -25126,7 +25876,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420742973",
             "amodulID": 70750995,
             "bmodulID": 420742960,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 2,
             "gesamteKombinationen": 3,
@@ -25135,13 +25885,17 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 748241633,
                     "bKursId": 743039416,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 748241633,
                     "bKursId": 743050934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 748241633,
@@ -25181,7 +25935,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 12-14 GZI V2-221  "
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -25193,7 +25949,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420523241",
             "amodulID": 420523059,
             "bmodulID": 420523238,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -25202,43 +25958,57 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 732698806,
                     "bKursId": 737632256,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 737632989,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774167652,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168234,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168816,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774169038,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
@@ -25278,7 +26048,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 GZI"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -25366,7 +26138,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -25378,7 +26152,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392685",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -25387,31 +26161,41 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168816,
@@ -25451,19 +26235,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 S0-209"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -25475,7 +26265,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392686",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 6,
             "gesamteKombinationen": 8,
@@ -25484,25 +26274,33 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168485,
@@ -25542,19 +26340,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169214,
@@ -25627,7 +26431,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung | Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -25639,7 +26445,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv467052162",
             "amodulID": 420523238,
             "bmodulID": 467052073,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 31,
             "gesamteKombinationen": 32,
@@ -25648,13 +26454,17 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
@@ -25694,181 +26504,241 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 14-16 U10-146"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 744123934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 744127275,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 744127838,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 744128781,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Do 14:00–16:00 (120 min) – wöchentliche Überschneidung"
@@ -25923,7 +26793,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 12-14 S1-209"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -25935,7 +26807,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv29612089",
             "amodulID": 420523059,
             "bmodulID": 26787444,
-            "schwere": "teilweise",
+            "schwere": "hart",
             "betrifftQuelle": true,
             "freieKombinationen": 3,
             "gesamteKombinationen": 4,
@@ -25978,25 +26850,33 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 14:00-16:00"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 732698770,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 732698770,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 732698770,
                     "bKursId": 653874947,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Mi 14:00–16:00 (120 min) – wöchentliche Überschneidung"
@@ -26008,7 +26888,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420523241",
             "amodulID": 420523059,
             "bmodulID": 420523238,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -26017,43 +26897,57 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 732698806,
                     "bKursId": 737632256,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 737632989,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774167652,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168234,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168816,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774169038,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
@@ -26093,7 +26987,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 GZI"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -26181,7 +27077,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -26236,7 +27134,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -26248,7 +27148,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420523241",
             "amodulID": 420556013,
             "bmodulID": 420523238,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -26257,37 +27157,49 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 742880868,
                     "bKursId": 737632256,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 737632989,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774167652,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774168234,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774168485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774168816,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
@@ -26327,13 +27239,17 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 16-18 GZI"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774169214,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Do 16:00–18:00 (120 min) – wöchentliche Überschneidung"
@@ -26388,7 +27304,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Di 10-11"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Di 10:00–11:00 (60 min) – wöchentliche Überschneidung"
@@ -26400,7 +27318,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392685",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -26409,31 +27327,41 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168816,
@@ -26473,19 +27401,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 S0-209"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -26497,7 +27431,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392686",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 6,
             "gesamteKombinationen": 8,
@@ -26506,25 +27440,33 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168485,
@@ -26564,19 +27506,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169214,
@@ -26649,7 +27597,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung | Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -26661,7 +27611,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv29615193",
             "amodulID": 420523238,
             "bmodulID": 26787441,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -26670,43 +27620,57 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 653870797,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 653870797,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 653870797,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 653870797,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 653870797,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 653870797,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 653870797,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169214,
@@ -26746,7 +27710,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -26758,7 +27724,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv29612089",
             "amodulID": 420523238,
             "bmodulID": 26787444,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 29,
             "gesamteKombinationen": 32,
@@ -26767,67 +27733,89 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 653874947,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 653874947,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774167652,
@@ -26900,25 +27888,33 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mo 8-10 einmalig Übung 1, Florian Schneider"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774168234,
@@ -26991,49 +27987,65 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Di 12-14 einmalig Übung 5, Florian Schneider"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 653874947,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774168816,
@@ -27172,55 +28184,73 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 einmalig Übung 6 (12-13 Uhr) + Tutorium 6 (13-14 Uhr), Stefan Hopp"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 653874947,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 653874947,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Mo 08:00–10:00 (120 min) – wöchentliche Überschneidung | Mo 08:00–10:00 (120 min) – Einzeltermin ohne Datumsangabe | Di 12:00–14:00 (120 min) – wöchentliche Überschneidung | Di 12:00–14:00 (120 min) – Einzeltermin ohne Datumsangabe | Do 12:00–14:00 (120 min) – wöchentliche Überschneidung | Do 12:00–14:00 (120 min) – Einzeltermin ohne Datumsangabe"
@@ -27232,7 +28262,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv29612089",
             "amodulID": 70750995,
             "bmodulID": 26787444,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 3,
             "gesamteKombinationen": 4,
@@ -27241,19 +28271,25 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 747228485,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 747228485,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 747228485,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 747228485,
@@ -27392,7 +28428,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 einmalig Übung 6 (12-13 Uhr) + Tutorium 6 (13-14 Uhr), Stefan Hopp"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung | Do 12:00–14:00 (120 min) – Einzeltermin ohne Datumsangabe"
@@ -27404,7 +28442,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv29612086",
             "amodulID": 70750995,
             "bmodulID": 26787460,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 2,
             "gesamteKombinationen": 3,
@@ -27480,19 +28518,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 12-14"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 748241633,
                     "bKursId": 653870661,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 748241633,
                     "bKursId": 653870728,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Kl"
                 }
             ],
             "zusammenfassung": "Do 11:00–12:00 (60 min) – wöchentliche Überschneidung | Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -27580,7 +28624,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -27592,7 +28638,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv29612089",
             "amodulID": 70750995,
             "bmodulID": 26787444,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 3,
             "gesamteKombinationen": 4,
@@ -27635,25 +28681,33 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 10:00-11:00"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 748241633,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 748241633,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 748241633,
                     "bKursId": 653874947,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Do 10:00–11:00 (60 min) – wöchentliche Überschneidung"
@@ -27665,7 +28719,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420523241",
             "amodulID": 420523059,
             "bmodulID": 420523238,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -27674,43 +28728,57 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 732698806,
                     "bKursId": 737632256,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 737632989,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774167652,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168234,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168816,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774169038,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
@@ -27750,7 +28818,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 GZI"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -27838,7 +28908,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -27850,7 +28922,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420523241",
             "amodulID": 420556013,
             "bmodulID": 420523238,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -27859,37 +28931,49 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 742880868,
                     "bKursId": 737632256,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 737632989,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774167652,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774168234,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774168485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774168816,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
@@ -27929,13 +29013,17 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 16-18 GZI"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774169214,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Do 16:00–18:00 (120 min) – wöchentliche Überschneidung"
@@ -27947,7 +29035,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392685",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -27956,31 +29044,41 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168816,
@@ -28020,19 +29118,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 S0-209"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -28044,7 +29148,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392686",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 6,
             "gesamteKombinationen": 8,
@@ -28053,25 +29157,33 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168485,
@@ -28111,19 +29223,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169214,
@@ -28196,7 +29314,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung | Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -28208,7 +29328,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv29615050",
             "amodulID": 420523238,
             "bmodulID": 26801061,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -28217,31 +29337,41 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 715333863,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 715333863,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 715333863,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 715333863,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 715333863,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168816,
@@ -28281,19 +29411,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 AUDIMAX"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 715333863,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 715333863,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -28348,7 +29484,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 AUDIMAX"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -28360,7 +29498,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420523241",
             "amodulID": 420523059,
             "bmodulID": 420523238,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -28369,43 +29507,57 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 732698806,
                     "bKursId": 737632256,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 737632989,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774167652,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168234,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168816,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774169038,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
@@ -28445,7 +29597,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 GZI"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -28533,7 +29687,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -28545,7 +29701,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420523241",
             "amodulID": 420556013,
             "bmodulID": 420523238,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -28554,37 +29710,49 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 742880868,
                     "bKursId": 737632256,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 737632989,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774167652,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774168234,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774168485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774168816,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
@@ -28624,13 +29792,17 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 16-18 GZI"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774169214,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Do 16:00–18:00 (120 min) – wöchentliche Überschneidung"
@@ -28685,7 +29857,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Di 10-12 U2-205"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Di 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -28697,7 +29871,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392685",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -28706,31 +29880,41 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168816,
@@ -28770,19 +29954,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 S0-209"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -28794,7 +29984,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392686",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 6,
             "gesamteKombinationen": 8,
@@ -28803,25 +29993,33 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168485,
@@ -28861,19 +30059,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169214,
@@ -28946,7 +30150,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung | Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -28958,7 +30164,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv533150466",
             "amodulID": 420523238,
             "bmodulID": 533150403,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 30,
             "gesamteKombinationen": 32,
@@ -28967,7 +30173,9 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
@@ -29007,109 +30215,145 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 14-16 V3-204"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
@@ -29149,79 +30393,105 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 V5-148"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Do 14:00–16:00 (120 min) – wöchentliche Überschneidung | Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -29276,7 +30546,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 12-14 H16"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -29331,7 +30603,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 10-12 V2-105/115"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -29343,7 +30617,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv533150466",
             "amodulID": 70750995,
             "bmodulID": 533150403,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 3,
             "gesamteKombinationen": 4,
@@ -29352,19 +30626,25 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 748241633,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 748241633,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 748241633,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 748241633,
@@ -29404,7 +30684,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 V5-148"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -29416,7 +30698,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420523241",
             "amodulID": 420523059,
             "bmodulID": 420523238,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -29425,43 +30707,57 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 732698806,
                     "bKursId": 737632256,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 737632989,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774167652,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168234,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168816,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774169038,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
@@ -29501,7 +30797,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 GZI"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -29589,7 +30887,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -29601,7 +30901,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420523241",
             "amodulID": 420556013,
             "bmodulID": 420523238,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -29610,37 +30910,49 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 742880868,
                     "bKursId": 737632256,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 737632989,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774167652,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774168234,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774168485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774168816,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
@@ -29680,13 +30992,17 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 16-18 GZI"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774169214,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Do 16:00–18:00 (120 min) – wöchentliche Überschneidung"
@@ -29698,7 +31014,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420564645",
             "amodulID": 420556013,
             "bmodulID": 420564638,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 1,
             "gesamteKombinationen": 2,
@@ -29707,7 +31023,9 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 742880868,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
@@ -29747,7 +31065,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 16-18 S1-501"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Do 16:00–18:00 (120 min) – wöchentliche Überschneidung"
@@ -29759,7 +31079,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392685",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -29768,31 +31088,41 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168816,
@@ -29832,19 +31162,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 S0-209"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -29856,7 +31192,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392686",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 6,
             "gesamteKombinationen": 8,
@@ -29865,25 +31201,33 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168485,
@@ -29923,19 +31267,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169214,
@@ -30008,7 +31358,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung | Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -30020,7 +31372,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420564645",
             "amodulID": 420523238,
             "bmodulID": 420564638,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 15,
             "gesamteKombinationen": 16,
@@ -30029,79 +31381,105 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 748227787,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 748227787,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 748227787,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 748227787,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 748227787,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 748227787,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
@@ -30141,19 +31519,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 16-18 S1-501"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 748227787,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Do 16:00–18:00 (120 min) – wöchentliche Überschneidung"
@@ -30165,7 +31549,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420564651",
             "amodulID": 420523238,
             "bmodulID": 420564638,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -30174,19 +31558,25 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 748212809,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 748212809,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 748212809,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168234,
@@ -30226,31 +31616,41 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Di 12-14 H6"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 748212809,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 748212809,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 748212809,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 748212809,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Di 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -30305,7 +31705,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 10-12 CITEC"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -30317,7 +31719,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420742973",
             "amodulID": 70750995,
             "bmodulID": 420742960,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 2,
             "gesamteKombinationen": 3,
@@ -30326,13 +31728,17 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 748241633,
                     "bKursId": 743039416,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 748241633,
                     "bKursId": 743050934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 748241633,
@@ -30372,7 +31778,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 12-14 GZI V2-221  "
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -30384,7 +31792,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420523241",
             "amodulID": 420523059,
             "bmodulID": 420523238,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -30393,43 +31801,57 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 732698806,
                     "bKursId": 737632256,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 737632989,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774167652,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168234,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168816,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774169038,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
@@ -30469,7 +31891,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 GZI"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -30557,7 +31981,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -30569,7 +31995,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420523241",
             "amodulID": 420556013,
             "bmodulID": 420523238,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -30578,37 +32004,49 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 742880868,
                     "bKursId": 737632256,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 737632989,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774167652,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774168234,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774168485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774168816,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
@@ -30648,13 +32086,17 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 16-18 GZI"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 742880868,
                     "bKursId": 774169214,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Do 16:00–18:00 (120 min) – wöchentliche Überschneidung"
@@ -30666,7 +32108,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392685",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -30675,31 +32117,41 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168816,
@@ -30739,19 +32191,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 S0-209"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -30763,7 +32221,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392686",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 6,
             "gesamteKombinationen": 8,
@@ -30772,25 +32230,33 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168485,
@@ -30830,19 +32296,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169214,
@@ -30915,7 +32387,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung | Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -30970,7 +32444,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 12-14 S1-209"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -30982,7 +32458,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv29612089",
             "amodulID": 420523059,
             "bmodulID": 26787444,
-            "schwere": "teilweise",
+            "schwere": "hart",
             "betrifftQuelle": true,
             "freieKombinationen": 3,
             "gesamteKombinationen": 4,
@@ -31025,25 +32501,33 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 14:00-16:00"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 732698770,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 732698770,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 732698770,
                     "bKursId": 653874947,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Mi 14:00–16:00 (120 min) – wöchentliche Überschneidung"
@@ -31055,7 +32539,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420523241",
             "amodulID": 420523059,
             "bmodulID": 420523238,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -31064,43 +32548,57 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 732698806,
                     "bKursId": 737632256,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 737632989,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774167652,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168234,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168816,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774169038,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
@@ -31140,7 +32638,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 GZI"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -31228,7 +32728,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -31283,7 +32785,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -31295,7 +32799,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420564263",
             "amodulID": 420523238,
             "bmodulID": 420564257,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 15,
             "gesamteKombinationen": 16,
@@ -31304,55 +32808,73 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
@@ -31392,43 +32914,57 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 V2-200"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -31440,7 +32976,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392685",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -31449,31 +32985,41 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168816,
@@ -31513,19 +33059,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 S0-209"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -31537,7 +33089,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392686",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 6,
             "gesamteKombinationen": 8,
@@ -31546,25 +33098,33 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168485,
@@ -31604,19 +33164,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169214,
@@ -31689,7 +33255,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung | Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -31701,7 +33269,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv29615193",
             "amodulID": 420523238,
             "bmodulID": 26787441,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -31710,43 +33278,57 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 653870797,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 653870797,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 653870797,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 653870797,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 653870797,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 653870797,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 653870797,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169214,
@@ -31786,7 +33368,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -31798,7 +33382,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv29612089",
             "amodulID": 420523238,
             "bmodulID": 26787444,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 29,
             "gesamteKombinationen": 32,
@@ -31807,67 +33391,89 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 653874947,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 653874947,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774167652,
@@ -31940,25 +33546,33 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mo 8-10 einmalig Übung 1, Florian Schneider"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774168234,
@@ -32031,49 +33645,65 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Di 12-14 einmalig Übung 5, Florian Schneider"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 653874947,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774168816,
@@ -32212,55 +33842,73 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 einmalig Übung 6 (12-13 Uhr) + Tutorium 6 (13-14 Uhr), Stefan Hopp"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 653874947,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 653874947,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Mo 08:00–10:00 (120 min) – wöchentliche Überschneidung | Mo 08:00–10:00 (120 min) – Einzeltermin ohne Datumsangabe | Di 12:00–14:00 (120 min) – wöchentliche Überschneidung | Di 12:00–14:00 (120 min) – Einzeltermin ohne Datumsangabe | Do 12:00–14:00 (120 min) – wöchentliche Überschneidung | Do 12:00–14:00 (120 min) – Einzeltermin ohne Datumsangabe"
@@ -32272,7 +33920,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392686",
             "amodulID": 420564257,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 1,
             "gesamteKombinationen": 2,
@@ -32281,7 +33929,9 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 738801954,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 738808508,
@@ -32321,7 +33971,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -32333,7 +33985,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv29612089",
             "amodulID": 70750995,
             "bmodulID": 26787444,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 3,
             "gesamteKombinationen": 4,
@@ -32342,19 +33994,25 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 747228485,
                     "bKursId": 653874208,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 747228485,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 747228485,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 747228485,
@@ -32493,7 +34151,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 einmalig Übung 6 (12-13 Uhr) + Tutorium 6 (13-14 Uhr), Stefan Hopp"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung | Do 12:00–14:00 (120 min) – Einzeltermin ohne Datumsangabe"
@@ -32505,7 +34165,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv29612086",
             "amodulID": 70750995,
             "bmodulID": 26787460,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 2,
             "gesamteKombinationen": 3,
@@ -32581,19 +34241,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 12-14"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 748241633,
                     "bKursId": 653870661,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 748241633,
                     "bKursId": 653870728,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Kl"
                 }
             ],
             "zusammenfassung": "Do 11:00–12:00 (60 min) – wöchentliche Überschneidung | Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -32681,7 +34347,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -32693,7 +34361,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv29612089",
             "amodulID": 70750995,
             "bmodulID": 26787444,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 3,
             "gesamteKombinationen": 4,
@@ -32736,25 +34404,33 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 10:00-11:00"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 748241633,
                     "bKursId": 653874777,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 748241633,
                     "bKursId": 653874866,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 748241633,
                     "bKursId": 653874947,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Do 10:00–11:00 (60 min) – wöchentliche Überschneidung"
@@ -32766,7 +34442,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420523241",
             "amodulID": 420523059,
             "bmodulID": 420523238,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -32775,43 +34451,57 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 732698806,
                     "bKursId": 737632256,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 737632989,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774167652,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168234,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168816,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774169038,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
@@ -32851,7 +34541,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 GZI"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -32939,7 +34631,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -32951,7 +34645,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420564263",
             "amodulID": 420523238,
             "bmodulID": 420564257,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 15,
             "gesamteKombinationen": 16,
@@ -32960,55 +34654,73 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
@@ -33048,43 +34760,57 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 V2-200"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -33096,7 +34822,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392685",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -33105,31 +34831,41 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168816,
@@ -33169,19 +34905,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 S0-209"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -33193,7 +34935,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392686",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 6,
             "gesamteKombinationen": 8,
@@ -33202,25 +34944,33 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168485,
@@ -33260,19 +35010,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169214,
@@ -33345,7 +35101,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung | Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -33357,7 +35115,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv29615050",
             "amodulID": 420523238,
             "bmodulID": 26801061,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -33366,31 +35124,41 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 715333863,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 715333863,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 715333863,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 715333863,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 715333863,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168816,
@@ -33430,19 +35198,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 AUDIMAX"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 715333863,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 715333863,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -33454,7 +35228,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392686",
             "amodulID": 420564257,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 1,
             "gesamteKombinationen": 2,
@@ -33463,7 +35237,9 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 738801954,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 738808508,
@@ -33503,7 +35279,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -33558,7 +35336,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 AUDIMAX"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -33570,7 +35350,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420523241",
             "amodulID": 420523059,
             "bmodulID": 420523238,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -33579,43 +35359,57 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 732698806,
                     "bKursId": 737632256,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 737632989,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774167652,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168234,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168816,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774169038,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
@@ -33655,7 +35449,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 GZI"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -33743,7 +35539,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -33755,7 +35553,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420564263",
             "amodulID": 420523238,
             "bmodulID": 420564257,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 15,
             "gesamteKombinationen": 16,
@@ -33764,55 +35562,73 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
@@ -33852,43 +35668,57 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 V2-200"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -33900,7 +35730,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392685",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -33909,31 +35739,41 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168816,
@@ -33973,19 +35813,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 S0-209"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -33997,7 +35843,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392686",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 6,
             "gesamteKombinationen": 8,
@@ -34006,25 +35852,33 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168485,
@@ -34064,19 +35918,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169214,
@@ -34149,7 +36009,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung | Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -34161,7 +36023,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv533150466",
             "amodulID": 420523238,
             "bmodulID": 533150403,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 30,
             "gesamteKombinationen": 32,
@@ -34170,7 +36032,9 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
@@ -34210,109 +36074,145 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 14-16 V3-204"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
@@ -34352,79 +36252,105 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 V5-148"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Do 14:00–16:00 (120 min) – wöchentliche Überschneidung | Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -34436,7 +36362,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392686",
             "amodulID": 420564257,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 1,
             "gesamteKombinationen": 2,
@@ -34445,7 +36371,9 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 738801954,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 738808508,
@@ -34485,7 +36413,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -34497,7 +36427,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv533150466",
             "amodulID": 420564257,
             "bmodulID": 533150403,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -34506,43 +36436,57 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 738801954,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 738801954,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 738801954,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 738801954,
                     "bKursId": 774053340,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 738808508,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 738808508,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 738808508,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 738808508,
@@ -34582,7 +36526,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 V5-148"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -34637,7 +36583,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 12-14 H16"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -34692,7 +36640,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 10-12 V2-105/115"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -34704,7 +36654,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv533150466",
             "amodulID": 70750995,
             "bmodulID": 533150403,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 3,
             "gesamteKombinationen": 4,
@@ -34713,19 +36663,25 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 748241633,
                     "bKursId": 732695938,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 748241633,
                     "bKursId": 773761745,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 748241633,
                     "bKursId": 773762469,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 748241633,
@@ -34765,7 +36721,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 V5-148"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -34777,7 +36735,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420523241",
             "amodulID": 420523059,
             "bmodulID": 420523238,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -34786,43 +36744,57 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 732698806,
                     "bKursId": 737632256,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 737632989,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774167652,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168234,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168816,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774169038,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
@@ -34862,7 +36834,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 GZI"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -34950,7 +36924,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -34962,7 +36938,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420564263",
             "amodulID": 420523238,
             "bmodulID": 420564257,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 15,
             "gesamteKombinationen": 16,
@@ -34971,55 +36947,73 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
@@ -35059,43 +37053,57 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 V2-200"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -35107,7 +37115,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392685",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -35116,31 +37124,41 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168816,
@@ -35180,19 +37198,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 S0-209"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -35204,7 +37228,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392686",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 6,
             "gesamteKombinationen": 8,
@@ -35213,25 +37237,33 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168485,
@@ -35271,19 +37303,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169214,
@@ -35356,7 +37394,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung | Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -35368,7 +37408,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420564645",
             "amodulID": 420523238,
             "bmodulID": 420564638,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 15,
             "gesamteKombinationen": 16,
@@ -35377,79 +37417,105 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 748227787,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 748227787,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 748227787,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 748227787,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 748227787,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 748227787,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
@@ -35489,19 +37555,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 16-18 S1-501"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 748223820,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 748227787,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Do 16:00–18:00 (120 min) – wöchentliche Überschneidung"
@@ -35513,7 +37585,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420564651",
             "amodulID": 420523238,
             "bmodulID": 420564638,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -35522,19 +37594,25 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 748212809,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 748212809,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 748212809,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168234,
@@ -35574,31 +37652,41 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Di 12-14 H6"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 748212809,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 748212809,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 748212809,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 748212809,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Di 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -35610,7 +37698,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392686",
             "amodulID": 420564257,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 1,
             "gesamteKombinationen": 2,
@@ -35619,7 +37707,9 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 738801954,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 738808508,
@@ -35659,7 +37749,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -35714,7 +37806,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 10-12 CITEC"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -35726,7 +37820,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420742973",
             "amodulID": 70750995,
             "bmodulID": 420742960,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 2,
             "gesamteKombinationen": 3,
@@ -35735,13 +37829,17 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 748241633,
                     "bKursId": 743039416,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 748241633,
                     "bKursId": 743050934,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Seminar",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 748241633,
@@ -35781,7 +37879,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 12-14 GZI V2-221  "
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -35793,7 +37893,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420523241",
             "amodulID": 420523059,
             "bmodulID": 420523238,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -35802,43 +37902,57 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 732698806,
                     "bKursId": 737632256,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 737632989,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774167652,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168234,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774168816,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
                     "bKursId": 774169038,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732698806,
@@ -35878,7 +37992,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 GZI"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -35966,7 +38082,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -35978,7 +38096,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv420564263",
             "amodulID": 420523238,
             "bmodulID": 420564257,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 15,
             "gesamteKombinationen": 16,
@@ -35987,55 +38105,73 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632256,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168485,
@@ -36075,43 +38211,57 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 V2-200"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 738801954,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 738808508,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -36123,7 +38273,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392685",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 7,
             "gesamteKombinationen": 8,
@@ -36132,31 +38282,41 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168485,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774168816,
@@ -36196,19 +38356,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Do 12-14 S0-209"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 774169214,
                     "bKursId": 747228485,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -36220,7 +38386,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392686",
             "amodulID": 420523238,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 6,
             "gesamteKombinationen": 8,
@@ -36229,25 +38395,33 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 737632256,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 737632989,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774167652,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168234,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168485,
@@ -36287,19 +38461,25 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774168816,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169038,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 774169214,
@@ -36372,7 +38552,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 10-12 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung | Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -36384,7 +38566,7 @@ export const sem_data_20262_mfn3 = {
             "bSchluessel": "mv71392686",
             "amodulID": 420564257,
             "bmodulID": 70750995,
-            "schwere": "teilweise",
+            "schwere": "unsicher",
             "betrifftQuelle": false,
             "freieKombinationen": 1,
             "gesamteKombinationen": 2,
@@ -36393,7 +38575,9 @@ export const sem_data_20262_mfn3 = {
                     "aKursId": 738801954,
                     "bKursId": 748241633,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 738808508,
@@ -36433,7 +38617,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Mi 12-14 S0-133"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -36488,7 +38674,9 @@ export const sem_data_20262_mfn3 = {
                                 "roh": "Fr 12-14 S1-209"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Seminar",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -36503,8 +38691,8 @@ export const sem_data_20262_mfn3 = {
         "aktiveKohorten": 21,
         "veranstaltungen": 55,
         "ohneZeiten": 10,
-        "harteKonflikte": 7,
-        "teilweiseKonflikte": 104,
-        "unsichereKonflikte": 33
+        "harteKonflikte": 10,
+        "teilweiseKonflikte": 0,
+        "unsichereKonflikte": 134
     }
 }

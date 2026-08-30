@@ -1,5 +1,5 @@
 export const sem_data_20262_mfn1 = {
-    "erzeugtAm": "2026-08-29T17:30:03.087Z",
+    "erzeugtAm": "2026-08-29T21:58:21.378Z",
     "semester": 20262,
     "semesterName": "WiSe 2026/27",
     "quelle": {
@@ -45,7 +45,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-26084651",
-            "bezeichnung": "Naturwissenschaftliche Informatik · B.Sc. · 1-Fach (fw) · FsB WiSe 2011/12–SoSe 2016",
+            "bezeichnung": "Naturwissenschaftliche Informatik B.Sc. 1-Fach (fw) FsB WiSe 2011/12–SoSe 2016",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -69,7 +69,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-81435105",
-            "bezeichnung": "Kognitive Informatik · B.Sc. · 1-Fach (fw) · FsB WiSe 2016/17–WiSe 2019/20",
+            "bezeichnung": "Kognitive Informatik B.Sc. 1-Fach (fw) FsB WiSe 2016/17–WiSe 2019/20",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -93,7 +93,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-81440621",
-            "bezeichnung": "Bioinformatik und Genomforschung · B.Sc. · 1-Fach (fw) · FsB WiSe 2016/17–WiSe 2019/20",
+            "bezeichnung": "Bioinformatik und Genomforschung B.Sc. 1-Fach (fw) FsB WiSe 2016/17–WiSe 2019/20",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -117,7 +117,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-81464950",
-            "bezeichnung": "Informatik · B.Sc. · Kernfach (fw) · FsB WiSe 2016/17–SoSe 2020",
+            "bezeichnung": "Informatik B.Sc. Kernfach (fw) FsB WiSe 2016/17–SoSe 2020",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -141,7 +141,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-26084607",
-            "bezeichnung": "Kognitive Informatik · B.Sc. · 1-Fach (fw) · FsB WiSe 2011/12–SoSe 2016",
+            "bezeichnung": "Kognitive Informatik B.Sc. 1-Fach (fw) FsB WiSe 2011/12–SoSe 2016",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -165,7 +165,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-188583091",
-            "bezeichnung": "Informatik · B.Sc. · Kernfach (fw) · FsB WiSe 2020/21–SoSe 2023",
+            "bezeichnung": "Informatik B.Sc. Kernfach (fw) Bioinformatik FsB WiSe 2020/21–SoSe 2023",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -189,7 +189,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-188582488",
-            "bezeichnung": "Informatik · B.Sc. · Kernfach (fw) · FsB WiSe 2020/21–SoSe 2023",
+            "bezeichnung": "Informatik B.Sc. Kernfach (fw) Technische Informatik FsB WiSe 2020/21–SoSe 2023",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -213,7 +213,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-81435260",
-            "bezeichnung": "Naturwissenschaftliche Informatik · B.Sc. · 1-Fach (fw) · FsB WiSe 2016/17–WiSe 2019/20",
+            "bezeichnung": "Naturwissenschaftliche Informatik B.Sc. 1-Fach (fw) FsB WiSe 2016/17–WiSe 2019/20",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -237,7 +237,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-26084817",
-            "bezeichnung": "Medieninformatik und Gestaltung · B.A.|B.Sc. · 1-Fach (fw) · FsB WiSe 2011/12–WiSe 2014/15",
+            "bezeichnung": "Medieninformatik und Gestaltung B.A.|B.Sc. 1-Fach (fw) FsB WiSe 2011/12–WiSe 2014/15",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -261,7 +261,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-26084307",
-            "bezeichnung": "Bioinformatik und Genomforschung · B.Sc. · 1-Fach (fw) · FsB WiSe 2011/12–SoSe 2016",
+            "bezeichnung": "Bioinformatik und Genomforschung B.Sc. 1-Fach (fw) FsB WiSe 2011/12–SoSe 2016",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -285,7 +285,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-368770235",
-            "bezeichnung": "Informatik · B.Sc. · Kernfach (fw) · FsB WiSe 2023/24–SoSe 2025",
+            "bezeichnung": "Informatik B.Sc. Kernfach (fw) Technische Informatik FsB WiSe 2023/24–SoSe 2025",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -309,7 +309,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-405818181",
-            "bezeichnung": "Künstliche Intelligenz und Kognitive Informatik · B.Sc. · 1-Fach (fw) · FsB ab WiSe 2023/24",
+            "bezeichnung": "Künstliche Intelligenz und Kognitive Informatik B.Sc. 1-Fach (fw) FsB WiSe 2023/24",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [
@@ -1243,7 +1243,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-368770239",
-            "bezeichnung": "Informatik · B.Sc. · Kernfach (fw) · FsB WiSe 2023/24–SoSe 2025",
+            "bezeichnung": "Informatik B.Sc. Kernfach (fw) Bioinformatik FsB WiSe 2023/24–SoSe 2025",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -1267,7 +1267,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-429153829",
-            "bezeichnung": "Medizinphysik · B.Sc. · 1-Fach (fw) · FsB ab WiSe 2024/25",
+            "bezeichnung": "Medizinphysik B.Sc. 1-Fach (fw) FsB WiSe 2024/25",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [
@@ -2591,7 +2591,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-368863964",
-            "bezeichnung": "Informatik · B.Sc. · Kernfach (fw) · FsB WiSe 2023/24–SoSe 2025",
+            "bezeichnung": "Informatik B.Sc. Kernfach (fw) Modellbildung FsB WiSe 2023/24–SoSe 2025",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -2615,7 +2615,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-432277847",
-            "bezeichnung": "Bioinformatische Genomforschung · B.Sc. · 1-Fach (fw) · FsB ab WiSe 2024/25",
+            "bezeichnung": "Bioinformatische Genomforschung B.Sc. 1-Fach (fw) FsB WiSe 2024/25",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [
@@ -3513,7 +3513,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-453998116",
-            "bezeichnung": "Informatik · B.Sc. · Kernfach (fw) · FsB ab WiSe 2025/26",
+            "bezeichnung": "Informatik B.Sc. Kernfach (fw) Bioinformatik FsB WiSe 2025/26",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [
@@ -4214,9 +4214,9 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-453998116+26084388",
-            "bezeichnung": "Informatik · B.Sc. · Kernfach (fw) · FsB ab WiSe 2025/26 + Chemie · B.Sc. · Nebenfach (fw) · FsB ab WiSe 2011/12",
+            "bezeichnung": "Informatik B.Sc. Kernfach (fw) Bioinformatik FsB WiSe 2025/26 + Chemie B.Sc. Nebenfach (fw) FsB WiSe 2011/12",
             "partnerE2": 26084388,
-            "partnerBezeichnung": "Chemie · B.Sc. · Nebenfach (fw) · FsB ab WiSe 2011/12",
+            "partnerBezeichnung": "Chemie B.Sc. Nebenfach (fw) FsB WiSe 2011/12",
             "angebote": [
                 {
                     "schluessel": "mv543614162",
@@ -5619,9 +5619,9 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-453998116+26085095",
-            "bezeichnung": "Informatik · B.Sc. · Kernfach (fw) · FsB ab WiSe 2025/26 + Wirtschaftswissenschaften · B.Sc. · Nebenfach (fw) · FsB ab WiSe 2011/12",
+            "bezeichnung": "Informatik B.Sc. Kernfach (fw) Bioinformatik FsB WiSe 2025/26 + Wirtschaftswissenschaften B.Sc. Nebenfach (fw) FsB WiSe 2011/12",
             "partnerE2": 26085095,
-            "partnerBezeichnung": "Wirtschaftswissenschaften · B.Sc. · Nebenfach (fw) · FsB ab WiSe 2011/12",
+            "partnerBezeichnung": "Wirtschaftswissenschaften B.Sc. Nebenfach (fw) FsB WiSe 2011/12",
             "angebote": [
                 {
                     "schluessel": "mv543614162",
@@ -6557,9 +6557,9 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-453998116+468460836",
-            "bezeichnung": "Informatik · B.Sc. · Kernfach (fw) · FsB ab WiSe 2025/26 + Mathematik · B.Sc. · Nebenfach (fw) · FsB ab WiSe 2025/26",
+            "bezeichnung": "Informatik B.Sc. Kernfach (fw) Bioinformatik FsB WiSe 2025/26 + Mathematik B.Sc. Nebenfach (fw) FsB WiSe 2025/26",
             "partnerE2": 468460836,
-            "partnerBezeichnung": "Mathematik · B.Sc. · Nebenfach (fw) · FsB ab WiSe 2025/26",
+            "partnerBezeichnung": "Mathematik B.Sc. Nebenfach (fw) FsB WiSe 2025/26",
             "angebote": [
                 {
                     "schluessel": "mv543614162",
@@ -7631,9 +7631,9 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-453998116+370005371",
-            "bezeichnung": "Informatik · B.Sc. · Kernfach (fw) · FsB ab WiSe 2025/26 + Grundlagen Kognitiver Systeme · Ba · Nebenfach (fw) · FsB ab WiSe 2023/24",
+            "bezeichnung": "Informatik B.Sc. Kernfach (fw) Bioinformatik FsB WiSe 2025/26 + Grundlagen Kognitiver Systeme Ba Nebenfach (fw) FsB WiSe 2023/24",
             "partnerE2": 370005371,
-            "partnerBezeichnung": "Grundlagen Kognitiver Systeme · Ba · Nebenfach (fw) · FsB ab WiSe 2023/24",
+            "partnerBezeichnung": "Grundlagen Kognitiver Systeme Ba Nebenfach (fw) FsB WiSe 2023/24",
             "angebote": [
                 {
                     "schluessel": "mv543614162",
@@ -8561,9 +8561,9 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-453998116+243442899",
-            "bezeichnung": "Informatik · B.Sc. · Kernfach (fw) · FsB ab WiSe 2025/26 + Computerlinguistik · B.Sc. · Nebenfach (fw) · FsB ab WiSe 2021/22",
+            "bezeichnung": "Informatik B.Sc. Kernfach (fw) Bioinformatik FsB WiSe 2025/26 + Computerlinguistik B.Sc. Nebenfach (fw) FsB WiSe 2021/22",
             "partnerE2": 243442899,
-            "partnerBezeichnung": "Computerlinguistik · B.Sc. · Nebenfach (fw) · FsB ab WiSe 2021/22",
+            "partnerBezeichnung": "Computerlinguistik B.Sc. Nebenfach (fw) FsB WiSe 2021/22",
             "angebote": [
                 {
                     "schluessel": "mv543614162",
@@ -9350,7 +9350,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-453998123",
-            "bezeichnung": "Informatik · B.Sc. · Kernfach (fw) · FsB ab WiSe 2025/26",
+            "bezeichnung": "Informatik B.Sc. Kernfach (fw) Modellbildung FsB WiSe 2025/26",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [
@@ -10051,9 +10051,9 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-453998123+26084388",
-            "bezeichnung": "Informatik · B.Sc. · Kernfach (fw) · FsB ab WiSe 2025/26 + Chemie · B.Sc. · Nebenfach (fw) · FsB ab WiSe 2011/12",
+            "bezeichnung": "Informatik B.Sc. Kernfach (fw) Modellbildung FsB WiSe 2025/26 + Chemie B.Sc. Nebenfach (fw) FsB WiSe 2011/12",
             "partnerE2": 26084388,
-            "partnerBezeichnung": "Chemie · B.Sc. · Nebenfach (fw) · FsB ab WiSe 2011/12",
+            "partnerBezeichnung": "Chemie B.Sc. Nebenfach (fw) FsB WiSe 2011/12",
             "angebote": [
                 {
                     "schluessel": "mv543614162",
@@ -11456,9 +11456,9 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-453998123+26085095",
-            "bezeichnung": "Informatik · B.Sc. · Kernfach (fw) · FsB ab WiSe 2025/26 + Wirtschaftswissenschaften · B.Sc. · Nebenfach (fw) · FsB ab WiSe 2011/12",
+            "bezeichnung": "Informatik B.Sc. Kernfach (fw) Modellbildung FsB WiSe 2025/26 + Wirtschaftswissenschaften B.Sc. Nebenfach (fw) FsB WiSe 2011/12",
             "partnerE2": 26085095,
-            "partnerBezeichnung": "Wirtschaftswissenschaften · B.Sc. · Nebenfach (fw) · FsB ab WiSe 2011/12",
+            "partnerBezeichnung": "Wirtschaftswissenschaften B.Sc. Nebenfach (fw) FsB WiSe 2011/12",
             "angebote": [
                 {
                     "schluessel": "mv543614162",
@@ -12394,9 +12394,9 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-453998123+468460836",
-            "bezeichnung": "Informatik · B.Sc. · Kernfach (fw) · FsB ab WiSe 2025/26 + Mathematik · B.Sc. · Nebenfach (fw) · FsB ab WiSe 2025/26",
+            "bezeichnung": "Informatik B.Sc. Kernfach (fw) Modellbildung FsB WiSe 2025/26 + Mathematik B.Sc. Nebenfach (fw) FsB WiSe 2025/26",
             "partnerE2": 468460836,
-            "partnerBezeichnung": "Mathematik · B.Sc. · Nebenfach (fw) · FsB ab WiSe 2025/26",
+            "partnerBezeichnung": "Mathematik B.Sc. Nebenfach (fw) FsB WiSe 2025/26",
             "angebote": [
                 {
                     "schluessel": "mv543614162",
@@ -13468,9 +13468,9 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-453998123+370005371",
-            "bezeichnung": "Informatik · B.Sc. · Kernfach (fw) · FsB ab WiSe 2025/26 + Grundlagen Kognitiver Systeme · Ba · Nebenfach (fw) · FsB ab WiSe 2023/24",
+            "bezeichnung": "Informatik B.Sc. Kernfach (fw) Modellbildung FsB WiSe 2025/26 + Grundlagen Kognitiver Systeme Ba Nebenfach (fw) FsB WiSe 2023/24",
             "partnerE2": 370005371,
-            "partnerBezeichnung": "Grundlagen Kognitiver Systeme · Ba · Nebenfach (fw) · FsB ab WiSe 2023/24",
+            "partnerBezeichnung": "Grundlagen Kognitiver Systeme Ba Nebenfach (fw) FsB WiSe 2023/24",
             "angebote": [
                 {
                     "schluessel": "mv543614162",
@@ -14398,9 +14398,9 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-453998123+243442899",
-            "bezeichnung": "Informatik · B.Sc. · Kernfach (fw) · FsB ab WiSe 2025/26 + Computerlinguistik · B.Sc. · Nebenfach (fw) · FsB ab WiSe 2021/22",
+            "bezeichnung": "Informatik B.Sc. Kernfach (fw) Modellbildung FsB WiSe 2025/26 + Computerlinguistik B.Sc. Nebenfach (fw) FsB WiSe 2021/22",
             "partnerE2": 243442899,
-            "partnerBezeichnung": "Computerlinguistik · B.Sc. · Nebenfach (fw) · FsB ab WiSe 2021/22",
+            "partnerBezeichnung": "Computerlinguistik B.Sc. Nebenfach (fw) FsB WiSe 2021/22",
             "angebote": [
                 {
                     "schluessel": "mv543614162",
@@ -15187,7 +15187,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-453996747",
-            "bezeichnung": "Naturwissenschaftliche Informatik · B.Sc. · 1-Fach (fw) · FsB ab WiSe 2025/26",
+            "bezeichnung": "Naturwissenschaftliche Informatik B.Sc. 1-Fach (fw) FsB WiSe 2025/26",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [
@@ -16171,7 +16171,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-453998109",
-            "bezeichnung": "Informatik · B.Sc. · Kernfach (fw) · FsB ab WiSe 2025/26",
+            "bezeichnung": "Informatik B.Sc. Kernfach (fw) Technische Informatik FsB WiSe 2025/26",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [
@@ -16872,9 +16872,9 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-453998109+26084388",
-            "bezeichnung": "Informatik · B.Sc. · Kernfach (fw) · FsB ab WiSe 2025/26 + Chemie · B.Sc. · Nebenfach (fw) · FsB ab WiSe 2011/12",
+            "bezeichnung": "Informatik B.Sc. Kernfach (fw) Technische Informatik FsB WiSe 2025/26 + Chemie B.Sc. Nebenfach (fw) FsB WiSe 2011/12",
             "partnerE2": 26084388,
-            "partnerBezeichnung": "Chemie · B.Sc. · Nebenfach (fw) · FsB ab WiSe 2011/12",
+            "partnerBezeichnung": "Chemie B.Sc. Nebenfach (fw) FsB WiSe 2011/12",
             "angebote": [
                 {
                     "schluessel": "mv543614162",
@@ -18277,9 +18277,9 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-453998109+26085095",
-            "bezeichnung": "Informatik · B.Sc. · Kernfach (fw) · FsB ab WiSe 2025/26 + Wirtschaftswissenschaften · B.Sc. · Nebenfach (fw) · FsB ab WiSe 2011/12",
+            "bezeichnung": "Informatik B.Sc. Kernfach (fw) Technische Informatik FsB WiSe 2025/26 + Wirtschaftswissenschaften B.Sc. Nebenfach (fw) FsB WiSe 2011/12",
             "partnerE2": 26085095,
-            "partnerBezeichnung": "Wirtschaftswissenschaften · B.Sc. · Nebenfach (fw) · FsB ab WiSe 2011/12",
+            "partnerBezeichnung": "Wirtschaftswissenschaften B.Sc. Nebenfach (fw) FsB WiSe 2011/12",
             "angebote": [
                 {
                     "schluessel": "mv543614162",
@@ -19215,9 +19215,9 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-453998109+468460836",
-            "bezeichnung": "Informatik · B.Sc. · Kernfach (fw) · FsB ab WiSe 2025/26 + Mathematik · B.Sc. · Nebenfach (fw) · FsB ab WiSe 2025/26",
+            "bezeichnung": "Informatik B.Sc. Kernfach (fw) Technische Informatik FsB WiSe 2025/26 + Mathematik B.Sc. Nebenfach (fw) FsB WiSe 2025/26",
             "partnerE2": 468460836,
-            "partnerBezeichnung": "Mathematik · B.Sc. · Nebenfach (fw) · FsB ab WiSe 2025/26",
+            "partnerBezeichnung": "Mathematik B.Sc. Nebenfach (fw) FsB WiSe 2025/26",
             "angebote": [
                 {
                     "schluessel": "mv543614162",
@@ -20289,9 +20289,9 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-453998109+370005371",
-            "bezeichnung": "Informatik · B.Sc. · Kernfach (fw) · FsB ab WiSe 2025/26 + Grundlagen Kognitiver Systeme · Ba · Nebenfach (fw) · FsB ab WiSe 2023/24",
+            "bezeichnung": "Informatik B.Sc. Kernfach (fw) Technische Informatik FsB WiSe 2025/26 + Grundlagen Kognitiver Systeme Ba Nebenfach (fw) FsB WiSe 2023/24",
             "partnerE2": 370005371,
-            "partnerBezeichnung": "Grundlagen Kognitiver Systeme · Ba · Nebenfach (fw) · FsB ab WiSe 2023/24",
+            "partnerBezeichnung": "Grundlagen Kognitiver Systeme Ba Nebenfach (fw) FsB WiSe 2023/24",
             "angebote": [
                 {
                     "schluessel": "mv543614162",
@@ -21219,9 +21219,9 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-453998109+243442899",
-            "bezeichnung": "Informatik · B.Sc. · Kernfach (fw) · FsB ab WiSe 2025/26 + Computerlinguistik · B.Sc. · Nebenfach (fw) · FsB ab WiSe 2021/22",
+            "bezeichnung": "Informatik B.Sc. Kernfach (fw) Technische Informatik FsB WiSe 2025/26 + Computerlinguistik B.Sc. Nebenfach (fw) FsB WiSe 2021/22",
             "partnerE2": 243442899,
-            "partnerBezeichnung": "Computerlinguistik · B.Sc. · Nebenfach (fw) · FsB ab WiSe 2021/22",
+            "partnerBezeichnung": "Computerlinguistik B.Sc. Nebenfach (fw) FsB WiSe 2021/22",
             "angebote": [
                 {
                     "schluessel": "mv543614162",
@@ -22008,7 +22008,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-47409454",
-            "bezeichnung": "Physik · B.Sc. · Fach (Haupt-, Real-, Sekundar- und Gesamtschulen) · FsB SoSe 2014–SoSe 2016",
+            "bezeichnung": "Physik B.Sc. Fach (Haupt-, Real-, Sekundar- und Gesamtschulen) FsB SoSe 2014–SoSe 2016",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -22032,7 +22032,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-81435445",
-            "bezeichnung": "Physik · B.Sc. · 1-Fach (fw) · FsB WiSe 2016/17–SoSe 2017",
+            "bezeichnung": "Physik B.Sc. 1-Fach (fw) Biophysik FsB WiSe 2016/17–SoSe 2017",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -22056,7 +22056,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-106852430",
-            "bezeichnung": "Physik · B.Sc. · Kernfach (Gymnasium und Gesamtschule) · FsB WiSe 2017/18–SoSe 2022",
+            "bezeichnung": "Physik B.Sc. Kernfach (Gymnasium und Gesamtschule) FsB WiSe 2017/18–SoSe 2022",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -22080,7 +22080,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-81435449",
-            "bezeichnung": "Physik · B.Sc. · 1-Fach (fw) · FsB WiSe 2016/17–SoSe 2017",
+            "bezeichnung": "Physik B.Sc. 1-Fach (fw) Nanowissenschaften FsB WiSe 2016/17–SoSe 2017",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -22104,7 +22104,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-398280120",
-            "bezeichnung": "Erweiterungsfach · EF-M.Ed. · Erweiterungsfach M.Ed. Fortsetzung Nebenfach (Gymnasium und Gesamtschule) · FsB ab WiSe 2022/23",
+            "bezeichnung": "Erweiterungsfach EF-M.Ed. Erweiterungsfach M.Ed. Fortsetzung Nebenfach (Gymnasium und Gesamtschule) FsB WiSe 2022/23",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [
@@ -22879,7 +22879,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-24590917",
-            "bezeichnung": "Physik · B.Sc. · 1-Fach (fw) · FsB WiSe 2011/12–WiSe 2013/14",
+            "bezeichnung": "Physik B.Sc. 1-Fach (fw) Biophysik FsB WiSe 2011/12–WiSe 2013/14",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -22903,7 +22903,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-106852412",
-            "bezeichnung": "Physik · B.Sc. · 1-Fach (fw) · FsB WiSe 2017/18–SoSe 2022",
+            "bezeichnung": "Physik B.Sc. 1-Fach (fw) Nanowissenschaften FsB WiSe 2017/18–SoSe 2022",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -22927,7 +22927,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-26084922",
-            "bezeichnung": "Physik · B.Sc. · Fach (Haupt-, Real-, Sekundar- und Gesamtschulen) · FsB WiSe 2011/12–WiSe 2013/14",
+            "bezeichnung": "Physik B.Sc. Fach (Haupt-, Real-, Sekundar- und Gesamtschulen) FsB WiSe 2011/12–WiSe 2013/14",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -22951,7 +22951,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-47409459",
-            "bezeichnung": "Physik · B.Sc. · Kernfach (Gymnasium und Gesamtschule) · FsB SoSe 2014–SoSe 2016",
+            "bezeichnung": "Physik B.Sc. Kernfach (Gymnasium und Gesamtschule) FsB SoSe 2014–SoSe 2016",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -22975,7 +22975,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-106852425",
-            "bezeichnung": "Physik · B.Sc. · Fach (Haupt-, Real-, Sekundar- und Gesamtschulen) · FsB WiSe 2017/18–SoSe 2022",
+            "bezeichnung": "Physik B.Sc. Fach (Haupt-, Real-, Sekundar- und Gesamtschulen) FsB WiSe 2017/18–SoSe 2022",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -22999,7 +22999,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-81435514",
-            "bezeichnung": "Physik · B.Sc. · Nebenfach (Gymnasium und Gesamtschule) · FsB WiSe 2016/17–SoSe 2017",
+            "bezeichnung": "Physik B.Sc. Nebenfach (Gymnasium und Gesamtschule) FsB WiSe 2016/17–SoSe 2017",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -23023,7 +23023,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-307847870",
-            "bezeichnung": "Physik · M.Ed. · Fortsetzung Nebenfach (Gymnasium und Gesamtschule) · FsB ab WiSe 2022/23",
+            "bezeichnung": "Physik M.Ed. Fortsetzung Nebenfach (Gymnasium und Gesamtschule) FsB WiSe 2022/23",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [
@@ -23798,7 +23798,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-47409439",
-            "bezeichnung": "Physik · B.Sc. · 1-Fach (fw) · FsB SoSe 2014–SoSe 2016",
+            "bezeichnung": "Physik B.Sc. 1-Fach (fw) Biophysik FsB SoSe 2014–SoSe 2016",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -23822,7 +23822,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-81435488",
-            "bezeichnung": "Physik · B.Sc. · Kernfach (Gymnasium und Gesamtschule) · FsB WiSe 2016/17–SoSe 2017",
+            "bezeichnung": "Physik B.Sc. Kernfach (Gymnasium und Gesamtschule) FsB WiSe 2016/17–SoSe 2017",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -23846,7 +23846,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-26084917",
-            "bezeichnung": "Physik · B.Sc. · Kernfach (Gymnasium und Gesamtschule) · FsB WiSe 2011/12–WiSe 2013/14",
+            "bezeichnung": "Physik B.Sc. Kernfach (Gymnasium und Gesamtschule) FsB WiSe 2011/12–WiSe 2013/14",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -23870,7 +23870,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-307847021",
-            "bezeichnung": "Physik · B.Sc. · Kernfach (Gymnasium und Gesamtschule) · FsB ab WiSe 2022/23",
+            "bezeichnung": "Physik B.Sc. Kernfach (Gymnasium und Gesamtschule) FsB WiSe 2022/23",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [
@@ -24726,7 +24726,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-47409441",
-            "bezeichnung": "Physik · B.Sc. · 1-Fach (fw) · FsB SoSe 2014–SoSe 2016",
+            "bezeichnung": "Physik B.Sc. 1-Fach (fw) Nanowissenschaften FsB SoSe 2014–SoSe 2016",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -24750,7 +24750,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-24590948",
-            "bezeichnung": "Physik · B.Sc. · 1-Fach (fw) · FsB WiSe 2011/12–WiSe 2013/14",
+            "bezeichnung": "Physik B.Sc. 1-Fach (fw) Nanowissenschaften FsB WiSe 2011/12–WiSe 2013/14",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -24774,7 +24774,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-81435475",
-            "bezeichnung": "Physik · B.Sc. · Fach (Haupt-, Real-, Sekundar- und Gesamtschulen) · FsB WiSe 2016/17–SoSe 2017",
+            "bezeichnung": "Physik B.Sc. Fach (Haupt-, Real-, Sekundar- und Gesamtschulen) FsB WiSe 2016/17–SoSe 2017",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -24798,7 +24798,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-106852390",
-            "bezeichnung": "Physik · B.Sc. · 1-Fach (fw) · FsB WiSe 2017/18–SoSe 2022",
+            "bezeichnung": "Physik B.Sc. 1-Fach (fw) Biophysik FsB WiSe 2017/18–SoSe 2022",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -24822,7 +24822,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-26084920",
-            "bezeichnung": "Physik · B.Sc. · Nebenfach (Gymnasium und Gesamtschule) · FsB WiSe 2011/12–WiSe 2013/14",
+            "bezeichnung": "Physik B.Sc. Nebenfach (Gymnasium und Gesamtschule) FsB WiSe 2011/12–WiSe 2013/14",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -24846,7 +24846,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-47409469",
-            "bezeichnung": "Physik · B.Sc. · Nebenfach (Gymnasium und Gesamtschule) · FsB SoSe 2014–SoSe 2016",
+            "bezeichnung": "Physik B.Sc. Nebenfach (Gymnasium und Gesamtschule) FsB SoSe 2014–SoSe 2016",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -24870,7 +24870,7 @@ export const sem_data_20262_mfn1 = {
             ],
             "pflichtFuerQuelle": true,
             "id": "e2-106852460",
-            "bezeichnung": "Physik · B.Sc. · Nebenfach (Gymnasium und Gesamtschule) · FsB WiSe 2017/18–SoSe 2022",
+            "bezeichnung": "Physik B.Sc. Nebenfach (Gymnasium und Gesamtschule) FsB WiSe 2017/18–SoSe 2022",
             "partnerE2": null,
             "partnerBezeichnung": null,
             "angebote": [],
@@ -24894,7 +24894,9 @@ export const sem_data_20262_mfn1 = {
                     "aKursId": 732697609,
                     "bKursId": 742854276,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 732697609,
@@ -24967,7 +24969,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Di 14-16 14-täglich D01-286"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Mo 14:00–16:00 (120 min) – 14-täglich trifft wöchentlich | Di 14:00–16:00 (120 min) – 14-täglich trifft wöchentlich"
@@ -24988,7 +24992,9 @@ export const sem_data_20262_mfn1 = {
                     "aKursId": 732697609,
                     "bKursId": 742854064,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 732697609,
@@ -25061,7 +25067,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Di 14-16 14-täglich D01-286"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Mo 14:00–16:00 (120 min) – 14-täglich trifft wöchentlich | Di 14:00–16:00 (120 min) – 14-täglich trifft wöchentlich"
@@ -25116,7 +25124,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Mi 14-16 V2-200"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Mi 14:00–16:00 (120 min) – wöchentliche Überschneidung"
@@ -25204,7 +25214,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Mi 14-16 U2-147"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Mi 14:00–16:00 (120 min) – wöchentliche Überschneidung"
@@ -25225,7 +25237,9 @@ export const sem_data_20262_mfn1 = {
                     "aKursId": 732697609,
                     "bKursId": 735927620,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732697609,
@@ -25265,25 +25279,33 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Di 14-16 S1-501"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732697609,
                     "bKursId": 735929365,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732697609,
                     "bKursId": 735931497,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732697609,
                     "bKursId": 735932524,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Di 14:00–16:00 (120 min) – wöchentliche Überschneidung"
@@ -25304,7 +25326,9 @@ export const sem_data_20262_mfn1 = {
                     "aKursId": 732697609,
                     "bKursId": 653870061,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732697609,
@@ -25476,7 +25500,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Di 14-16 einmalig Fragestunde"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Tut / Übung"
                 }
             ],
             "zusammenfassung": "Mo 14:00–16:00 (120 min) – wöchentliche Überschneidung | Mo 14:00–16:00 (120 min) – Einzeltermin ohne Datumsangabe | Di 14:00–16:00 (120 min) – Einzeltermin ohne Datumsangabe"
@@ -25488,7 +25514,7 @@ export const sem_data_20262_mfn1 = {
             "bSchluessel": "mv29612062",
             "amodulID": 543614156,
             "bmodulID": 26787418,
-            "schwere": "teilweise",
+            "schwere": "hart",
             "betrifftQuelle": true,
             "freieKombinationen": 2,
             "gesamteKombinationen": 3,
@@ -25531,19 +25557,25 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Mi 14-16"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 732697609,
                     "bKursId": 653869886,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 732697609,
                     "bKursId": 653869978,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 }
             ],
             "zusammenfassung": "Mi 14:00–16:00 (120 min) – wöchentliche Überschneidung"
@@ -25763,7 +25795,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Di 14:15-19 Block 5 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Praktikum"
                 },
                 {
                     "aKursId": 732697609,
@@ -25968,7 +26002,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Di 14:15-19 Block 5 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Praktikum"
                 }
             ],
             "zusammenfassung": "Mo 14:15–16:00 (105 min) – Blockveranstaltung – genaue Tage nicht auswertbar | Di 14:15–16:00 (105 min) – Blockveranstaltung – genaue Tage nicht auswertbar"
@@ -25980,7 +26016,7 @@ export const sem_data_20262_mfn1 = {
             "bSchluessel": "mv29612062",
             "amodulID": 420520482,
             "bmodulID": 26787418,
-            "schwere": "teilweise",
+            "schwere": "hart",
             "betrifftQuelle": false,
             "freieKombinationen": 5,
             "gesamteKombinationen": 6,
@@ -25989,19 +26025,25 @@ export const sem_data_20262_mfn1 = {
                     "aKursId": 748908400,
                     "bKursId": 653869770,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 748908400,
                     "bKursId": 653869886,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 748908400,
                     "bKursId": 653869978,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 741780790,
@@ -26041,19 +26083,25 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Fr 12-14"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 741780790,
                     "bKursId": 653869886,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 741780790,
                     "bKursId": 653869978,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 }
             ],
             "zusammenfassung": "Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -26174,7 +26222,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Mo 14:15-19 Block 3 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Praktikum"
                 },
                 {
                     "aKursId": 748908400,
@@ -26280,7 +26330,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Mo 14:15-19 Block 1 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Praktikum"
                 },
                 {
                     "aKursId": 741780790,
@@ -26386,7 +26438,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Do 14:15-19 Block 2 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Praktikum"
                 },
                 {
                     "aKursId": 741780790,
@@ -26492,7 +26546,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Do 14:15-19 Block 6 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Praktikum"
                 }
             ],
             "zusammenfassung": "Mo 16:00–18:00 (120 min) – Blockveranstaltung – genaue Tage nicht auswertbar | Do 16:00–18:00 (120 min) – Blockveranstaltung – genaue Tage nicht auswertbar"
@@ -26712,7 +26768,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Do 14:15-19 Block 2 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Praktikum"
                 },
                 {
                     "aKursId": 653870061,
@@ -26917,7 +26975,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Do 14:15-19 Block 6 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Praktikum"
                 },
                 {
                     "aKursId": 653883962,
@@ -27419,7 +27479,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Di 14:15-19 Block 5 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Tut / Übung",
+                    "bKursType": "Praktikum"
                 },
                 {
                     "aKursId": 653883962,
@@ -27921,7 +27983,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Di 14:15-19 Block 5 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Tut / Übung",
+                    "bKursType": "Praktikum"
                 }
             ],
             "zusammenfassung": "Do 14:15–16:00 (105 min) – Blockveranstaltung – genaue Tage nicht auswertbar | Mo 14:15–16:00 (105 min) – Blockveranstaltung – genaue Tage nicht auswertbar | Mo 14:15–16:00 (105 min) – Einzeltermin ohne Datumsangabe | Di 14:15–16:00 (105 min) – Einzeltermin ohne Datumsangabe"
@@ -27976,7 +28040,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Mo 14-16 H4"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Mo 14:00–16:00 (120 min) – wöchentliche Überschneidung"
@@ -28064,13 +28130,17 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Mi 14-16 einmalig"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732697609,
                     "bKursId": 716614566,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Mi 14:00–16:00 (120 min) – wöchentliche Überschneidung | Mi 14:00–16:00 (120 min) – Einzeltermin ohne Datumsangabe"
@@ -28082,7 +28152,7 @@ export const sem_data_20262_mfn1 = {
             "bSchluessel": "mv533149501",
             "amodulID": 420520482,
             "bmodulID": 533149495,
-            "schwere": "teilweise",
+            "schwere": "hart",
             "betrifftQuelle": false,
             "freieKombinationen": 1,
             "gesamteKombinationen": 2,
@@ -28091,7 +28161,9 @@ export const sem_data_20262_mfn1 = {
                     "aKursId": 748908400,
                     "bKursId": 732695268,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 741780790,
@@ -28131,7 +28203,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Fr 12-14 H7"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -28143,7 +28217,7 @@ export const sem_data_20262_mfn1 = {
             "bSchluessel": "mv533149504",
             "amodulID": 420520482,
             "bmodulID": 533149495,
-            "schwere": "teilweise",
+            "schwere": "hart",
             "betrifftQuelle": false,
             "freieKombinationen": 1,
             "gesamteKombinationen": 2,
@@ -28152,7 +28226,9 @@ export const sem_data_20262_mfn1 = {
                     "aKursId": 748908400,
                     "bKursId": 732696051,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 741780790,
@@ -28192,7 +28268,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Fr 12-14"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -28280,7 +28358,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Fr 12-14"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Mi 10:00–12:00 (120 min) – wöchentliche Überschneidung | Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -28368,7 +28448,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Do 10-12 U2-205"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Di 10:00–12:00 (120 min) – wöchentliche Überschneidung | Do 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -28423,7 +28505,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Fr 14-16 14-täglich Y-0-111"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Fr 14:00–16:00 (120 min) – beide 14-täglich, Wochenversatz unbekannt"
@@ -28478,7 +28562,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Di 8-10 V2-200"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung / Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Di 08:00–10:00 (120 min) – wöchentliche Überschneidung"
@@ -28499,7 +28585,9 @@ export const sem_data_20262_mfn1 = {
                     "aKursId": 732697609,
                     "bKursId": 653870061,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732697609,
@@ -28671,7 +28759,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Di 14-16 einmalig Fragestunde"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Tut / Übung"
                 }
             ],
             "zusammenfassung": "Mo 14:00–16:00 (120 min) – wöchentliche Überschneidung | Mo 14:00–16:00 (120 min) – Einzeltermin ohne Datumsangabe | Di 14:00–16:00 (120 min) – Einzeltermin ohne Datumsangabe"
@@ -28683,7 +28773,7 @@ export const sem_data_20262_mfn1 = {
             "bSchluessel": "mv29612062",
             "amodulID": 543614156,
             "bmodulID": 26787418,
-            "schwere": "teilweise",
+            "schwere": "hart",
             "betrifftQuelle": true,
             "freieKombinationen": 2,
             "gesamteKombinationen": 3,
@@ -28726,19 +28816,25 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Mi 14-16"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 732697609,
                     "bKursId": 653869886,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 732697609,
                     "bKursId": 653869978,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 }
             ],
             "zusammenfassung": "Mi 14:00–16:00 (120 min) – wöchentliche Überschneidung"
@@ -28958,7 +29054,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Di 14:15-19 Block 5 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Praktikum"
                 },
                 {
                     "aKursId": 732697609,
@@ -29163,7 +29261,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Di 14:15-19 Block 5 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Praktikum"
                 }
             ],
             "zusammenfassung": "Mo 14:15–16:00 (105 min) – Blockveranstaltung – genaue Tage nicht auswertbar | Di 14:15–16:00 (105 min) – Blockveranstaltung – genaue Tage nicht auswertbar"
@@ -29175,7 +29275,7 @@ export const sem_data_20262_mfn1 = {
             "bSchluessel": "mv29612062",
             "amodulID": 420520482,
             "bmodulID": 26787418,
-            "schwere": "teilweise",
+            "schwere": "hart",
             "betrifftQuelle": false,
             "freieKombinationen": 5,
             "gesamteKombinationen": 6,
@@ -29184,19 +29284,25 @@ export const sem_data_20262_mfn1 = {
                     "aKursId": 748908400,
                     "bKursId": 653869770,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 748908400,
                     "bKursId": 653869886,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 748908400,
                     "bKursId": 653869978,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 741780790,
@@ -29236,19 +29342,25 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Fr 12-14"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 741780790,
                     "bKursId": 653869886,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 741780790,
                     "bKursId": 653869978,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 }
             ],
             "zusammenfassung": "Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -29369,7 +29481,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Mo 14:15-19 Block 3 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Praktikum"
                 },
                 {
                     "aKursId": 748908400,
@@ -29475,7 +29589,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Mo 14:15-19 Block 1 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Praktikum"
                 },
                 {
                     "aKursId": 741780790,
@@ -29581,7 +29697,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Do 14:15-19 Block 2 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Praktikum"
                 },
                 {
                     "aKursId": 741780790,
@@ -29687,7 +29805,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Do 14:15-19 Block 6 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Praktikum"
                 }
             ],
             "zusammenfassung": "Mo 16:00–18:00 (120 min) – Blockveranstaltung – genaue Tage nicht auswertbar | Do 16:00–18:00 (120 min) – Blockveranstaltung – genaue Tage nicht auswertbar"
@@ -29907,7 +30027,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Do 14:15-19 Block 2 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Praktikum"
                 },
                 {
                     "aKursId": 653870061,
@@ -30112,7 +30234,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Do 14:15-19 Block 6 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Praktikum"
                 },
                 {
                     "aKursId": 653883962,
@@ -30614,7 +30738,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Di 14:15-19 Block 5 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Tut / Übung",
+                    "bKursType": "Praktikum"
                 },
                 {
                     "aKursId": 653883962,
@@ -31116,7 +31242,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Di 14:15-19 Block 5 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Tut / Übung",
+                    "bKursType": "Praktikum"
                 }
             ],
             "zusammenfassung": "Do 14:15–16:00 (105 min) – Blockveranstaltung – genaue Tage nicht auswertbar | Mo 14:15–16:00 (105 min) – Blockveranstaltung – genaue Tage nicht auswertbar | Mo 14:15–16:00 (105 min) – Einzeltermin ohne Datumsangabe | Di 14:15–16:00 (105 min) – Einzeltermin ohne Datumsangabe"
@@ -31171,7 +31299,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Mo 14-16 H4"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Mo 14:00–16:00 (120 min) – wöchentliche Überschneidung"
@@ -31259,13 +31389,17 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Mi 14-16 einmalig"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732697609,
                     "bKursId": 716614566,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Mi 14:00–16:00 (120 min) – wöchentliche Überschneidung | Mi 14:00–16:00 (120 min) – Einzeltermin ohne Datumsangabe"
@@ -31277,7 +31411,7 @@ export const sem_data_20262_mfn1 = {
             "bSchluessel": "mv533149501",
             "amodulID": 420520482,
             "bmodulID": 533149495,
-            "schwere": "teilweise",
+            "schwere": "hart",
             "betrifftQuelle": false,
             "freieKombinationen": 1,
             "gesamteKombinationen": 2,
@@ -31286,7 +31420,9 @@ export const sem_data_20262_mfn1 = {
                     "aKursId": 748908400,
                     "bKursId": 732695268,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 741780790,
@@ -31326,7 +31462,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Fr 12-14 H7"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -31338,7 +31476,7 @@ export const sem_data_20262_mfn1 = {
             "bSchluessel": "mv533149504",
             "amodulID": 420520482,
             "bmodulID": 533149495,
-            "schwere": "teilweise",
+            "schwere": "hart",
             "betrifftQuelle": false,
             "freieKombinationen": 1,
             "gesamteKombinationen": 2,
@@ -31347,7 +31485,9 @@ export const sem_data_20262_mfn1 = {
                     "aKursId": 748908400,
                     "bKursId": 732696051,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 741780790,
@@ -31387,7 +31527,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Fr 12-14"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -31475,7 +31617,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Fr 12-14"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Mi 10:00–12:00 (120 min) – wöchentliche Überschneidung | Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -31563,7 +31707,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Do 10-12 U2-205"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Di 10:00–12:00 (120 min) – wöchentliche Überschneidung | Do 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -31618,7 +31764,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Fr 14-16 14-täglich Y-0-111"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Fr 14:00–16:00 (120 min) – beide 14-täglich, Wochenversatz unbekannt"
@@ -31673,7 +31821,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Di 8-10 V2-200"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung / Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Di 08:00–10:00 (120 min) – wöchentliche Überschneidung"
@@ -31694,7 +31844,9 @@ export const sem_data_20262_mfn1 = {
                     "aKursId": 732697609,
                     "bKursId": 653870061,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732697609,
@@ -31866,7 +32018,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Di 14-16 einmalig Fragestunde"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Tut / Übung"
                 }
             ],
             "zusammenfassung": "Mo 14:00–16:00 (120 min) – wöchentliche Überschneidung | Mo 14:00–16:00 (120 min) – Einzeltermin ohne Datumsangabe | Di 14:00–16:00 (120 min) – Einzeltermin ohne Datumsangabe"
@@ -31878,7 +32032,7 @@ export const sem_data_20262_mfn1 = {
             "bSchluessel": "mv29612062",
             "amodulID": 543614156,
             "bmodulID": 26787418,
-            "schwere": "teilweise",
+            "schwere": "hart",
             "betrifftQuelle": true,
             "freieKombinationen": 2,
             "gesamteKombinationen": 3,
@@ -31921,19 +32075,25 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Mi 14-16"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 732697609,
                     "bKursId": 653869886,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 732697609,
                     "bKursId": 653869978,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 }
             ],
             "zusammenfassung": "Mi 14:00–16:00 (120 min) – wöchentliche Überschneidung"
@@ -32153,7 +32313,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Di 14:15-19 Block 5 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Praktikum"
                 },
                 {
                     "aKursId": 732697609,
@@ -32358,7 +32520,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Di 14:15-19 Block 5 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Praktikum"
                 }
             ],
             "zusammenfassung": "Mo 14:15–16:00 (105 min) – Blockveranstaltung – genaue Tage nicht auswertbar | Di 14:15–16:00 (105 min) – Blockveranstaltung – genaue Tage nicht auswertbar"
@@ -32370,7 +32534,7 @@ export const sem_data_20262_mfn1 = {
             "bSchluessel": "mv29612062",
             "amodulID": 420520482,
             "bmodulID": 26787418,
-            "schwere": "teilweise",
+            "schwere": "hart",
             "betrifftQuelle": false,
             "freieKombinationen": 5,
             "gesamteKombinationen": 6,
@@ -32379,19 +32543,25 @@ export const sem_data_20262_mfn1 = {
                     "aKursId": 748908400,
                     "bKursId": 653869770,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 748908400,
                     "bKursId": 653869886,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 748908400,
                     "bKursId": 653869978,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 741780790,
@@ -32431,19 +32601,25 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Fr 12-14"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 741780790,
                     "bKursId": 653869886,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 },
                 {
                     "aKursId": 741780790,
                     "bKursId": 653869978,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Kl"
                 }
             ],
             "zusammenfassung": "Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -32564,7 +32740,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Mo 14:15-19 Block 3 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Praktikum"
                 },
                 {
                     "aKursId": 748908400,
@@ -32670,7 +32848,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Mo 14:15-19 Block 1 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Praktikum"
                 },
                 {
                     "aKursId": 741780790,
@@ -32776,7 +32956,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Do 14:15-19 Block 2 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Praktikum"
                 },
                 {
                     "aKursId": 741780790,
@@ -32882,7 +33064,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Do 14:15-19 Block 6 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Praktikum"
                 }
             ],
             "zusammenfassung": "Mo 16:00–18:00 (120 min) – Blockveranstaltung – genaue Tage nicht auswertbar | Do 16:00–18:00 (120 min) – Blockveranstaltung – genaue Tage nicht auswertbar"
@@ -33102,7 +33286,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Do 14:15-19 Block 2 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Praktikum"
                 },
                 {
                     "aKursId": 653870061,
@@ -33307,7 +33493,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Do 14:15-19 Block 6 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Praktikum"
                 },
                 {
                     "aKursId": 653883962,
@@ -33809,7 +33997,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Di 14:15-19 Block 5 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Tut / Übung",
+                    "bKursType": "Praktikum"
                 },
                 {
                     "aKursId": 653883962,
@@ -34311,7 +34501,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Di 14:15-19 Block 5 (Details s.u.)"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Tut / Übung",
+                    "bKursType": "Praktikum"
                 }
             ],
             "zusammenfassung": "Do 14:15–16:00 (105 min) – Blockveranstaltung – genaue Tage nicht auswertbar | Mo 14:15–16:00 (105 min) – Blockveranstaltung – genaue Tage nicht auswertbar | Mo 14:15–16:00 (105 min) – Einzeltermin ohne Datumsangabe | Di 14:15–16:00 (105 min) – Einzeltermin ohne Datumsangabe"
@@ -34366,7 +34558,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Mo 14-16 H4"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Mo 14:00–16:00 (120 min) – wöchentliche Überschneidung"
@@ -34454,13 +34648,17 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Mi 14-16 einmalig"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 },
                 {
                     "aKursId": 732697609,
                     "bKursId": 716614566,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Mi 14:00–16:00 (120 min) – wöchentliche Überschneidung | Mi 14:00–16:00 (120 min) – Einzeltermin ohne Datumsangabe"
@@ -34472,7 +34670,7 @@ export const sem_data_20262_mfn1 = {
             "bSchluessel": "mv533149501",
             "amodulID": 420520482,
             "bmodulID": 533149495,
-            "schwere": "teilweise",
+            "schwere": "hart",
             "betrifftQuelle": false,
             "freieKombinationen": 1,
             "gesamteKombinationen": 2,
@@ -34481,7 +34679,9 @@ export const sem_data_20262_mfn1 = {
                     "aKursId": 748908400,
                     "bKursId": 732695268,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 741780790,
@@ -34521,7 +34721,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Fr 12-14 H7"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -34533,7 +34735,7 @@ export const sem_data_20262_mfn1 = {
             "bSchluessel": "mv533149504",
             "amodulID": 420520482,
             "bmodulID": 533149495,
-            "schwere": "teilweise",
+            "schwere": "hart",
             "betrifftQuelle": false,
             "freieKombinationen": 1,
             "gesamteKombinationen": 2,
@@ -34542,7 +34744,9 @@ export const sem_data_20262_mfn1 = {
                     "aKursId": 748908400,
                     "bKursId": 732696051,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 },
                 {
                     "aKursId": 741780790,
@@ -34582,7 +34786,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Fr 12-14"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -34670,7 +34876,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Fr 12-14"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Mi 10:00–12:00 (120 min) – wöchentliche Überschneidung | Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
@@ -34758,7 +34966,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Do 10-12 U2-205"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Vorlesung"
                 }
             ],
             "zusammenfassung": "Di 10:00–12:00 (120 min) – wöchentliche Überschneidung | Do 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -34813,7 +35023,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Fr 14-16 14-täglich Y-0-111"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Fr 14:00–16:00 (120 min) – beide 14-täglich, Wochenversatz unbekannt"
@@ -34868,7 +35080,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Di 8-10 V2-200"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung / Übung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Di 08:00–10:00 (120 min) – wöchentliche Überschneidung"
@@ -34880,7 +35094,7 @@ export const sem_data_20262_mfn1 = {
             "bSchluessel": "mv29614316",
             "amodulID": 26800365,
             "bmodulID": 27461325,
-            "schwere": "teilweise",
+            "schwere": "hart",
             "betrifftQuelle": true,
             "freieKombinationen": 1,
             "gesamteKombinationen": 2,
@@ -34889,7 +35103,9 @@ export const sem_data_20262_mfn1 = {
                     "aKursId": 732697609,
                     "bKursId": 742860905,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 732697609,
@@ -34929,7 +35145,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Di 14-18 D01-271/ D01-245"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Di 14:00–16:00 (120 min) – wöchentliche Überschneidung"
@@ -34941,7 +35159,7 @@ export const sem_data_20262_mfn1 = {
             "bSchluessel": "mv29614316",
             "amodulID": 26800365,
             "bmodulID": 27461325,
-            "schwere": "teilweise",
+            "schwere": "hart",
             "betrifftQuelle": true,
             "freieKombinationen": 1,
             "gesamteKombinationen": 2,
@@ -34950,7 +35168,9 @@ export const sem_data_20262_mfn1 = {
                     "aKursId": 732697609,
                     "bKursId": 742860905,
                     "status": "frei",
-                    "kollisionen": []
+                    "kollisionen": [],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Seminar"
                 },
                 {
                     "aKursId": 732697609,
@@ -34990,7 +35210,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Di 14-18 D01-271/ D01-245"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Seminar"
                 }
             ],
             "zusammenfassung": "Di 14:00–16:00 (120 min) – wöchentliche Überschneidung"
@@ -35045,7 +35267,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Mo 14-16 X-E0-215"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Übung"
                 }
             ],
             "zusammenfassung": "Mo 14:00–16:00 (120 min) – wöchentliche Überschneidung"
@@ -35166,7 +35390,9 @@ export const sem_data_20262_mfn1 = {
                                 "roh": "Di 14-18"
                             }
                         }
-                    ]
+                    ],
+                    "aKursType": "Vorlesung",
+                    "bKursType": "Praktikum"
                 }
             ],
             "zusammenfassung": "Mo 14:00–15:00 (60 min) – Einzeltermin ohne Datumsangabe | Mo 14:00–16:00 (120 min) – wöchentliche Überschneidung | Di 14:00–16:00 (120 min) – wöchentliche Überschneidung"
@@ -35181,8 +35407,8 @@ export const sem_data_20262_mfn1 = {
         "aktiveKohorten": 25,
         "veranstaltungen": 64,
         "ohneZeiten": 11,
-        "harteKonflikte": 9,
-        "teilweiseKonflikte": 23,
+        "harteKonflikte": 23,
+        "teilweiseKonflikte": 9,
         "unsichereKonflikte": 19
     }
 }
