@@ -15,6 +15,7 @@ import {CounsellingChatbot} from "../pages/CounsellingChatbot";
 import {Uni} from "../pages/uni/uni";
 import {LearningMaterials} from "../pages/uni/learningMaterials";
 import {Tools} from "../pages/Tools";
+import {StudentCounselling} from "../pages/StudentCounselling";
 
 export const NavBarContent: (PageRef | Folder)[] = [
     {
@@ -111,7 +112,8 @@ export const NavBarContent: (PageRef | Folder)[] = [
             {
                 name: "Overview",
                 title: "Overview",
-                path: "/"
+                path: "/",
+                component: <StudentCounselling/>
 
             },
             {
