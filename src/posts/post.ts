@@ -15,6 +15,7 @@ import SailEegHackathon, {metaEegHackathon} from "./okayish/sail-eeg-hackathon";
 import {metaSailSpringSchool, SailSpringSchool} from "./under_construction/sail-spring-school";
 import {metazifModelsOfChange, zifModelsOfChange} from "./under_construction/zif-models-of-change";
 import AidareWebsiteLaunch, {metaAidareWebsiteLaunch} from "./under_construction/aidare-website-launch";
+import bfh2026, {metabfh2026} from "./finished/bfh2026";
 
 export const posts: Post[] = [{
     ...metauniBlogPrecyse1, MDXComponent: uniBlogPrecyse1,
@@ -34,6 +35,9 @@ export const posts: Post[] = [{
     },
     {
         ...metabfh2024, MDXComponent: bfh2024
+    },
+    {
+        ...metabfh2026, MDXComponent: bfh2026
     },
     {
         ...metamuensterMeetup2024, MDXComponent: meetupMuenster2024
