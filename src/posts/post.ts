@@ -11,7 +11,7 @@ import meetupMuenster2024, {metamuensterMeetup2024} from "./finished/meetup-muen
 import HannoverMesse2026, {metaHannoverMesse2026} from "./finished/hannover-messe-2026";
 import Lexartes, {metaLexartes} from "./okayish/lexartes";
 import PrecysePaper, { metaPrecysePaper } from "./under_construction/precyse-paper";
-import SailEegHackathon, {metaEegHackathon} from "./under_construction/sail-eeg-hackathon";
+import SailEegHackathon, {metaEegHackathon} from "./okayish/sail-eeg-hackathon";
 import {metaSailSpringSchool, SailSpringSchool} from "./under_construction/sail-spring-school";
 import {metazifModelsOfChange, zifModelsOfChange} from "./under_construction/zif-models-of-change";
 import AidareWebsiteLaunch, {metaAidareWebsiteLaunch} from "./under_construction/aidare-website-launch";
@@ -44,7 +44,9 @@ export const posts: Post[] = [{
     {
         ...metaLexartes, MDXComponent: Lexartes
     },
-
+    {
+        ...metaEegHackathon, MDXComponent: SailEegHackathon
+    },
 
 /*
 
@@ -52,9 +54,7 @@ export const posts: Post[] = [{
     {
         ...metaPrecysePaper, MDXComponent: PrecysePaper
     },
-    {
-        ...metaEegHackathon, MDXComponent: SailEegHackathon
-    },
+
     {
         ...metaSailSpringSchool, MDXComponent: SailSpringSchool
     },
