@@ -1,0 +1,5113 @@
+{
+  "erzeugtAm": "2026-08-30T10:49:46.908Z",
+  "semester": 20262,
+  "semesterName": "WiSe 2026/27",
+  "quelle": {
+    "modus": "studiengang",
+    "veranstaltungId": null,
+    "veranstaltungName": null,
+    "modulIds": [],
+    "modellIds": [],
+    "ebene1": 269202752,
+    "studiengangName": "Molekulare Biotechnologie B.Sc. 1-Fach (fw) FsB WiSe 2022/23",
+    "fachsemester": []
+  },
+  "optionen": {
+    "pufferMin": 0,
+    "nurPflicht": true,
+    "tolerierteFachsemester": "exakt",
+    "kombinationen": false,
+    "sprachpruefung": "pflicht"
+  },
+  "kohorten": [
+    {
+      "ebene2": 269202781,
+      "ebene1": 269202752,
+      "variante": "1-Fach (fw)",
+      "fachtyp": "1-Fach (fw)",
+      "fsbId": 269202747,
+      "fsbName": "Molekulare Biotechnologie / Bachelor of Science",
+      "fach": "Molekulare Biotechnologie",
+      "abschluss": "B.Sc.",
+      "aktuell": true,
+      "semesterVon": 20222,
+      "semesterBis": null,
+      "detailUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/in?id=269202752",
+      "fachsemester": [
+        1
+      ],
+      "pflichtFuerQuelle": true,
+      "id": "e2-269202781",
+      "bezeichnung": "Molekulare Biotechnologie B.Sc. 1-Fach (fw) FsB WiSe 2022/23",
+      "partner": [],
+      "partnerE2": null,
+      "partnerBezeichnung": null,
+      "angebote": [
+        {
+          "schluessel": "mv29611680",
+          "modellId": 29611680,
+          "herkunftE2": 269202781,
+          "herkunftFach": "Molekulare Biotechnologie (1-Fach (fw))",
+          "modellName": "Basis Theorie I",
+          "art": "Vorlesung mit Übungsanteil",
+          "teilgruppe": null,
+          "modulId": 26787917,
+          "modulKuerzel": "20-BM1",
+          "modulName": "Basis Theorie I",
+          "pflicht": true,
+          "fachsemester": [
+            1
+          ],
+          "optionen": [
+            {
+              "id": 735874878,
+              "name": "Basismodul Biologie Theorie I",
+              "art": "Vorlesung / Seminar",
+              "belegnummer": "200100",
+              "dozenten": [
+                "Prof. Dr. Armin Hallmann",
+                "Prof. Dr. Andrea Bräutigam",
+                "Prof. Dr. Christian Kaltschmidt",
+                "Prof. Dr. Volker F. Wendisch",
+                "Prof. Dr. Olaf Kruse",
+                "Prof. Dr. Bernd Weisshaar",
+                "Prof. Dr. Romy Schmidt-Schippers"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "H4",
+                  "roh": "Mo 8-10 H4"
+                },
+                {
+                  "wochentag": 2,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "H4",
+                  "roh": "Di 8-10 H4"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "H4",
+                  "roh": "Do 8-10 H4"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735874878",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 735862660,
+              "name": "Basismodul Biologie Theorie I - Tutorien",
+              "art": "Seminar",
+              "belegnummer": "200101",
+              "dozenten": [
+                "Prof. Dr. Armin Hallmann",
+                "PD Dr. Anne-Kathrin Warzecha"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "X-E0-211",
+                  "roh": "Mo 10-12 X-E0-211"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S0-145",
+                  "roh": "Mo 12-14 S0-145"
+                },
+                {
+                  "wochentag": 2,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S0-119",
+                  "roh": "Di 10-12 S0-119"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S1-502",
+                  "roh": "Mi 8-10 S1-502"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "B2-260A",
+                  "roh": "Mi 8-10 B2-260A"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "B0-237",
+                  "roh": "Mi 10-12 B0-237"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "X-E1-200",
+                  "roh": "Mi 10-12 X-E1-200"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S1-502",
+                  "roh": "Do 10-12 S1-502"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S1-502",
+                  "roh": "Fr 12-14 S1-502"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735862660",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv29612063",
+          "modellId": 29612063,
+          "herkunftE2": 269202781,
+          "herkunftFach": "Molekulare Biotechnologie (1-Fach (fw))",
+          "modellName": "Allgemeine Chemie",
+          "art": "Übung",
+          "teilgruppe": null,
+          "modulId": 26787418,
+          "modulKuerzel": "21-M4",
+          "modulName": "Allgemeine Chemie - Theorie",
+          "pflicht": true,
+          "fachsemester": [
+            1
+          ],
+          "optionen": [
+            {
+              "id": 653870061,
+              "name": "Übungen zur Allgemeinen Chemie (210011)",
+              "art": "Übung",
+              "belegnummer": "210012",
+              "dozenten": [
+                "Prof. Dr. Norbert W. Mitzel",
+                "Dr. Stefan Hopp",
+                "Dr. Jan-Hendrik Lamm"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Übung 1",
+                  "roh": "Mi 12-14 Übung 1"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Übung 2",
+                  "roh": "Do 14-16 Übung 2"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Übung 3",
+                  "roh": "Do 14-16 Übung 3"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Übung 6",
+                  "roh": "Fr 8-10 Übung 6"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Übung 4",
+                  "roh": "Fr 8-10 Übung 4"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Übung 5",
+                  "roh": "Fr 10-12 Übung 5"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Übung 7",
+                  "roh": "Fr 10-12 Übung 7"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653870061",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 653883962,
+              "name": "Tutorium zur Allgemeinen Chemie (210011)",
+              "art": "Tut / Übung",
+              "belegnummer": "216003",
+              "dozenten": [
+                "Dr. Stefan Hopp"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Tutorium 1",
+                  "roh": "Mo 8-10 Tutorium 1"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Tutorium 3",
+                  "roh": "Mo 14-16 Tutorium 3"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Tutorium 4",
+                  "roh": "Mo 14-16 Tutorium 4"
+                },
+                {
+                  "wochentag": 2,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Tutorium 5",
+                  "roh": "Di 12-14 Tutorium 5"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Tutorium 2",
+                  "roh": "Mi 8-10 Tutorium 2"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Tutorium 7",
+                  "roh": "Mi 8-10 Tutorium 7"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Tutorium 6",
+                  "roh": "Mi 10-12 Tutorium 6"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": "Fragestunde",
+                  "roh": "Mo 14-16 einmalig Fragestunde"
+                },
+                {
+                  "wochentag": 2,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": "Fragestunde",
+                  "roh": "Di 14-16 einmalig Fragestunde"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": "Fragestunde",
+                  "roh": "Mi 12-14 einmalig Fragestunde"
+                },
+                {
+                  "wochentag": 2,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": "Fragestunde",
+                  "roh": "Di 14-16 einmalig Fragestunde"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653883962",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv29612062#v",
+          "modellId": 29612062,
+          "herkunftE2": 269202781,
+          "herkunftFach": "Molekulare Biotechnologie (1-Fach (fw))",
+          "modellName": "Allgemeine Chemie (Vorlesungsteil)",
+          "art": "Vorlesung",
+          "teilgruppe": "fest",
+          "modulId": 26787418,
+          "modulKuerzel": "21-M4",
+          "modulName": "Allgemeine Chemie - Theorie",
+          "pflicht": true,
+          "fachsemester": [
+            1
+          ],
+          "optionen": [
+            {
+              "id": 653869770,
+              "name": "Allgemeine Chemie",
+              "art": "Vorlesung",
+              "belegnummer": "210011",
+              "dozenten": [
+                "Prof. Dr. Norbert W. Mitzel",
+                "Dr. Stefan Hopp",
+                "Dr. Jan-Hendrik Lamm"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Mi 14-16"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Do 10-12"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Fr 12-14"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653869770",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv29612062#s",
+          "modellId": 29612062,
+          "herkunftE2": 269202781,
+          "herkunftFach": "Molekulare Biotechnologie (1-Fach (fw))",
+          "modellName": "Allgemeine Chemie (weiterer Teil)",
+          "art": "Kl",
+          "teilgruppe": "sonstige",
+          "modulId": 26787418,
+          "modulKuerzel": "21-M4",
+          "modulName": "Allgemeine Chemie - Theorie",
+          "pflicht": true,
+          "fachsemester": [
+            1
+          ],
+          "optionen": [
+            {
+              "id": 653869886,
+              "name": "Präsenzklausur zu Allgemeine Chemie (Erstklausur)",
+              "art": "Kl",
+              "belegnummer": "210011",
+              "dozenten": [
+                "Prof. Dr. Norbert W. Mitzel",
+                "Dr. Stefan Hopp",
+                "Dr. Jan-Hendrik Lamm"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653869886",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 653869978,
+              "name": "Präsenzklausur zu Allgemeine Chemie (Zweitklausur)",
+              "art": "Kl",
+              "belegnummer": "210011",
+              "dozenten": [
+                "Prof. Dr. Norbert W. Mitzel",
+                "Dr. Stefan Hopp",
+                "Dr. Jan-Hendrik Lamm"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653869978",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv29612081",
+          "modellId": 29612081,
+          "herkunftE2": 269202781,
+          "herkunftFach": "Molekulare Biotechnologie (1-Fach (fw))",
+          "modellName": "Allgemeine Chemie",
+          "art": "Praktikum",
+          "teilgruppe": null,
+          "modulId": 26787459,
+          "modulKuerzel": "21-M5",
+          "modulName": "Allgemeine Chemie - Praxis",
+          "pflicht": true,
+          "fachsemester": [
+            1
+          ],
+          "optionen": [
+            {
+              "id": 653870200,
+              "name": "Allgemeine Chemie (Praktikum)",
+              "art": "Praktikum",
+              "belegnummer": "210013",
+              "dozenten": [
+                "Prof. Dr. Thomas Hellweg",
+                "Dr. Sabine Schrader"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 855,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "Block",
+                  "rhythmus": "block",
+                  "raum": "1 Details s.u.",
+                  "roh": "Mo 14:15-19 Block 1 (Details s.u.)"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 855,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "Block",
+                  "rhythmus": "block",
+                  "raum": "5 Details s.u.",
+                  "roh": "Mo 14:15-19 Block 5 (Details s.u.)"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 855,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "Block",
+                  "rhythmus": "block",
+                  "raum": "3 Details s.u.",
+                  "roh": "Mo 14:15-19 Block 3 (Details s.u.)"
+                },
+                {
+                  "wochentag": 2,
+                  "beginnMin": 855,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "Block",
+                  "rhythmus": "block",
+                  "raum": "1 Details s.u.",
+                  "roh": "Di 14:15-19 Block 1 (Details s.u.)"
+                },
+                {
+                  "wochentag": 2,
+                  "beginnMin": 855,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "Block",
+                  "rhythmus": "block",
+                  "raum": "3 Details s.u.",
+                  "roh": "Di 14:15-19 Block 3 (Details s.u.)"
+                },
+                {
+                  "wochentag": 2,
+                  "beginnMin": 855,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "Block",
+                  "rhythmus": "block",
+                  "raum": "5 Details s.u.",
+                  "roh": "Di 14:15-19 Block 5 (Details s.u.)"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 855,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "Block",
+                  "rhythmus": "block",
+                  "raum": "6 Details s.u.",
+                  "roh": "Do 14:15-19 Block 6 (Details s.u.)"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 855,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "Block",
+                  "rhythmus": "block",
+                  "raum": "4 Details s.u.",
+                  "roh": "Do 14:15-19 Block 4 (Details s.u.)"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 855,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "Block",
+                  "rhythmus": "block",
+                  "raum": "2 Details s.u.",
+                  "roh": "Do 14:15-19 Block 2 (Details s.u.)"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 855,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "Block",
+                  "rhythmus": "block",
+                  "raum": "4 Details s.u.",
+                  "roh": "Fr 14:15-19 Block 4 (Details s.u.)"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 855,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "Block",
+                  "rhythmus": "block",
+                  "raum": "6 Details s.u.",
+                  "roh": "Fr 14:15-19 Block 6 (Details s.u.)"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 855,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "Block",
+                  "rhythmus": "block",
+                  "raum": "2 Details s.u.",
+                  "roh": "Fr 14:15-19 Block 2 (Details s.u.)"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653870200",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 653882220,
+              "name": "Allgemeine Chemie für Studierende der Physik",
+              "art": "Praktikum",
+              "belegnummer": "215014",
+              "dozenten": [
+                "Prof. Dr. Thomas Hellweg",
+                "Dr. Sabine Schrader"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 855,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "Block",
+                  "rhythmus": "block",
+                  "raum": "3 Details s.u.",
+                  "roh": "Mo 14:15-19 Block 3 (Details s.u.)"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 855,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "Block",
+                  "rhythmus": "block",
+                  "raum": "5 Details s.u.",
+                  "roh": "Mo 14:15-19 Block 5 (Details s.u.)"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 855,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "Block",
+                  "rhythmus": "block",
+                  "raum": "1 Details s.u.",
+                  "roh": "Mo 14:15-19 Block 1 (Details s.u.)"
+                },
+                {
+                  "wochentag": 2,
+                  "beginnMin": 855,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "Block",
+                  "rhythmus": "block",
+                  "raum": "1 Details s.u.",
+                  "roh": "Di 14:15-19 Block 1 (Details s.u.)"
+                },
+                {
+                  "wochentag": 2,
+                  "beginnMin": 855,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "Block",
+                  "rhythmus": "block",
+                  "raum": "3 Details s.u.",
+                  "roh": "Di 14:15-19 Block 3 (Details s.u.)"
+                },
+                {
+                  "wochentag": 2,
+                  "beginnMin": 855,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "Block",
+                  "rhythmus": "block",
+                  "raum": "5 Details s.u.",
+                  "roh": "Di 14:15-19 Block 5 (Details s.u.)"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 855,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "Block",
+                  "rhythmus": "block",
+                  "raum": "2 Details s.u.",
+                  "roh": "Do 14:15-19 Block 2 (Details s.u.)"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 855,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "Block",
+                  "rhythmus": "block",
+                  "raum": "4 Details s.u.",
+                  "roh": "Do 14:15-19 Block 4 (Details s.u.)"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 855,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "Block",
+                  "rhythmus": "block",
+                  "raum": "6 Details s.u.",
+                  "roh": "Do 14:15-19 Block 6 (Details s.u.)"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 855,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "Block",
+                  "rhythmus": "block",
+                  "raum": "4 Details s.u.",
+                  "roh": "Fr 14:15-19 Block 4 (Details s.u.)"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 855,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "Block",
+                  "rhythmus": "block",
+                  "raum": "2 Details s.u.",
+                  "roh": "Fr 14:15-19 Block 2 (Details s.u.)"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 855,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "Block",
+                  "rhythmus": "block",
+                  "raum": "6 Details s.u.",
+                  "roh": "Fr 14:15-19 Block 6 (Details s.u.)"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653882220",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv29612089#v",
+          "modellId": 29612089,
+          "herkunftE2": 269202781,
+          "herkunftFach": "Molekulare Biotechnologie (1-Fach (fw))",
+          "modellName": "Physikalische Chemie - Basis (Vorlesungsteil)",
+          "art": "Vorlesung",
+          "teilgruppe": "fest",
+          "modulId": 26787444,
+          "modulKuerzel": "21-M8",
+          "modulName": "Physikalische Chemie - Basis Theorie",
+          "pflicht": true,
+          "fachsemester": [
+            1
+          ],
+          "optionen": [
+            {
+              "id": 653874208,
+              "name": "Physikalische Chemie Basis - Vorlesung",
+              "art": "Vorlesung",
+              "belegnummer": "210511",
+              "dozenten": [
+                "Dr. Ralf Bechstein",
+                "Dr. Stefan Hopp",
+                "Prof. Dr. Angelika Kühnle"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Mi 14:00-16:00"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 600,
+                  "endeMin": 660,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Do 10:00-11:00"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653874208",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv29612089#u",
+          "modellId": 29612089,
+          "herkunftE2": 269202781,
+          "herkunftFach": "Molekulare Biotechnologie (1-Fach (fw))",
+          "modellName": "Physikalische Chemie - Basis (Übungsteil)",
+          "art": "Übung",
+          "teilgruppe": "wahlbar",
+          "modulId": 26787444,
+          "modulKuerzel": "21-M8",
+          "modulName": "Physikalische Chemie - Basis Theorie",
+          "pflicht": true,
+          "fachsemester": [
+            1
+          ],
+          "optionen": [
+            {
+              "id": 653874947,
+              "name": "Physikalische Chemie Basis - Übungen und Tutorien zu 210511",
+              "art": "Übung",
+              "belegnummer": "210512",
+              "dozenten": [
+                "Prof. Dr. Angelika Kühnle",
+                "Dr. Stefan Hopp",
+                "Dr. Sergej Kakorin",
+                "Dr. Ralf Bechstein",
+                "Florian Schneider"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Übung 1 Florian Schneider",
+                  "roh": "Mo 8-10 Übung 1, Florian Schneider"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Übung 3 Sergej Kakorin",
+                  "roh": "Mo 10-12 Übung 3, Sergej Kakorin"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Übung 2 Stefan Hopp",
+                  "roh": "Mo 10-12 Übung 2, Stefan Hopp"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Übung 4 Ralf Bechstein",
+                  "roh": "Mo 12-14 Übung 4, Ralf Bechstein"
+                },
+                {
+                  "wochentag": 2,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Übung 5 Florian Schneider",
+                  "roh": "Di 12-14 Übung 5, Florian Schneider"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Übung 6 Stefan Hopp",
+                  "roh": "Mi 8-10 Übung 6, Stefan Hopp"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Mi 8-10 Übung 1 (8-9 Uhr), Tutorium 1 (9-10 Uhr), Florian Schneider"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Do 12-14 Übung 6 (12-13 Uhr) + Tutorium 6 (13-14 Uhr), Stefan Hopp"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Do 12-14 Übung 5 (12-13 Uhr), Tutorium 5 (13-14 Uhr), Florian Schneider"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Fr 8-10 Übung 4 (8-9 Uhr) + Tutorium 4 (9-10 Uhr), Ralf Bechstein"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Fr 8-10 Übung 2 (8-9 Uhr), Tutorium 2 (9-10 Uhr), Stefan Hopp"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Fr 8-10 Übung 3 (8-9 Uhr), Tutorium 3 (9-10 Uhr), Sergej Kakorin"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": "Übung 1 Florian Schneider",
+                  "roh": "Mo 8-10 einmalig Übung 1, Florian Schneider"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": "Übung 2 Stefan Hopp",
+                  "roh": "Mo 10-12 einmalig Übung 2, Stefan Hopp"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": "Übung 3 Sergej Kakorin",
+                  "roh": "Mo 10-12 einmalig Übung 3, Sergej Kakorin"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": "Übung 4 Ralf Bechstein",
+                  "roh": "Mo 12-14 einmalig Übung 4, Ralf Bechstein"
+                },
+                {
+                  "wochentag": 2,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": "Übung 5 Florian Schneider",
+                  "roh": "Di 12-14 einmalig Übung 5, Florian Schneider"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": "Übung 6 Stefan Hopp",
+                  "roh": "Mi 8-10 einmalig Übung 6, Stefan Hopp"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": null,
+                  "roh": "Mi 8-10 einmalig Übung 1 (8-9 Uhr), Tutorium 1 (9-10 Uhr), Florian Schneider"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": null,
+                  "roh": "Do 12-14 einmalig Übung 5 (12-13 Uhr), Tutorium 5 (13-14 Uhr), Florian Schneider"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": null,
+                  "roh": "Do 12-14 einmalig Übung 6 (12-13 Uhr) + Tutorium 6 (13-14 Uhr), Stefan Hopp"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": null,
+                  "roh": "Fr 8-10 einmalig Übung 3 (8-9 Uhr), Tutorium 3 (9-10 Uhr), Sergej Kakorin"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": null,
+                  "roh": "Fr 8-10 einmalig Übung 2 (8-9 Uhr), Tutorium 2 (9-10 Uhr), Stefan Hopp"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": null,
+                  "roh": "Fr 8-10 einmalig Übung 4 (8-9 Uhr) + Tutorium 4 (9-10 Uhr), Ralf Bechstein"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653874947",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv29612089#s",
+          "modellId": 29612089,
+          "herkunftE2": 269202781,
+          "herkunftFach": "Molekulare Biotechnologie (1-Fach (fw))",
+          "modellName": "Physikalische Chemie - Basis (weiterer Teil)",
+          "art": "Kl",
+          "teilgruppe": "sonstige",
+          "modulId": 26787444,
+          "modulKuerzel": "21-M8",
+          "modulName": "Physikalische Chemie - Basis Theorie",
+          "pflicht": true,
+          "fachsemester": [
+            1
+          ],
+          "optionen": [
+            {
+              "id": 653874777,
+              "name": "Präsenzklausur zu Physikalische Chemie Basis - Vorlesung (Erstklausur)",
+              "art": "Kl",
+              "belegnummer": "210511",
+              "dozenten": [
+                "Dr. Ralf Bechstein",
+                "Dr. Stefan Hopp",
+                "Prof. Dr. Angelika Kühnle"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653874777",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 653874866,
+              "name": "Präsenzklausur zu Physikalische Chemie Basis - Vorlesung (Zweitklausur)",
+              "art": "Kl",
+              "belegnummer": "210511",
+              "dozenten": [
+                "Dr. Ralf Bechstein",
+                "Dr. Stefan Hopp",
+                "Prof. Dr. Angelika Kühnle"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653874866",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv365095700",
+          "modellId": 365095700,
+          "herkunftE2": 269202781,
+          "herkunftFach": "Molekulare Biotechnologie (1-Fach (fw))",
+          "modellName": "Biotechnologie 1: Grundlagen der Biotechnologie",
+          "art": "Vorlesung mit Übungsanteil",
+          "teilgruppe": null,
+          "modulId": 365095652,
+          "modulKuerzel": "39-MBT1T",
+          "modulName": "Biotechnologie 1 Theorie",
+          "pflicht": true,
+          "fachsemester": [
+            1
+          ],
+          "optionen": [
+            {
+              "id": 737466793,
+              "name": "Biotechnologie 1: Grundlagen der Biotechnologie",
+              "art": "Vorlesung mit Übungsanteil",
+              "belegnummer": "391030",
+              "dozenten": [
+                "Dr. Raimund Hoffrogge",
+                "Dr. Joe Max Risse",
+                "Prof. Dr.-Ing. Katrin Rosenthal"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 2,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "H8",
+                  "roh": "Di 10-12 H8"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "H8",
+                  "roh": "Fr 10-12 H8"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=737466793",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        }
+      ],
+      "wahlpflichtAngebote": [],
+      "notiz": null
+    },
+    {
+      "ebene2": 269202785,
+      "ebene1": 269202752,
+      "variante": "Modularisierter individueller Kompetenz-Erwerb (MiKE)",
+      "fachtyp": "1-Fach (fw)",
+      "fsbId": 269202747,
+      "fsbName": "Molekulare Biotechnologie / Bachelor of Science",
+      "fach": "Molekulare Biotechnologie",
+      "abschluss": "B.Sc.",
+      "aktuell": true,
+      "semesterVon": 20222,
+      "semesterBis": null,
+      "detailUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/in?id=269202752",
+      "fachsemester": [
+        1
+      ],
+      "pflichtFuerQuelle": true,
+      "id": "e2-269202785",
+      "bezeichnung": "Molekulare Biotechnologie B.Sc. 1-Fach (fw) Modularisierter individueller Kompetenz-Erwerb (MiKE) FsB WiSe 2022/23",
+      "partner": [],
+      "partnerE2": null,
+      "partnerBezeichnung": null,
+      "angebote": [],
+      "wahlpflichtAngebote": [],
+      "notiz": null
+    },
+    {
+      "ebene2": 354012128,
+      "ebene1": 269202752,
+      "variante": "Individueller Ergänzungsbereich",
+      "fachtyp": "1-Fach (fw)",
+      "fsbId": 269202747,
+      "fsbName": "Molekulare Biotechnologie / Bachelor of Science",
+      "fach": "Molekulare Biotechnologie",
+      "abschluss": "B.Sc.",
+      "aktuell": true,
+      "semesterVon": 20222,
+      "semesterBis": null,
+      "detailUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/in?id=269202752",
+      "fachsemester": [
+        1
+      ],
+      "pflichtFuerQuelle": true,
+      "id": "e2-354012128",
+      "bezeichnung": "Molekulare Biotechnologie B.Sc. 1-Fach (fw) Individueller Ergänzungsbereich FsB WiSe 2022/23",
+      "partner": [],
+      "partnerE2": null,
+      "partnerBezeichnung": null,
+      "angebote": [],
+      "wahlpflichtAngebote": [],
+      "notiz": null
+    }
+  ],
+  "konflikte": [
+    {
+      "id": "e2-269202781:mv29611680:mv29612063",
+      "kohorteId": "e2-269202781",
+      "aSchluessel": "mv29611680",
+      "bSchluessel": "mv29612063",
+      "amodulID": 26787917,
+      "bmodulID": 26787418,
+      "schwere": "teilweise",
+      "betrifftQuelle": false,
+      "freieKombinationen": 2,
+      "gesamteKombinationen": 4,
+      "paare": [
+        {
+          "aKursId": 735874878,
+          "bKursId": 653870061,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Vorlesung / Seminar",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 735874878,
+          "bKursId": 653883962,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 1,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "H4",
+                "roh": "Mo 8-10 H4"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 1",
+                "roh": "Mo 8-10 Tutorium 1"
+              }
+            }
+          ],
+          "aKursType": "Vorlesung / Seminar",
+          "bKursType": "Tut / Übung"
+        },
+        {
+          "aKursId": 735862660,
+          "bKursId": 653870061,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Seminar",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 735862660,
+          "bKursId": 653883962,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 3,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S1-502",
+                "roh": "Mi 8-10 S1-502"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 2",
+                "roh": "Mi 8-10 Tutorium 2"
+              }
+            },
+            {
+              "wochentag": 3,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S1-502",
+                "roh": "Mi 8-10 S1-502"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 7",
+                "roh": "Mi 8-10 Tutorium 7"
+              }
+            },
+            {
+              "wochentag": 3,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "B2-260A",
+                "roh": "Mi 8-10 B2-260A"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 2",
+                "roh": "Mi 8-10 Tutorium 2"
+              }
+            },
+            {
+              "wochentag": 3,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "B2-260A",
+                "roh": "Mi 8-10 B2-260A"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 7",
+                "roh": "Mi 8-10 Tutorium 7"
+              }
+            },
+            {
+              "wochentag": 3,
+              "beginnMin": 600,
+              "endeMin": 720,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "B0-237",
+                "roh": "Mi 10-12 B0-237"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 6",
+                "roh": "Mi 10-12 Tutorium 6"
+              }
+            },
+            {
+              "wochentag": 3,
+              "beginnMin": 600,
+              "endeMin": 720,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "X-E1-200",
+                "roh": "Mi 10-12 X-E1-200"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 6",
+                "roh": "Mi 10-12 Tutorium 6"
+              }
+            }
+          ],
+          "aKursType": "Seminar",
+          "bKursType": "Tut / Übung"
+        }
+      ],
+      "zusammenfassung": "Mo 08:00–10:00 (120 min) – wöchentliche Überschneidung | Mi 08:00–10:00 (120 min) – wöchentliche Überschneidung | Mi 10:00–12:00 (120 min) – wöchentliche Überschneidung"
+    },
+    {
+      "id": "e2-269202781:mv29611680:mv29612062#v",
+      "kohorteId": "e2-269202781",
+      "aSchluessel": "mv29611680",
+      "bSchluessel": "mv29612062#v",
+      "amodulID": 26787917,
+      "bmodulID": 26787418,
+      "schwere": "teilweise",
+      "betrifftQuelle": false,
+      "freieKombinationen": 1,
+      "gesamteKombinationen": 2,
+      "paare": [
+        {
+          "aKursId": 735874878,
+          "bKursId": 653869770,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Vorlesung / Seminar",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 735862660,
+          "bKursId": 653869770,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 4,
+              "beginnMin": 600,
+              "endeMin": 720,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S1-502",
+                "roh": "Do 10-12 S1-502"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": null,
+                "roh": "Do 10-12"
+              }
+            },
+            {
+              "wochentag": 5,
+              "beginnMin": 720,
+              "endeMin": 840,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 720,
+                "endeMin": 840,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S1-502",
+                "roh": "Fr 12-14 S1-502"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 720,
+                "endeMin": 840,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": null,
+                "roh": "Fr 12-14"
+              }
+            }
+          ],
+          "aKursType": "Seminar",
+          "bKursType": "Vorlesung"
+        }
+      ],
+      "zusammenfassung": "Do 10:00–12:00 (120 min) – wöchentliche Überschneidung | Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
+    },
+    {
+      "id": "e2-269202781:mv29611680:mv29612089#v",
+      "kohorteId": "e2-269202781",
+      "aSchluessel": "mv29611680",
+      "bSchluessel": "mv29612089#v",
+      "amodulID": 26787917,
+      "bmodulID": 26787444,
+      "schwere": "teilweise",
+      "betrifftQuelle": false,
+      "freieKombinationen": 1,
+      "gesamteKombinationen": 2,
+      "paare": [
+        {
+          "aKursId": 735874878,
+          "bKursId": 653874208,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Vorlesung / Seminar",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 735862660,
+          "bKursId": 653874208,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 4,
+              "beginnMin": 600,
+              "endeMin": 660,
+              "minuten": 60,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S1-502",
+                "roh": "Do 10-12 S1-502"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 600,
+                "endeMin": 660,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": null,
+                "roh": "Do 10:00-11:00"
+              }
+            }
+          ],
+          "aKursType": "Seminar",
+          "bKursType": "Vorlesung"
+        }
+      ],
+      "zusammenfassung": "Do 10:00–11:00 (60 min) – wöchentliche Überschneidung"
+    },
+    {
+      "id": "e2-269202781:mv29611680:mv29612089#u",
+      "kohorteId": "e2-269202781",
+      "aSchluessel": "mv29611680",
+      "bSchluessel": "mv29612089#u",
+      "amodulID": 26787917,
+      "bmodulID": 26787444,
+      "schwere": "unsicher",
+      "betrifftQuelle": false,
+      "freieKombinationen": 0,
+      "gesamteKombinationen": 2,
+      "paare": [
+        {
+          "aKursId": 735874878,
+          "bKursId": 653874947,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 1,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "H4",
+                "roh": "Mo 8-10 H4"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 1 Florian Schneider",
+                "roh": "Mo 8-10 Übung 1, Florian Schneider"
+              }
+            },
+            {
+              "wochentag": 1,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "H4",
+                "roh": "Mo 8-10 H4"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Übung 1 Florian Schneider",
+                "roh": "Mo 8-10 einmalig Übung 1, Florian Schneider"
+              }
+            }
+          ],
+          "aKursType": "Vorlesung / Seminar",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 735862660,
+          "bKursId": 653874947,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 1,
+              "beginnMin": 600,
+              "endeMin": 720,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "X-E0-211",
+                "roh": "Mo 10-12 X-E0-211"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 3 Sergej Kakorin",
+                "roh": "Mo 10-12 Übung 3, Sergej Kakorin"
+              }
+            },
+            {
+              "wochentag": 1,
+              "beginnMin": 600,
+              "endeMin": 720,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "X-E0-211",
+                "roh": "Mo 10-12 X-E0-211"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 2 Stefan Hopp",
+                "roh": "Mo 10-12 Übung 2, Stefan Hopp"
+              }
+            },
+            {
+              "wochentag": 1,
+              "beginnMin": 600,
+              "endeMin": 720,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "X-E0-211",
+                "roh": "Mo 10-12 X-E0-211"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Übung 2 Stefan Hopp",
+                "roh": "Mo 10-12 einmalig Übung 2, Stefan Hopp"
+              }
+            },
+            {
+              "wochentag": 1,
+              "beginnMin": 600,
+              "endeMin": 720,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "X-E0-211",
+                "roh": "Mo 10-12 X-E0-211"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Übung 3 Sergej Kakorin",
+                "roh": "Mo 10-12 einmalig Übung 3, Sergej Kakorin"
+              }
+            },
+            {
+              "wochentag": 1,
+              "beginnMin": 720,
+              "endeMin": 840,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 720,
+                "endeMin": 840,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S0-145",
+                "roh": "Mo 12-14 S0-145"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 720,
+                "endeMin": 840,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 4 Ralf Bechstein",
+                "roh": "Mo 12-14 Übung 4, Ralf Bechstein"
+              }
+            },
+            {
+              "wochentag": 1,
+              "beginnMin": 720,
+              "endeMin": 840,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 720,
+                "endeMin": 840,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S0-145",
+                "roh": "Mo 12-14 S0-145"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 720,
+                "endeMin": 840,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Übung 4 Ralf Bechstein",
+                "roh": "Mo 12-14 einmalig Übung 4, Ralf Bechstein"
+              }
+            },
+            {
+              "wochentag": 3,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S1-502",
+                "roh": "Mi 8-10 S1-502"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 6 Stefan Hopp",
+                "roh": "Mi 8-10 Übung 6, Stefan Hopp"
+              }
+            },
+            {
+              "wochentag": 3,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S1-502",
+                "roh": "Mi 8-10 S1-502"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": null,
+                "roh": "Mi 8-10 Übung 1 (8-9 Uhr), Tutorium 1 (9-10 Uhr), Florian Schneider"
+              }
+            },
+            {
+              "wochentag": 3,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S1-502",
+                "roh": "Mi 8-10 S1-502"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Übung 6 Stefan Hopp",
+                "roh": "Mi 8-10 einmalig Übung 6, Stefan Hopp"
+              }
+            },
+            {
+              "wochentag": 3,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S1-502",
+                "roh": "Mi 8-10 S1-502"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": null,
+                "roh": "Mi 8-10 einmalig Übung 1 (8-9 Uhr), Tutorium 1 (9-10 Uhr), Florian Schneider"
+              }
+            },
+            {
+              "wochentag": 3,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "B2-260A",
+                "roh": "Mi 8-10 B2-260A"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 6 Stefan Hopp",
+                "roh": "Mi 8-10 Übung 6, Stefan Hopp"
+              }
+            },
+            {
+              "wochentag": 3,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "B2-260A",
+                "roh": "Mi 8-10 B2-260A"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": null,
+                "roh": "Mi 8-10 Übung 1 (8-9 Uhr), Tutorium 1 (9-10 Uhr), Florian Schneider"
+              }
+            },
+            {
+              "wochentag": 3,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "B2-260A",
+                "roh": "Mi 8-10 B2-260A"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Übung 6 Stefan Hopp",
+                "roh": "Mi 8-10 einmalig Übung 6, Stefan Hopp"
+              }
+            },
+            {
+              "wochentag": 3,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "B2-260A",
+                "roh": "Mi 8-10 B2-260A"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": null,
+                "roh": "Mi 8-10 einmalig Übung 1 (8-9 Uhr), Tutorium 1 (9-10 Uhr), Florian Schneider"
+              }
+            }
+          ],
+          "aKursType": "Seminar",
+          "bKursType": "Übung"
+        }
+      ],
+      "zusammenfassung": "Mo 08:00–10:00 (120 min) – wöchentliche Überschneidung | Mo 08:00–10:00 (120 min) – Einzeltermin ohne Datumsangabe | Mo 10:00–12:00 (120 min) – wöchentliche Überschneidung | Mo 10:00–12:00 (120 min) – Einzeltermin ohne Datumsangabe | Mo 12:00–14:00 (120 min) – wöchentliche Überschneidung | Mo 12:00–14:00 (120 min) – Einzeltermin ohne Datumsangabe | Mi 08:00–10:00 (120 min) – wöchentliche Überschneidung | Mi 08:00–10:00 (120 min) – Einzeltermin ohne Datumsangabe"
+    },
+    {
+      "id": "e2-269202781:mv29611680:mv365095700",
+      "kohorteId": "e2-269202781",
+      "aSchluessel": "mv29611680",
+      "bSchluessel": "mv365095700",
+      "amodulID": 26787917,
+      "bmodulID": 365095652,
+      "schwere": "teilweise",
+      "betrifftQuelle": false,
+      "freieKombinationen": 1,
+      "gesamteKombinationen": 2,
+      "paare": [
+        {
+          "aKursId": 735874878,
+          "bKursId": 737466793,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Vorlesung / Seminar",
+          "bKursType": "Vorlesung mit Übungsanteil"
+        },
+        {
+          "aKursId": 735862660,
+          "bKursId": 737466793,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 2,
+              "beginnMin": 600,
+              "endeMin": 720,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 2,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S0-119",
+                "roh": "Di 10-12 S0-119"
+              },
+              "bSlot": {
+                "wochentag": 2,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "H8",
+                "roh": "Di 10-12 H8"
+              }
+            }
+          ],
+          "aKursType": "Seminar",
+          "bKursType": "Vorlesung mit Übungsanteil"
+        }
+      ],
+      "zusammenfassung": "Di 10:00–12:00 (120 min) – wöchentliche Überschneidung"
+    },
+    {
+      "id": "e2-269202781:mv29612063:mv29612081",
+      "kohorteId": "e2-269202781",
+      "aSchluessel": "mv29612063",
+      "bSchluessel": "mv29612081",
+      "amodulID": 26787418,
+      "bmodulID": 26787459,
+      "schwere": "unsicher",
+      "betrifftQuelle": false,
+      "freieKombinationen": 0,
+      "gesamteKombinationen": 4,
+      "paare": [
+        {
+          "aKursId": 653870061,
+          "bKursId": 653870200,
+          "status": "unsicher",
+          "kollisionen": [
+            {
+              "wochentag": 4,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 2",
+                "roh": "Do 14-16 Übung 2"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "6 Details s.u.",
+                "roh": "Do 14:15-19 Block 6 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 4,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 2",
+                "roh": "Do 14-16 Übung 2"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "4 Details s.u.",
+                "roh": "Do 14:15-19 Block 4 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 4,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 2",
+                "roh": "Do 14-16 Übung 2"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "2 Details s.u.",
+                "roh": "Do 14:15-19 Block 2 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 4,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 3",
+                "roh": "Do 14-16 Übung 3"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "6 Details s.u.",
+                "roh": "Do 14:15-19 Block 6 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 4,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 3",
+                "roh": "Do 14-16 Übung 3"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "4 Details s.u.",
+                "roh": "Do 14:15-19 Block 4 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 4,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 3",
+                "roh": "Do 14-16 Übung 3"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "2 Details s.u.",
+                "roh": "Do 14:15-19 Block 2 (Details s.u.)"
+              }
+            }
+          ],
+          "aKursType": "Übung",
+          "bKursType": "Praktikum"
+        },
+        {
+          "aKursId": 653870061,
+          "bKursId": 653882220,
+          "status": "unsicher",
+          "kollisionen": [
+            {
+              "wochentag": 4,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 2",
+                "roh": "Do 14-16 Übung 2"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "2 Details s.u.",
+                "roh": "Do 14:15-19 Block 2 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 4,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 2",
+                "roh": "Do 14-16 Übung 2"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "4 Details s.u.",
+                "roh": "Do 14:15-19 Block 4 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 4,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 2",
+                "roh": "Do 14-16 Übung 2"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "6 Details s.u.",
+                "roh": "Do 14:15-19 Block 6 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 4,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 3",
+                "roh": "Do 14-16 Übung 3"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "2 Details s.u.",
+                "roh": "Do 14:15-19 Block 2 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 4,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 3",
+                "roh": "Do 14-16 Übung 3"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "4 Details s.u.",
+                "roh": "Do 14:15-19 Block 4 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 4,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 3",
+                "roh": "Do 14-16 Übung 3"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "6 Details s.u.",
+                "roh": "Do 14:15-19 Block 6 (Details s.u.)"
+              }
+            }
+          ],
+          "aKursType": "Übung",
+          "bKursType": "Praktikum"
+        },
+        {
+          "aKursId": 653883962,
+          "bKursId": 653870200,
+          "status": "unsicher",
+          "kollisionen": [
+            {
+              "wochentag": 1,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 3",
+                "roh": "Mo 14-16 Tutorium 3"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "1 Details s.u.",
+                "roh": "Mo 14:15-19 Block 1 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 1,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 3",
+                "roh": "Mo 14-16 Tutorium 3"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "5 Details s.u.",
+                "roh": "Mo 14:15-19 Block 5 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 1,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 3",
+                "roh": "Mo 14-16 Tutorium 3"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "3 Details s.u.",
+                "roh": "Mo 14:15-19 Block 3 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 1,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 4",
+                "roh": "Mo 14-16 Tutorium 4"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "1 Details s.u.",
+                "roh": "Mo 14:15-19 Block 1 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 1,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 4",
+                "roh": "Mo 14-16 Tutorium 4"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "5 Details s.u.",
+                "roh": "Mo 14:15-19 Block 5 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 1,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 4",
+                "roh": "Mo 14-16 Tutorium 4"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "3 Details s.u.",
+                "roh": "Mo 14:15-19 Block 3 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 1,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Fragestunde",
+                "roh": "Mo 14-16 einmalig Fragestunde"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "1 Details s.u.",
+                "roh": "Mo 14:15-19 Block 1 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 1,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Fragestunde",
+                "roh": "Mo 14-16 einmalig Fragestunde"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "5 Details s.u.",
+                "roh": "Mo 14:15-19 Block 5 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 1,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Fragestunde",
+                "roh": "Mo 14-16 einmalig Fragestunde"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "3 Details s.u.",
+                "roh": "Mo 14:15-19 Block 3 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 2,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 2,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Fragestunde",
+                "roh": "Di 14-16 einmalig Fragestunde"
+              },
+              "bSlot": {
+                "wochentag": 2,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "1 Details s.u.",
+                "roh": "Di 14:15-19 Block 1 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 2,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 2,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Fragestunde",
+                "roh": "Di 14-16 einmalig Fragestunde"
+              },
+              "bSlot": {
+                "wochentag": 2,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "3 Details s.u.",
+                "roh": "Di 14:15-19 Block 3 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 2,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 2,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Fragestunde",
+                "roh": "Di 14-16 einmalig Fragestunde"
+              },
+              "bSlot": {
+                "wochentag": 2,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "5 Details s.u.",
+                "roh": "Di 14:15-19 Block 5 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 2,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 2,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Fragestunde",
+                "roh": "Di 14-16 einmalig Fragestunde"
+              },
+              "bSlot": {
+                "wochentag": 2,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "1 Details s.u.",
+                "roh": "Di 14:15-19 Block 1 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 2,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 2,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Fragestunde",
+                "roh": "Di 14-16 einmalig Fragestunde"
+              },
+              "bSlot": {
+                "wochentag": 2,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "3 Details s.u.",
+                "roh": "Di 14:15-19 Block 3 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 2,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 2,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Fragestunde",
+                "roh": "Di 14-16 einmalig Fragestunde"
+              },
+              "bSlot": {
+                "wochentag": 2,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "5 Details s.u.",
+                "roh": "Di 14:15-19 Block 5 (Details s.u.)"
+              }
+            }
+          ],
+          "aKursType": "Tut / Übung",
+          "bKursType": "Praktikum"
+        },
+        {
+          "aKursId": 653883962,
+          "bKursId": 653882220,
+          "status": "unsicher",
+          "kollisionen": [
+            {
+              "wochentag": 1,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 3",
+                "roh": "Mo 14-16 Tutorium 3"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "3 Details s.u.",
+                "roh": "Mo 14:15-19 Block 3 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 1,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 3",
+                "roh": "Mo 14-16 Tutorium 3"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "5 Details s.u.",
+                "roh": "Mo 14:15-19 Block 5 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 1,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 3",
+                "roh": "Mo 14-16 Tutorium 3"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "1 Details s.u.",
+                "roh": "Mo 14:15-19 Block 1 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 1,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 4",
+                "roh": "Mo 14-16 Tutorium 4"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "3 Details s.u.",
+                "roh": "Mo 14:15-19 Block 3 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 1,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 4",
+                "roh": "Mo 14-16 Tutorium 4"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "5 Details s.u.",
+                "roh": "Mo 14:15-19 Block 5 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 1,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 4",
+                "roh": "Mo 14-16 Tutorium 4"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "1 Details s.u.",
+                "roh": "Mo 14:15-19 Block 1 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 1,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Fragestunde",
+                "roh": "Mo 14-16 einmalig Fragestunde"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "3 Details s.u.",
+                "roh": "Mo 14:15-19 Block 3 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 1,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Fragestunde",
+                "roh": "Mo 14-16 einmalig Fragestunde"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "5 Details s.u.",
+                "roh": "Mo 14:15-19 Block 5 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 1,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Fragestunde",
+                "roh": "Mo 14-16 einmalig Fragestunde"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "1 Details s.u.",
+                "roh": "Mo 14:15-19 Block 1 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 2,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 2,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Fragestunde",
+                "roh": "Di 14-16 einmalig Fragestunde"
+              },
+              "bSlot": {
+                "wochentag": 2,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "1 Details s.u.",
+                "roh": "Di 14:15-19 Block 1 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 2,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 2,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Fragestunde",
+                "roh": "Di 14-16 einmalig Fragestunde"
+              },
+              "bSlot": {
+                "wochentag": 2,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "3 Details s.u.",
+                "roh": "Di 14:15-19 Block 3 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 2,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 2,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Fragestunde",
+                "roh": "Di 14-16 einmalig Fragestunde"
+              },
+              "bSlot": {
+                "wochentag": 2,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "5 Details s.u.",
+                "roh": "Di 14:15-19 Block 5 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 2,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 2,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Fragestunde",
+                "roh": "Di 14-16 einmalig Fragestunde"
+              },
+              "bSlot": {
+                "wochentag": 2,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "1 Details s.u.",
+                "roh": "Di 14:15-19 Block 1 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 2,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 2,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Fragestunde",
+                "roh": "Di 14-16 einmalig Fragestunde"
+              },
+              "bSlot": {
+                "wochentag": 2,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "3 Details s.u.",
+                "roh": "Di 14:15-19 Block 3 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 2,
+              "beginnMin": 855,
+              "endeMin": 960,
+              "minuten": 105,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 2,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Fragestunde",
+                "roh": "Di 14-16 einmalig Fragestunde"
+              },
+              "bSlot": {
+                "wochentag": 2,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "5 Details s.u.",
+                "roh": "Di 14:15-19 Block 5 (Details s.u.)"
+              }
+            }
+          ],
+          "aKursType": "Tut / Übung",
+          "bKursType": "Praktikum"
+        }
+      ],
+      "zusammenfassung": "Do 14:15–16:00 (105 min) – Blockveranstaltung – genaue Tage nicht auswertbar | Mo 14:15–16:00 (105 min) – Blockveranstaltung – genaue Tage nicht auswertbar | Mo 14:15–16:00 (105 min) – Einzeltermin ohne Datumsangabe | Di 14:15–16:00 (105 min) – Einzeltermin ohne Datumsangabe"
+    },
+    {
+      "id": "e2-269202781:mv29612063:mv29612089#u",
+      "kohorteId": "e2-269202781",
+      "aSchluessel": "mv29612063",
+      "bSchluessel": "mv29612089#u",
+      "amodulID": 26787418,
+      "bmodulID": 26787444,
+      "schwere": "unsicher",
+      "betrifftQuelle": false,
+      "freieKombinationen": 0,
+      "gesamteKombinationen": 2,
+      "paare": [
+        {
+          "aKursId": 653870061,
+          "bKursId": 653874947,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 5,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 6",
+                "roh": "Fr 8-10 Übung 6"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": null,
+                "roh": "Fr 8-10 Übung 4 (8-9 Uhr) + Tutorium 4 (9-10 Uhr), Ralf Bechstein"
+              }
+            },
+            {
+              "wochentag": 5,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 6",
+                "roh": "Fr 8-10 Übung 6"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": null,
+                "roh": "Fr 8-10 Übung 2 (8-9 Uhr), Tutorium 2 (9-10 Uhr), Stefan Hopp"
+              }
+            },
+            {
+              "wochentag": 5,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 6",
+                "roh": "Fr 8-10 Übung 6"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": null,
+                "roh": "Fr 8-10 Übung 3 (8-9 Uhr), Tutorium 3 (9-10 Uhr), Sergej Kakorin"
+              }
+            },
+            {
+              "wochentag": 5,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 6",
+                "roh": "Fr 8-10 Übung 6"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": null,
+                "roh": "Fr 8-10 einmalig Übung 3 (8-9 Uhr), Tutorium 3 (9-10 Uhr), Sergej Kakorin"
+              }
+            },
+            {
+              "wochentag": 5,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 6",
+                "roh": "Fr 8-10 Übung 6"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": null,
+                "roh": "Fr 8-10 einmalig Übung 2 (8-9 Uhr), Tutorium 2 (9-10 Uhr), Stefan Hopp"
+              }
+            },
+            {
+              "wochentag": 5,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 6",
+                "roh": "Fr 8-10 Übung 6"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": null,
+                "roh": "Fr 8-10 einmalig Übung 4 (8-9 Uhr) + Tutorium 4 (9-10 Uhr), Ralf Bechstein"
+              }
+            },
+            {
+              "wochentag": 5,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 4",
+                "roh": "Fr 8-10 Übung 4"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": null,
+                "roh": "Fr 8-10 Übung 4 (8-9 Uhr) + Tutorium 4 (9-10 Uhr), Ralf Bechstein"
+              }
+            },
+            {
+              "wochentag": 5,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 4",
+                "roh": "Fr 8-10 Übung 4"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": null,
+                "roh": "Fr 8-10 Übung 2 (8-9 Uhr), Tutorium 2 (9-10 Uhr), Stefan Hopp"
+              }
+            },
+            {
+              "wochentag": 5,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 4",
+                "roh": "Fr 8-10 Übung 4"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": null,
+                "roh": "Fr 8-10 Übung 3 (8-9 Uhr), Tutorium 3 (9-10 Uhr), Sergej Kakorin"
+              }
+            },
+            {
+              "wochentag": 5,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 4",
+                "roh": "Fr 8-10 Übung 4"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": null,
+                "roh": "Fr 8-10 einmalig Übung 3 (8-9 Uhr), Tutorium 3 (9-10 Uhr), Sergej Kakorin"
+              }
+            },
+            {
+              "wochentag": 5,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 4",
+                "roh": "Fr 8-10 Übung 4"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": null,
+                "roh": "Fr 8-10 einmalig Übung 2 (8-9 Uhr), Tutorium 2 (9-10 Uhr), Stefan Hopp"
+              }
+            },
+            {
+              "wochentag": 5,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 4",
+                "roh": "Fr 8-10 Übung 4"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": null,
+                "roh": "Fr 8-10 einmalig Übung 4 (8-9 Uhr) + Tutorium 4 (9-10 Uhr), Ralf Bechstein"
+              }
+            }
+          ],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 653883962,
+          "bKursId": 653874947,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 1,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 1",
+                "roh": "Mo 8-10 Tutorium 1"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 1 Florian Schneider",
+                "roh": "Mo 8-10 Übung 1, Florian Schneider"
+              }
+            },
+            {
+              "wochentag": 1,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 1",
+                "roh": "Mo 8-10 Tutorium 1"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Übung 1 Florian Schneider",
+                "roh": "Mo 8-10 einmalig Übung 1, Florian Schneider"
+              }
+            },
+            {
+              "wochentag": 2,
+              "beginnMin": 720,
+              "endeMin": 840,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 2,
+                "beginnMin": 720,
+                "endeMin": 840,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 5",
+                "roh": "Di 12-14 Tutorium 5"
+              },
+              "bSlot": {
+                "wochentag": 2,
+                "beginnMin": 720,
+                "endeMin": 840,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 5 Florian Schneider",
+                "roh": "Di 12-14 Übung 5, Florian Schneider"
+              }
+            },
+            {
+              "wochentag": 2,
+              "beginnMin": 720,
+              "endeMin": 840,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 2,
+                "beginnMin": 720,
+                "endeMin": 840,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 5",
+                "roh": "Di 12-14 Tutorium 5"
+              },
+              "bSlot": {
+                "wochentag": 2,
+                "beginnMin": 720,
+                "endeMin": 840,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Übung 5 Florian Schneider",
+                "roh": "Di 12-14 einmalig Übung 5, Florian Schneider"
+              }
+            },
+            {
+              "wochentag": 3,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 2",
+                "roh": "Mi 8-10 Tutorium 2"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 6 Stefan Hopp",
+                "roh": "Mi 8-10 Übung 6, Stefan Hopp"
+              }
+            },
+            {
+              "wochentag": 3,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 2",
+                "roh": "Mi 8-10 Tutorium 2"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": null,
+                "roh": "Mi 8-10 Übung 1 (8-9 Uhr), Tutorium 1 (9-10 Uhr), Florian Schneider"
+              }
+            },
+            {
+              "wochentag": 3,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 2",
+                "roh": "Mi 8-10 Tutorium 2"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Übung 6 Stefan Hopp",
+                "roh": "Mi 8-10 einmalig Übung 6, Stefan Hopp"
+              }
+            },
+            {
+              "wochentag": 3,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 2",
+                "roh": "Mi 8-10 Tutorium 2"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": null,
+                "roh": "Mi 8-10 einmalig Übung 1 (8-9 Uhr), Tutorium 1 (9-10 Uhr), Florian Schneider"
+              }
+            },
+            {
+              "wochentag": 3,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 7",
+                "roh": "Mi 8-10 Tutorium 7"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 6 Stefan Hopp",
+                "roh": "Mi 8-10 Übung 6, Stefan Hopp"
+              }
+            },
+            {
+              "wochentag": 3,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 7",
+                "roh": "Mi 8-10 Tutorium 7"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": null,
+                "roh": "Mi 8-10 Übung 1 (8-9 Uhr), Tutorium 1 (9-10 Uhr), Florian Schneider"
+              }
+            },
+            {
+              "wochentag": 3,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 7",
+                "roh": "Mi 8-10 Tutorium 7"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": "Übung 6 Stefan Hopp",
+                "roh": "Mi 8-10 einmalig Übung 6, Stefan Hopp"
+              }
+            },
+            {
+              "wochentag": 3,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": true,
+              "grund": "Einzeltermin ohne Datumsangabe",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Tutorium 7",
+                "roh": "Mi 8-10 Tutorium 7"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "einmalig",
+                "rhythmus": "einzeln",
+                "raum": null,
+                "roh": "Mi 8-10 einmalig Übung 1 (8-9 Uhr), Tutorium 1 (9-10 Uhr), Florian Schneider"
+              }
+            }
+          ],
+          "aKursType": "Tut / Übung",
+          "bKursType": "Übung"
+        }
+      ],
+      "zusammenfassung": "Fr 08:00–10:00 (120 min) – wöchentliche Überschneidung | Fr 08:00–10:00 (120 min) – Einzeltermin ohne Datumsangabe | Mo 08:00–10:00 (120 min) – wöchentliche Überschneidung | Mo 08:00–10:00 (120 min) – Einzeltermin ohne Datumsangabe | Di 12:00–14:00 (120 min) – wöchentliche Überschneidung | Di 12:00–14:00 (120 min) – Einzeltermin ohne Datumsangabe | Mi 08:00–10:00 (120 min) – wöchentliche Überschneidung | Mi 08:00–10:00 (120 min) – Einzeltermin ohne Datumsangabe"
+    },
+    {
+      "id": "e2-269202781:mv29612063:mv365095700",
+      "kohorteId": "e2-269202781",
+      "aSchluessel": "mv29612063",
+      "bSchluessel": "mv365095700",
+      "amodulID": 26787418,
+      "bmodulID": 365095652,
+      "schwere": "teilweise",
+      "betrifftQuelle": false,
+      "freieKombinationen": 1,
+      "gesamteKombinationen": 2,
+      "paare": [
+        {
+          "aKursId": 653870061,
+          "bKursId": 737466793,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 5,
+              "beginnMin": 600,
+              "endeMin": 720,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 5",
+                "roh": "Fr 10-12 Übung 5"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "H8",
+                "roh": "Fr 10-12 H8"
+              }
+            },
+            {
+              "wochentag": 5,
+              "beginnMin": 600,
+              "endeMin": 720,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Übung 7",
+                "roh": "Fr 10-12 Übung 7"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "H8",
+                "roh": "Fr 10-12 H8"
+              }
+            }
+          ],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung mit Übungsanteil"
+        },
+        {
+          "aKursId": 653883962,
+          "bKursId": 737466793,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Tut / Übung",
+          "bKursType": "Vorlesung mit Übungsanteil"
+        }
+      ],
+      "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
+    },
+    {
+      "id": "e2-269202781:mv29612062#v:mv29612089#v",
+      "kohorteId": "e2-269202781",
+      "aSchluessel": "mv29612062#v",
+      "bSchluessel": "mv29612089#v",
+      "amodulID": 26787418,
+      "bmodulID": 26787444,
+      "schwere": "hart",
+      "betrifftQuelle": false,
+      "freieKombinationen": 0,
+      "gesamteKombinationen": 1,
+      "paare": [
+        {
+          "aKursId": 653869770,
+          "bKursId": 653874208,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 3,
+              "beginnMin": 840,
+              "endeMin": 960,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": null,
+                "roh": "Mi 14-16"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 840,
+                "endeMin": 960,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": null,
+                "roh": "Mi 14:00-16:00"
+              }
+            },
+            {
+              "wochentag": 4,
+              "beginnMin": 600,
+              "endeMin": 660,
+              "minuten": 60,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": null,
+                "roh": "Do 10-12"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 600,
+                "endeMin": 660,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": null,
+                "roh": "Do 10:00-11:00"
+              }
+            }
+          ],
+          "aKursType": "Vorlesung",
+          "bKursType": "Vorlesung"
+        }
+      ],
+      "zusammenfassung": "Mi 14:00–16:00 (120 min) – wöchentliche Überschneidung | Do 10:00–11:00 (60 min) – wöchentliche Überschneidung"
+    }
+  ],
+  "sprachhinweise": [],
+  "uebersprungeneVarianten": [],
+  "machbarkeit": [
+    {
+      "kohorteId": "e2-269202781",
+      "kohorteBezeichnung": "Molekulare Biotechnologie B.Sc. 1-Fach (fw) FsB WiSe 2022/23",
+      "fachsemester": [
+        1
+      ],
+      "pflichtAnforderungen": 9,
+      "harteKonflikte": 1,
+      "pflichtErfuellbar": false,
+      "vollstaendigBewertet": true,
+      "wahlpflicht": [],
+      "hinweis": "Die Variante besteht im geprüften Fachsemester nur aus Pflichtmodulen."
+    },
+    {
+      "kohorteId": "e2-269202785",
+      "kohorteBezeichnung": "Molekulare Biotechnologie B.Sc. 1-Fach (fw) Modularisierter individueller Kompetenz-Erwerb (MiKE) FsB WiSe 2022/23",
+      "fachsemester": [
+        1
+      ],
+      "pflichtAnforderungen": 0,
+      "harteKonflikte": 0,
+      "pflichtErfuellbar": null,
+      "vollstaendigBewertet": true,
+      "wahlpflicht": [],
+      "hinweis": "Die Variante besteht im geprüften Fachsemester nur aus Pflichtmodulen."
+    },
+    {
+      "kohorteId": "e2-354012128",
+      "kohorteBezeichnung": "Molekulare Biotechnologie B.Sc. 1-Fach (fw) Individueller Ergänzungsbereich FsB WiSe 2022/23",
+      "fachsemester": [
+        1
+      ],
+      "pflichtAnforderungen": 0,
+      "harteKonflikte": 0,
+      "pflichtErfuellbar": null,
+      "vollstaendigBewertet": true,
+      "wahlpflicht": [],
+      "hinweis": "Die Variante besteht im geprüften Fachsemester nur aus Pflichtmodulen."
+    }
+  ],
+  "warnungen": [
+    "4 Veranstaltung(en) ohne Zeitangabe (z. B. Blocktermine nach Vereinbarung) – sie können keine Überschneidung auslösen."
+  ],
+  "statistik": {
+    "kohorten": 3,
+    "aktiveKohorten": 1,
+    "veranstaltungen": 14,
+    "ohneZeiten": 4,
+    "ausgefallen": 0,
+    "wahlpflichtAnforderungen": 0,
+    "nurEnglisch": 0,
+    "harteKonflikte": 1,
+    "teilweiseKonflikte": 5,
+    "unsichereKonflikte": 3
+  }
+}

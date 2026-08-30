@@ -1,21 +1,44 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import {Accordion, AccordionBody, AccordionHeader, AccordionItem} from "react-bootstrap";
+import "../componentStyling/Kollisionsbericht.css"
 import {H1, H2} from "../components/other/H2";
 import {KollisionsBericht} from "../components/KollisionsBericht";
-import {sem_data_20262_mfn1} from "../data/sem_data_20262_mfn1";
 import {Analyse} from "../types/additional_unibi_types";
-import {sem_data_20262_mfn3} from "../data/sem_data_20262_mfn3";
-import {sem_data_20262_ml} from "../data/sem_data_20262_ml";
-import {sem_data_20262_pdc} from "../data/sem_data_20262_pdc";
-import {sem_data_20252_mfn1} from "../data/sem_data_20252_mfn1";
+import {AnalyseFile, analyseFiles} from "../data/analyse_files";
 
-const analyse_sem_data_20252_mfn1 = sem_data_20252_mfn1 as unknown as Analyse;
-const analyse_sem_data_20262_mfn1 = sem_data_20262_mfn1 as unknown as Analyse;
-const analyse_sem_data_20262_mfn3 = sem_data_20262_mfn3 as unknown as Analyse;
-const analyse_sem_data_20262_ml = sem_data_20262_ml as unknown as Analyse;
-const analyse_sem_data_20262_pdc = sem_data_20262_pdc as unknown as Analyse;
+type AnalyseFiles = Record<AnalyseFile, Analyse>;
 
 export function EkvvCollision() {
+    const [analysen, setAnalysen] = useState<AnalyseFiles | null>(null);
+
+    useEffect(() => {
+        async function load() {
+            const results = await Promise.all(
+                analyseFiles.map(async (file) => {
+                    const response = await fetch(`/ekvv/${file}.json`);
+
+                    if (!response.ok) {
+                        throw new Error(`Fehler beim Laden von ${file}.json`);
+                    }
+
+                    const analyse = (await response.json()) as Analyse;
+
+                    return [file, analyse] as const;
+                }),
+            );
+
+            const result = Object.fromEntries(results) as AnalyseFiles;
+
+            setAnalysen(result);
+        }
+
+        load().catch(console.error);
+    }, []);
+
+    if (!analysen) {
+        return <div>Lade Analysen...</div>;
+    }
+
     return (
         <div className="huelle">
             <H1>Kollisionsprüfung</H1>
@@ -27,13 +50,16 @@ export function EkvvCollision() {
                         Auswertung von Daten aus dem eKVV der Universität Bielefeld. Daten können veraltet sein, bitte auf Datum schauen.
                     </AccordionBody>
                 </AccordionItem>
+
+                <H2>Kursbezogene Kompabilitätsprüfung</H2>
+
                 <AccordionItem eventKey={"1"}>
                     <AccordionHeader><span>
                         240100 Mathematik für Informatik und Naturwissenschaften I (V) (WiSe 2026/2027)
                         (beinhaltet Prüfung <b>1 Semester Informatik</b>)
                     </span></AccordionHeader>
                     <AccordionBody>
-                        <KollisionsBericht analyse={analyse_sem_data_20262_mfn1}/>
+                        <KollisionsBericht analyse={analysen.sem_data_20262_mfn1}/>
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionItem eventKey={"2"}>
@@ -42,7 +68,7 @@ export function EkvvCollision() {
                         Prüfung <b>3 Semester Informatik</b>)</span>
                     </AccordionHeader>
                     <AccordionBody>
-                        <KollisionsBericht analyse={analyse_sem_data_20262_mfn3}/>
+                        <KollisionsBericht analyse={analysen.sem_data_20262_mfn3}/>
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionItem eventKey={"3"}>
@@ -53,30 +79,114 @@ export function EkvvCollision() {
                     </span>
                     </AccordionHeader>
                     <AccordionBody>
-                        <KollisionsBericht analyse={analyse_sem_data_20262_ml}/>
-                    </AccordionBody>
-                </AccordionItem>
-                <AccordionItem eventKey={"4"}>
-                    <AccordionHeader>
-                        <span>
-                            392103 Parallel and Distributed Computing (V) (WiSe 2026/2027) (beinhaltet
-                        Prüfung <b>5 Semester Technische Informatik</b>)
-                        </span>
-                    </AccordionHeader>
-                    <AccordionBody>
-                        <KollisionsBericht analyse={analyse_sem_data_20262_pdc}/>
+                        <KollisionsBericht analyse={analysen.sem_data_20262_ml}/>
                     </AccordionBody>
                 </AccordionItem>
 
-                <AccordionItem className={"acc-archiv"} eventKey={"5"}>
-                    <AccordionHeader><span>
+                <details>
+                    <summary>Archiv WiSe 2025/26</summary>
+                    <AccordionItem className={"acc-archiv"} eventKey={"5"}>
+                        <AccordionHeader><span>
                         240100 Mathematik für Informatik und Naturwissenschaften I (V) (WiSe 2025/2026)
                         (beinhaltet Prüfung <b>1 Semester Informatik</b>)
                     </span></AccordionHeader>
+                        <AccordionBody>
+                            <KollisionsBericht analyse={analysen.sem_data_20252_mfn1}/>
+                        </AccordionBody>
+                    </AccordionItem>
+                </details>
+
+                <H2>Prüfung von der Studierbarkeit pro Semester</H2>
+                <AccordionItem eventKey={"6"}>
+                    <AccordionHeader><span>
+                        <b>1 Fachsemester </b> Naturwissenschaftliche Informatik B.Sc. 1-Fach (fw) FsB WiSe 2025/26
+                    </span></AccordionHeader>
                     <AccordionBody>
-                        <KollisionsBericht analyse={analyse_sem_data_20252_mfn1}/>
+                        <KollisionsBericht analyse={analysen.nwi_20262_fs1}/>
                     </AccordionBody>
                 </AccordionItem>
+
+                <AccordionItem eventKey={"7"}>
+                    <AccordionHeader><span>
+                        <b>3 Fachsemester </b> Naturwissenschaftliche Informatik B.Sc. 1-Fach (fw) FsB WiSe 2025/26
+                    </span></AccordionHeader>
+                    <AccordionBody>
+                        <KollisionsBericht analyse={analysen.nwi_20262_fs3}/>
+                    </AccordionBody>
+                </AccordionItem>
+
+                <AccordionItem eventKey={"8"}>
+                    <AccordionHeader><span>
+                        <b>1 Fachsemester </b> Informatik B.Sc. Kernfach (fw) FsB WiSe 2025/26
+                    </span></AccordionHeader>
+                    <AccordionBody>
+                        <KollisionsBericht analyse={analysen.inf_20262_fs1}/>
+                    </AccordionBody>
+                </AccordionItem>
+
+                <AccordionItem eventKey={"9"}>
+                    <AccordionHeader><span>
+                        <b>3 Fachsemester </b> Informatik B.Sc. Kernfach (fw) FsB WiSe 2025/26
+                    </span></AccordionHeader>
+                    <AccordionBody>
+                        <KollisionsBericht analyse={analysen.inf_20262_fs3}/>
+                    </AccordionBody>
+                </AccordionItem>
+
+                <AccordionItem eventKey={"11"}>
+                    <AccordionHeader><span>
+                        <b>1 Fachsemester </b> Künstliche Intelligenz und Kognitive Informatik B.Sc. 1-Fach (fw) FsB WiSe 2025/26
+                    </span></AccordionHeader>
+                    <AccordionBody>
+                        <KollisionsBericht analyse={analysen.kikoi_20262_fs1}/>
+                    </AccordionBody>
+                </AccordionItem>
+
+                <AccordionItem eventKey={"10"}>
+                    <AccordionHeader><span>
+                        <b>3 Fachsemester </b> Künstliche Intelligenz und Kognitive Informatik B.Sc. 1-Fach (fw) FsB WiSe 2025/26
+                    </span></AccordionHeader>
+                    <AccordionBody>
+                        <KollisionsBericht analyse={analysen.kikoi_20262_fs3}/>
+                    </AccordionBody>
+                </AccordionItem>
+
+                <AccordionItem eventKey={"12"}>
+                    <AccordionHeader><span>
+                        <b>1 Fachsemester </b> Molekulare Biotechnologie B.Sc. 1-Fach (fw) FsB WiSe 2025/26
+                    </span></AccordionHeader>
+                    <AccordionBody>
+                        <KollisionsBericht analyse={analysen.mbt_20262_fs1}/>
+                    </AccordionBody>
+                </AccordionItem>
+
+                <AccordionItem eventKey={"13"}>
+                    <AccordionHeader><span>
+                        <b>3 Fachsemester </b> Molekulare Biotechnologie B.Sc. 1-Fach (fw) FsB WiSe 2025/26
+                    </span></AccordionHeader>
+                    <AccordionBody>
+                        <KollisionsBericht analyse={analysen.mbt_20262_fs3}/>
+                    </AccordionBody>
+                </AccordionItem>
+
+                <AccordionItem eventKey={"15"}>
+                    <AccordionHeader><span>
+                        <b>1 Fachsemester </b> Bioinformatische Genomforschung B.Sc. 1-Fach (fw) FsB WiSe 2025/26
+                    </span></AccordionHeader>
+                    <AccordionBody>
+                        <KollisionsBericht analyse={analysen.biobig_20262_fs1}/>
+                    </AccordionBody>
+                </AccordionItem>
+
+                <AccordionItem eventKey={"14"}>
+                    <AccordionHeader><span>
+                        <b>3 Fachsemester </b> Bioinformatische Genomforschung B.Sc. 1-Fach (fw) FsB WiSe 2025/26
+                    </span></AccordionHeader>
+                    <AccordionBody>
+                        <KollisionsBericht analyse={analysen.biobig_20262_fs3}/>
+                    </AccordionBody>
+                </AccordionItem>
+
             </Accordion>
 
 

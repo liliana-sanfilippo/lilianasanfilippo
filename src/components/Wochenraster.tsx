@@ -7,7 +7,7 @@ import {zeit} from "../utils/ekvv_utils";
 interface Props {
     kohorte: Kohorte | undefined;
     konflikte: Konflikt[];
-    quelleModelle: Set<string>;
+    quelleModelle: Set<number>;
 }
 
 /**
@@ -87,16 +87,15 @@ function mehrfachnennungenFalten(
 
     // @ts-ignore
     return [...nachKurs.values()].map((gruppe) => {
-        const gewaehlt = gruppe.reduce((beste: any, kandidat: any) =>
+        const gewaehlt = gruppe.reduce((beste:any, kandidat:any) =>
             vorrang(kandidat) > vorrang(beste) ? kandidat : beste,
         );
-        // @ts-ignore
         const weitereModule = [
             // @ts-ignore
             ...new Set(
                 gruppe
-                    .filter((e: any) => e.angebot.modulKuerzel !== gewaehlt.angebot.modulKuerzel)
-                    .map((e: any) => e.angebot.modulKuerzel),
+                    .filter((e:any) => e.angebot.modulKuerzel !== gewaehlt.angebot.modulKuerzel)
+                    .map((e:any) => e.angebot.modulKuerzel),
             ),
         ];
         return { ...gewaehlt, weitereModule };
@@ -192,7 +191,7 @@ export function Wochenraster({ kohorte, konflikte, quelleModelle }: Props) {
         }
 
         const vorrang = (eintrag: Eintrag): number => {
-            if (quelleModelle.has(eintrag.angebot.schluessel)) return 3;
+            if (quelleModelle.has(eintrag.angebot.modellId)) return 3;
             const schwere = schwereFuerSlot(befundeJeKurs, eintrag);
             if (schwere === 'hart') return 2;
             if (schwere === 'teilweise') return 1;
@@ -242,15 +241,10 @@ export function Wochenraster({ kohorte, konflikte, quelleModelle }: Props) {
                 Gleichzeitige Termine stehen nebeneinander.
             </p>
 
-            <div
-                className={"raster"}
-                style={{['--spalten' as string]: String(maxTag)}}
-                role="table"
-                aria-label="Wochenraster der Pflichtveranstaltungen"
-            >
-                <div className={"kopf"}/>
+            <div className="raster" style={{ ['--spalten' as string]: String(maxTag) }}>
+                <div className="kopf" />
                 {tage.map((t) => (
-                    <div className={"kopf"} key={`kopf-${t}`}>
+                    <div className="kopf" key={`kopf-${t}`}>
                         {WOCHENTAG_KURZ[t]}
                     </div>
                 ))}
@@ -270,7 +264,7 @@ export function Wochenraster({ kohorte, konflikte, quelleModelle }: Props) {
                         ))}
 
                         {(jeTag.get(t) ?? []).map((e, index) => {
-                            const istQuelle = quelleModelle.has(e.angebot.schluessel);
+                            const istQuelle = quelleModelle.has(e.angebot.modellId);
                             const schwere = schwereFuerSlot(befundeJeKurs, e);
                             const breite = Number((100 / e.spuren).toFixed(4));
                             const versatz = Number((e.spur * breite).toFixed(4));
@@ -304,10 +298,15 @@ export function Wochenraster({ kohorte, konflikte, quelleModelle }: Props) {
                                             : '')
                                     }
                                 >
-                                    <span className={"blockTitel"}>{e.angebot.modulKuerzel}</span>
+                  <span className="blockTitel">
+                    {e.angebot.modulKuerzel}
+                      {e.weitereModule.length > 0 && (
+                          <span className="blockMehr"> +{e.weitereModule.length}</span>
+                      )}
+                  </span>
                                     <span className={"blockTyp"}>
                     {e.kurs.art}
-                  </span>
+                                    </span>
                                     <span className="blockZeit">
                     {zeit(e.beginn)}–{zeit(e.ende)}
                   </span>

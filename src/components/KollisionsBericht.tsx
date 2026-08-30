@@ -1,17 +1,16 @@
-import {useMemo, useState} from 'react';
+import { useMemo, useState } from 'react';
 import {Analyse, Kohorte, Konflikt, Schwere, WOCHENTAG_KURZ} from "../types/additional_unibi_types";
-import {angebotName, angebotTyp, gruppenZusatz, zeit} from "../utils/ekvv_utils";
-import {Wochenraster} from "./Wochenraster";
-import "../componentStyling/Kollisionsbericht.css"
+import {angebotName, angebotTyp, zeit} from "../utils/ekvv_utils";
+import { Wochenraster } from './Wochenraster';
 
-const RANG: Record<Schwere, number> = {hart: 3, teilweise: 2, unsicher: 1};
-const SORTIERUNG: Record<Schwere, number> = {hart: 0, teilweise: 1, unsicher: 2};
+const RANG: Record<Schwere, number> = { hart: 3, teilweise: 2, unsicher: 1 };
+const SORTIERUNG: Record<Schwere, number> = { hart: 0, teilweise: 1, unsicher: 2 };
 
 interface Props {
     analyse: Analyse;
 }
 
-export function KollisionsBericht({analyse}: Props) {
+export function KollisionsBericht({ analyse }: Props) {
     const [suche, setSuche] = useState('');
     const [schwere, setSchwere] = useState<'' | Schwere>('');
     const [kohorteId, setKohorteId] = useState('');
@@ -19,31 +18,32 @@ export function KollisionsBericht({analyse}: Props) {
     const [nurQuelle, setNurQuelle] = useState(true);
     const [ohneModulintern, setOhneModulintern] = useState(false);
 
-    const sichtbareKohorten = useMemo(
-        // () => analyse.kohorten.filter((k) => k.aktuell && k.angebote.length > 0),
-        () => analyse.kohorten.filter((k) => k.aktuell && k.pflichtFuerQuelle),
+    const kohortenNachId = useMemo(
+        () => new Map(analyse.kohorten.map((k) => [k.id, k])),
         [analyse.kohorten],
     );
 
-    const kohortenNachId = useMemo(
-        () => new Map(sichtbareKohorten.map((k) => [k.id, k])),
-        [sichtbareKohorten],
-    );
-
-        /*
+    /*
      * Nur Varianten mit gültiger Prüfungsordnung und tatsächlichem Lehrangebot
      * im Zielsemester. Ausgelaufene Fassungen stehen weiterhin in der Tabelle
      * unter "Datenlage" – dort sollen sie sichtbar bleiben, damit nachvollziehbar
      * ist, was übersprungen wurde.
      */
-
+    const sichtbareKohorten = useMemo(
+        () => analyse.kohorten.filter((k) => k.aktuell && k.angebote.length > 0),
+        [analyse.kohorten],
+    );
     const sichtbareIds = useMemo(
         () => new Set(sichtbareKohorten.map((k) => k.id)),
         [sichtbareKohorten],
     );
-
+    /*
+     * Abgleich über modellId statt über schluessel: Zerfällt eine
+     * Modellveranstaltung in Vorlesungs- und Übungsteil, trägt der Schlüssel ein
+     * Suffix ("mv1001#v"), die modellId bleibt gleich.
+     */
     const quelleModelle = useMemo(
-        () => new Set(analyse.quelle.modellIds.map((id) => `mv${id}`)),
+        () => new Set(analyse.quelle.modellIds),
         [analyse.quelle.modellIds],
     );
 
@@ -62,6 +62,13 @@ export function KollisionsBericht({analyse}: Props) {
         return karte;
     }, [analyse.konflikte]);
 
+    /**
+     * Varianten nach Basis-Studiengang buendeln. Eine Kombination traegt dieselbe
+     * "ebene2" wie das Kernfach oder Profil, unterscheidet sich aber im
+     * Nebenfach – so entsteht je Studiengang eine Gruppe, in der die Nebenfaecher
+     * nebeneinander stehen. Einzelfaecher bilden eine Gruppe mit einem Feld und
+     * werden genauso beschriftet.
+     */
     const kohortenGruppen = useMemo(() => {
         const gruppen = new Map<number, { ebene2: number; titel: string; mitglieder: Kohorte[] }>();
 
@@ -73,13 +80,13 @@ export function KollisionsBericht({analyse}: Props) {
 
         // @ts-ignore
         for (const gruppe of gruppen.values()) {
-            const basis = gruppe.mitglieder.find((m: any) => m.partnerE2 == null);
+            const basis = gruppe.mitglieder.find((m:any) => m.partnerE2 == null);
             // Bei Kombinationen lautet die Bezeichnung "Basis + Partner"; ohne eigene
             // Basiskohorte bleibt der Teil vor dem Pluszeichen.
             gruppe.titel =
                 basis?.bezeichnung ?? gruppe.mitglieder[0]!.bezeichnung.split(' + ')[0]!;
             gruppe.mitglieder.sort(
-                (a: any, b: any) =>
+                (a:any, b:any) =>
                     Number(a.partnerE2 != null) - Number(b.partnerE2 != null) ||
                     (a.partnerBezeichnung ?? '').localeCompare(b.partnerBezeichnung ?? '', 'de'),
             );
@@ -89,12 +96,9 @@ export function KollisionsBericht({analyse}: Props) {
         return [...gruppen.values()];
     }, [sichtbareKohorten]);
 
-
-
-
     const gewaehlteKohorte = kohorteId
         ? kohortenNachId.get(kohorteId)
-        : sichtbareKohorten.find((k) => k.angebote.length > 0) ?? sichtbareKohorten[0];
+        : sichtbareKohorten[0];
 
     const sichtbareKonflikte = useMemo(() => {
         const begriff = suche.trim().toLowerCase();
@@ -142,11 +146,9 @@ export function KollisionsBericht({analyse}: Props) {
                     x.kohorteId.localeCompare(y.kohorteId),
             );
     }, [
-        analyse.konflikte, kohortenNachId, nurQuelle, schwere, kohorteId,
-        ohneModulintern, tag, suche,
+        analyse.konflikte, kohortenNachId, sichtbareIds, nurQuelle, schwere,
+        kohorteId, ohneModulintern, tag, suche,
     ]);
-
-
 
     const termine = useMemo(() => {
         if (!gewaehlteKohorte) return [];
@@ -165,8 +167,6 @@ export function KollisionsBericht({analyse}: Props) {
         );
     }, [gewaehlteKohorte]);
 
-
-
     const sichtbareTermine = useMemo(() => {
         const begriff = suche.trim().toLowerCase();
         return termine.filter((r) => {
@@ -178,22 +178,30 @@ export function KollisionsBericht({analyse}: Props) {
         });
     }, [termine, tag, suche]);
 
-
-    const {harteKonflikte: hart, teilweiseKonflikte: teil, unsichereKonflikte: vage} =
-        analyse.statistik;
+    /*
+     * Gezaehlt wird ueber die sichtbaren Varianten, sonst widerspricht das Urteil
+     * der Leiste darunter ("2 von 9 Varianten", aber nur 5 Felder zu sehen).
+     */
+    const gezaehlteKonflikte = useMemo(
+        () => analyse.konflikte.filter((k) => sichtbareIds.has(k.kohorteId)),
+        [analyse.konflikte, sichtbareIds],
+    );
+    const hart = gezaehlteKonflikte.filter((k) => k.schwere === 'hart').length;
+    const teil = gezaehlteKonflikte.filter((k) => k.schwere === 'teilweise').length;
+    const vage = gezaehlteKonflikte.filter((k) => k.schwere === 'unsicher').length;
     const betroffene = new Set(
-        analyse.konflikte.filter((k) => k.schwere === 'hart').map((k) => k.kohorteId),
+        gezaehlteKonflikte.filter((k) => k.schwere === 'hart').map((k) => k.kohorteId),
     ).size;
 
-    let urteilKlasse = "urteil";
+    let urteilKlasse = 'urteil';
     let urteilSatz: string;
     if (hart > 0) {
-        urteilKlasse = "urteilHart urteil";
+        urteilKlasse = "urteil urteilHart";
         urteilSatz =
             `Der Termin ist nicht für alle belegbar: ${hart} harte Überschneidung` +
             `${hart === 1 ? '' : 'en'} in ${betroffene} von ${sichtbareKohorten.length} Varianten.`;
     } else if (teil > 0) {
-        urteilKlasse = "urteilTeilweise urteil";
+        urteilKlasse = "urteil urteilTeilweise";
         urteilSatz =
             `Belegbar, aber die Gruppenwahl wird eingeschränkt: ${teil} teilweise ` +
             `Überschneidung${teil === 1 ? '' : 'en'}.`;
@@ -205,77 +213,67 @@ export function KollisionsBericht({analyse}: Props) {
         analyse.quelle.veranstaltungName ?? `Module ${analyse.quelle.modulIds.join(', ')}`;
 
     return (
-        <div>
+        <div className="huelle">
+            <p className="augenbraue">Kollisionsprüfung · {analyse.semesterName}</p>
             <h1>{titel}</h1>
-            <p>fStudiengä
+            <p className="unterzeile">
                 {analyse.quelle.veranstaltungId
                     ? `Veranstaltung ${analyse.quelle.veranstaltungId}`
                     : 'Modulbasierte Prüfung'}
-                {' | '}{sichtbareKohorten.length} Varianten
-                {' | '}{analyse.statistik.veranstaltungen} Veranstaltungen im Vergleich
-                {' | '}Stand {new Date(analyse.erzeugtAm).toLocaleString('de-DE')}
+                {' · '}{sichtbareKohorten.length} aktive Varianten
+                {' · '}{analyse.statistik.veranstaltungen} Veranstaltungen im Vergleich
+                {' · '}Stand {new Date(analyse.erzeugtAm).toLocaleString('de-DE')}
             </p>
 
             <div className={urteilKlasse}>
                 <p>{urteilSatz}</p>
-                <div>
-                    hart {hart} | teilweise {teil} | unsicher {vage}
-                    {analyse.statistik.ohneZeiten > 0 && ` | ohne Zeitangabe ${analyse.statistik.ohneZeiten}`}
-                    {!!analyse.statistik.ausgefallen && ` | ausgefallen ${analyse.statistik.ausgefallen}`}
+                <div className="detail">
+                    hart {hart} · teilweise {teil} · unsicher {vage}
+                    {analyse.statistik.ohneZeiten > 0 && ` · ohne Zeitangabe ${analyse.statistik.ohneZeiten}`}
+                    {!!analyse.statistik.ausgefallen && ` · ausgefallen ${analyse.statistik.ausgefallen}`}
                 </div>
             </div>
 
             {/* Varianten ---------------------------------------------------- */}
-            <h2>Studiengänge</h2>
-            <div>
+            <h2>Studiengangsvarianten</h2>
+            <p className="hinweis">
+                Ein Feld je Variante, eingefärbt nach dem schwersten Befund, gebündelt
+                nach Studiengang. Auswählen, um Tabelle und Wochenraster zu filtern.
+            </p>
+            <div className="leiste">
                 {kohortenGruppen.map((gruppe) => (
                     <section className="gruppe mb-0" key={gruppe.ebene2}>
                         <p className="gruppeTitel">{gruppe.titel}</p>
                         <div className="felder">
-
-                            {gruppe.mitglieder.map((k: any) => {
-                                {/*
-                                  const mitKombination = gruppe.mitglieder.length > 1;
-                                const beschriftung = k.partnerE2 == null
-                                    ? 'nur dieses Fach'
-                                    : kurzname(k.partnerBezeichnung);
-                                */}
-
+                            {gruppe.mitglieder.map((k:any) => {
                                 const titel =
-                                    `${k.bezeichnung} - Fachsemester ${k.fachsemester.join(', ') || '?'}` +
-                                    (k.notiz ? ` - ${k.notiz}` : '');
+                                    `${k.bezeichnung} — Fachsemester ${k.fachsemester.join(', ') || '?'}` +
+                                    (k.notiz ? ` — ${k.notiz}` : '');
 
                                 return (
-
-                                        <button
-                                            type="button"
-                                            className="feld"
-                                            data-schwere={
-                                                k.angebote.length === 0
-                                                    ? 'inaktiv'
-                                                    : (schwersteJeKohorte.get(k.id) ?? 'frei')
-                                            }
-                                            aria-pressed={kohorteId === k.id}
-                                            aria-label={titel}
-                                            title={titel}
-                                            onClick={() => setKohorteId((vorher) => (vorher === k.id ? '' : k.id))}
-                                        />
-
-
+                                    <button
+                                        type="button"
+                                        className="feld"
+                                        data-schwere={
+                                            k.angebote.length === 0
+                                                ? 'inaktiv'
+                                                : (schwersteJeKohorte.get(k.id) ?? 'frei')
+                                        }
+                                        aria-pressed={kohorteId === k.id}
+                                        aria-label={titel}
+                                        title={titel}
+                                        onClick={() => setKohorteId((vorher) => (vorher === k.id ? '' : k.id))}
+                                    />
                                 );
                             })}
                         </div>
-
                     </section>
                 ))}
-
-
             </div>
 
             {/* Konflikte ---------------------------------------------------- */}
-
-            <h2>Überschneidungen von Pflichtveranstaltungen</h2>
-            <div className={"filter"}>
+            <h2>Überschneidungen</h2>
+            <div className="filter">
                 <label>
                     Suche
                     <input
@@ -317,15 +315,15 @@ export function KollisionsBericht({analyse}: Props) {
                         ))}
                     </select>
                 </label>
-                <label className={"schalter"}>
+                <label className="schalter">
                     <input
                         type="checkbox"
                         checked={nurQuelle}
                         onChange={(e) => setNurQuelle(e.target.checked)}
                     />
-                    nur mit angefragtem Kurs
+                    nur mit geprüftem Kurs
                 </label>
-                <label className={"schalter"}>
+                <label className="schalter">
                     <input
                         type="checkbox"
                         checked={ohneModulintern}
@@ -336,9 +334,9 @@ export function KollisionsBericht({analyse}: Props) {
             </div>
 
             {sichtbareKonflikte.length === 0 ? (
-                <div className={"leer"}>Keine Überschneidung, die zu den Filtern passt.</div>
+                <div className="leer">Keine Überschneidung, die zu den Filtern passt.</div>
             ) : (
-                <div className={"rahmen"}>
+                <div className="rahmen">
                     <table>
                         <thead>
                         <tr>
@@ -364,9 +362,8 @@ export function KollisionsBericht({analyse}: Props) {
                 </div>
             )}
 
-
             {/* Wochenraster ------------------------------------------------- */}
-            <br/>
+            <h2>Wochenraster</h2>
             <Wochenraster
                 kohorte={gewaehlteKohorte}
                 konflikte={analyse.konflikte}
@@ -378,38 +375,32 @@ export function KollisionsBericht({analyse}: Props) {
 
             <details>
                 <summary>Alle Veranstaltungen der gewählten Variante</summary>
-                <div>
+                <div className="rahmen">
                     <table>
                         <thead>
                         <tr>
-                            <th>Tag</th>
-                            <th>Zeit</th>
-                            <th>Modul</th>
-                            <th>Veranstaltung</th>
-                            <th>Art</th>
-                            <th>Gruppe</th>
-                            <th>Raum</th>
-                            <th>Rhythmus</th>
+                            <th>Tag</th><th>Zeit</th><th>Modul</th><th>Veranstaltung</th>
+                            <th>Art</th><th>Gruppe</th><th>Raum</th><th>Rhythmus</th>
                         </tr>
                         </thead>
                         <tbody>
                         {sichtbareTermine.map((r, index) => (
                             <tr key={`${r.kurs.id}-${index}`}>
-                                <td>
+                                <td className="zeit">
                                     {r.slot.wochentag ? WOCHENTAG_KURZ[r.slot.wochentag] : '–'}
                                 </td>
-                                <td>
+                                <td className="zeit">
                                     {r.slot.beginnMin != null
                                         ? `${zeit(r.slot.beginnMin)}–${zeit(r.slot.endeMin)}`
                                         : 'keine Zeit'}
                                 </td>
-                                <td>{r.angebot.modulKuerzel}</td>
+                                <td className="kennung">{r.angebot.modulKuerzel}</td>
                                 <td>
                                     <a href={r.kurs.detailUrl} target="_blank" rel="noreferrer">
                                         {r.kurs.name}
                                     </a>
-                                    {quelleModelle.has(r.angebot.schluessel) && (
-                                        <span className={`marke markeGeprueft`}>geprüft</span>
+                                    {quelleModelle.has(r.angebot.modellId) && (
+                                        <span className="marke markeGeprueft">geprüft</span>
                                     )}
                                 </td>
                                 <td>{r.kurs.art ?? r.angebot.art ?? '–'}</td>
@@ -429,28 +420,23 @@ export function KollisionsBericht({analyse}: Props) {
 
             <details open>
                 <summary>Varianten und Prüfungsordnungen</summary>
-                <div>
+                <div className="rahmen">
                     <table>
                         <thead>
                         <tr>
-                            <th>Variante (E1)</th>
-                            <th>Fachsemester</th>
-                            <th>FsB</th>
-                            <th>Gültig</th>
-                            <th>Typ</th>
-                            <th>Anforderungen</th>
-                            <th>Hinweis</th>
+                            <th>Variante (E1)</th><th>Fachsemester</th><th>FsB</th>
+                            <th>Gültig</th><th>Typ</th><th>Anforderungen</th><th>Hinweis</th>
                         </tr>
                         </thead>
                         <tbody>
-                        {sichtbareKohorten.map((k) => (
+                        {analyse.kohorten.map((k) => (
                             <tr key={k.id}>
                                 <td>{k.bezeichnung}</td>
-                                <td >{k.fachsemester.join(', ') || '–'}</td>
+                                <td className="zeit">{k.fachsemester.join(', ') || '–'}</td>
                                 <td>{k.fsbName || '–'}</td>
                                 <td>{k.aktuell ? 'aktuell' : 'nicht aktuell'}</td>
                                 <td>{k.partnerE2 != null ? 'Hauptfach + Nebenfach' : 'Einzelfach'}</td>
-                                <td >{k.angebote.length}</td>
+                                <td className="zeit">{k.angebote.length}</td>
                                 <td>{k.notiz ?? ''}</td>
                             </tr>
                         ))}
@@ -462,7 +448,7 @@ export function KollisionsBericht({analyse}: Props) {
             {analyse.warnungen.length > 0 && (
                 <details>
                     <summary>Warnungen</summary>
-                    <ul>
+                    <ul className="warnungen">
                         {analyse.warnungen.map((w) => (
                             <li key={w}>{w}</li>
                         ))}
@@ -470,16 +456,22 @@ export function KollisionsBericht({analyse}: Props) {
                 </details>
             )}
 
-            <p>
+            <footer className="fuss">
                 Daten aus der BIS-API der Universität Bielefeld, Semester {analyse.semesterName}.
                 Verglichen werden Anforderungen (Modellveranstaltungen) derselben Kohorte;
                 Parallelgruppen gelten als frei wählbar, daher ist ein Konflikt nur dann hart,
                 wenn keine Gruppenkombination kollisionsfrei bleibt. Puffer:{' '}
                 {analyse.optionen.pufferMin} Minuten. Fachsemester-Abgleich:{' '}
                 {analyse.optionen.tolerierteFachsemester}.
-            </p>
+            </footer>
         </div>
     );
+}
+
+/** Erster Teil einer Bezeichnung – meist der Fachname ohne Abschluss und FsB. */
+function kurzname(bezeichnung: string | null): string {
+    if (!bezeichnung) return 'Kombination';
+    return bezeichnung.split(' · ')[0]!.trim() || bezeichnung;
 }
 
 function KonfliktZeile({
@@ -489,16 +481,16 @@ function KonfliktZeile({
                        }: {
     konflikt: Konflikt;
     kohorte: Kohorte | undefined;
-    quelleModelle: Set<string>;
+    quelleModelle: Set<number>;
 }) {
     const a = kohorte?.angebote.find((x) => x.schluessel === konflikt.aSchluessel);
     const b = kohorte?.angebote.find((x) => x.schluessel === konflikt.bSchluessel);
     const markeKlasse =
         konflikt.schwere === 'hart'
-            ? "markeHart"
+            ? 'markeHart'
             : konflikt.schwere === 'teilweise'
-                ? "markeTeilweise"
-                : "markeUnsicher";
+                ? 'markeTeilweise'
+                : 'markeUnsicher';
 
     return (
         <tr>
@@ -511,18 +503,18 @@ function KonfliktZeile({
             </td>
             <td>
                 <Anforderung
-                    text={angebotTyp(a) + angebotName(a)}
-                    betont={quelleModelle.has(konflikt.aSchluessel)}
+                    text={angebotTyp(a) +angebotName(a)}
+                    betont={a != null && quelleModelle.has(a.modellId)}
                 />
             </td>
             <td>
                 <Anforderung
                     text={angebotTyp(b) + angebotName(b)}
-                    betont={quelleModelle.has(konflikt.bSchluessel)}
+                    betont={b != null && quelleModelle.has(b.modellId)}
                 />
             </td>
-            <td className={`${zeit} ueberschneidung`}>{konflikt.zusammenfassung}</td>
-            <td>
+            <td className="zeit ueberschneidung">{konflikt.zusammenfassung}</td>
+            <td className="zeit">
                 {konflikt.schwere === 'hart'
                     ? 'nicht zutreffend'
                     : `${konflikt.freieKombinationen} von ${konflikt.gesamteKombinationen}`}
@@ -531,13 +523,6 @@ function KonfliktZeile({
     );
 }
 
-function Anforderung({text, betont}: { text: string; betont: boolean }) {
+function Anforderung({ text, betont }: { text: string; betont: boolean }) {
     return betont ? <strong>{text}</strong> : <>{text}</>;
 }
-
-/** Erster Teil einer Bezeichnung – meist der Fachname ohne Abschluss und FsB. */
-function kurzname(bezeichnung: string | null): string {
-    if (!bezeichnung) return 'Kombination';
-    return bezeichnung.split(' · ')[0]!.trim() || bezeichnung;
-}
-

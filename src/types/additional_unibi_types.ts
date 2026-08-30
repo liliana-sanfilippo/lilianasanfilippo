@@ -15,8 +15,6 @@ export interface Platziert extends Eintrag {
 }
 
 
-
-
 export const WOCHENTAG_KURZ = ['', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'] as const;
 
 export type Schwere = 'hart' | 'teilweise' | 'unsicher';
@@ -33,8 +31,6 @@ export interface Slot {
     raum: string | null;
 }
 
-
-
 export interface Kurs {
     id: number;
     name: string;
@@ -45,7 +41,10 @@ export interface Kurs {
     detailUrl: string;
     ohneZeiten: boolean;
     ausgefallen?: boolean;
+    /** Veranstaltung findet auf Englisch statt. */
+    englisch?: boolean;
 }
+
 
 export interface Angebot {
     schluessel: string;
@@ -57,26 +56,37 @@ export interface Angebot {
     modulName: string;
     pflicht: boolean;
     fachsemester: number[];
+    /**
+     * Gesetzt, wenn eine Modellveranstaltung in Vorlesungs- und Übungsteil
+     * zerfällt. Dann ist `schluessel` nicht mehr `mv{modellId}`, sondern trägt
+     * ein Suffix – der Abgleich mit der Quelle läuft deshalb über `modellId`.
+     */
+    teilgruppe?: 'fest' | 'wahlbar' | 'sonstige' | null;
     optionen: Kurs[];
 }
+
 
 export interface Kohorte {
     id: string;
     bezeichnung: string;
     ebene2: number;
+    /** Alle weiteren Fächer der Kombination; zwei bei zwei kleinen Nebenfächern. */
+    partner?: Array<{ ebene1: number | null; ebene2: number; bezeichnung: string }>;
     partnerE2: number | null;
     partnerBezeichnung: string | null;
     variante: string;
     fachtyp: string;
     fsbName: string;
-    pflichtFuerQuelle: boolean;
     fach: string;
     abschluss: string;
     aktuell: boolean;
     fachsemester: number[];
     angebote: Angebot[];
+    /** Wahlpflichtanforderungen – nicht Teil der Kollisionsprüfung. */
+    wahlpflichtAngebote?: Angebot[];
     notiz: string | null;
 }
+
 
 export interface SlotKollision {
     wochentag: number;
@@ -93,9 +103,13 @@ export interface SlotKollision {
 export interface Paarstatus {
     aKursId: number;
     bKursId: number;
+    aKursType?: string | null;
+    bKursType?: string | null;
     status: 'frei' | 'unsicher' | 'belegt';
     kollisionen: SlotKollision[];
 }
+
+
 
 export interface Konflikt {
     id: string;
@@ -110,15 +124,38 @@ export interface Konflikt {
     zusammenfassung: string;
 }
 
+export interface Sprachhinweis {
+    modulId: number;
+    modulKuerzel: string;
+    modulName: string;
+    kohorteId: string;
+    kohorteBezeichnung: string;
+    abschluss: string;
+    pflicht: boolean;
+    veranstaltungen: number;
+}
+
+export interface UebersprungeneVariante {
+    ebene2: number;
+    ebene1: number | null;
+    bezeichnung: string;
+    grund: string;
+}
+
+
 export interface Analyse {
     erzeugtAm: string;
     semester: number;
     semesterName: string;
     quelle: {
+        modus?: 'veranstaltung' | 'modul' | 'studiengang';
         veranstaltungId: number | null;
         veranstaltungName: string | null;
         modulIds: number[];
         modellIds: number[];
+        ebene1?: number | null;
+        studiengangName?: string | null;
+        fachsemester?: number[];
     };
     optionen: {
         pufferMin: number;
@@ -128,6 +165,8 @@ export interface Analyse {
     };
     kohorten: Kohorte[];
     konflikte: Konflikt[];
+    sprachhinweise?: Sprachhinweis[];
+    uebersprungeneVarianten?: UebersprungeneVariante[];
     warnungen: string[];
     statistik: {
         kohorten: number;
