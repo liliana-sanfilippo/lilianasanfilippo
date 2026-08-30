@@ -16,6 +16,7 @@ import {Uni} from "../pages/uni/uni";
 import {LearningMaterials} from "../pages/uni/learningMaterials";
 import {Tools} from "../pages/Tools";
 import {StudentCounselling} from "../pages/StudentCounselling";
+import {IgemOverview} from "../pages/igem/IgemOverview";
 
 export const NavBarContent: (PageRef | Folder)[] = [
     {
@@ -26,7 +27,10 @@ export const NavBarContent: (PageRef | Folder)[] = [
 
     },
     {
-        name: "iGEM", component: <CurrentProjects/>, folder: [
+        name: "iGEM", component: <IgemOverview/>, folder: [
+            {
+                name: "Overview", title: "iGEM Bielefeld", path: "/"
+            },
             {
                 name: "BFH European MeetUp", title: "BFH European MeetUp", path: "/bfh", component: <Bfh/>
 
@@ -68,7 +72,7 @@ export const NavBarContent: (PageRef | Folder)[] = [
                     {
                         name: "Overview",
                         title: "Overview",
-                        path: "/README",
+                        path: "/",
                     }
                 ]
 

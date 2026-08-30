@@ -167,7 +167,7 @@ export const igemguides: Linktype[] = [
         title: "Developer Guide",
         link: "https://static.igem.wiki/teams/5877/hardware/developer-guide.pdf",
         tag: "hardware",
-        author: " GEC-Guangzhou 2025"
+        author: "GEC-Guangzhou 2025"
     },
     {
         title: "Quick guide to controlled substances in research",
@@ -178,7 +178,7 @@ export const igemguides: Linktype[] = [
     {
         title: "A guide to iGEM projects on biomineralisation",
         link: "https://static.igem.wiki/teams/4417/wiki/guidebiomineralisation-2.pdf",
-        tag: "topic",
+        tag: "other",
         author: "UCL 2022"
     },
     {

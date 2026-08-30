@@ -12,19 +12,19 @@ export function IGEMData() {
         <div>
             <div className={"row my-5"}>
                 <section>
-                    <h2>iGEM Guides</h2>
+                    <h2 id={"guides"}>iGEM Guides</h2>
                     <LinkTable data={igemguides}/>
                 </section>
                 <section>
-                    <h2>iGEM Reports and Studies</h2>
+                    <h2 id={"studies"}>iGEM Reports and Studies</h2>
                     <LinkTable data={igemreportstudylink}/>
                 </section>
-                <section>
+                <section id={"ai"}>
                     <h2>AI in iGEM</h2>
                     <LinkTable data={aiinigem}/>
                 </section>
                 <section>
-                    <h2>Fun in iGEM</h2>
+                    <h2 id={"games"}>Fun in iGEM</h2>
                     <LinkTable data={igemgames}/>
                 </section>
 

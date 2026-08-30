@@ -12,6 +12,8 @@ interface ImportMetaEnv {
     readonly REACT_APP_PROJECT_ARCHIVE_PATH: string
     readonly REACT_APP_IGEM_BIELEFELD_OVERVIEW_PATH: string
     readonly REACT_APP_IGEM_BIELEFELD_PATH: string
+    readonly REACT_APP_IGEM_BFH_PATH: string
+    readonly REACT_APP_IGEM_PATH: string
     readonly REACT_APP_IGEM_BIELEFELD_FOR_ADVISORS_PATH: string
     readonly REACT_APP_IGEM_BIELEFELD_PROJECTS_PATH: string
     readonly REACT_APP_COUNSELLING_SYSTEM_PATH: string
