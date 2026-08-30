@@ -10,10 +10,11 @@
     text-decoration:none;
 }
 
+
 .karte[data-zustand=""],.karte[data-zustand="2.0"], .karte[data-zustand="nutzbar"]{border-left-color:var(--green)}
-.karte[data-zustand="In Development"], .karte[data-zustand="prototyp"], .karte[data-zustand="Erste Version"]{border-left-color:var(--accent-primary)}
-.karte[data-zustand="quellcode"]{border-left-color:var(--quellcode)}
-.karte[data-zustand="geplant"]{border-left-color:var(--geplant)}
+.karte[data-zustand="In Development - available"],.karte[data-zustand="In Development"], .karte[data-zustand="prototyp"], .karte[data-zustand="Erste Version"]{border-left-color:var(--accent-primary)}
+.karte[data-zustand="Not publicly available"], .karte[data-zustand="quellcode"]{border-left-color:var(--yellow-dark)}
+.karte[data-zustand="In Development - unavailable"],.karte[data-zustand="geplant"]{border-left-color:var(--accen-secondary)},
 a.karte:hover{border-color: black }
 a.karte:hover .karte-titel{text-decoration:underline;text-underline-offset:3px}
 a.karte:focus-visible{outline:2px solid var(--akzent);outline-offset:2px}
