@@ -67,6 +67,7 @@ code {
     --raster: 44px;
 
     --button-bg: white;
+    --green: var(--igemmediumgreen)
 
 }
 
@@ -464,6 +465,11 @@ img {
             padding: 0 0 !important;
         }
     }
+}
+
+.dropend .dropdown-menu[data-bs-popper] {
+    left: 0 !important;
+    top: 100%;
 }
 
 #basic-navbar-nav {

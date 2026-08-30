@@ -1,0 +1,48 @@
+.karten{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(340px,1fr))}
+.karte{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    background:var(--background);
+    border:1px solid black;
+    border-left-width:3px;
+    padding:20px 22px 18px;
+    text-decoration:none;
+}
+
+.karte[data-zustand="2.0"], .karte[data-zustand="nutzbar"]{border-left-color:var(--green)}
+.karte[data-zustand="prototyp"], .karte[data-zustand="Erste Version"]{border-left-color:var(--accent-primary)}
+.karte[data-zustand="quellcode"]{border-left-color:var(--quellcode)}
+.karte[data-zustand="geplant"]{border-left-color:var(--geplant)}
+a.karte:hover{border-color: black }
+a.karte:hover .karte-titel{text-decoration:underline;text-underline-offset:3px}
+a.karte:focus-visible{outline:2px solid var(--akzent);outline-offset:2px}
+
+.karte-zustand{
+    font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+    color:dimgray;margin:0 0 8px;display:flex;align-items:center;gap:7px;
+}
+
+
+.karte-titel{font-size:19px;line-height:1.25;letter-spacing:-.015em;margin:0 0 8px;font-weight:650}
+.karte-text{margin:0 0 16px;font-size:14.5px;color:#3a4147;flex:1}
+.karte-meta{
+    display:flex;flex-wrap:wrap;gap:6px;padding-top:13px;border-top:1px solid black;
+}
+.marke{
+    font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;
+    color:dimgray;border:1px solid black;padding:3px 7px;white-space:nowrap;
+}
+.marke--zielgruppe{color: black !important; border-color:currentColor}
+
+/* Geplante Einträge ---------------------------------------------------- */
+.karte--geplant{border-style:dashed;background:transparent}
+.karte--geplant .karte-titel{color:dimgray}
+
+@media (max-width:560px){
+    .seite{padding:32px 16px 64px}
+    .karten{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:no-preference){
+    .karte{transition:border-color .12s ease}
+}
