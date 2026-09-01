@@ -13,7 +13,7 @@ export function TypeScriptCode({children}: { children: string }) {
     };
 
     return (
-        <div className="relative">
+        <div className="relative my-5">
             <SyntaxHighlighterImport language="typescript">
                 {children}
             </SyntaxHighlighterImport>

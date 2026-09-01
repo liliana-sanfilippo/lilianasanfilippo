@@ -1,20 +1,69 @@
 import React from "react";
 import {ProjektKarte} from "../../components/cards/Projekt-Karte";
-import {H1, H2} from "../../components/other/H2";
+import {H1, H2, H3} from "../../components/other/H2";
 
 export function TemplateWikiDocu() {
 
     return (
         <div>
             <H1>Component and type documentation</H1>
+            <p>
+                Please be aware these component use bootstrap and some use tailwind. You should add your own styling.
+            </p>
+            <p>
+                Most of these components are fairly simple. the point is they use JSON-like input, eliminating the need to code.
+            </p>
             <H2>Scientific</H2>
             <div className={"karten"} >
                 <ProjektKarte
                     url={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/part-table`}
                     title={"Part Table"}
                     marken={[]}
-                    zustand={""}
-                    text={"Component and corresponding type"}
+                    zustand={"available"}
+                    text={"A simple and not really configurable part table."}
+                />
+                <ProjektKarte
+                    url={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/protocols-sorted`}
+                    title={"Categorically sorted Protocol collection"}
+                    marken={[]}
+
+                    zustand={"available"}
+                    text={<>
+                        Automatically sorts and displays protocol collection. Shows number of protocols in each category.
+                    </>}
+                />
+                <ProjektKarte
+                    url={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/part-table`}
+                    title={"Figure (compatible with automatic figure numberer)"}
+                    marken={[]}
+                    disabled
+                    zustand={"docu in process"}
+                    text={<>
+                        Docu in progress, types and code can be found at the Bielefeld-CeBiTec 2026 GitLab.
+                    </>}
+                />
+            </div>
+            <H2>Other</H2>
+            <div className={"karten"} >
+                <ProjektKarte
+                    url={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/part-table`}
+                    title={"Instagram Post"}
+                    marken={[]}
+                    disabled
+                    zustand={"docu in process"}
+                    text={<>
+                        Docu in progress, types and code can be found at the Bielefeld-CeBiTec 2026 GitLab.
+                    </>}
+                />
+                <ProjektKarte
+                    url={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/part-table`}
+                    title={"Community Blackboard Flyer"}
+                    marken={[]}
+                    disabled
+                    zustand={"docu in process"}
+                    text={<>
+                        Docu in progress, types and code can be found at the Bielefeld-CeBiTec 2026 GitLab.
+                    </>}
                 />
             </div>
 
