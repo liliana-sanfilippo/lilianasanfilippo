@@ -1,7 +1,5 @@
-import {Page} from "../types/Pages";
-import {NavBarContent} from "../routes/navBarContent";
-
-export const getPathMapping = () => {
+import {Folder, Page, PageRef} from "../types/Pages";
+export const getPathMapping = (NavBarContent:  (PageRef | Folder)[]) => {
     // Rekursive Hilfsfunktion zum Verarbeiten eines Items
     const processItem = (map: { [key: string]: Page }, item: any, parentPath: string = ""): void => {
         // Wenn das Item einen Pfad hat, zur Map hinzufügen

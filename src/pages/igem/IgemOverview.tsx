@@ -114,7 +114,9 @@ export function IgemOverview() {
                     marken={[]}
                     zustand={"Not publicly available"}
                     disabled
-                    text={"Please get in contact, if you wish to use the template wiki."}
+                    text={<>
+                        Please get in contact, if you wish to use the template wiki. Documentation can be found <a href={process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}>here</a>.
+                    </>}
                 />
                 <ProjektKarte
                     url={`${process.env.REACT_APP_REACT_REFERENCE_MANAGER_PATH}`}
