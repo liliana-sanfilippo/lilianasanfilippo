@@ -1,0 +1,1156 @@
+{
+  "erzeugtAm": "2026-08-30T12:15:03.861Z",
+  "semester": 20262,
+  "semesterName": "WiSe 2026/27",
+  "quelle": {
+    "modus": "studiengang",
+    "veranstaltungId": null,
+    "veranstaltungName": null,
+    "modulIds": [],
+    "modellIds": [],
+    "ebene1": 405818172,
+    "studiengangName": "Künstliche Intelligenz und Kognitive Informatik B.Sc. 1-Fach (fw) FsB WiSe 2023/24",
+    "fachsemester": []
+  },
+  "optionen": {
+    "pufferMin": 0,
+    "nurPflicht": true,
+    "tolerierteFachsemester": "exakt",
+    "kombinationen": false,
+    "sprachpruefung": "pflicht"
+  },
+  "kohorten": [
+    {
+      "ebene2": 405818181,
+      "ebene1": 405818172,
+      "variante": "1-Fach (fw)",
+      "fachtyp": "1-Fach (fw)",
+      "fsbId": 405818167,
+      "fsbName": "Künstliche Intelligenz und Kognitive Informatik / Bachelor of Science",
+      "fach": "Künstliche Intelligenz und Kognitive Informatik",
+      "abschluss": "B.Sc.",
+      "aktuell": true,
+      "semesterVon": 20232,
+      "semesterBis": null,
+      "detailUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/in?id=405818172",
+      "fachsemester": [
+        1
+      ],
+      "pflichtFuerQuelle": true,
+      "id": "e2-405818181",
+      "bezeichnung": "Künstliche Intelligenz und Kognitive Informatik B.Sc. 1-Fach (fw) FsB WiSe 2023/24",
+      "partner": [],
+      "partnerE2": null,
+      "partnerBezeichnung": null,
+      "angebote": [
+        {
+          "schluessel": "mv29611822",
+          "modellId": 29611822,
+          "herkunftE2": 405818181,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "Neuro- und Verhaltensbiologie",
+          "art": "Vorlesung mit Übungsanteil",
+          "teilgruppe": null,
+          "modulId": 26796159,
+          "modulKuerzel": "20-NB",
+          "modulName": "Neuro- und Verhaltensbiologie",
+          "pflicht": true,
+          "fachsemester": [
+            1
+          ],
+          "optionen": [
+            {
+              "id": 739467891,
+              "name": "Neuro- und Verhaltensbiologie",
+              "art": "Vorlesung / Übung",
+              "belegnummer": "209101",
+              "dozenten": [
+                "Prof. Dr. Christoph Kayser",
+                "Dr. Norbert Böddeker"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 2,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Y-0-111 Beginn schon um 7:45 Uhr",
+                  "roh": "Di 8-10 Y-0-111 Beginn schon um 7:45 Uhr"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=739467891",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv420519994",
+          "modellId": 420519994,
+          "herkunftE2": 405818181,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "Mathematik für Informatik und Naturwissenschaften 1",
+          "art": "Vorlesung",
+          "teilgruppe": null,
+          "modulId": 420519984,
+          "modulKuerzel": "24-M-INF1_a",
+          "modulName": "Mathematik für Informatik 1",
+          "pflicht": true,
+          "fachsemester": [
+            1
+          ],
+          "optionen": [
+            {
+              "id": 732697609,
+              "name": "Mathematik für Informatik und Naturwissenschaften I",
+              "art": "Vorlesung",
+              "belegnummer": "240100",
+              "dozenten": [
+                "Prof. Dr. Christopher Voll"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "H7",
+                  "roh": "Mo 14-16 H7"
+                },
+                {
+                  "wochentag": 2,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "H4",
+                  "roh": "Di 14-16 H4"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "H7",
+                  "roh": "Mi 14-16 H7"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=732697609",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv420520000",
+          "modellId": 420520000,
+          "herkunftE2": 405818181,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "Übungen zu Mathematik für Informatik und Naturwissenschaften 1",
+          "art": "Übung",
+          "teilgruppe": null,
+          "modulId": 420519984,
+          "modulKuerzel": "24-M-INF1_a",
+          "modulName": "Mathematik für Informatik 1",
+          "pflicht": true,
+          "fachsemester": [
+            1
+          ],
+          "optionen": [
+            {
+              "id": 732698646,
+              "name": "Übungen zu Mathematik  für Informatik und Naturwissenschaften I",
+              "art": "Übung",
+              "belegnummer": "240102",
+              "dozenten": [
+                "Prof. Dr. Christopher Voll"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=732698646",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv543614162",
+          "modellId": 543614162,
+          "herkunftE2": 405818181,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "Mathematik für Informatik und Naturwissenschaften 1",
+          "art": "Vorlesung",
+          "teilgruppe": null,
+          "modulId": 543614156,
+          "modulKuerzel": "24-M-INF1_a_ub",
+          "modulName": "Mathematik für Informatik 1 (unbenotet)",
+          "pflicht": true,
+          "fachsemester": [
+            1
+          ],
+          "optionen": [
+            {
+              "id": 732697609,
+              "name": "Mathematik für Informatik und Naturwissenschaften I",
+              "art": "Vorlesung",
+              "belegnummer": "240100",
+              "dozenten": [
+                "Prof. Dr. Christopher Voll"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "H7",
+                  "roh": "Mo 14-16 H7"
+                },
+                {
+                  "wochentag": 2,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "H4",
+                  "roh": "Di 14-16 H4"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "H7",
+                  "roh": "Mi 14-16 H7"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=732697609",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv543614164",
+          "modellId": 543614164,
+          "herkunftE2": 405818181,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "Übungen zu Mathematik für Informatik und Naturwissenschaften 1",
+          "art": "Übung",
+          "teilgruppe": null,
+          "modulId": 543614156,
+          "modulKuerzel": "24-M-INF1_a_ub",
+          "modulName": "Mathematik für Informatik 1 (unbenotet)",
+          "pflicht": true,
+          "fachsemester": [
+            1
+          ],
+          "optionen": [
+            {
+              "id": 732698646,
+              "name": "Übungen zu Mathematik  für Informatik und Naturwissenschaften I",
+              "art": "Übung",
+              "belegnummer": "240102",
+              "dozenten": [
+                "Prof. Dr. Christopher Voll"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=732698646",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv29614260",
+          "modellId": 29614260,
+          "herkunftE2": 405818181,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "Einführung in die Physik I (Nebenfach)",
+          "art": "Vorlesung",
+          "teilgruppe": null,
+          "modulId": 27461321,
+          "modulKuerzel": "28-P-NF-B",
+          "modulName": "Physik für Nebenfächler",
+          "pflicht": true,
+          "fachsemester": [
+            1
+          ],
+          "optionen": [
+            {
+              "id": 742856609,
+              "name": "Einführung in die Physik I (für Nichtphysiker*innen)",
+              "art": "Vorlesung",
+              "belegnummer": "282400",
+              "dozenten": [
+                "Dr. Mark Schüttpelz"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "H4",
+                  "roh": "Mo 10-12 H4"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "H4",
+                  "roh": "Mi 12-14 H4"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=742856609",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv29614264",
+          "modellId": 29614264,
+          "herkunftE2": 405818181,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "Übungen zu Einführung in die Physik I (Nebenfach)",
+          "art": "Übung",
+          "teilgruppe": null,
+          "modulId": 27461321,
+          "modulKuerzel": "28-P-NF-B",
+          "modulName": "Physik für Nebenfächler",
+          "pflicht": true,
+          "fachsemester": [
+            1
+          ],
+          "optionen": [
+            {
+              "id": 742856827,
+              "name": "Übungen zu Einführung in die Physik I (für Nichtphysiker*innen)",
+              "art": "Übung",
+              "belegnummer": "282401",
+              "dozenten": [
+                "Dr. Mark Schüttpelz"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 2,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V2-200",
+                  "roh": "Di 8-10 V2-200"
+                },
+                {
+                  "wochentag": 2,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "U2-135",
+                  "roh": "Di 12-14 U2-135"
+                },
+                {
+                  "wochentag": 2,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V2-213",
+                  "roh": "Di 12-14 V2-213"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V2-200",
+                  "roh": "Mi 8-10 V2-200"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "X-E0-206",
+                  "roh": "Do 10-12 X-E0-206"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "X-E0-210",
+                  "roh": "Do 10-12 X-E0-210"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S0-123",
+                  "roh": "Do 12-14 S0-123"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V2-213",
+                  "roh": "Fr 10-12 V2-213"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=742856827",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv420520508",
+          "modellId": 420520508,
+          "herkunftE2": 405818181,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "Grundlagen und Prinzipien der Programmierung",
+          "art": "Übung",
+          "teilgruppe": null,
+          "modulId": 420520482,
+          "modulKuerzel": "39-Inf-PP",
+          "modulName": "Prinzipien der Programmierung",
+          "pflicht": true,
+          "fachsemester": [
+            1
+          ],
+          "optionen": [
+            {
+              "id": 741760833,
+              "name": "Übungen zu Prinzipien der Programmierung  ",
+              "art": "Übung",
+              "belegnummer": "392002",
+              "dozenten": [
+                "Prof. Dr.  Philipp Cimiano",
+                "Prof. Dr.  Daniel Merkle",
+                "Prof. Dr.-Ing. Robert Heyer",
+                "Addie Jordon"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=741760833",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv420520515",
+          "modellId": 420520515,
+          "herkunftE2": 405818181,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "Grundlagen und Prinzipien der Programmierung",
+          "art": "Vorlesung",
+          "teilgruppe": null,
+          "modulId": 420520482,
+          "modulKuerzel": "39-Inf-PP",
+          "modulName": "Prinzipien der Programmierung",
+          "pflicht": true,
+          "fachsemester": [
+            1
+          ],
+          "optionen": [
+            {
+              "id": 748908400,
+              "name": " Prinzipien der Programmierung - Funktionale Programmierung",
+              "art": "Vorlesung",
+              "belegnummer": "392001",
+              "dozenten": [
+                "Prof. Dr.  Philipp Cimiano"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "H4",
+                  "roh": "Mo 12-14 H4"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 960,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "H4",
+                  "roh": "Mo 16-18 H4"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=748908400",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 741780790,
+              "name": "Prinzipien der Programmierung - Objektorientierte Programmierung",
+              "art": "Vorlesung",
+              "belegnummer": "392005",
+              "dozenten": [
+                "Prof. Dr.-Ing. Robert Heyer"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 960,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Y-0-111",
+                  "roh": "Do 16-18 Y-0-111"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "AUDIMAX",
+                  "roh": "Fr 12-14 AUDIMAX"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=741780790",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv420520521",
+          "modellId": 420520521,
+          "herkunftE2": 405818181,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "Programmierpraktikum",
+          "art": "Praktikum",
+          "teilgruppe": null,
+          "modulId": 420520482,
+          "modulKuerzel": "39-Inf-PP",
+          "modulName": "Prinzipien der Programmierung",
+          "pflicht": true,
+          "fachsemester": [
+            1
+          ],
+          "optionen": [
+            {
+              "id": 738809115,
+              "name": "Praktikum zu Prinzipien der Programmierung",
+              "art": "Praktikum",
+              "belegnummer": "392004",
+              "dozenten": [
+                "Dr. Dirk Frettlöh"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=738809115",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        }
+      ],
+      "wahlpflichtAngebote": [],
+      "notiz": null
+    },
+    {
+      "ebene2": 405818185,
+      "ebene1": 405818172,
+      "variante": "Modularisierter individueller Kompetenz-Erwerb (MiKE)",
+      "fachtyp": "1-Fach (fw)",
+      "fsbId": 405818167,
+      "fsbName": "Künstliche Intelligenz und Kognitive Informatik / Bachelor of Science",
+      "fach": "Künstliche Intelligenz und Kognitive Informatik",
+      "abschluss": "B.Sc.",
+      "aktuell": true,
+      "semesterVon": 20232,
+      "semesterBis": null,
+      "detailUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/in?id=405818172",
+      "fachsemester": [
+        1
+      ],
+      "pflichtFuerQuelle": true,
+      "id": "e2-405818185",
+      "bezeichnung": "Künstliche Intelligenz und Kognitive Informatik B.Sc. 1-Fach (fw) Modularisierter individueller Kompetenz-Erwerb (MiKE) FsB WiSe 2023/24",
+      "partner": [],
+      "partnerE2": null,
+      "partnerBezeichnung": null,
+      "angebote": [],
+      "wahlpflichtAngebote": [
+        {
+          "schluessel": "mv318008345",
+          "modellId": 318008345,
+          "herkunftE2": 405818185,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "vertiefende Informatikvorlesung 3.6",
+          "art": "Vorlesung mit Übungsanteil",
+          "teilgruppe": null,
+          "modulId": 50236831,
+          "modulKuerzel": "39-Inf-EGMI",
+          "modulName": "Ergänzungsmodul Informatik",
+          "pflicht": false,
+          "fachsemester": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "optionen": [
+            {
+              "id": 742992177,
+              "name": "SIMD High-Performance Computing in C",
+              "art": "Vorlesung / Übung",
+              "belegnummer": "392015",
+              "dozenten": [
+                "Prof. Dr.-Ing. Ralf Möller"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 5,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "D4-135",
+                  "roh": "Fr 12-14 D4-135"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=742992177",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": true
+            }
+          ]
+        },
+        {
+          "schluessel": "mv61827608",
+          "modellId": 61827608,
+          "herkunftE2": 405818185,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "vertiefende Übung 1.1 zu einer Vorlesung",
+          "art": "Übung",
+          "teilgruppe": null,
+          "modulId": 50236831,
+          "modulKuerzel": "39-Inf-EGMI",
+          "modulName": "Ergänzungsmodul Informatik",
+          "pflicht": false,
+          "fachsemester": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "optionen": [
+            {
+              "id": 742992177,
+              "name": "SIMD High-Performance Computing in C",
+              "art": "Vorlesung / Übung",
+              "belegnummer": "392015",
+              "dozenten": [
+                "Prof. Dr.-Ing. Ralf Möller"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 5,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "D4-135",
+                  "roh": "Fr 12-14 D4-135"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=742992177",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": true
+            }
+          ]
+        },
+        {
+          "schluessel": "mv61827615",
+          "modellId": 61827615,
+          "herkunftE2": 405818185,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "vertiefendes Seminar 1",
+          "art": "Seminar",
+          "teilgruppe": null,
+          "modulId": 50236831,
+          "modulKuerzel": "39-Inf-EGMI",
+          "modulName": "Ergänzungsmodul Informatik",
+          "pflicht": false,
+          "fachsemester": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "optionen": [
+            {
+              "id": 741902739,
+              "name": "Cheminformatics Research Seminar / Forschungsseminar Chemieinformatik",
+              "art": "Seminar",
+              "belegnummer": "392027",
+              "dozenten": [
+                "Prof. Dr.  Daniel Merkle"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 2,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "M5-106",
+                  "roh": "Di 14-16 M5-106"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=741902739",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv61827616",
+          "modellId": 61827616,
+          "herkunftE2": 405818185,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "vertiefendes Seminar 2",
+          "art": "Seminar",
+          "teilgruppe": null,
+          "modulId": 50236831,
+          "modulKuerzel": "39-Inf-EGMI",
+          "modulName": "Ergänzungsmodul Informatik",
+          "pflicht": false,
+          "fachsemester": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "optionen": [
+            {
+              "id": 741902739,
+              "name": "Cheminformatics Research Seminar / Forschungsseminar Chemieinformatik",
+              "art": "Seminar",
+              "belegnummer": "392027",
+              "dozenten": [
+                "Prof. Dr.  Daniel Merkle"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 2,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "M5-106",
+                  "roh": "Di 14-16 M5-106"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=741902739",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv61827617",
+          "modellId": 61827617,
+          "herkunftE2": 405818185,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "vertiefendes Seminar 3",
+          "art": "Seminar",
+          "teilgruppe": null,
+          "modulId": 50236831,
+          "modulKuerzel": "39-Inf-EGMI",
+          "modulName": "Ergänzungsmodul Informatik",
+          "pflicht": false,
+          "fachsemester": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "optionen": [
+            {
+              "id": 741902739,
+              "name": "Cheminformatics Research Seminar / Forschungsseminar Chemieinformatik",
+              "art": "Seminar",
+              "belegnummer": "392027",
+              "dozenten": [
+                "Prof. Dr.  Daniel Merkle"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 2,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "M5-106",
+                  "roh": "Di 14-16 M5-106"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=741902739",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv61827618",
+          "modellId": 61827618,
+          "herkunftE2": 405818185,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "vertiefendes Seminar 4",
+          "art": "Seminar",
+          "teilgruppe": null,
+          "modulId": 50236831,
+          "modulKuerzel": "39-Inf-EGMI",
+          "modulName": "Ergänzungsmodul Informatik",
+          "pflicht": false,
+          "fachsemester": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "optionen": [
+            {
+              "id": 741902739,
+              "name": "Cheminformatics Research Seminar / Forschungsseminar Chemieinformatik",
+              "art": "Seminar",
+              "belegnummer": "392027",
+              "dozenten": [
+                "Prof. Dr.  Daniel Merkle"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 2,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "M5-106",
+                  "roh": "Di 14-16 M5-106"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=741902739",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        }
+      ],
+      "notiz": null
+    },
+    {
+      "ebene2": 405818188,
+      "ebene1": 405818172,
+      "variante": "Strukturierte Ergänzung des fw 1-Fach-Ba",
+      "fachtyp": "1-Fach (fw)",
+      "fsbId": 405818167,
+      "fsbName": "Künstliche Intelligenz und Kognitive Informatik / Bachelor of Science",
+      "fach": "Künstliche Intelligenz und Kognitive Informatik",
+      "abschluss": "B.Sc.",
+      "aktuell": true,
+      "semesterVon": 20232,
+      "semesterBis": null,
+      "detailUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/in?id=405818172",
+      "fachsemester": [
+        1
+      ],
+      "pflichtFuerQuelle": true,
+      "id": "e2-405818188",
+      "bezeichnung": "Künstliche Intelligenz und Kognitive Informatik B.Sc. 1-Fach (fw) Strukturierte Ergänzung des fw 1-Fach-Ba FsB WiSe 2023/24",
+      "partner": [],
+      "partnerE2": null,
+      "partnerBezeichnung": null,
+      "angebote": [],
+      "wahlpflichtAngebote": [],
+      "notiz": null
+    }
+  ],
+  "konflikte": [
+    {
+      "id": "e2-405818181:mv29611822:mv29614264",
+      "kohorteId": "e2-405818181",
+      "aSchluessel": "mv29611822",
+      "bSchluessel": "mv29614264",
+      "amodulID": 26796159,
+      "bmodulID": 27461321,
+      "schwere": "unsicher",
+      "betrifftQuelle": false,
+      "freieKombinationen": 0,
+      "gesamteKombinationen": 1,
+      "paare": [
+        {
+          "aKursId": 739467891,
+          "bKursId": 742856827,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 2,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 2,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "Y-0-111 Beginn schon um 7:45 Uhr",
+                "roh": "Di 8-10 Y-0-111 Beginn schon um 7:45 Uhr"
+              },
+              "bSlot": {
+                "wochentag": 2,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "V2-200",
+                "roh": "Di 8-10 V2-200"
+              }
+            }
+          ],
+          "aKursType": "Vorlesung / Übung",
+          "bKursType": "Übung"
+        }
+      ],
+      "zusammenfassung": "Di 08:00–10:00 (120 min) – wöchentliche Überschneidung"
+    }
+  ],
+  "sprachhinweise": [],
+  "uebersprungeneVarianten": [],
+  "machbarkeit": [
+    {
+      "kohorteId": "e2-405818181",
+      "kohorteBezeichnung": "Künstliche Intelligenz und Kognitive Informatik B.Sc. 1-Fach (fw) FsB WiSe 2023/24",
+      "fachsemester": [
+        1
+      ],
+      "pflichtAnforderungen": 10,
+      "harteKonflikte": 0,
+      "pflichtErfuellbar": true,
+      "vollstaendigBewertet": true,
+      "wahlpflicht": [],
+      "hinweis": "Die Variante besteht im geprüften Fachsemester nur aus Pflichtmodulen."
+    },
+    {
+      "kohorteId": "e2-405818185",
+      "kohorteBezeichnung": "Künstliche Intelligenz und Kognitive Informatik B.Sc. 1-Fach (fw) Modularisierter individueller Kompetenz-Erwerb (MiKE) FsB WiSe 2023/24",
+      "fachsemester": [
+        1
+      ],
+      "pflichtAnforderungen": 0,
+      "harteKonflikte": 0,
+      "pflichtErfuellbar": null,
+      "vollstaendigBewertet": false,
+      "wahlpflicht": [
+        {
+          "name": "Wahlpflicht (Bereichsstruktur nicht aus der API ableitbar)",
+          "module": [
+            {
+              "modulId": 50236831,
+              "kuerzel": "39-Inf-EGMI",
+              "name": "Ergänzungsmodul Informatik",
+              "fachsemester": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "angebote": 6
+            }
+          ],
+          "benoetigt": null
+        }
+      ],
+      "hinweis": "Nur der Pflichtteil ist bewertet. 6 Wahlpflichtanforderungen bleiben offen, weil aus den Daten nicht hervorgeht, wie viele davon zu belegen sind."
+    },
+    {
+      "kohorteId": "e2-405818188",
+      "kohorteBezeichnung": "Künstliche Intelligenz und Kognitive Informatik B.Sc. 1-Fach (fw) Strukturierte Ergänzung des fw 1-Fach-Ba FsB WiSe 2023/24",
+      "fachsemester": [
+        1
+      ],
+      "pflichtAnforderungen": 0,
+      "harteKonflikte": 0,
+      "pflichtErfuellbar": null,
+      "vollstaendigBewertet": true,
+      "wahlpflicht": [],
+      "hinweis": "Die Variante besteht im geprüften Fachsemester nur aus Pflichtmodulen."
+    }
+  ],
+  "warnungen": [
+    "3 Veranstaltung(en) ohne Zeitangabe (z. B. Blocktermine nach Vereinbarung) – sie können keine Überschneidung auslösen."
+  ],
+  "statistik": {
+    "kohorten": 3,
+    "aktiveKohorten": 1,
+    "veranstaltungen": 11,
+    "ohneZeiten": 3,
+    "ausgefallen": 0,
+    "wahlpflichtAnforderungen": 6,
+    "nurEnglisch": 0,
+    "harteKonflikte": 0,
+    "teilweiseKonflikte": 0,
+    "unsichereKonflikte": 1
+  }
+}
