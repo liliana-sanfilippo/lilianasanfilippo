@@ -62,6 +62,12 @@ code {
     --igemdarkgreen: #006530;
     --igemmediumgreen: #019968;
     --igemlightgreen: #99cb9a;
+    --toned-down-text: var(--lightblue-zwei);
+
+    --raster: 44px;
+
+    --button-bg: white;
+    --green: var(--igemmediumgreen)
 
 }
 
@@ -225,6 +231,18 @@ a:hover, .nav-link:hover, .dropdown-item:hover {
 
 .dropdown-item:active {
     background-color: transparent;
+}
+
+.btn-primary:hover {
+    color: var(--text-primary);
+    border-color: revert;
+    background-color: var(--button-bg);
+}
+
+.btn-primary {
+    color: var(--text-primary);
+    border-color: var(--text-primary);
+    background-color: var(--button-bg);
 }
 
 
@@ -447,6 +465,11 @@ img {
             padding: 0 0 !important;
         }
     }
+}
+
+.dropend .dropdown-menu[data-bs-popper] {
+    left: 0 !important;
+    top: 100%;
 }
 
 #basic-navbar-nav {

@@ -14,23 +14,11 @@ export const igemreportstudylink: Linktype[] = [
         author: "Jiangnan-China 2025"
     },
     {
-        title: "",
+        title: "Perspectives on Synthetic Biology: Public Awareness & Trust",
         link: "https://static.igem.wiki/teams/5916/education/public/perspective-analysis.pdf",
-        tag: "",
-        author: ""
+        tag: "hp",
+        author: "Imperial 2025"
     },
-    {
-        title: "",
-        link: "",
-        tag: "",
-        author: ""
-    },
-    {
-        title: "",
-        link: "",
-        tag: "",
-        author: ""
-    }
 ]
 
 

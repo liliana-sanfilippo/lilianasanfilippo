@@ -1,0 +1,185 @@
+
+
+.urteil {
+    margin: 26px 0 0; padding: 18px 20px; background: var(--background);
+    border: 1px solid var(--text-primary); border-left: 4px solid var(--text-primary);
+}
+.urteilHart { border-left-color: var(--accen-secondary); }
+.urteilTeilweise { border-left-color: var(--accent-primary); }
+.urteil p { margin: 0; font-size: 17px; line-height: 1.45; }
+.detail { margin-top: 8px; font-size: 13.5px; color: dimgray; }
+
+.raster {
+    display: grid; grid-template-columns: 52px repeat(var(--spalten, 5), 1fr);
+    border: 1px solid grey; background: var(--background); overflow: hidden;
+}
+.kopf {
+   ; font-size: 11px; letter-spacing: .1em; text-transform: uppercase;
+    color: dimgray; padding: 8px 6px; border-bottom: 1px solid grey; text-align: center;
+}
+.stundenspalte { position: relative; border-right: 1px solid grey; }
+.stunde {
+    height: var(--raster);; font-size: 10.5px; color: dimgray;
+    padding: 2px 6px; text-align: right; border-bottom: 1px solid grey;
+}
+.spalte { position: relative; border-right: 1px solid grey; }
+.spalte:last-child { border-right: 0; }
+.zeile { height: var(--raster); border-bottom: 1px solid grey; }
+.block {
+    position: absolute; left: 2px; right: 2px; padding: 3px 5px; overflow: hidden;
+    font-size: 11px; line-height: 1.25; border: 1px solid grey;
+    background: lightgray; color: #16191c; min-height: 18px;
+}
+
+.leiste { display: flex; flex-direction: column; gap: 14px; margin: 14px 0 0; }
+.gruppe { display: flex; flex-direction: column; gap: 6px; }
+.gruppeTitel {
+    margin: 0; font-size: 11px; letter-spacing: .06em;
+    color: dimgray;
+}
+
+
+.blockTitel { font-weight: 600; display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.blockTyp { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.blockZeit {; font-size: 10px; color: dimgray; }
+
+
+.blockQuelle { background: var(--lightblue); border-color: var(--lightblue); color: #0d2b3a; z-index: 1; }
+.blockQuelle .blockZeit { color: #2c5a70; }
+.blockHart {
+    border-color: var(--accen-secondary); color: #5c0a12; z-index: 3;
+    background: repeating-linear-gradient(45deg, rgba(164,22,26,.16), rgba(164,22,26,.16) 5px, rgba(164,22,26,.04) 5px, rgba(164,22,26,.04) 10px);
+}
+.blockUnsicher{
+    border-color: var(--verylightblue); background: var(--verylightblue); z-index: 2;
+}
+.blockTeilweise { border-color: var(--accent-primary); background: rgba(178,103,0,.10); z-index: 2; }
+
+.hinweis { margin: 10px 0 0; font-size: 13px; color: dimgray; }
+.leer {
+    padding: 22px; color: dimgray;; font-size: 13px;
+    background: var(--background); border: 1px solid grey;
+}
+.huelle details {
+    background: var(--background); border: 1px solid grey; padding: 12px 16px; margin-top: 12px;
+}
+.huelle summary {
+    cursor: pointer;; font-size: 12px; letter-spacing: .08em;
+    text-transform: uppercase; color: dimgray;
+}
+.huelle details[open] summary { margin-bottom: 10px; }
+.warnungen { margin: 8px 0 0; padding-left: 20px; font-size: 13.5px; }
+.fuss {
+    margin-top: 56px; padding-top: 18px; border-top: 1px solid grey;
+    font-size: 12.5px; color: dimgray;
+}
+
+.leiste { display: flex; flex-wrap: wrap; gap: 5px; margin: 14px 0 0; }
+.feld {
+    width: 26px; height: 26px; border: 1px solid grey; background: var(--background);
+    cursor: pointer; padding: 0; position: relative;
+}
+.feld[data-schwere="hart"] { background: var(--accen-secondary); border-color: var(--dark-secondary); }
+.feld[data-schwere="teilweise"] { background: var(--accent-primary); border-color: var(--yellow-dark); }
+.feld[data-schwere="unsicher"] {
+    background: repeating-linear-gradient(45deg, var(--lightblue-drei), var(--lightblue-drei) 2px, transparent 2px, transparent 5px); border-color: var(--lightblue)
+}
+.feld[data-schwere="inaktiv"] { background: transparent; border-style: dashed; opacity: .55; border-color: grey }
+.feld[aria-pressed="true"] { outline: 2px solid var(--lightyellow); outline-offset: 2px; }
+.feld:focus-visible { outline: 2px solid var(--lightyellow); outline-offset: 2px; }
+
+.filter {
+    display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-end;
+    margin: 18px 0 14px; padding: 14px 16px; background: var(--background); border: 1px solid grey;
+}
+.filter label {
+    display: flex; flex-direction: column; gap: 4px;
+    font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: dimgray;
+}
+.filter input[type="text"], .filter select {
+    font: inherit; font-size: 13px; padding: 6px 8px;
+    border: 1px solid grey; background: var(--papier); color: var(--tinte); min-width: 250px;
+}
+.filter .schalter {
+    flex-direction: row; align-items: center; gap: 7px; text-transform: none;
+    letter-spacing: 0; font-size: 13px; color: var(--tinte);
+}
+
+
+.urteil {
+    margin: 26px 0 0; padding: 18px 20px; background: var(--background);
+    border: 1px solid dimgray; border-left: 4px solid dimgray;
+}
+.urteilHart { border-left-color: var(--accen-secondary); }
+.urteilTeilweise { border-left-color: var(--accent-primary); }
+.urteil p { margin: 0; font-size: 17px; line-height: 1.45; }
+.detail { margin-top: 8px; font-size: 13.5px; color: dimgray; }
+
+
+.marke {font-size: 11px; letter-spacing: .08em; text-transform: uppercase; margin: 0px 10px;
+    padding: 2px 6px; border: 1px solid currentColor; white-space: nowrap;
+}
+.markeHart { color: var(--accen-secondary); }
+.markeTeilweise { color: var(--accent-primary); }
+.markeUnsicher { color: var(--lightblue-drei); }
+.markeGeprueft { margin-left: 6px; color: dimgray; }
+
+ .acc-archiv .accordion-header, .acc-archiv .accordion-header button {
+    background-color: lightgray;
+
+}
+
+
+
+.druck .druckKopf { margin-bottom: 8px; }
+.druck .druckAbschnitt { margin-top: 24px; }
+.druck .druckTabelle { margin-top: 12px; }
+.druck .druckListe { margin: 10px 0 0; padding-left: 20px; font-size: 13.5px; }
+.druck .druckListe li { margin-bottom: 4px; }
+
+/* Am Bildschirm steht in der Leiste ein Knopf, im Druck ein Feld ohne Funktion. */
+.druck .leiste { flex-direction: row; flex-wrap: wrap; gap: 6px 18px; }
+.druck .feld { display: inline-block;  width: 10px; height: 10px; }
+.druck .chipText { font-size: 10pt; }
+
+@media print {
+    @page { size: A4; margin: 1cm; }
+
+    .druck {
+        max-width: none;
+        padding: 1cm;
+        background: #fff;
+        font-size: 10.5pt;
+    }
+    .druckKnopf { display: none; }
+
+    /* Jede Variante beginnt auf einer neuen Seite, die erste nicht. */
+    .druck .druckKohorte {
+        break-before: page;
+        page-break-before: always;
+    }
+    .druck .druckKohorte:first-of-type {
+        break-before: auto;
+        page-break-before: auto;
+    }
+
+    /* Raster und Tabellenzeilen nicht mitten durchtrennen. */
+    .druck .raster,
+    .druck .urteil,
+    .druck .block { break-inside: avoid; page-break-inside: avoid; }
+    .druck tr { break-inside: avoid; page-break-inside: avoid; }
+    .druck thead { display: table-header-group; }
+
+    /* Sticky-Kopfzeilen ergeben auf Papier keinen Sinn. */
+    .druck .rahmen th { position: static; }
+    .druck .rahmen { overflow: visible; }
+
+    /* Flaechen und Schraffuren muessen mitgedruckt werden. */
+    .druck * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+    .druck details { border: 0; padding: 0; }
+    .druck details > summary { display: none; }
+    .druck .fuss { break-before: auto; }
+    .druck a { text-decoration: none; color: inherit; }
+
+}

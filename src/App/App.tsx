@@ -9,6 +9,9 @@ import {BlogPostWrapper} from "../components/pageRelated/BlogPostWrapper";
 import TagIndexPageWrapper from "../components/pageRelated/TagIndexWrapper";
 import TagPageWrapper from "../components/pageRelated/tags";
 import {StatistikSchlüssel} from "../pages/uni/statistik_schlüssel";
+import {EkvvCollision} from "../pages/Ekvv-Collision";
+import {EkvvStudierbarkeit} from "../pages/EkvvStudierbarkeit";
+import {IGEMData} from "../pages/igem/iGEMData";
 
 const App = () => {
 
@@ -52,8 +55,12 @@ const App = () => {
 
                             <Route path={`${process.env.REACT_APP_UNI_PATH}/learning-materials/wts/schlüssel`} element={<StatistikSchlüssel/>} />
 
+                            <Route path={`${process.env.REACT_APP_COUNSELLING_SYSTEM}/tools/ekvv-collision-check`} element={<EkvvCollision/>} />
+                            <Route path={`${process.env.REACT_APP_COUNSELLING_SYSTEM}/tools/ekvv-studierbarkeit`} element={<EkvvStudierbarkeit/>} />
 
-                                <Route path={`${process.env.REACT_APP_REACT_REFERENCE_MANAGER_PATH}/:pageName`}
+                            <Route path={`${process.env.REACT_APP_IGEM_PATH}/data`} element={<IGEMData/>} />
+
+                            <Route path={`${process.env.REACT_APP_REACT_REFERENCE_MANAGER_PATH}/:pageName`}
                                    element={<WikiPage folder={"wiki"}/>}/>
                             <Route path={`${process.env.REACT_APP_REACT_REFERENCE_GENERATOR_PATH}/:pageName`}
                                    element={<WikiPage folder={"wiki-generator"}/>}/>

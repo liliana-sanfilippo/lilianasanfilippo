@@ -1329,20 +1329,7 @@ export const aiinigem: AILinktype[] = [
         definitions: [],
         sourceinfo: undefined,
     },
-    {
-        title: "",
-        link: "",
-        tag: "",
-        author: "",
-        textinfo: {
-            focus: "",
-            aiin: [],
-            aidifferentiation: undefined,
-        },
-        pages: undefined, search: 14, documenttype: undefined,
-        definitions: [],
-        sourceinfo: undefined,
-    }
+
 ]
 
 // TODO noch suchen:
@@ -1358,6 +1345,21 @@ export const aiinigem: AILinktype[] = [
         link: "",
         tag: "",
         author: ""
+    }
+
+     {
+        title: "",
+        link: "",
+        tag: "",
+        author: "",
+        textinfo: {
+            focus: "",
+            aiin: [],
+            aidifferentiation: undefined,
+        },
+        pages: undefined, search: 14, documenttype: undefined,
+        definitions: [],
+        sourceinfo: undefined,
     }
  */
 

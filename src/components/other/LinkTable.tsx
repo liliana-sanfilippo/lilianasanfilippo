@@ -19,7 +19,7 @@ export function LinkTable({data}: {data: Array<Linktype>}){
         return ([
             point.title,
             <Link to={link}>Click here</Link>,
-            <span className={`${point.tag}-tag tag`}>{point.tag}</span>,
+           point.tag,
             (point.author && point.author)
         ])
     })

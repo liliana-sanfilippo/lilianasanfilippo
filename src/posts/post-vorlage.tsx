@@ -10,6 +10,12 @@ export const meta = {
 // Todo Evtl. Start Tage
 // Todo eigener Post über AIDARE
 
+
+// Münster 26
+// Eindhoven 25
+// Community Board
+// Heist
+
 export default function PostVorlage() {
     return (<div>
 

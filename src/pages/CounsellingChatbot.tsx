@@ -15,11 +15,7 @@ export function CounsellingChatbot() {
     const handleClose = () => setSelectedPoster(null);
     return (<div className={"flex flex-col gap-8 lg:gap-16"}>
         <h1>An Intelligent Counselling System for Student Counselling</h1>
-        <p>
-            <b>What is student counselling?</b> Student counselling (also called peer-counselling) involves students
-            advising other students, rather than
-            professors or external staff.
-        </p>
+        <p>Under construction</p>
         {/* <div className={"row gap-8 lg:gap-16 m-auto"}>
             <Card className="text-center linkcard" style={{width: '20rem'}}>
                 <Card.Header>Data collection</Card.Header>
