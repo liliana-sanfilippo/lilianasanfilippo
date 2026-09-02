@@ -46,7 +46,7 @@ export function TemplateWikiDocu() {
             <H2>Other</H2>
             <div className={"karten"} >
                 <ProjektKarte
-                    url={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/part-table`}
+                    url={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/insta-post`}
                     title={"Instagram Post"}
                     marken={[]}
                     disabled
@@ -58,6 +58,36 @@ export function TemplateWikiDocu() {
                 <ProjektKarte
                     url={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/part-table`}
                     title={"Community Blackboard Flyer"}
+                    marken={[]}
+                    disabled
+                    zustand={"docu in process"}
+                    text={<>
+                        Docu in progress, types and code can be found at the Bielefeld-CeBiTec 2026 GitLab.
+                    </>}
+                />
+                <ProjektKarte
+                    url={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/hp-interaction-list`}
+                    title={"HP Component"}
+                    marken={[]}
+                    disabled
+                    zustand={"docu in process"}
+                    text={<>
+                        Docu in progress, types and code can be found at the Bielefeld-CeBiTec 2026 GitLab.
+                    </>}
+                />
+                <ProjektKarte
+                    url={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/education-events`}
+                    title={"Education Component"}
+                    marken={[]}
+                    disabled
+                    zustand={"docu in process"}
+                    text={<>
+                        Docu in progress, types and code can be found at the Bielefeld-CeBiTec 2026 GitLab.
+                    </>}
+                />
+                <ProjektKarte
+                    url={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/travel-list`}
+                    title={"Event/Travel Component"}
                     marken={[]}
                     disabled
                     zustand={"docu in process"}

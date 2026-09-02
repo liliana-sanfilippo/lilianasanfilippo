@@ -16,6 +16,10 @@ import {TemplateWikiDocu} from "../pages/igem/TemplateWikiDocu";
 import {NavBarContent} from "../routes/navBarContent";
 import {PartTableDocu} from "../pages/igem/template-wiki-docu/PartTableDocu";
 import {ProtocolDocu} from "../pages/igem/template-wiki-docu/ProtocolDocu";
+import {InstaPostDocu} from "../pages/igem/template-wiki-docu/InstaPostDocu";
+import {HPInteractionDocu} from "../pages/igem/template-wiki-docu/HPInteractionDocu";
+import {EducationEventDocu} from "../pages/igem/template-wiki-docu/EducationEventDocu";
+import {TravelDocu} from "../pages/igem/template-wiki-docu/TravelDocu";
 
 const App = () => {
 
@@ -66,6 +70,10 @@ const App = () => {
                             <Route path={process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH} element={<TemplateWikiDocu/>} />
                             <Route path={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/part-table`} element={<PartTableDocu/>} />
                             <Route path={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/protocols-sorted`} element={<ProtocolDocu/>} />
+                            <Route path={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/insta-post`} element={<InstaPostDocu/>} />
+                            <Route path={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/hp-interaction-list`} element={<HPInteractionDocu/>} />
+                            <Route path={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/education-events`} element={<EducationEventDocu/>} />
+                            <Route path={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/travel-list`} element={<TravelDocu/>} />
 
                             <Route path={`${process.env.REACT_APP_REACT_REFERENCE_MANAGER_PATH}/:pageName`}
                                    element={<WikiPage folder={"wiki"}/>}/>

@@ -274,7 +274,7 @@ const TableChart: React.FC<TableChartProps> = ({
                     sortable: sortable,
                 }));
 
-                const transformedData = rows.map((row, rowIndex) => {
+                const transformedData = rows.map((row) => {
                     const dataRow: Record<string, any> = {};
                     row.forEach((cell, cellIndex) => {
                         dataRow[`col_${cellIndex}`] = cell;
