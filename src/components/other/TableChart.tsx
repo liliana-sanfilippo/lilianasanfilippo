@@ -744,7 +744,7 @@ const TableChart: React.FC<TableChartProps> = ({
                                                 top: 0,
                                                 whiteSpace: "wrap",
                                                 overflow: "hidden",
-                                                textOverflow: "ellipsis",
+                                                // textOverflow: "ellipsis",
                                             }}
                                             onClick={() => handleHeaderClick(column)}
                                         >

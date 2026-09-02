@@ -1,10 +1,11 @@
 import "../../componentStyling/Karten.css"
+import {ReactNode} from "react";
 
 export function ProjektKarte({url, title, zustand, marken, text, zielgruppen, disabled}: {
     url: string,
     title: string,
     zustand: string,
-    text: string,
+    text: string | ReactNode,
     marken: string[],
     zielgruppen?: string[],
     disabled?: boolean
