@@ -1,5 +1,5 @@
 {
-  "erzeugtAm": "2026-08-30T12:15:04.690Z",
+  "erzeugtAm": "2026-09-09T13:24:24.776Z",
   "semester": 20262,
   "semesterName": "WiSe 2026/27",
   "quelle": {
@@ -10,7 +10,9 @@
     "modellIds": [],
     "ebene1": 453996665,
     "studiengangName": "Naturwissenschaftliche Informatik B.Sc. 1-Fach (fw) FsB WiSe 2025/26",
-    "fachsemester": []
+    "fachsemester": [
+      3
+    ]
   },
   "optionen": {
     "pufferMin": 0,
@@ -34,7 +36,7 @@
       "semesterBis": null,
       "detailUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/in?id=453996665",
       "fachsemester": [
-        1
+        3
       ],
       "pflichtFuerQuelle": true,
       "id": "e2-453996747",
@@ -44,32 +46,927 @@
       "partnerBezeichnung": null,
       "angebote": [
         {
-          "schluessel": "mv29611995#v",
-          "modellId": 29611995,
+          "schluessel": "mv420523062",
+          "modellId": 420523062,
           "herkunftE2": 453996747,
           "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
-          "modellName": "Allgemeine Chemie für das Nebenfach (Vorlesungsteil)",
-          "art": "Vorlesung / Übung",
-          "teilgruppe": "fest",
-          "modulId": 26787717,
-          "modulKuerzel": "21-BM_cT",
-          "modulName": "Allgemeine Chemie für das Nebenfach - Theorie",
+          "modellName": "Ausgewählte Kapitel der Analysis",
+          "art": "Vorlesung",
+          "teilgruppe": null,
+          "modulId": 420523059,
+          "modulKuerzel": "24-M-INF3",
+          "modulName": "Mathematik für Informatik 3",
           "pflicht": true,
           "fachsemester": [
-            1
+            3
           ],
           "optionen": [
             {
-              "id": 653882042,
-              "name": "Allgemeine Chemie für das Nebenfach",
-              "art": "Vorlesung / Übung",
-              "belegnummer": "215011",
+              "id": 732698770,
+              "name": "Ausgewählte Kapitel der Analysis",
+              "art": "Vorlesung",
+              "belegnummer": "240107",
               "dozenten": [
-                "Prof. Dr. Harald Gröger",
-                "Dr.  Jens Sproß"
+                "PD Dr. Thorsten Hüls"
               ],
               "semester": 20262,
               "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "X-E0-001",
+                  "roh": "Mi 14-16 X-E0-001"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=732698770",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv420523065",
+          "modellId": 420523065,
+          "herkunftE2": 453996747,
+          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
+          "modellName": "Ausgewählte Kapitel der Analysis",
+          "art": "Übung",
+          "teilgruppe": null,
+          "modulId": 420523059,
+          "modulKuerzel": "24-M-INF3",
+          "modulName": "Mathematik für Informatik 3",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 732698806,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 5,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V4-119",
+                  "roh": "Fr 10-12 V4-119"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=732698806",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773858582,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 1080,
+                  "endeMin": 1200,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V2-216",
+                  "roh": "Mo 18-20 V2-216"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773858582",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773859538,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 5,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V4-112",
+                  "roh": "Fr 14-16 V4-112"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773859538",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773860253,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 1080,
+                  "endeMin": 1200,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V4-119",
+                  "roh": "Do 18-20 V4-119"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773860253",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773860994,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 1080,
+                  "endeMin": 1200,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V2-216",
+                  "roh": "Mi 18-20 V2-216"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773860994",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 774032177,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V4-119",
+                  "roh": "Do 8-10 V4-119"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=774032177",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv420523241#v",
+          "modellId": 420523241,
+          "herkunftE2": 453996747,
+          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
+          "modellName": "Einführung in die Datenbanken und Modellierung (Vorlesungsteil)",
+          "art": "Vorlesung",
+          "teilgruppe": "fest",
+          "modulId": 420523238,
+          "modulKuerzel": "39-Inf-10_a",
+          "modulName": "Datenbanken und Informationssysteme",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 737632256,
+              "name": "Einführung Datenbanken und Modellierung",
+              "art": "Vorlesung",
+              "belegnummer": "392156",
+              "dozenten": [
+                "Dr. Christoph Düsing"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "CITEC",
+                  "roh": "Do 14-16 CITEC"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=737632256",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv420523241#u",
+          "modellId": 420523241,
+          "herkunftE2": 453996747,
+          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
+          "modellName": "Einführung in die Datenbanken und Modellierung (Übungsteil)",
+          "art": "Übung",
+          "teilgruppe": "wahlbar",
+          "modulId": 420523238,
+          "modulKuerzel": "39-Inf-10_a",
+          "modulName": "Datenbanken und Informationssysteme",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 737632989,
+              "name": "Einführung Datenbanken und Modellierung",
+              "art": "Übung",
+              "belegnummer": "392158",
+              "dozenten": [
+                "Dr. Christoph Düsing"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=737632989",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 774167652,
+              "name": "Übungen A: Einführung Datenbanken und Modellierung",
+              "art": "Übung",
+              "belegnummer": "392158",
+              "dozenten": [
+                "Dr. Christoph Düsing"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "GZI",
+                  "roh": "Mo 08-10 GZI"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=774167652",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 774168234,
+              "name": "Übungen B: Einführung Datenbanken und Modellierung",
+              "art": "Übung",
+              "belegnummer": "392158",
+              "dozenten": [
+                "Dr. Christoph Düsing"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 2,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "GZI",
+                  "roh": "Di 12-14 GZI"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=774168234",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 774168485,
+              "name": "Übungen C: Einführung Datenbanken und Modellierung",
+              "art": "Übung",
+              "belegnummer": "392158",
+              "dozenten": [
+                "Dr. Christoph Düsing"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "GZI",
+                  "roh": "Mi 12-14 GZI"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=774168485",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 774168816,
+              "name": "Übungen D: Einführung Datenbanken und Modellierung",
+              "art": "Übung",
+              "belegnummer": "392158",
+              "dozenten": [
+                "Dr. Christoph Düsing"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "GZI",
+                  "roh": "Do 12-14 GZI"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=774168816",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 774169038,
+              "name": "Übungen E: Einführung Datenbanken und Modellierung",
+              "art": "Übung",
+              "belegnummer": "392158",
+              "dozenten": [
+                "Dr. Christoph Düsing"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 960,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "GZI",
+                  "roh": "Do 16-18 GZI"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=774169038",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 774169214,
+              "name": "Übungen F: Einführung Datenbanken und Modellierung",
+              "art": "Übung",
+              "belegnummer": "392158",
+              "dozenten": [
+                "Dr. Christoph Düsing"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 5,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "GZI",
+                  "roh": "Fr 10-12 GZI"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=774169214",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv71392685",
+          "modellId": 71392685,
+          "herkunftE2": 453996747,
+          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
+          "modellName": "Software-Engineering",
+          "art": "Vorlesung",
+          "teilgruppe": null,
+          "modulId": 70750995,
+          "modulKuerzel": "39-Inf-SE_a",
+          "modulName": "Software Engineering",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 747228485,
+              "name": "Grundlagen des Software Engineering",
+              "art": "Vorlesung",
+              "belegnummer": "392142",
+              "dozenten": [
+                "Dr.-Ing. Sebastian Wrede",
+                "PD Dr.-Ing. Sven Wachsmuth"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S0-209",
+                  "roh": "Do 12-14 S0-209"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=747228485",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv71392686",
+          "modellId": 71392686,
+          "herkunftE2": 453996747,
+          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
+          "modellName": "Softwaremodellierung mit UML, Projektanalyse und -präsentation",
+          "art": "Seminar",
+          "teilgruppe": null,
+          "modulId": 70750995,
+          "modulKuerzel": "39-Inf-SE_a",
+          "modulName": "Software Engineering",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 748241633,
+              "name": "Softwaremodellierung mit UML, Projektanalyse und -präsentation",
+              "art": "Seminar",
+              "belegnummer": "392149",
+              "dozenten": [
+                "Dr.-Ing. Sebastian Wrede",
+                "PD Dr.-Ing. Sven Wachsmuth"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S0-133",
+                  "roh": "Mi 12-14 S0-133"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 960,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V7-140",
+                  "roh": "Mi 16-18 V7-140"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S1-501",
+                  "roh": "Do 10-12 S1-501"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S0-155",
+                  "roh": "Fr 10-12 S0-155"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S0-133",
+                  "roh": "Fr 10-12 S0-133"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S1-111",
+                  "roh": "Fr 12-14 S1-111"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=748241633",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv71392727#v",
+          "modellId": 71392727,
+          "herkunftE2": 453996747,
+          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
+          "modellName": "Softwaremodellierung mit UML, Projektanalyse und -präsentation (Vorlesungsteil)",
+          "art": "Seminar",
+          "teilgruppe": "fest",
+          "modulId": 70750995,
+          "modulKuerzel": "39-Inf-SE_a",
+          "modulName": "Software Engineering",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 748241633,
+              "name": "Softwaremodellierung mit UML, Projektanalyse und -präsentation",
+              "art": "Seminar",
+              "belegnummer": "392149",
+              "dozenten": [
+                "Dr.-Ing. Sebastian Wrede",
+                "PD Dr.-Ing. Sven Wachsmuth"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S0-133",
+                  "roh": "Mi 12-14 S0-133"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 960,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V7-140",
+                  "roh": "Mi 16-18 V7-140"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S1-501",
+                  "roh": "Do 10-12 S1-501"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S0-155",
+                  "roh": "Fr 10-12 S0-155"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S0-133",
+                  "roh": "Fr 10-12 S0-133"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S1-111",
+                  "roh": "Fr 12-14 S1-111"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=748241633",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv71392727#u",
+          "modellId": 71392727,
+          "herkunftE2": 453996747,
+          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
+          "modellName": "Softwaremodellierung mit UML, Projektanalyse und -präsentation (Übungsteil)",
+          "art": "Übung",
+          "teilgruppe": "wahlbar",
+          "modulId": 70750995,
+          "modulKuerzel": "39-Inf-SE_a",
+          "modulName": "Software Engineering",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 747235679,
+              "name": "Übungen zu Grundlagen des Software Engineering",
+              "art": "Übung",
+              "belegnummer": "392143",
+              "dozenten": [
+                "PD Dr.-Ing. Sven Wachsmuth",
+                "Dr.-Ing. Sebastian Wrede",
+                "Markus Rothgänger-Humke"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=747235679",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        }
+      ],
+      "wahlpflichtAngebote": [
+        {
+          "schluessel": "mv29611680",
+          "modellId": 29611680,
+          "herkunftE2": 453996747,
+          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
+          "modellName": "Basis Theorie I",
+          "art": "Vorlesung mit Übungsanteil",
+          "teilgruppe": null,
+          "modulId": 26787917,
+          "modulKuerzel": "20-BM1",
+          "modulName": "Basis Theorie I",
+          "pflicht": false,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 735874878,
+              "name": "Basismodul Biologie Theorie I",
+              "art": "Vorlesung / Seminar",
+              "belegnummer": "200100",
+              "dozenten": [
+                "Prof. Dr. Armin Hallmann",
+                "Prof. Dr. Andrea Bräutigam",
+                "Prof. Dr. Christian Kaltschmidt",
+                "Prof. Dr. Volker F. Wendisch",
+                "Prof. Dr. Olaf Kruse",
+                "Prof. Dr. Bernd Weisshaar",
+                "Prof. Dr. Romy Schmidt-Schippers"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "H4",
+                  "roh": "Mo 8-10 H4"
+                },
+                {
+                  "wochentag": 2,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "H4",
+                  "roh": "Di 8-10 H4"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "H4",
+                  "roh": "Do 8-10 H4"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735874878",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 735862660,
+              "name": "Basismodul Biologie Theorie I - Tutorien",
+              "art": "Seminar",
+              "belegnummer": "200101",
+              "dozenten": [
+                "Prof. Dr. Armin Hallmann",
+                "PD Dr. Anne-Kathrin Warzecha"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "X-E0-211",
+                  "roh": "Mo 10-12 X-E0-211"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S0-145",
+                  "roh": "Mo 12-14 S0-145"
+                },
+                {
+                  "wochentag": 2,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S0-119",
+                  "roh": "Di 10-12 S0-119"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S1-502",
+                  "roh": "Mi 8-10 S1-502"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "B2-260A",
+                  "roh": "Mi 8-10 B2-260A"
+                },
                 {
                   "wochentag": 3,
                   "beginnMin": 600,
@@ -79,8 +976,445 @@
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
+                  "raum": "B0-237",
+                  "roh": "Mi 10-12 B0-237"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "X-E1-200",
+                  "roh": "Mi 10-12 X-E1-200"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S1-502",
+                  "roh": "Do 10-12 S1-502"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 960,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "U2-147",
+                  "roh": "Do 16-18 U2-147"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S1-502",
+                  "roh": "Fr 12-14 S1-502"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735862660",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv241199397#v",
+          "modellId": 241199397,
+          "herkunftE2": 453996747,
+          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
+          "modellName": "Basis Praxis I (Vorlesungsteil)",
+          "art": "Seminar",
+          "teilgruppe": "fest",
+          "modulId": 120190431,
+          "modulKuerzel": "20-BM2_b",
+          "modulName": "Basis Praxis I",
+          "pflicht": false,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 735882253,
+              "name": "Wöchentliche Vorbesprechung zum Basismodul Biologie Praxis I",
+              "art": "Seminar",
+              "belegnummer": "200205",
+              "dozenten": [
+                "Dr. Martin Sagasser",
+                "Prof. Dr. Armin Hallmann",
+                "Dr. Petra Peters-Wendisch",
+                "Prof. Dr. Volker F. Wendisch",
+                "Prof. Dr. Christian Kaltschmidt",
+                "Prof. Dr. Olaf Kruse",
+                "Prof. Dr. Bernd Weisshaar",
+                "Dr. Jan H. Mussgnug",
+                "PD Dr. Marion Eisenhut",
+                "Jonathan Storm",
+                "Dr. Tino Köster",
+                "Prof. Dr. Romy Schmidt-Schippers"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 5,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
                   "raum": null,
-                  "roh": "Mi 10-12"
+                  "roh": "Fr 10-12"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735882253",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv241199397#u",
+          "modellId": 241199397,
+          "herkunftE2": 453996747,
+          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
+          "modellName": "Basis Praxis I (Übungsteil)",
+          "art": "Übung",
+          "teilgruppe": "wahlbar",
+          "modulId": 120190431,
+          "modulKuerzel": "20-BM2_b",
+          "modulName": "Basis Praxis I",
+          "pflicht": false,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 735879431,
+              "name": "Basismodul Biologie Praxis I",
+              "art": "Übung",
+              "belegnummer": "200201",
+              "dozenten": [
+                "Dr. Martin Sagasser",
+                "Prof. Dr. Armin Hallmann",
+                "Dr. Petra Peters-Wendisch",
+                "Prof. Dr. Bernd Weisshaar",
+                "Prof. Dr. Christian Kaltschmidt",
+                "Prof. Dr. Barbara Kaltschmidt",
+                "Prof. Dr. Olaf Kruse",
+                "Dr. Jan H. Mussgnug",
+                "Dr. Tino Köster",
+                "Prof. Dr. Volker F. Wendisch",
+                "Dr. Lutz Wobbe",
+                "PD Dr. Marion Eisenhut",
+                "Dr. Ralf Stracke",
+                "Dr. Benjamin von der Heyde",
+                "Jonathan Storm",
+                "Prof. Dr. Romy Schmidt-Schippers",
+                "Max Wohllebe"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 780,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "W1-250 W1-300 W1-302",
+                  "roh": "Mo 13-18 W1-250, W1-300, W1-302"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735879431",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 735880483,
+              "name": "Basismodul Biologie Praxis I",
+              "art": "Übung",
+              "belegnummer": "200202",
+              "dozenten": [
+                "Dr. Martin Sagasser",
+                "Prof. Dr. Armin Hallmann",
+                "Dr. Petra Peters-Wendisch",
+                "Prof. Dr. Bernd Weisshaar",
+                "Prof. Dr. Christian Kaltschmidt",
+                "Prof. Dr. Barbara Kaltschmidt",
+                "Prof. Dr. Olaf Kruse",
+                "Dr. Jan H. Mussgnug",
+                "Dr. Tino Köster",
+                "Prof. Dr. Volker F. Wendisch",
+                "Dr. Lutz Wobbe",
+                "PD Dr. Marion Eisenhut",
+                "Dr. Ralf Stracke",
+                "Dr. Benjamin von der Heyde",
+                "Jonathan Storm",
+                "Prof. Dr. Romy Schmidt-Schippers",
+                "Max Wohllebe"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 2,
+                  "beginnMin": 780,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "W1-250 W1-300 W1-302",
+                  "roh": "Di 13-18 W1-250, W1-300, W1-302"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735880483",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 735880937,
+              "name": "Basismodul Biologie Praxis I",
+              "art": "Übung",
+              "belegnummer": "200203",
+              "dozenten": [
+                "Dr. Martin Sagasser",
+                "Prof. Dr. Armin Hallmann",
+                "Dr. Petra Peters-Wendisch",
+                "Prof. Dr. Bernd Weisshaar",
+                "Prof. Dr. Christian Kaltschmidt",
+                "Prof. Dr. Barbara Kaltschmidt",
+                "Prof. Dr. Olaf Kruse",
+                "Dr. Jan H. Mussgnug",
+                "Dr. Tino Köster",
+                "Prof. Dr. Volker F. Wendisch",
+                "Dr. Lutz Wobbe",
+                "PD Dr. Marion Eisenhut",
+                "Dr. Ralf Stracke",
+                "Dr. Benjamin von der Heyde",
+                "Jonathan Storm",
+                "Prof. Dr. Romy Schmidt-Schippers",
+                "Max Wohllebe"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 780,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "W1-250 W1-300 W1-302",
+                  "roh": "Mi 13-18 W1-250, W1-300, W1-302"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735880937",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv29612089#v",
+          "modellId": 29612089,
+          "herkunftE2": 453996747,
+          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
+          "modellName": "Physikalische Chemie - Basis (Vorlesungsteil)",
+          "art": "Vorlesung",
+          "teilgruppe": "fest",
+          "modulId": 26787444,
+          "modulKuerzel": "21-M8",
+          "modulName": "Physikalische Chemie - Basis Theorie",
+          "pflicht": false,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 653874208,
+              "name": "Physikalische Chemie Basis - Vorlesung",
+              "art": "Vorlesung",
+              "belegnummer": "210511",
+              "dozenten": [
+                "Dr. Ralf Bechstein",
+                "Dr. Stefan Hopp",
+                "Prof. Dr. Angelika Kühnle"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Mi 14:00-16:00"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 600,
+                  "endeMin": 660,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Do 10:00-11:00"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653874208",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv29612089#u",
+          "modellId": 29612089,
+          "herkunftE2": 453996747,
+          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
+          "modellName": "Physikalische Chemie - Basis (Übungsteil)",
+          "art": "Übung",
+          "teilgruppe": "wahlbar",
+          "modulId": 26787444,
+          "modulKuerzel": "21-M8",
+          "modulName": "Physikalische Chemie - Basis Theorie",
+          "pflicht": false,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 653874947,
+              "name": "Physikalische Chemie Basis - Übungen und Tutorien zu 210511",
+              "art": "Übung",
+              "belegnummer": "210512",
+              "dozenten": [
+                "Prof. Dr. Angelika Kühnle",
+                "Dr. Stefan Hopp",
+                "Dr. Sergej Kakorin",
+                "Dr. Ralf Bechstein",
+                "Florian Schneider"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Übung 1 Florian Schneider",
+                  "roh": "Mo 8-10 Übung 1, Florian Schneider"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Übung 3 Sergej Kakorin",
+                  "roh": "Mo 10-12 Übung 3, Sergej Kakorin"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Übung 2 Stefan Hopp",
+                  "roh": "Mo 10-12 Übung 2, Stefan Hopp"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Übung 4 Ralf Bechstein",
+                  "roh": "Mo 12-14 Übung 4, Ralf Bechstein"
+                },
+                {
+                  "wochentag": 2,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Übung 5 Florian Schneider",
+                  "roh": "Di 12-14 Übung 5, Florian Schneider"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Übung 6 Stefan Hopp",
+                  "roh": "Mi 8-10 Übung 6, Stefan Hopp"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Mi 8-10 Übung 1 (8-9 Uhr), Tutorium 1 (9-10 Uhr), Florian Schneider"
                 },
                 {
                   "wochentag": 4,
@@ -92,7 +1426,19 @@
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
                   "raum": null,
-                  "roh": "Do 12-14"
+                  "roh": "Do 12-14 Übung 6 (12-13 Uhr) + Tutorium 6 (13-14 Uhr), Stefan Hopp"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Do 12-14 Übung 5 (12-13 Uhr), Tutorium 5 (13-14 Uhr), Florian Schneider"
                 },
                 {
                   "wochentag": 5,
@@ -104,10 +1450,178 @@
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
                   "raum": null,
-                  "roh": "Fr 8-10"
+                  "roh": "Fr 8-10 Übung 4 (8-9 Uhr) + Tutorium 4 (9-10 Uhr), Ralf Bechstein"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Fr 8-10 Übung 2 (8-9 Uhr), Tutorium 2 (9-10 Uhr), Stefan Hopp"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Fr 8-10 Übung 3 (8-9 Uhr), Tutorium 3 (9-10 Uhr), Sergej Kakorin"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": "Übung 1 Florian Schneider",
+                  "roh": "Mo 8-10 einmalig Übung 1, Florian Schneider"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": "Übung 2 Stefan Hopp",
+                  "roh": "Mo 10-12 einmalig Übung 2, Stefan Hopp"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": "Übung 3 Sergej Kakorin",
+                  "roh": "Mo 10-12 einmalig Übung 3, Sergej Kakorin"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": "Übung 4 Ralf Bechstein",
+                  "roh": "Mo 12-14 einmalig Übung 4, Ralf Bechstein"
+                },
+                {
+                  "wochentag": 2,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": "Übung 5 Florian Schneider",
+                  "roh": "Di 12-14 einmalig Übung 5, Florian Schneider"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": "Übung 6 Stefan Hopp",
+                  "roh": "Mi 8-10 einmalig Übung 6, Stefan Hopp"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": null,
+                  "roh": "Mi 8-10 einmalig Übung 1 (8-9 Uhr), Tutorium 1 (9-10 Uhr), Florian Schneider"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": null,
+                  "roh": "Do 12-14 einmalig Übung 5 (12-13 Uhr), Tutorium 5 (13-14 Uhr), Florian Schneider"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": null,
+                  "roh": "Do 12-14 einmalig Übung 6 (12-13 Uhr) + Tutorium 6 (13-14 Uhr), Stefan Hopp"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": null,
+                  "roh": "Fr 8-10 einmalig Übung 3 (8-9 Uhr), Tutorium 3 (9-10 Uhr), Sergej Kakorin"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": null,
+                  "roh": "Fr 8-10 einmalig Übung 2 (8-9 Uhr), Tutorium 2 (9-10 Uhr), Stefan Hopp"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": null,
+                  "roh": "Fr 8-10 einmalig Übung 4 (8-9 Uhr) + Tutorium 4 (9-10 Uhr), Ralf Bechstein"
                 }
               ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653882042",
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653874947",
               "ohneZeiten": false,
               "ausgefallen": false,
               "englisch": false
@@ -115,49 +1629,51 @@
           ]
         },
         {
-          "schluessel": "mv29611995#s",
-          "modellId": 29611995,
+          "schluessel": "mv29612089#s",
+          "modellId": 29612089,
           "herkunftE2": 453996747,
           "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
-          "modellName": "Allgemeine Chemie für das Nebenfach (weiterer Teil)",
+          "modellName": "Physikalische Chemie - Basis (weiterer Teil)",
           "art": "Kl",
           "teilgruppe": "sonstige",
-          "modulId": 26787717,
-          "modulKuerzel": "21-BM_cT",
-          "modulName": "Allgemeine Chemie für das Nebenfach - Theorie",
-          "pflicht": true,
+          "modulId": 26787444,
+          "modulKuerzel": "21-M8",
+          "modulName": "Physikalische Chemie - Basis Theorie",
+          "pflicht": false,
           "fachsemester": [
-            1
+            3
           ],
           "optionen": [
             {
-              "id": 653882112,
-              "name": "Präsenzklausur zu Allgemeine Chemie für das Nebenfach (Zweitklausur)",
+              "id": 653874777,
+              "name": "Präsenzklausur zu Physikalische Chemie Basis - Vorlesung (Erstklausur)",
               "art": "Kl",
-              "belegnummer": "215011",
+              "belegnummer": "210511",
               "dozenten": [
-                "Prof. Dr. Harald Gröger",
-                "Dr.  Jens Sproß"
+                "Dr. Ralf Bechstein",
+                "Dr. Stefan Hopp",
+                "Prof. Dr. Angelika Kühnle"
               ],
               "semester": 20262,
               "slots": [],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653882112",
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653874777",
               "ohneZeiten": true,
               "ausgefallen": false,
               "englisch": false
             },
             {
-              "id": 653883492,
-              "name": "Präsenzklausur zu Allgemeine Chemie für das Nebenfach (Erstklausur)",
+              "id": 653874866,
+              "name": "Präsenzklausur zu Physikalische Chemie Basis - Vorlesung (Zweitklausur)",
               "art": "Kl",
-              "belegnummer": "215011",
+              "belegnummer": "210511",
               "dozenten": [
-                "Prof. Dr. Harald Gröger",
-                "Dr.  Jens Sproß"
+                "Dr. Ralf Bechstein",
+                "Dr. Stefan Hopp",
+                "Prof. Dr. Angelika Kühnle"
               ],
               "semester": 20262,
               "slots": [],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653883492",
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653874866",
               "ohneZeiten": true,
               "ausgefallen": false,
               "englisch": false
@@ -165,148 +1681,34 @@
           ]
         },
         {
-          "schluessel": "mv543614162",
-          "modellId": 543614162,
+          "schluessel": "mv29612051",
+          "modellId": 29612051,
           "herkunftE2": 453996747,
           "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
-          "modellName": "Mathematik für Informatik und Naturwissenschaften 1",
-          "art": "Vorlesung",
+          "modellName": "Computational Chemistry I",
+          "art": "Vorlesung mit Übungsanteil",
           "teilgruppe": null,
-          "modulId": 543614156,
-          "modulKuerzel": "24-M-INF1_a_ub",
-          "modulName": "Mathematik für Informatik 1 (unbenotet)",
-          "pflicht": true,
+          "modulId": 26792713,
+          "modulKuerzel": "21-M34",
+          "modulName": "Theoretische Chemie - Vertiefung",
+          "pflicht": false,
           "fachsemester": [
-            1
+            3
           ],
           "optionen": [
             {
-              "id": 732697609,
-              "name": "Mathematik für Informatik und Naturwissenschaften I",
-              "art": "Vorlesung",
-              "belegnummer": "240100",
+              "id": 653876007,
+              "name": "Computational Chemistry I (Numerische Methoden)",
+              "art": "Vorlesung / Übung",
+              "belegnummer": "210651",
               "dozenten": [
-                "Prof. Dr. Christopher Voll"
+                "Prof. Dr. Uwe Manthe",
+                "apl. Prof. Dr.  Wolfgang Eisfeld"
               ],
               "semester": 20262,
               "slots": [
                 {
                   "wochentag": 1,
-                  "beginnMin": 840,
-                  "endeMin": 960,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "H7",
-                  "roh": "Mo 14-16 H7"
-                },
-                {
-                  "wochentag": 2,
-                  "beginnMin": 840,
-                  "endeMin": 960,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "H4",
-                  "roh": "Di 14-16 H4"
-                },
-                {
-                  "wochentag": 3,
-                  "beginnMin": 840,
-                  "endeMin": 960,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "H7",
-                  "roh": "Mi 14-16 H7"
-                }
-              ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=732697609",
-              "ohneZeiten": false,
-              "ausgefallen": false,
-              "englisch": false
-            }
-          ]
-        },
-        {
-          "schluessel": "mv543614164",
-          "modellId": 543614164,
-          "herkunftE2": 453996747,
-          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
-          "modellName": "Übungen zu Mathematik für Informatik und Naturwissenschaften 1",
-          "art": "Übung",
-          "teilgruppe": null,
-          "modulId": 543614156,
-          "modulKuerzel": "24-M-INF1_a_ub",
-          "modulName": "Mathematik für Informatik 1 (unbenotet)",
-          "pflicht": true,
-          "fachsemester": [
-            1
-          ],
-          "optionen": [
-            {
-              "id": 732698646,
-              "name": "Übungen zu Mathematik  für Informatik und Naturwissenschaften I",
-              "art": "Übung",
-              "belegnummer": "240102",
-              "dozenten": [
-                "Prof. Dr. Christopher Voll"
-              ],
-              "semester": 20262,
-              "slots": [],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=732698646",
-              "ohneZeiten": true,
-              "ausgefallen": false,
-              "englisch": false
-            }
-          ]
-        },
-        {
-          "schluessel": "mv29614260",
-          "modellId": 29614260,
-          "herkunftE2": 453996747,
-          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
-          "modellName": "Einführung in die Physik I (Nebenfach)",
-          "art": "Vorlesung",
-          "teilgruppe": null,
-          "modulId": 27461321,
-          "modulKuerzel": "28-P-NF-B",
-          "modulName": "Physik für Nebenfächler",
-          "pflicht": true,
-          "fachsemester": [
-            1
-          ],
-          "optionen": [
-            {
-              "id": 742856609,
-              "name": "Einführung in die Physik I (für Nichtphysiker*innen)",
-              "art": "Vorlesung",
-              "belegnummer": "282400",
-              "dozenten": [
-                "Dr. Mark Schüttpelz"
-              ],
-              "semester": 20262,
-              "slots": [
-                {
-                  "wochentag": 1,
-                  "beginnMin": 600,
-                  "endeMin": 720,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "H4",
-                  "roh": "Mo 10-12 H4"
-                },
-                {
-                  "wochentag": 3,
                   "beginnMin": 720,
                   "endeMin": 840,
                   "von": null,
@@ -314,11 +1716,47 @@
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": "H4",
-                  "roh": "Mi 12-14 H4"
+                  "raum": null,
+                  "roh": "Mo 12-14 Gelegenheit zur Studentischen Vorbereitung"
+                },
+                {
+                  "wochentag": 2,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Di 10-12 Gelegenheit zur Studentischen Vorbereitung"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Fr 12-14 Gelegenheit zur Studentischen Vorbereitung"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 840,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Fr 14-18"
                 }
               ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=742856609",
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653876007",
               "ohneZeiten": false,
               "ausgefallen": false,
               "englisch": false
@@ -326,28 +1764,354 @@
           ]
         },
         {
-          "schluessel": "mv29614264",
-          "modellId": 29614264,
+          "schluessel": "mv29612052",
+          "modellId": 29612052,
           "herkunftE2": 453996747,
           "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
-          "modellName": "Übungen zu Einführung in die Physik I (Nebenfach)",
-          "art": "Übung",
+          "modellName": "Theoretische Chemie II",
+          "art": "Vorlesung mit Übungsanteil",
           "teilgruppe": null,
-          "modulId": 27461321,
-          "modulKuerzel": "28-P-NF-B",
-          "modulName": "Physik für Nebenfächler",
-          "pflicht": true,
+          "modulId": 26792713,
+          "modulKuerzel": "21-M34",
+          "modulName": "Theoretische Chemie - Vertiefung",
+          "pflicht": false,
           "fachsemester": [
-            1
+            3
           ],
           "optionen": [
             {
-              "id": 742856827,
-              "name": "Übungen zu Einführung in die Physik I (für Nichtphysiker*innen)",
-              "art": "Übung",
-              "belegnummer": "282401",
+              "id": 653875913,
+              "name": "Theoretische Chemie II",
+              "art": "Vorlesung / Übung",
+              "belegnummer": "210650",
               "dozenten": [
-                "Dr. Mark Schüttpelz"
+                "apl. Prof. Dr.  Wolfgang Eisfeld",
+                "Prof. Dr. Uwe Manthe"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 2,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Di 10-12"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Übungen",
+                  "roh": "Fr 10-12 Übungen"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653875913",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv365795310",
+          "modellId": 365795310,
+          "herkunftE2": 453996747,
+          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
+          "modellName": "Grundpraktikum II",
+          "art": "Praktikum",
+          "teilgruppe": null,
+          "modulId": 365795304,
+          "modulKuerzel": "28-GP_a",
+          "modulName": "Grundpraktikum",
+          "pflicht": false,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 742854465,
+              "name": "Physikalisches Grundpraktikum II",
+              "art": "Praktikum",
+              "belegnummer": "280540",
+              "dozenten": [
+                "Dr. Inga Ennen"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 840,
+                  "endeMin": 900,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": "Vorbesprechung Teilnahmepflicht!",
+                  "roh": "Mo 14-15 einmalig Vorbesprechung (Teilnahmepflicht!)"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 840,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Mo 14-18"
+                },
+                {
+                  "wochentag": 2,
+                  "beginnMin": 840,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Di 14-18"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 840,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Fr 14-18"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=742854465",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv29615185",
+          "modellId": 29615185,
+          "herkunftE2": 453996747,
+          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
+          "modellName": "Grundlagen der molekularen Biologie I",
+          "art": "Vorlesung",
+          "teilgruppe": null,
+          "modulId": 26787415,
+          "modulKuerzel": "20-M2",
+          "modulName": "Grundlagen der molekularen Biologie",
+          "pflicht": false,
+          "fachsemester": [
+            3,
+            4
+          ],
+          "optionen": [
+            {
+              "id": 743597186,
+              "name": "Grundlagen der Molekularen Biologie I",
+              "art": "Vorlesung",
+              "belegnummer": "209210",
+              "dozenten": [
+                "Prof. Dr. Romy Schmidt-Schippers",
+                "Prof. Dr. Klaus Reinhold"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 2,
+                  "beginnMin": 510,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "H16",
+                  "roh": "Di 8:30-10:00 H16"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 510,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "CITEC",
+                  "roh": "Do 8:30-10:00 CITEC"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=743597186",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv61040252",
+          "modellId": 61040252,
+          "herkunftE2": 453996747,
+          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
+          "modellName": "Genetik/Zellbiologie/Physiologie",
+          "art": "Übung",
+          "teilgruppe": null,
+          "modulId": 61040249,
+          "modulKuerzel": "20-AM5_a",
+          "modulName": "Genetik / Zellbiologie / Physiologie",
+          "pflicht": false,
+          "fachsemester": [
+            3,
+            5
+          ],
+          "optionen": [
+            {
+              "id": 735883609,
+              "name": "Aufbaumodul Genetik/Physiologie/Zellbiologie",
+              "art": "Übung / Seminar",
+              "belegnummer": "200501",
+              "dozenten": [
+                "Dr. Andrea Viehhauser",
+                "Prof. Dr. Karl-Josef Dietz",
+                "Prof. Dr. Christian Kaltschmidt",
+                "Prof. Dr. Barbara Kaltschmidt",
+                "Dr. Ralf Stracke",
+                "Prof. Dr. Bernd Weisshaar",
+                "Dr. Tino Köster",
+                "Lennart Sielmann",
+                "Jonathan Storm",
+                "Dr. Lara Vogelsang",
+                "Dr. Petra Peters-Wendisch",
+                "Prof. Dr. Volker F. Wendisch",
+                "Prof. Dr. Romy Schmidt-Schippers"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 960,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "H12 Vorlesung",
+                  "roh": "Do 16-18 H12 Vorlesung"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 540,
+                  "endeMin": 780,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "W1-250 W1-300/302",
+                  "roh": "Fr 9-13 W1-250, W1-300/302"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735883609",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 735885590,
+              "name": "Aufbaumodul Genetik/Physiologie/Zellbiologie",
+              "art": "Übung / Seminar",
+              "belegnummer": "200502",
+              "dozenten": [
+                "Dr. Andrea Viehhauser",
+                "Prof. Dr. Karl-Josef Dietz",
+                "Prof. Dr. Christian Kaltschmidt",
+                "Prof. Dr. Barbara Kaltschmidt",
+                "Dr. Ralf Stracke",
+                "Prof. Dr. Bernd Weisshaar",
+                "Dr. Tino Köster",
+                "Lennart Sielmann",
+                "Jonathan Storm",
+                "Dr. Lara Vogelsang",
+                "Dr. Petra Peters-Wendisch",
+                "Prof. Dr. Volker F. Wendisch",
+                "Prof. Dr. Romy Schmidt-Schippers"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 960,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Vorlesung 205001",
+                  "roh": "Do 16-18 Vorlesung, siehe 205001"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 840,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "W1-250 W1-300/302",
+                  "roh": "Fr 14-18 W1-250, W1-300/302"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735885590",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv29611822",
+          "modellId": 29611822,
+          "herkunftE2": 453996747,
+          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
+          "modellName": "Neuro- und Verhaltensbiologie",
+          "art": "Vorlesung mit Übungsanteil",
+          "teilgruppe": null,
+          "modulId": 26796159,
+          "modulKuerzel": "20-NB",
+          "modulName": "Neuro- und Verhaltensbiologie",
+          "pflicht": false,
+          "fachsemester": [
+            3,
+            5
+          ],
+          "optionen": [
+            {
+              "id": 739467891,
+              "name": "Neuro- und Verhaltensbiologie",
+              "art": "Vorlesung / Übung",
+              "belegnummer": "209101",
+              "dozenten": [
+                "Prof. Dr. Christoph Kayser",
+                "Dr. Norbert Böddeker"
               ],
               "semester": 20262,
               "slots": [
@@ -360,11 +2124,59 @@
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": "V2-200",
-                  "roh": "Di 8-10 V2-200"
+                  "raum": "Y-0-111 Beginn schon um 7:45 Uhr",
+                  "roh": "Di 8-10 Y-0-111 Beginn schon um 7:45 Uhr"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=739467891",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv29612086#v",
+          "modellId": 29612086,
+          "herkunftE2": 453996747,
+          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
+          "modellName": "Anorganische Chemie Basis 1 (Vorlesungsteil)",
+          "art": "Vorlesung",
+          "teilgruppe": "fest",
+          "modulId": 26787460,
+          "modulKuerzel": "21-M6",
+          "modulName": "Anorganische Chemie - Basis Theorie",
+          "pflicht": false,
+          "fachsemester": [
+            3,
+            5
+          ],
+          "optionen": [
+            {
+              "id": 653870559,
+              "name": "Anorganische Chemie Basis",
+              "art": "Vorlesung",
+              "belegnummer": "210111",
+              "dozenten": [
+                "Prof. Dr. Norbert W. Mitzel",
+                "Dr. Jan-Hendrik Lamm"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 660,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Do 11-12"
                 },
                 {
-                  "wochentag": 2,
+                  "wochentag": 5,
                   "beginnMin": 720,
                   "endeMin": 840,
                   "von": null,
@@ -372,20 +2184,191 @@
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": "U2-135",
-                  "roh": "Di 12-14 U2-135"
-                },
+                  "raum": null,
+                  "roh": "Fr 12-14"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653870559",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv29612086#s",
+          "modellId": 29612086,
+          "herkunftE2": 453996747,
+          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
+          "modellName": "Anorganische Chemie Basis 1 (weiterer Teil)",
+          "art": "Kl",
+          "teilgruppe": "sonstige",
+          "modulId": 26787460,
+          "modulKuerzel": "21-M6",
+          "modulName": "Anorganische Chemie - Basis Theorie",
+          "pflicht": false,
+          "fachsemester": [
+            3,
+            5
+          ],
+          "optionen": [
+            {
+              "id": 653870661,
+              "name": "Präsenzklausur zu Anorganische Chemie Basis (Erstklausur)",
+              "art": "Kl",
+              "belegnummer": "210111",
+              "dozenten": [
+                "Prof. Dr. Norbert W. Mitzel",
+                "Dr. Jan-Hendrik Lamm"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653870661",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 653870728,
+              "name": "Präsenzklausur zu Anorganische Chemie Basis (Zweitklausur)",
+              "art": "Kl",
+              "belegnummer": "210111",
+              "dozenten": [
+                "Prof. Dr. Norbert W. Mitzel",
+                "Dr. Jan-Hendrik Lamm"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653870728",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv29612007",
+          "modellId": 29612007,
+          "herkunftE2": 453996747,
+          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
+          "modellName": "Physikalische Chemie - Vertiefung I",
+          "art": "Vorlesung",
+          "teilgruppe": null,
+          "modulId": 26787464,
+          "modulKuerzel": "21-M16",
+          "modulName": "Physikalische Chemie - Vertiefung, Theorie",
+          "pflicht": false,
+          "fachsemester": [
+            3,
+            5
+          ],
+          "optionen": [
+            {
+              "id": 653875168,
+              "name": "Physikalische Chemie Vertiefung Theorie I",
+              "art": "Vorlesung / Übung",
+              "belegnummer": "210531",
+              "dozenten": [
+                "apl. Prof. Dr. Andreas Brockhinke"
+              ],
+              "semester": 20262,
+              "slots": [
                 {
-                  "wochentag": 2,
-                  "beginnMin": 720,
-                  "endeMin": 840,
+                  "wochentag": 1,
+                  "beginnMin": 840,
+                  "endeMin": 960,
                   "von": null,
                   "bis": null,
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": "V2-213",
-                  "roh": "Di 12-14 V2-213"
+                  "raum": "Übungsgruppe 1 Studierende der Biochemie",
+                  "roh": "Mo 14-16 Übungsgruppe 1, Studierende der Biochemie"
+                },
+                {
+                  "wochentag": 2,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Übungsgruppe 2 Studierende der Chemie",
+                  "roh": "Di 10-12 Übungsgruppe 2, Studierende der Chemie"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": "2025-01-23",
+                  "bis": "2025-01-23",
+                  "datum": "2025-01-23",
+                  "rhythmusText": null,
+                  "rhythmus": "einzeln",
+                  "raum": "H5",
+                  "roh": "Fr 8-10 am 14.11., 19.12.  und 23.01.2025 in H5"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653875168",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv29612006",
+          "modellId": 29612006,
+          "herkunftE2": 453996747,
+          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
+          "modellName": "Physikalische Chemie - Vertiefung II",
+          "art": "Vorlesung",
+          "teilgruppe": null,
+          "modulId": 26787464,
+          "modulKuerzel": "21-M16",
+          "modulName": "Physikalische Chemie - Vertiefung, Theorie",
+          "pflicht": false,
+          "fachsemester": [
+            3,
+            5
+          ],
+          "optionen": [
+            {
+              "id": 653874410,
+              "name": "Physikalische Chemie Vertiefung Theorie II",
+              "art": "Vorlesung / Übung",
+              "belegnummer": "210532",
+              "dozenten": [
+                "Prof. Dr. Thomas Koop",
+                "Christian Aleff",
+                "Nils Levin Nürnberger"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Übungsgruppe 1 Studierende der Chemie",
+                  "roh": "Mo 8-10 Übungsgruppe 1,  Studierende der Chemie"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "Übungsgruppe 2 Studierende der Biochemie",
+                  "roh": "Mo 10-12 Übungsgruppe 2, Studierende der Biochemie"
                 },
                 {
                   "wochentag": 3,
@@ -396,35 +2379,218 @@
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": "V2-200",
-                  "roh": "Mi 8-10 V2-200"
+                  "raum": "Vorlesung",
+                  "roh": "Mi 8-10 Vorlesung"
                 },
                 {
-                  "wochentag": 4,
-                  "beginnMin": 600,
-                  "endeMin": 720,
+                  "wochentag": 3,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": null,
+                  "roh": "Mi 8-10 einmalig"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=653874410",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv29614235",
+          "modellId": 29614235,
+          "herkunftE2": 453996747,
+          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
+          "modellName": "Einführung in die Physik III",
+          "art": "Vorlesung",
+          "teilgruppe": null,
+          "modulId": 26799816,
+          "modulKuerzel": "28-EP2",
+          "modulName": "Einführung in die Physik III/IV",
+          "pflicht": false,
+          "fachsemester": [
+            3,
+            5
+          ],
+          "optionen": [
+            {
+              "id": 742853558,
+              "name": "Einführung in die Physik III",
+              "art": "Vorlesung",
+              "belegnummer": "280300",
+              "dozenten": [
+                "Dr. Savio Fabretti"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 480,
+                  "endeMin": 600,
                   "von": null,
                   "bis": null,
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": "X-E0-206",
-                  "roh": "Do 10-12 X-E0-206"
+                  "raum": "H16",
+                  "roh": "Mi 8-10 H16"
                 },
                 {
-                  "wochentag": 4,
-                  "beginnMin": 600,
-                  "endeMin": 720,
+                  "wochentag": 5,
+                  "beginnMin": 480,
+                  "endeMin": 600,
                   "von": null,
                   "bis": null,
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": "X-E0-210",
-                  "roh": "Do 10-12 X-E0-210"
+                  "raum": "H16",
+                  "roh": "Fr 8-10 H16"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=742853558",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv29614232",
+          "modellId": 29614232,
+          "herkunftE2": 453996747,
+          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
+          "modellName": "Orientierende Praxisstudien",
+          "art": "Seminar",
+          "teilgruppe": null,
+          "modulId": 26799816,
+          "modulKuerzel": "28-EP2",
+          "modulName": "Einführung in die Physik III/IV",
+          "pflicht": false,
+          "fachsemester": [
+            3,
+            5
+          ],
+          "optionen": [
+            {
+              "id": 742861321,
+              "name": "Orientierende Praxisstudien für das Lehramt (HRSGe)",
+              "art": "Seminar",
+              "belegnummer": "289506",
+              "dozenten": [
+                "Prof.'in Dr. Lisa Stinken-Rösner"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": null,
+                  "roh": "Mo 12-14 einmalig D01-271 1. Termin: Meet, Greet & Safety Instruction , Pflichtteilnahme"
                 },
                 {
                   "wochentag": 4,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": "2026-10-15",
+                  "bis": "2026-10-15",
+                  "datum": null,
+                  "rhythmusText": "14-täglich",
+                  "rhythmus": "vierzehntaeglich",
+                  "raum": "D01-271 Beginn:",
+                  "roh": "Do 10-12 14-täglich D01-271 Beginn: 15.10.2026"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=742861321",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 746648931,
+              "name": "Orientierende Praxisstudien für das Lehramt (GymGe)",
+              "art": "Seminar",
+              "belegnummer": "289507",
+              "dozenten": [
+                "Prof.'in Dr. Lisa Stinken-Rösner"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": null,
+                  "roh": "Mo 12-14 einmalig D01-271 1. Termin: Meet, Greet & Safety Instruction , Pflichtteilnahme"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": "2026-10-15",
+                  "bis": "2026-10-15",
+                  "datum": null,
+                  "rhythmusText": "14-täglich",
+                  "rhythmus": "vierzehntaeglich",
+                  "raum": "D01-271 Beginn:",
+                  "roh": "Do 10-12 14-täglich D01-271 Beginn: 15.10.2026"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=746648931",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv29614230",
+          "modellId": 29614230,
+          "herkunftE2": 453996747,
+          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
+          "modellName": "Übungen zu Einführung in die Physik III",
+          "art": "Übung",
+          "teilgruppe": null,
+          "modulId": 26799816,
+          "modulKuerzel": "28-EP2",
+          "modulName": "Einführung in die Physik III/IV",
+          "pflicht": false,
+          "fachsemester": [
+            3,
+            5
+          ],
+          "optionen": [
+            {
+              "id": 742853684,
+              "name": "Übungen zu Einführung in die Physik III",
+              "art": "Übung",
+              "belegnummer": "280301",
+              "dozenten": [
+                "Dr. Savio Fabretti",
+                "Nicolas Beermann",
+                "Simon Rossel"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
                   "beginnMin": 720,
                   "endeMin": 840,
                   "von": null,
@@ -433,10 +2599,81 @@
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
                   "raum": "S0-123",
-                  "roh": "Do 12-14 S0-123"
+                  "roh": "Mo 12-14 S0-123"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "X-E0-215",
+                  "roh": "Mo 14-16 X-E0-215"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "X-E0-215",
+                  "roh": "Mi 12-14 X-E0-215"
                 },
                 {
                   "wochentag": 5,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "X-E0-215",
+                  "roh": "Fr 12-14 X-E0-215"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=742853684",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv467052159",
+          "modellId": 467052159,
+          "herkunftE2": 453996747,
+          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
+          "modellName": "Sequenzanalyse 1",
+          "art": "Vorlesung",
+          "teilgruppe": null,
+          "modulId": 467052073,
+          "modulKuerzel": "39-Inf-SeqA1",
+          "modulName": "Sequenzanalyse 1",
+          "pflicht": false,
+          "fachsemester": [
+            3,
+            5
+          ],
+          "optionen": [
+            {
+              "id": 735005781,
+              "name": " Sequenzanalyse 1",
+              "art": "Vorlesung",
+              "belegnummer": "392105",
+              "dozenten": [
+                "Prof. Dr. Jens Stoye"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 2,
                   "beginnMin": 600,
                   "endeMin": 720,
                   "von": null,
@@ -444,11 +2681,11 @@
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": "V2-213",
-                  "roh": "Fr 10-12 V2-213"
+                  "raum": "U10-146",
+                  "roh": "Di 10-12 U10-146"
                 }
               ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=742856827",
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735005781",
               "ohneZeiten": false,
               "ausgefallen": false,
               "englisch": false
@@ -456,81 +2693,35 @@
           ]
         },
         {
-          "schluessel": "mv420520508",
-          "modellId": 420520508,
+          "schluessel": "mv467052162",
+          "modellId": 467052162,
           "herkunftE2": 453996747,
           "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
-          "modellName": "Grundlagen und Prinzipien der Programmierung",
+          "modellName": "Übungen zur Sequenzanalyse 1",
           "art": "Übung",
           "teilgruppe": null,
-          "modulId": 420520482,
-          "modulKuerzel": "39-Inf-PP",
-          "modulName": "Prinzipien der Programmierung",
-          "pflicht": true,
+          "modulId": 467052073,
+          "modulKuerzel": "39-Inf-SeqA1",
+          "modulName": "Sequenzanalyse 1",
+          "pflicht": false,
           "fachsemester": [
-            1
+            3,
+            5
           ],
           "optionen": [
             {
-              "id": 741760833,
-              "name": "Übungen zu Prinzipien der Programmierung  ",
+              "id": 744123934,
+              "name": "Übungen zu Sequenzanalyse 1",
               "art": "Übung",
-              "belegnummer": "392002",
+              "belegnummer": "392106",
               "dozenten": [
-                "Prof. Dr.  Philipp Cimiano",
-                "Prof. Dr.  Daniel Merkle",
-                "Prof. Dr.-Ing. Robert Heyer",
-                "Addie Jordon"
-              ],
-              "semester": 20262,
-              "slots": [],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=741760833",
-              "ohneZeiten": true,
-              "ausgefallen": false,
-              "englisch": false
-            }
-          ]
-        },
-        {
-          "schluessel": "mv420520515",
-          "modellId": 420520515,
-          "herkunftE2": 453996747,
-          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
-          "modellName": "Grundlagen und Prinzipien der Programmierung",
-          "art": "Vorlesung",
-          "teilgruppe": null,
-          "modulId": 420520482,
-          "modulKuerzel": "39-Inf-PP",
-          "modulName": "Prinzipien der Programmierung",
-          "pflicht": true,
-          "fachsemester": [
-            1
-          ],
-          "optionen": [
-            {
-              "id": 748908400,
-              "name": " Prinzipien der Programmierung - Funktionale Programmierung",
-              "art": "Vorlesung",
-              "belegnummer": "392001",
-              "dozenten": [
-                "Prof. Dr.  Philipp Cimiano"
+                "Prof. Dr. Jens Stoye",
+                "Leonard Bohnenkämper"
               ],
               "semester": 20262,
               "slots": [
                 {
-                  "wochentag": 1,
-                  "beginnMin": 720,
-                  "endeMin": 840,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "H4",
-                  "roh": "Mo 12-14 H4"
-                },
-                {
-                  "wochentag": 1,
+                  "wochentag": 2,
                   "beginnMin": 960,
                   "endeMin": 1080,
                   "von": null,
@@ -538,27 +2729,27 @@
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": "H4",
-                  "roh": "Mo 16-18 H4"
+                  "raum": null,
+                  "roh": "Di 16-18"
                 }
               ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=748908400",
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=744123934",
               "ohneZeiten": false,
               "ausgefallen": false,
               "englisch": false
             },
             {
-              "id": 741780790,
-              "name": "Prinzipien der Programmierung - Objektorientierte Programmierung",
-              "art": "Vorlesung",
-              "belegnummer": "392005",
+              "id": 744127275,
+              "name": "Übungen A zu Sequenzanalyse 1",
+              "art": "Übung",
+              "belegnummer": "392106",
               "dozenten": [
-                "Prof. Dr.-Ing. Robert Heyer"
+                "Leonard Bohnenkämper"
               ],
               "semester": 20262,
               "slots": [
                 {
-                  "wochentag": 4,
+                  "wochentag": 2,
                   "beginnMin": 960,
                   "endeMin": 1080,
                   "von": null,
@@ -566,64 +2757,74 @@
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": "Y-0-111",
-                  "roh": "Do 16-18 Y-0-111"
-                },
+                  "raum": "X-E0-212",
+                  "roh": "Di 16-18 X-E0-212"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=744127275",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 744127838,
+              "name": "Übungen B zu Sequenzanalyse 1",
+              "art": "Übung",
+              "belegnummer": "392106",
+              "dozenten": [
+                "Leonard Bohnenkämper"
+              ],
+              "semester": 20262,
+              "slots": [
                 {
-                  "wochentag": 5,
-                  "beginnMin": 720,
-                  "endeMin": 840,
+                  "wochentag": 4,
+                  "beginnMin": 840,
+                  "endeMin": 960,
                   "von": null,
                   "bis": null,
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": "AUDIMAX",
-                  "roh": "Fr 12-14 AUDIMAX"
+                  "raum": "U10-146",
+                  "roh": "Do 14-16 U10-146"
                 }
               ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=741780790",
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=744127838",
               "ohneZeiten": false,
               "ausgefallen": false,
               "englisch": false
-            }
-          ]
-        },
-        {
-          "schluessel": "mv420520521",
-          "modellId": 420520521,
-          "herkunftE2": 453996747,
-          "herkunftFach": "Naturwissenschaftliche Informatik (1-Fach (fw))",
-          "modellName": "Programmierpraktikum",
-          "art": "Praktikum",
-          "teilgruppe": null,
-          "modulId": 420520482,
-          "modulKuerzel": "39-Inf-PP",
-          "modulName": "Prinzipien der Programmierung",
-          "pflicht": true,
-          "fachsemester": [
-            1
-          ],
-          "optionen": [
+            },
             {
-              "id": 738809115,
-              "name": "Praktikum zu Prinzipien der Programmierung",
-              "art": "Praktikum",
-              "belegnummer": "392004",
+              "id": 744128781,
+              "name": "Übungen C zu Sequenzanalyse 1",
+              "art": "Übung",
+              "belegnummer": "392106",
               "dozenten": [
-                "Dr. Dirk Frettlöh"
+                "Valentin Kats"
               ],
               "semester": 20262,
-              "slots": [],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=738809115",
-              "ohneZeiten": true,
+              "slots": [
+                {
+                  "wochentag": 2,
+                  "beginnMin": 960,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "U10-146",
+                  "roh": "Di 16-18 U10-146"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=744128781",
+              "ohneZeiten": false,
               "ausgefallen": false,
               "englisch": false
             }
           ]
         }
       ],
-      "wahlpflichtAngebote": [],
       "notiz": null
     },
     {
@@ -640,7 +2841,7 @@
       "semesterBis": null,
       "detailUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/in?id=453996665",
       "fachsemester": [
-        1
+        3
       ],
       "pflichtFuerQuelle": true,
       "id": "e2-453997694",
@@ -666,7 +2867,7 @@
       "semesterBis": null,
       "detailUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/in?id=453996665",
       "fachsemester": [
-        1
+        3
       ],
       "pflichtFuerQuelle": true,
       "id": "e2-453997195",
@@ -681,20 +2882,567 @@
   ],
   "konflikte": [
     {
-      "id": "e2-453996747:mv29611995#v:mv29614264",
+      "id": "e2-453996747:mv420523065:mv420523241#u",
       "kohorteId": "e2-453996747",
-      "aSchluessel": "mv29611995#v",
-      "bSchluessel": "mv29614264",
-      "amodulID": 26787717,
-      "bmodulID": 27461321,
-      "schwere": "unsicher",
+      "aSchluessel": "mv420523065",
+      "bSchluessel": "mv420523241#u",
+      "amodulID": 420523059,
+      "bmodulID": 420523238,
+      "schwere": "teilweise",
       "betrifftQuelle": false,
-      "freieKombinationen": 0,
-      "gesamteKombinationen": 1,
+      "freieKombinationen": 41,
+      "gesamteKombinationen": 42,
       "paare": [
         {
-          "aKursId": 653882042,
-          "bKursId": 742856827,
+          "aKursId": 732698806,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 732698806,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 732698806,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 732698806,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 732698806,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 732698806,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 732698806,
+          "bKursId": 774169214,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 5,
+              "beginnMin": 600,
+              "endeMin": 720,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "V4-119",
+                "roh": "Fr 10-12 V4-119"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "GZI",
+                "roh": "Fr 10-12 GZI"
+              }
+            }
+          ],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        }
+      ],
+      "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
+    },
+    {
+      "id": "e2-453996747:mv420523065:mv71392686",
+      "kohorteId": "e2-453996747",
+      "aSchluessel": "mv420523065",
+      "bSchluessel": "mv71392686",
+      "amodulID": 420523059,
+      "bmodulID": 70750995,
+      "schwere": "unsicher",
+      "betrifftQuelle": false,
+      "freieKombinationen": 5,
+      "gesamteKombinationen": 6,
+      "paare": [
+        {
+          "aKursId": 732698806,
+          "bKursId": 748241633,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 5,
+              "beginnMin": 600,
+              "endeMin": 720,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "V4-119",
+                "roh": "Fr 10-12 V4-119"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S0-155",
+                "roh": "Fr 10-12 S0-155"
+              }
+            },
+            {
+              "wochentag": 5,
+              "beginnMin": 600,
+              "endeMin": 720,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "V4-119",
+                "roh": "Fr 10-12 V4-119"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S0-133",
+                "roh": "Fr 10-12 S0-133"
+              }
+            }
+          ],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        }
+      ],
+      "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
+    },
+    {
+      "id": "e2-453996747:mv420523241#u:mv71392685",
+      "kohorteId": "e2-453996747",
+      "aSchluessel": "mv420523241#u",
+      "bSchluessel": "mv71392685",
+      "amodulID": 420523238,
+      "bmodulID": 70750995,
+      "schwere": "teilweise",
+      "betrifftQuelle": false,
+      "freieKombinationen": 6,
+      "gesamteKombinationen": 7,
+      "paare": [
+        {
+          "aKursId": 737632989,
+          "bKursId": 747228485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 774167652,
+          "bKursId": 747228485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 774168234,
+          "bKursId": 747228485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 774168485,
+          "bKursId": 747228485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 774168816,
+          "bKursId": 747228485,
           "status": "belegt",
           "kollisionen": [
             {
@@ -714,8 +3462,8 @@
                 "datum": null,
                 "rhythmusText": null,
                 "rhythmus": "woechentlich",
-                "raum": null,
-                "roh": "Do 12-14"
+                "raum": "GZI",
+                "roh": "Do 12-14 GZI"
               },
               "bSlot": {
                 "wochentag": 4,
@@ -726,16 +3474,204 @@
                 "datum": null,
                 "rhythmusText": null,
                 "rhythmus": "woechentlich",
-                "raum": "S0-123",
-                "roh": "Do 12-14 S0-123"
+                "raum": "S0-209",
+                "roh": "Do 12-14 S0-209"
               }
             }
           ],
-          "aKursType": "Vorlesung / Übung",
-          "bKursType": "Übung"
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 774169038,
+          "bKursId": 747228485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 774169214,
+          "bKursId": 747228485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
         }
       ],
       "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung"
+    },
+    {
+      "id": "e2-453996747:mv420523241#u:mv71392686",
+      "kohorteId": "e2-453996747",
+      "aSchluessel": "mv420523241#u",
+      "bSchluessel": "mv71392686",
+      "amodulID": 420523238,
+      "bmodulID": 70750995,
+      "schwere": "unsicher",
+      "betrifftQuelle": false,
+      "freieKombinationen": 5,
+      "gesamteKombinationen": 7,
+      "paare": [
+        {
+          "aKursId": 737632989,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 774167652,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 774168234,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 774168485,
+          "bKursId": 748241633,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 3,
+              "beginnMin": 720,
+              "endeMin": 840,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 720,
+                "endeMin": 840,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "GZI",
+                "roh": "Mi 12-14 GZI"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 720,
+                "endeMin": 840,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S0-133",
+                "roh": "Mi 12-14 S0-133"
+              }
+            }
+          ],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 774168816,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 774169038,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 774169214,
+          "bKursId": 748241633,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 5,
+              "beginnMin": 600,
+              "endeMin": 720,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "GZI",
+                "roh": "Fr 10-12 GZI"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S0-155",
+                "roh": "Fr 10-12 S0-155"
+              }
+            },
+            {
+              "wochentag": 5,
+              "beginnMin": 600,
+              "endeMin": 720,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "GZI",
+                "roh": "Fr 10-12 GZI"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S0-133",
+                "roh": "Fr 10-12 S0-133"
+              }
+            }
+          ],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        }
+      ],
+      "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung | Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
     }
   ],
   "sprachhinweise": [],
@@ -745,20 +3681,142 @@
       "kohorteId": "e2-453996747",
       "kohorteBezeichnung": "Naturwissenschaftliche Informatik B.Sc. 1-Fach (fw) FsB WiSe 2025/26",
       "fachsemester": [
-        1
+        3
       ],
-      "pflichtAnforderungen": 9,
+      "pflichtAnforderungen": 8,
       "harteKonflikte": 0,
       "pflichtErfuellbar": true,
-      "vollstaendigBewertet": true,
-      "wahlpflicht": [],
-      "hinweis": "Die Variante besteht im geprüften Fachsemester nur aus Pflichtmodulen."
+      "vollstaendigBewertet": false,
+      "wahlpflicht": [
+        {
+          "name": "Wahlpflicht (Bereichsstruktur nicht aus der API ableitbar)",
+          "module": [
+            {
+              "modulId": 61040249,
+              "kuerzel": "20-AM5_a",
+              "name": "Genetik / Zellbiologie / Physiologie",
+              "fachsemester": [
+                3,
+                5
+              ],
+              "angebote": 1
+            },
+            {
+              "modulId": 26787917,
+              "kuerzel": "20-BM1",
+              "name": "Basis Theorie I",
+              "fachsemester": [
+                3
+              ],
+              "angebote": 1
+            },
+            {
+              "modulId": 120190431,
+              "kuerzel": "20-BM2_b",
+              "name": "Basis Praxis I",
+              "fachsemester": [
+                3
+              ],
+              "angebote": 2
+            },
+            {
+              "modulId": 26787415,
+              "kuerzel": "20-M2",
+              "name": "Grundlagen der molekularen Biologie",
+              "fachsemester": [
+                3,
+                4
+              ],
+              "angebote": 1
+            },
+            {
+              "modulId": 26796159,
+              "kuerzel": "20-NB",
+              "name": "Neuro- und Verhaltensbiologie",
+              "fachsemester": [
+                3,
+                5
+              ],
+              "angebote": 1
+            },
+            {
+              "modulId": 26787464,
+              "kuerzel": "21-M16",
+              "name": "Physikalische Chemie - Vertiefung, Theorie",
+              "fachsemester": [
+                3,
+                5
+              ],
+              "angebote": 2
+            },
+            {
+              "modulId": 26792713,
+              "kuerzel": "21-M34",
+              "name": "Theoretische Chemie - Vertiefung",
+              "fachsemester": [
+                3
+              ],
+              "angebote": 2
+            },
+            {
+              "modulId": 26787460,
+              "kuerzel": "21-M6",
+              "name": "Anorganische Chemie - Basis Theorie",
+              "fachsemester": [
+                3,
+                5
+              ],
+              "angebote": 2
+            },
+            {
+              "modulId": 26787444,
+              "kuerzel": "21-M8",
+              "name": "Physikalische Chemie - Basis Theorie",
+              "fachsemester": [
+                3
+              ],
+              "angebote": 3
+            },
+            {
+              "modulId": 26799816,
+              "kuerzel": "28-EP2",
+              "name": "Einführung in die Physik III/IV",
+              "fachsemester": [
+                3,
+                5
+              ],
+              "angebote": 3
+            },
+            {
+              "modulId": 365795304,
+              "kuerzel": "28-GP_a",
+              "name": "Grundpraktikum",
+              "fachsemester": [
+                3
+              ],
+              "angebote": 1
+            },
+            {
+              "modulId": 467052073,
+              "kuerzel": "39-Inf-SeqA1",
+              "name": "Sequenzanalyse 1",
+              "fachsemester": [
+                3,
+                5
+              ],
+              "angebote": 2
+            }
+          ],
+          "benoetigt": null
+        }
+      ],
+      "hinweis": "Nur der Pflichtteil ist bewertet. 21 Wahlpflichtanforderungen bleiben offen, weil aus den Daten nicht hervorgeht, wie viele davon zu belegen sind."
     },
     {
       "kohorteId": "e2-453997694",
       "kohorteBezeichnung": "Naturwissenschaftliche Informatik B.Sc. 1-Fach (fw) Modularisierter individueller Kompetenz-Erwerb (MiKE) FsB WiSe 2025/26",
       "fachsemester": [
-        1
+        3
       ],
       "pflichtAnforderungen": 0,
       "harteKonflikte": 0,
@@ -771,7 +3829,7 @@
       "kohorteId": "e2-453997195",
       "kohorteBezeichnung": "Naturwissenschaftliche Informatik B.Sc. 1-Fach (fw) Strukturierte Ergänzung des fw 1-Fach-Ba FsB WiSe 2025/26",
       "fachsemester": [
-        1
+        3
       ],
       "pflichtAnforderungen": 0,
       "harteKonflikte": 0,
@@ -782,18 +3840,18 @@
     }
   ],
   "warnungen": [
-    "5 Veranstaltung(en) ohne Zeitangabe (z. B. Blocktermine nach Vereinbarung) – sie können keine Überschneidung auslösen."
+    "6 Veranstaltung(en) ohne Zeitangabe (z. B. Blocktermine nach Vereinbarung) – sie können keine Überschneidung auslösen."
   ],
   "statistik": {
     "kohorten": 3,
     "aktiveKohorten": 1,
-    "veranstaltungen": 11,
-    "ohneZeiten": 5,
+    "veranstaltungen": 49,
+    "ohneZeiten": 6,
     "ausgefallen": 0,
-    "wahlpflichtAnforderungen": 0,
+    "wahlpflichtAnforderungen": 21,
     "nurEnglisch": 0,
     "harteKonflikte": 0,
-    "teilweiseKonflikte": 0,
-    "unsichereKonflikte": 1
+    "teilweiseKonflikte": 2,
+    "unsichereKonflikte": 2
   }
 }

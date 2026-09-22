@@ -1,5 +1,5 @@
 {
-  "erzeugtAm": "2026-08-30T12:15:03.767Z",
+  "erzeugtAm": "2026-09-09T14:08:30.806Z",
   "semester": 20262,
   "semesterName": "WiSe 2026/27",
   "quelle": {
@@ -256,12 +256,223 @@
               "art": "Übung",
               "belegnummer": "240102",
               "dozenten": [
+                "Prof. Dr. Christopher Voll",
+                "Anna Klick"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 480,
+                  "endeMin": 660,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V3-204",
+                  "roh": "Mi 8-11 V3-204"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=732698646",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773835996,
+              "name": "Übungen zu Mathematik  für Informatik und Naturwissenschaften I",
+              "art": "Übung",
+              "belegnummer": "240102",
+              "dozenten": [
+                "Prof. Dr. Christopher Voll",
+                "Cecilia Knäbchen"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 660,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V3-204",
+                  "roh": "Mi 11-14 V3-204"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773835996",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773838667,
+              "name": "Übungen zu Mathematik  für Informatik und Naturwissenschaften I",
+              "art": "Übung",
+              "belegnummer": "240102",
+              "dozenten": [
                 "Prof. Dr. Christopher Voll"
               ],
               "semester": 20262,
-              "slots": [],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=732698646",
-              "ohneZeiten": true,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 480,
+                  "endeMin": 660,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V3-204",
+                  "roh": "Mo 8-11 V3-204"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773838667",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773839944,
+              "name": "Übungen zu Mathematik  für Informatik und Naturwissenschaften I",
+              "art": "Übung",
+              "belegnummer": "240102",
+              "dozenten": [
+                "Prof. Dr. Christopher Voll"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 960,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V3-204",
+                  "roh": "Mo 16-19 V3-204"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773839944",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773840806,
+              "name": "Übungen zu Mathematik  für Informatik und Naturwissenschaften I",
+              "art": "Übung",
+              "belegnummer": "240102",
+              "dozenten": [
+                "Prof. Dr. Christopher Voll"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 540,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V3-204",
+                  "roh": "Do 9-12 V3-204"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773840806",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773842279,
+              "name": "Übungen zu Mathematik  für Informatik und Naturwissenschaften I",
+              "art": "Übung",
+              "belegnummer": "240102",
+              "dozenten": [
+                "Prof. Dr. Christopher Voll"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 5,
+                  "beginnMin": 720,
+                  "endeMin": 900,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V3-204",
+                  "roh": "Fr 12-15 V3-204"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773842279",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773843554,
+              "name": "Übungen zu Mathematik  für Informatik und Naturwissenschaften I",
+              "art": "Übung",
+              "belegnummer": "240102",
+              "dozenten": [
+                "Prof. Dr. Christopher Voll"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 5,
+                  "beginnMin": 960,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V2-210",
+                  "roh": "Fr 16-19 V2-210"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773843554",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 774050341,
+              "name": "Übungen zu Mathematik  für Informatik und Naturwissenschaften I",
+              "art": "Übung",
+              "belegnummer": "240102",
+              "dozenten": [
+                "Prof. Dr. Christopher Voll"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 960,
+                  "endeMin": 1140,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V5-148",
+                  "roh": "Mi 16-19 V5-148"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=774050341",
+              "ohneZeiten": false,
               "ausgefallen": false,
               "englisch": false
             }
@@ -372,8 +583,8 @@
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": "U2-135",
-                  "roh": "Di 12-14 U2-135"
+                  "raum": "X-E0-206",
+                  "roh": "Di 12-14 X-E0-206"
                 },
                 {
                   "wochentag": 2,
@@ -478,9 +689,9 @@
               "belegnummer": "392002",
               "dozenten": [
                 "Prof. Dr.  Philipp Cimiano",
-                "Prof. Dr.  Daniel Merkle",
                 "Prof. Dr.-Ing. Robert Heyer",
-                "Addie Jordon"
+                "Addie Jordon",
+                "Marcel Geromel"
               ],
               "semester": 20262,
               "slots": [],
@@ -681,6 +892,153 @@
   ],
   "konflikte": [
     {
+      "id": "e2-453996747:mv29611995#v:mv543614164",
+      "kohorteId": "e2-453996747",
+      "aSchluessel": "mv29611995#v",
+      "bSchluessel": "mv543614164",
+      "amodulID": 26787717,
+      "bmodulID": 543614156,
+      "schwere": "teilweise",
+      "betrifftQuelle": false,
+      "freieKombinationen": 6,
+      "gesamteKombinationen": 8,
+      "paare": [
+        {
+          "aKursId": 653882042,
+          "bKursId": 732698646,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 3,
+              "beginnMin": 600,
+              "endeMin": 660,
+              "minuten": 60,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": null,
+                "roh": "Mi 10-12"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 660,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "V3-204",
+                "roh": "Mi 8-11 V3-204"
+              }
+            }
+          ],
+          "aKursType": "Vorlesung / Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 653882042,
+          "bKursId": 773835996,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 3,
+              "beginnMin": 660,
+              "endeMin": 720,
+              "minuten": 60,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": null,
+                "roh": "Mi 10-12"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 660,
+                "endeMin": 840,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "V3-204",
+                "roh": "Mi 11-14 V3-204"
+              }
+            }
+          ],
+          "aKursType": "Vorlesung / Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 653882042,
+          "bKursId": 773838667,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Vorlesung / Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 653882042,
+          "bKursId": 773839944,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Vorlesung / Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 653882042,
+          "bKursId": 773840806,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Vorlesung / Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 653882042,
+          "bKursId": 773842279,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Vorlesung / Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 653882042,
+          "bKursId": 773843554,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Vorlesung / Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 653882042,
+          "bKursId": 774050341,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Vorlesung / Übung",
+          "bKursType": "Übung"
+        }
+      ],
+      "zusammenfassung": "Mi 10:00–11:00 (60 min) – wöchentliche Überschneidung | Mi 11:00–12:00 (60 min) – wöchentliche Überschneidung"
+    },
+    {
       "id": "e2-453996747:mv29611995#v:mv29614264",
       "kohorteId": "e2-453996747",
       "aSchluessel": "mv29611995#v",
@@ -736,6 +1094,544 @@
         }
       ],
       "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung"
+    },
+    {
+      "id": "e2-453996747:mv543614164:mv29614260",
+      "kohorteId": "e2-453996747",
+      "aSchluessel": "mv543614164",
+      "bSchluessel": "mv29614260",
+      "amodulID": 543614156,
+      "bmodulID": 27461321,
+      "schwere": "teilweise",
+      "betrifftQuelle": false,
+      "freieKombinationen": 6,
+      "gesamteKombinationen": 8,
+      "paare": [
+        {
+          "aKursId": 732698646,
+          "bKursId": 742856609,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 773835996,
+          "bKursId": 742856609,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 3,
+              "beginnMin": 720,
+              "endeMin": 840,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 660,
+                "endeMin": 840,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "V3-204",
+                "roh": "Mi 11-14 V3-204"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 720,
+                "endeMin": 840,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "H4",
+                "roh": "Mi 12-14 H4"
+              }
+            }
+          ],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 773838667,
+          "bKursId": 742856609,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 1,
+              "beginnMin": 600,
+              "endeMin": 660,
+              "minuten": 60,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 480,
+                "endeMin": 660,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "V3-204",
+                "roh": "Mo 8-11 V3-204"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "H4",
+                "roh": "Mo 10-12 H4"
+              }
+            }
+          ],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 773839944,
+          "bKursId": 742856609,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 773840806,
+          "bKursId": 742856609,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 773842279,
+          "bKursId": 742856609,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 773843554,
+          "bKursId": 742856609,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 774050341,
+          "bKursId": 742856609,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        }
+      ],
+      "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung | Mo 10:00–11:00 (60 min) – wöchentliche Überschneidung"
+    },
+    {
+      "id": "e2-453996747:mv543614164:mv29614264",
+      "kohorteId": "e2-453996747",
+      "aSchluessel": "mv543614164",
+      "bSchluessel": "mv29614264",
+      "amodulID": 543614156,
+      "bmodulID": 27461321,
+      "schwere": "teilweise",
+      "betrifftQuelle": false,
+      "freieKombinationen": 6,
+      "gesamteKombinationen": 8,
+      "paare": [
+        {
+          "aKursId": 732698646,
+          "bKursId": 742856827,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 3,
+              "beginnMin": 480,
+              "endeMin": 600,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 660,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "V3-204",
+                "roh": "Mi 8-11 V3-204"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 480,
+                "endeMin": 600,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "V2-200",
+                "roh": "Mi 8-10 V2-200"
+              }
+            }
+          ],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773835996,
+          "bKursId": 742856827,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773838667,
+          "bKursId": 742856827,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773839944,
+          "bKursId": 742856827,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773840806,
+          "bKursId": 742856827,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 4,
+              "beginnMin": 600,
+              "endeMin": 720,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 540,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "V3-204",
+                "roh": "Do 9-12 V3-204"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "X-E0-206",
+                "roh": "Do 10-12 X-E0-206"
+              }
+            },
+            {
+              "wochentag": 4,
+              "beginnMin": 600,
+              "endeMin": 720,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 540,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "V3-204",
+                "roh": "Do 9-12 V3-204"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "X-E0-210",
+                "roh": "Do 10-12 X-E0-210"
+              }
+            }
+          ],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773842279,
+          "bKursId": 742856827,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773843554,
+          "bKursId": 742856827,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774050341,
+          "bKursId": 742856827,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        }
+      ],
+      "zusammenfassung": "Mi 08:00–10:00 (120 min) – wöchentliche Überschneidung | Do 10:00–12:00 (120 min) – wöchentliche Überschneidung"
+    },
+    {
+      "id": "e2-453996747:mv543614164:mv420520515",
+      "kohorteId": "e2-453996747",
+      "aSchluessel": "mv543614164",
+      "bSchluessel": "mv420520515",
+      "amodulID": 543614156,
+      "bmodulID": 420520482,
+      "schwere": "teilweise",
+      "betrifftQuelle": false,
+      "freieKombinationen": 14,
+      "gesamteKombinationen": 16,
+      "paare": [
+        {
+          "aKursId": 732698646,
+          "bKursId": 748908400,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 732698646,
+          "bKursId": 741780790,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 773835996,
+          "bKursId": 748908400,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 773835996,
+          "bKursId": 741780790,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 773838667,
+          "bKursId": 748908400,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 773838667,
+          "bKursId": 741780790,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 773839944,
+          "bKursId": 748908400,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 1,
+              "beginnMin": 960,
+              "endeMin": 1080,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 1,
+                "beginnMin": 960,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "V3-204",
+                "roh": "Mo 16-19 V3-204"
+              },
+              "bSlot": {
+                "wochentag": 1,
+                "beginnMin": 960,
+                "endeMin": 1080,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "H4",
+                "roh": "Mo 16-18 H4"
+              }
+            }
+          ],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 773839944,
+          "bKursId": 741780790,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 773840806,
+          "bKursId": 748908400,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 773840806,
+          "bKursId": 741780790,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 773842279,
+          "bKursId": 748908400,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 773842279,
+          "bKursId": 741780790,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 5,
+              "beginnMin": 720,
+              "endeMin": 840,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 720,
+                "endeMin": 900,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "V3-204",
+                "roh": "Fr 12-15 V3-204"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 720,
+                "endeMin": 840,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "AUDIMAX",
+                "roh": "Fr 12-14 AUDIMAX"
+              }
+            }
+          ],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 773843554,
+          "bKursId": 748908400,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 773843554,
+          "bKursId": 741780790,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 774050341,
+          "bKursId": 748908400,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 774050341,
+          "bKursId": 741780790,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        }
+      ],
+      "zusammenfassung": "Mo 16:00–18:00 (120 min) – wöchentliche Überschneidung | Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
     }
   ],
   "sprachhinweise": [],
@@ -782,18 +1678,18 @@
     }
   ],
   "warnungen": [
-    "5 Veranstaltung(en) ohne Zeitangabe (z. B. Blocktermine nach Vereinbarung) – sie können keine Überschneidung auslösen."
+    "4 Veranstaltung(en) ohne Zeitangabe (z. B. Blocktermine nach Vereinbarung) – sie können keine Überschneidung auslösen."
   ],
   "statistik": {
     "kohorten": 3,
     "aktiveKohorten": 1,
-    "veranstaltungen": 11,
-    "ohneZeiten": 5,
+    "veranstaltungen": 18,
+    "ohneZeiten": 4,
     "ausgefallen": 0,
     "wahlpflichtAnforderungen": 0,
     "nurEnglisch": 0,
     "harteKonflikte": 0,
-    "teilweiseKonflikte": 0,
+    "teilweiseKonflikte": 4,
     "unsichereKonflikte": 1
   }
 }

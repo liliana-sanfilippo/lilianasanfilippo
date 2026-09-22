@@ -1,5 +1,5 @@
 {
-  "erzeugtAm": "2026-08-30T12:15:04.783Z",
+  "erzeugtAm": "2026-09-09T13:25:45.441Z",
   "semester": 20262,
   "semesterName": "WiSe 2026/27",
   "quelle": {
@@ -10,7 +10,9 @@
     "modellIds": [],
     "ebene1": 405818172,
     "studiengangName": "Künstliche Intelligenz und Kognitive Informatik B.Sc. 1-Fach (fw) FsB WiSe 2023/24",
-    "fachsemester": []
+    "fachsemester": [
+      3
+    ]
   },
   "optionen": {
     "pufferMin": 0,
@@ -34,7 +36,7 @@
       "semesterBis": null,
       "detailUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/in?id=405818172",
       "fachsemester": [
-        1
+        3
       ],
       "pflichtFuerQuelle": true,
       "id": "e2-405818181",
@@ -44,102 +46,31 @@
       "partnerBezeichnung": null,
       "angebote": [
         {
-          "schluessel": "mv29611822",
-          "modellId": 29611822,
+          "schluessel": "mv420523062",
+          "modellId": 420523062,
           "herkunftE2": 405818181,
           "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
-          "modellName": "Neuro- und Verhaltensbiologie",
-          "art": "Vorlesung mit Übungsanteil",
-          "teilgruppe": null,
-          "modulId": 26796159,
-          "modulKuerzel": "20-NB",
-          "modulName": "Neuro- und Verhaltensbiologie",
-          "pflicht": true,
-          "fachsemester": [
-            1
-          ],
-          "optionen": [
-            {
-              "id": 739467891,
-              "name": "Neuro- und Verhaltensbiologie",
-              "art": "Vorlesung / Übung",
-              "belegnummer": "209101",
-              "dozenten": [
-                "Prof. Dr. Christoph Kayser",
-                "Dr. Norbert Böddeker"
-              ],
-              "semester": 20262,
-              "slots": [
-                {
-                  "wochentag": 2,
-                  "beginnMin": 480,
-                  "endeMin": 600,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "Y-0-111 Beginn schon um 7:45 Uhr",
-                  "roh": "Di 8-10 Y-0-111 Beginn schon um 7:45 Uhr"
-                }
-              ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=739467891",
-              "ohneZeiten": false,
-              "ausgefallen": false,
-              "englisch": false
-            }
-          ]
-        },
-        {
-          "schluessel": "mv420519994",
-          "modellId": 420519994,
-          "herkunftE2": 405818181,
-          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
-          "modellName": "Mathematik für Informatik und Naturwissenschaften 1",
+          "modellName": "Ausgewählte Kapitel der Analysis",
           "art": "Vorlesung",
           "teilgruppe": null,
-          "modulId": 420519984,
-          "modulKuerzel": "24-M-INF1_a",
-          "modulName": "Mathematik für Informatik 1",
+          "modulId": 420523059,
+          "modulKuerzel": "24-M-INF3",
+          "modulName": "Mathematik für Informatik 3",
           "pflicht": true,
           "fachsemester": [
-            1
+            3
           ],
           "optionen": [
             {
-              "id": 732697609,
-              "name": "Mathematik für Informatik und Naturwissenschaften I",
+              "id": 732698770,
+              "name": "Ausgewählte Kapitel der Analysis",
               "art": "Vorlesung",
-              "belegnummer": "240100",
+              "belegnummer": "240107",
               "dozenten": [
-                "Prof. Dr. Christopher Voll"
+                "PD Dr. Thorsten Hüls"
               ],
               "semester": 20262,
               "slots": [
-                {
-                  "wochentag": 1,
-                  "beginnMin": 840,
-                  "endeMin": 960,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "H7",
-                  "roh": "Mo 14-16 H7"
-                },
-                {
-                  "wochentag": 2,
-                  "beginnMin": 840,
-                  "endeMin": 960,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "H4",
-                  "roh": "Di 14-16 H4"
-                },
                 {
                   "wochentag": 3,
                   "beginnMin": 840,
@@ -149,11 +80,11 @@
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": "H7",
-                  "roh": "Mi 14-16 H7"
+                  "raum": "X-E0-001",
+                  "roh": "Mi 14-16 X-E0-001"
                 }
               ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=732697609",
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=732698770",
               "ohneZeiten": false,
               "ausgefallen": false,
               "englisch": false
@@ -161,309 +92,31 @@
           ]
         },
         {
-          "schluessel": "mv420520000",
-          "modellId": 420520000,
+          "schluessel": "mv420523065",
+          "modellId": 420523065,
           "herkunftE2": 405818181,
           "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
-          "modellName": "Übungen zu Mathematik für Informatik und Naturwissenschaften 1",
+          "modellName": "Ausgewählte Kapitel der Analysis",
           "art": "Übung",
           "teilgruppe": null,
-          "modulId": 420519984,
-          "modulKuerzel": "24-M-INF1_a",
-          "modulName": "Mathematik für Informatik 1",
+          "modulId": 420523059,
+          "modulKuerzel": "24-M-INF3",
+          "modulName": "Mathematik für Informatik 3",
           "pflicht": true,
           "fachsemester": [
-            1
+            3
           ],
           "optionen": [
             {
-              "id": 732698646,
-              "name": "Übungen zu Mathematik  für Informatik und Naturwissenschaften I",
+              "id": 732698806,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
               "art": "Übung",
-              "belegnummer": "240102",
+              "belegnummer": "240108",
               "dozenten": [
-                "Prof. Dr. Christopher Voll"
-              ],
-              "semester": 20262,
-              "slots": [],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=732698646",
-              "ohneZeiten": true,
-              "ausgefallen": false,
-              "englisch": false
-            }
-          ]
-        },
-        {
-          "schluessel": "mv543614162",
-          "modellId": 543614162,
-          "herkunftE2": 405818181,
-          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
-          "modellName": "Mathematik für Informatik und Naturwissenschaften 1",
-          "art": "Vorlesung",
-          "teilgruppe": null,
-          "modulId": 543614156,
-          "modulKuerzel": "24-M-INF1_a_ub",
-          "modulName": "Mathematik für Informatik 1 (unbenotet)",
-          "pflicht": true,
-          "fachsemester": [
-            1
-          ],
-          "optionen": [
-            {
-              "id": 732697609,
-              "name": "Mathematik für Informatik und Naturwissenschaften I",
-              "art": "Vorlesung",
-              "belegnummer": "240100",
-              "dozenten": [
-                "Prof. Dr. Christopher Voll"
+                "PD Dr. Thorsten Hüls"
               ],
               "semester": 20262,
               "slots": [
-                {
-                  "wochentag": 1,
-                  "beginnMin": 840,
-                  "endeMin": 960,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "H7",
-                  "roh": "Mo 14-16 H7"
-                },
-                {
-                  "wochentag": 2,
-                  "beginnMin": 840,
-                  "endeMin": 960,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "H4",
-                  "roh": "Di 14-16 H4"
-                },
-                {
-                  "wochentag": 3,
-                  "beginnMin": 840,
-                  "endeMin": 960,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "H7",
-                  "roh": "Mi 14-16 H7"
-                }
-              ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=732697609",
-              "ohneZeiten": false,
-              "ausgefallen": false,
-              "englisch": false
-            }
-          ]
-        },
-        {
-          "schluessel": "mv543614164",
-          "modellId": 543614164,
-          "herkunftE2": 405818181,
-          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
-          "modellName": "Übungen zu Mathematik für Informatik und Naturwissenschaften 1",
-          "art": "Übung",
-          "teilgruppe": null,
-          "modulId": 543614156,
-          "modulKuerzel": "24-M-INF1_a_ub",
-          "modulName": "Mathematik für Informatik 1 (unbenotet)",
-          "pflicht": true,
-          "fachsemester": [
-            1
-          ],
-          "optionen": [
-            {
-              "id": 732698646,
-              "name": "Übungen zu Mathematik  für Informatik und Naturwissenschaften I",
-              "art": "Übung",
-              "belegnummer": "240102",
-              "dozenten": [
-                "Prof. Dr. Christopher Voll"
-              ],
-              "semester": 20262,
-              "slots": [],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=732698646",
-              "ohneZeiten": true,
-              "ausgefallen": false,
-              "englisch": false
-            }
-          ]
-        },
-        {
-          "schluessel": "mv29614260",
-          "modellId": 29614260,
-          "herkunftE2": 405818181,
-          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
-          "modellName": "Einführung in die Physik I (Nebenfach)",
-          "art": "Vorlesung",
-          "teilgruppe": null,
-          "modulId": 27461321,
-          "modulKuerzel": "28-P-NF-B",
-          "modulName": "Physik für Nebenfächler",
-          "pflicht": true,
-          "fachsemester": [
-            1
-          ],
-          "optionen": [
-            {
-              "id": 742856609,
-              "name": "Einführung in die Physik I (für Nichtphysiker*innen)",
-              "art": "Vorlesung",
-              "belegnummer": "282400",
-              "dozenten": [
-                "Dr. Mark Schüttpelz"
-              ],
-              "semester": 20262,
-              "slots": [
-                {
-                  "wochentag": 1,
-                  "beginnMin": 600,
-                  "endeMin": 720,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "H4",
-                  "roh": "Mo 10-12 H4"
-                },
-                {
-                  "wochentag": 3,
-                  "beginnMin": 720,
-                  "endeMin": 840,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "H4",
-                  "roh": "Mi 12-14 H4"
-                }
-              ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=742856609",
-              "ohneZeiten": false,
-              "ausgefallen": false,
-              "englisch": false
-            }
-          ]
-        },
-        {
-          "schluessel": "mv29614264",
-          "modellId": 29614264,
-          "herkunftE2": 405818181,
-          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
-          "modellName": "Übungen zu Einführung in die Physik I (Nebenfach)",
-          "art": "Übung",
-          "teilgruppe": null,
-          "modulId": 27461321,
-          "modulKuerzel": "28-P-NF-B",
-          "modulName": "Physik für Nebenfächler",
-          "pflicht": true,
-          "fachsemester": [
-            1
-          ],
-          "optionen": [
-            {
-              "id": 742856827,
-              "name": "Übungen zu Einführung in die Physik I (für Nichtphysiker*innen)",
-              "art": "Übung",
-              "belegnummer": "282401",
-              "dozenten": [
-                "Dr. Mark Schüttpelz"
-              ],
-              "semester": 20262,
-              "slots": [
-                {
-                  "wochentag": 2,
-                  "beginnMin": 480,
-                  "endeMin": 600,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "V2-200",
-                  "roh": "Di 8-10 V2-200"
-                },
-                {
-                  "wochentag": 2,
-                  "beginnMin": 720,
-                  "endeMin": 840,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "U2-135",
-                  "roh": "Di 12-14 U2-135"
-                },
-                {
-                  "wochentag": 2,
-                  "beginnMin": 720,
-                  "endeMin": 840,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "V2-213",
-                  "roh": "Di 12-14 V2-213"
-                },
-                {
-                  "wochentag": 3,
-                  "beginnMin": 480,
-                  "endeMin": 600,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "V2-200",
-                  "roh": "Mi 8-10 V2-200"
-                },
-                {
-                  "wochentag": 4,
-                  "beginnMin": 600,
-                  "endeMin": 720,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "X-E0-206",
-                  "roh": "Do 10-12 X-E0-206"
-                },
-                {
-                  "wochentag": 4,
-                  "beginnMin": 600,
-                  "endeMin": 720,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "X-E0-210",
-                  "roh": "Do 10-12 X-E0-210"
-                },
-                {
-                  "wochentag": 4,
-                  "beginnMin": 720,
-                  "endeMin": 840,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "S0-123",
-                  "roh": "Do 12-14 S0-123"
-                },
                 {
                   "wochentag": 5,
                   "beginnMin": 600,
@@ -473,116 +126,444 @@
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": "V2-213",
-                  "roh": "Fr 10-12 V2-213"
+                  "raum": "V4-119",
+                  "roh": "Fr 10-12 V4-119"
                 }
               ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=742856827",
-              "ohneZeiten": false,
-              "ausgefallen": false,
-              "englisch": false
-            }
-          ]
-        },
-        {
-          "schluessel": "mv420520508",
-          "modellId": 420520508,
-          "herkunftE2": 405818181,
-          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
-          "modellName": "Grundlagen und Prinzipien der Programmierung",
-          "art": "Übung",
-          "teilgruppe": null,
-          "modulId": 420520482,
-          "modulKuerzel": "39-Inf-PP",
-          "modulName": "Prinzipien der Programmierung",
-          "pflicht": true,
-          "fachsemester": [
-            1
-          ],
-          "optionen": [
-            {
-              "id": 741760833,
-              "name": "Übungen zu Prinzipien der Programmierung  ",
-              "art": "Übung",
-              "belegnummer": "392002",
-              "dozenten": [
-                "Prof. Dr.  Philipp Cimiano",
-                "Prof. Dr.  Daniel Merkle",
-                "Prof. Dr.-Ing. Robert Heyer",
-                "Addie Jordon"
-              ],
-              "semester": 20262,
-              "slots": [],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=741760833",
-              "ohneZeiten": true,
-              "ausgefallen": false,
-              "englisch": false
-            }
-          ]
-        },
-        {
-          "schluessel": "mv420520515",
-          "modellId": 420520515,
-          "herkunftE2": 405818181,
-          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
-          "modellName": "Grundlagen und Prinzipien der Programmierung",
-          "art": "Vorlesung",
-          "teilgruppe": null,
-          "modulId": 420520482,
-          "modulKuerzel": "39-Inf-PP",
-          "modulName": "Prinzipien der Programmierung",
-          "pflicht": true,
-          "fachsemester": [
-            1
-          ],
-          "optionen": [
-            {
-              "id": 748908400,
-              "name": " Prinzipien der Programmierung - Funktionale Programmierung",
-              "art": "Vorlesung",
-              "belegnummer": "392001",
-              "dozenten": [
-                "Prof. Dr.  Philipp Cimiano"
-              ],
-              "semester": 20262,
-              "slots": [
-                {
-                  "wochentag": 1,
-                  "beginnMin": 720,
-                  "endeMin": 840,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "H4",
-                  "roh": "Mo 12-14 H4"
-                },
-                {
-                  "wochentag": 1,
-                  "beginnMin": 960,
-                  "endeMin": 1080,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "H4",
-                  "roh": "Mo 16-18 H4"
-                }
-              ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=748908400",
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=732698806",
               "ohneZeiten": false,
               "ausgefallen": false,
               "englisch": false
             },
             {
-              "id": 741780790,
-              "name": "Prinzipien der Programmierung - Objektorientierte Programmierung",
-              "art": "Vorlesung",
-              "belegnummer": "392005",
+              "id": 773858582,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
               "dozenten": [
-                "Prof. Dr.-Ing. Robert Heyer"
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 1080,
+                  "endeMin": 1200,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V2-216",
+                  "roh": "Mo 18-20 V2-216"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773858582",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773859538,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 5,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V4-112",
+                  "roh": "Fr 14-16 V4-112"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773859538",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773860253,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 1080,
+                  "endeMin": 1200,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V4-119",
+                  "roh": "Do 18-20 V4-119"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773860253",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773860994,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 1080,
+                  "endeMin": 1200,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V2-216",
+                  "roh": "Mi 18-20 V2-216"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773860994",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 774032177,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V4-119",
+                  "roh": "Do 8-10 V4-119"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=774032177",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv420556020",
+          "modellId": 420556020,
+          "herkunftE2": 405818181,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "Rechnerarchitektur",
+          "art": "Übung",
+          "teilgruppe": null,
+          "modulId": 420556013,
+          "modulKuerzel": "39-Inf-8_a",
+          "modulName": "Rechnerarchitektur",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 742904058,
+              "name": "Übungen: Rechnerarchitektur ",
+              "art": "Übung",
+              "belegnummer": "392008",
+              "dozenten": [
+                "Prof. Dr.-Ing. Ralf Möller"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=742904058",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv420556026",
+          "modellId": 420556026,
+          "herkunftE2": 405818181,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "Rechnerarchitektur",
+          "art": "Vorlesung",
+          "teilgruppe": null,
+          "modulId": 420556013,
+          "modulKuerzel": "39-Inf-8_a",
+          "modulName": "Rechnerarchitektur",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 742880868,
+              "name": "Rechnerarchitektur",
+              "art": "Vorlesung",
+              "belegnummer": "392007",
+              "dozenten": [
+                "Prof. Dr.-Ing. Ralf Möller"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 2,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V2-205",
+                  "roh": "Di 10-12 V2-205"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 960,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "CITEC",
+                  "roh": "Do 16-18 CITEC"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=742880868",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv420523241#v",
+          "modellId": 420523241,
+          "herkunftE2": 405818181,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "Einführung in die Datenbanken und Modellierung (Vorlesungsteil)",
+          "art": "Vorlesung",
+          "teilgruppe": "fest",
+          "modulId": 420523238,
+          "modulKuerzel": "39-Inf-10_a",
+          "modulName": "Datenbanken und Informationssysteme",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 737632256,
+              "name": "Einführung Datenbanken und Modellierung",
+              "art": "Vorlesung",
+              "belegnummer": "392156",
+              "dozenten": [
+                "Dr. Christoph Düsing"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "CITEC",
+                  "roh": "Do 14-16 CITEC"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=737632256",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv420523241#u",
+          "modellId": 420523241,
+          "herkunftE2": 405818181,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "Einführung in die Datenbanken und Modellierung (Übungsteil)",
+          "art": "Übung",
+          "teilgruppe": "wahlbar",
+          "modulId": 420523238,
+          "modulKuerzel": "39-Inf-10_a",
+          "modulName": "Datenbanken und Informationssysteme",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 737632989,
+              "name": "Einführung Datenbanken und Modellierung",
+              "art": "Übung",
+              "belegnummer": "392158",
+              "dozenten": [
+                "Dr. Christoph Düsing"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=737632989",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 774167652,
+              "name": "Übungen A: Einführung Datenbanken und Modellierung",
+              "art": "Übung",
+              "belegnummer": "392158",
+              "dozenten": [
+                "Dr. Christoph Düsing"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "GZI",
+                  "roh": "Mo 08-10 GZI"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=774167652",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 774168234,
+              "name": "Übungen B: Einführung Datenbanken und Modellierung",
+              "art": "Übung",
+              "belegnummer": "392158",
+              "dozenten": [
+                "Dr. Christoph Düsing"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 2,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "GZI",
+                  "roh": "Di 12-14 GZI"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=774168234",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 774168485,
+              "name": "Übungen C: Einführung Datenbanken und Modellierung",
+              "art": "Übung",
+              "belegnummer": "392158",
+              "dozenten": [
+                "Dr. Christoph Düsing"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "GZI",
+                  "roh": "Mi 12-14 GZI"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=774168485",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 774168816,
+              "name": "Übungen D: Einführung Datenbanken und Modellierung",
+              "art": "Übung",
+              "belegnummer": "392158",
+              "dozenten": [
+                "Dr. Christoph Düsing"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "GZI",
+                  "roh": "Do 12-14 GZI"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=774168816",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 774169038,
+              "name": "Übungen E: Einführung Datenbanken und Modellierung",
+              "art": "Übung",
+              "belegnummer": "392158",
+              "dozenten": [
+                "Dr. Christoph Düsing"
               ],
               "semester": 20262,
               "slots": [
@@ -595,8 +576,316 @@
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": "Y-0-111",
-                  "roh": "Do 16-18 Y-0-111"
+                  "raum": "GZI",
+                  "roh": "Do 16-18 GZI"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=774169038",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 774169214,
+              "name": "Übungen F: Einführung Datenbanken und Modellierung",
+              "art": "Übung",
+              "belegnummer": "392158",
+              "dozenten": [
+                "Dr. Christoph Düsing"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 5,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "GZI",
+                  "roh": "Fr 10-12 GZI"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=774169214",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv420742967",
+          "modellId": 420742967,
+          "herkunftE2": 405818181,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "Grundlagen künstlicher Kognition",
+          "art": "Vorlesung",
+          "teilgruppe": null,
+          "modulId": 420742960,
+          "modulKuerzel": "39-Inf-13_b",
+          "modulName": "Grundlagen künstlicher Kognition",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 743037726,
+              "name": "Grundlagen Künstlicher Kognition ",
+              "art": "Vorlesung",
+              "belegnummer": "392111",
+              "dozenten": [
+                "Prof. Dr.-Ing.  Stefan Kopp"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "CITEC",
+                  "roh": "Do 10-12 CITEC"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=743037726",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv420742973",
+          "modellId": 420742973,
+          "herkunftE2": 405818181,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "Grundlagen künstlicher Kognition",
+          "art": "Übung",
+          "teilgruppe": null,
+          "modulId": 420742960,
+          "modulKuerzel": "39-Inf-13_b",
+          "modulName": "Grundlagen künstlicher Kognition",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 743039416,
+              "name": "Übungen: Grundlagen Künstlicher Kognition ",
+              "art": "Übung",
+              "belegnummer": "392112",
+              "dozenten": [
+                "Prof. Dr.-Ing.  Stefan Kopp",
+                "Florian Schröder"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=743039416",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 743050934,
+              "name": "Übungen A: Grundlagen Künstlicher Kognition ",
+              "art": "Übung",
+              "belegnummer": "392112",
+              "dozenten": [
+                "Prof. Dr.-Ing.  Stefan Kopp",
+                "Florian Schröder"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "GZI V2-221",
+                  "roh": "Mi 10-12 GZI V2-221"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=743050934",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 743052272,
+              "name": "Übungen B: Grundlagen Künstlicher Kognition ",
+              "art": "Übung",
+              "belegnummer": "392112",
+              "dozenten": [
+                "Prof. Dr.-Ing.  Stefan Kopp",
+                "Florian Schröder"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 5,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "GZI V2-221",
+                  "roh": "Fr 12-14 GZI V2-221  "
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=743052272",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv71392685",
+          "modellId": 71392685,
+          "herkunftE2": 405818181,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "Software-Engineering",
+          "art": "Vorlesung",
+          "teilgruppe": null,
+          "modulId": 70750995,
+          "modulKuerzel": "39-Inf-SE_a",
+          "modulName": "Software Engineering",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 747228485,
+              "name": "Grundlagen des Software Engineering",
+              "art": "Vorlesung",
+              "belegnummer": "392142",
+              "dozenten": [
+                "Dr.-Ing. Sebastian Wrede",
+                "PD Dr.-Ing. Sven Wachsmuth"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S0-209",
+                  "roh": "Do 12-14 S0-209"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=747228485",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv71392686",
+          "modellId": 71392686,
+          "herkunftE2": 405818181,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "Softwaremodellierung mit UML, Projektanalyse und -präsentation",
+          "art": "Seminar",
+          "teilgruppe": null,
+          "modulId": 70750995,
+          "modulKuerzel": "39-Inf-SE_a",
+          "modulName": "Software Engineering",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 748241633,
+              "name": "Softwaremodellierung mit UML, Projektanalyse und -präsentation",
+              "art": "Seminar",
+              "belegnummer": "392149",
+              "dozenten": [
+                "Dr.-Ing. Sebastian Wrede",
+                "PD Dr.-Ing. Sven Wachsmuth"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S0-133",
+                  "roh": "Mi 12-14 S0-133"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 960,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V7-140",
+                  "roh": "Mi 16-18 V7-140"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S1-501",
+                  "roh": "Do 10-12 S1-501"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S0-155",
+                  "roh": "Fr 10-12 S0-155"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S0-133",
+                  "roh": "Fr 10-12 S0-133"
                 },
                 {
                   "wochentag": 5,
@@ -607,11 +896,11 @@
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": "AUDIMAX",
-                  "roh": "Fr 12-14 AUDIMAX"
+                  "raum": "S1-111",
+                  "roh": "Fr 12-14 S1-111"
                 }
               ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=741780790",
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=748241633",
               "ohneZeiten": false,
               "ausgefallen": false,
               "englisch": false
@@ -619,35 +908,255 @@
           ]
         },
         {
-          "schluessel": "mv420520521",
-          "modellId": 420520521,
+          "schluessel": "mv71392727#v",
+          "modellId": 71392727,
           "herkunftE2": 405818181,
           "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
-          "modellName": "Programmierpraktikum",
-          "art": "Praktikum",
-          "teilgruppe": null,
-          "modulId": 420520482,
-          "modulKuerzel": "39-Inf-PP",
-          "modulName": "Prinzipien der Programmierung",
+          "modellName": "Softwaremodellierung mit UML, Projektanalyse und -präsentation (Vorlesungsteil)",
+          "art": "Seminar",
+          "teilgruppe": "fest",
+          "modulId": 70750995,
+          "modulKuerzel": "39-Inf-SE_a",
+          "modulName": "Software Engineering",
           "pflicht": true,
           "fachsemester": [
-            1
+            3
           ],
           "optionen": [
             {
-              "id": 738809115,
-              "name": "Praktikum zu Prinzipien der Programmierung",
-              "art": "Praktikum",
-              "belegnummer": "392004",
+              "id": 748241633,
+              "name": "Softwaremodellierung mit UML, Projektanalyse und -präsentation",
+              "art": "Seminar",
+              "belegnummer": "392149",
               "dozenten": [
-                "Dr. Dirk Frettlöh"
+                "Dr.-Ing. Sebastian Wrede",
+                "PD Dr.-Ing. Sven Wachsmuth"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S0-133",
+                  "roh": "Mi 12-14 S0-133"
+                },
+                {
+                  "wochentag": 3,
+                  "beginnMin": 960,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V7-140",
+                  "roh": "Mi 16-18 V7-140"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S1-501",
+                  "roh": "Do 10-12 S1-501"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S0-155",
+                  "roh": "Fr 10-12 S0-155"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S0-133",
+                  "roh": "Fr 10-12 S0-133"
+                },
+                {
+                  "wochentag": 5,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S1-111",
+                  "roh": "Fr 12-14 S1-111"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=748241633",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv71392727#u",
+          "modellId": 71392727,
+          "herkunftE2": 405818181,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "Softwaremodellierung mit UML, Projektanalyse und -präsentation (Übungsteil)",
+          "art": "Übung",
+          "teilgruppe": "wahlbar",
+          "modulId": 70750995,
+          "modulKuerzel": "39-Inf-SE_a",
+          "modulName": "Software Engineering",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 747235679,
+              "name": "Übungen zu Grundlagen des Software Engineering",
+              "art": "Übung",
+              "belegnummer": "392143",
+              "dozenten": [
+                "PD Dr.-Ing. Sven Wachsmuth",
+                "Dr.-Ing. Sebastian Wrede",
+                "Markus Rothgänger-Humke"
               ],
               "semester": 20262,
               "slots": [],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=738809115",
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=747235679",
               "ohneZeiten": true,
               "ausgefallen": false,
               "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv420564645",
+          "modellId": 420564645,
+          "herkunftE2": 405818181,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "Grundlagen Maschinellen Lernens",
+          "art": "Übung",
+          "teilgruppe": null,
+          "modulId": 420564638,
+          "modulKuerzel": "39-Inf-ML",
+          "modulName": "Grundlagen Maschinelles Lernen",
+          "pflicht": true,
+          "fachsemester": [
+            3,
+            5
+          ],
+          "optionen": [
+            {
+              "id": 748223820,
+              "name": "Tutorials: Introduction to Machine Learning (int. Track)",
+              "art": "Übung",
+              "belegnummer": "392140",
+              "dozenten": [
+                "Dr. Alexander Schulz",
+                "Sarah Schröder"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=748223820",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": true
+            },
+            {
+              "id": 748227787,
+              "name": "Additional Tutorials: Introduction to Machine Learning (int. Track)",
+              "art": "Übung",
+              "belegnummer": "392141",
+              "dozenten": [
+                "Dr. Alexander Schulz",
+                "Sarah Schröder"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 960,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "S1-501",
+                  "roh": "Do 16-18 S1-501"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=748227787",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": true
+            }
+          ]
+        },
+        {
+          "schluessel": "mv420564651",
+          "modellId": 420564651,
+          "herkunftE2": 405818181,
+          "herkunftFach": "Künstliche Intelligenz und Kognitive Informatik (1-Fach (fw))",
+          "modellName": "Grundlagen Maschinellen Lernens",
+          "art": "Vorlesung",
+          "teilgruppe": null,
+          "modulId": 420564638,
+          "modulKuerzel": "39-Inf-ML",
+          "modulName": "Grundlagen Maschinelles Lernen",
+          "pflicht": true,
+          "fachsemester": [
+            3,
+            5
+          ],
+          "optionen": [
+            {
+              "id": 748212809,
+              "name": "Introduction to Machine Learning (int. Track)",
+              "art": "Vorlesung",
+              "belegnummer": "392139",
+              "dozenten": [
+                "Dr. Alexander Schulz"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 2,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "H6",
+                  "roh": "Di 12-14 H6"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=748212809",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": true
             }
           ]
         }
@@ -669,7 +1178,7 @@
       "semesterBis": null,
       "detailUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/in?id=405818172",
       "fachsemester": [
-        1
+        3
       ],
       "pflichtFuerQuelle": true,
       "id": "e2-405818185",
@@ -1002,7 +1511,7 @@
       "semesterBis": null,
       "detailUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/in?id=405818172",
       "fachsemester": [
-        1
+        3
       ],
       "pflichtFuerQuelle": true,
       "id": "e2-405818188",
@@ -1017,73 +1526,1385 @@
   ],
   "konflikte": [
     {
-      "id": "e2-405818181:mv29611822:mv29614264",
+      "id": "e2-405818181:mv420523065:mv420523241#u",
       "kohorteId": "e2-405818181",
-      "aSchluessel": "mv29611822",
-      "bSchluessel": "mv29614264",
-      "amodulID": 26796159,
-      "bmodulID": 27461321,
-      "schwere": "unsicher",
+      "aSchluessel": "mv420523065",
+      "bSchluessel": "mv420523241#u",
+      "amodulID": 420523059,
+      "bmodulID": 420523238,
+      "schwere": "teilweise",
       "betrifftQuelle": false,
-      "freieKombinationen": 0,
-      "gesamteKombinationen": 1,
+      "freieKombinationen": 41,
+      "gesamteKombinationen": 42,
       "paare": [
         {
-          "aKursId": 739467891,
-          "bKursId": 742856827,
+          "aKursId": 732698806,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 732698806,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 732698806,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 732698806,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 732698806,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 732698806,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 732698806,
+          "bKursId": 774169214,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 5,
+              "beginnMin": 600,
+              "endeMin": 720,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "V4-119",
+                "roh": "Fr 10-12 V4-119"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "GZI",
+                "roh": "Fr 10-12 GZI"
+              }
+            }
+          ],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        }
+      ],
+      "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
+    },
+    {
+      "id": "e2-405818181:mv420523065:mv71392686",
+      "kohorteId": "e2-405818181",
+      "aSchluessel": "mv420523065",
+      "bSchluessel": "mv71392686",
+      "amodulID": 420523059,
+      "bmodulID": 70750995,
+      "schwere": "unsicher",
+      "betrifftQuelle": false,
+      "freieKombinationen": 5,
+      "gesamteKombinationen": 6,
+      "paare": [
+        {
+          "aKursId": 732698806,
+          "bKursId": 748241633,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 5,
+              "beginnMin": 600,
+              "endeMin": 720,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "V4-119",
+                "roh": "Fr 10-12 V4-119"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S0-155",
+                "roh": "Fr 10-12 S0-155"
+              }
+            },
+            {
+              "wochentag": 5,
+              "beginnMin": 600,
+              "endeMin": 720,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "V4-119",
+                "roh": "Fr 10-12 V4-119"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S0-133",
+                "roh": "Fr 10-12 S0-133"
+              }
+            }
+          ],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        }
+      ],
+      "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
+    },
+    {
+      "id": "e2-405818181:mv420556026:mv420523241#u",
+      "kohorteId": "e2-405818181",
+      "aSchluessel": "mv420556026",
+      "bSchluessel": "mv420523241#u",
+      "amodulID": 420556013,
+      "bmodulID": 420523238,
+      "schwere": "teilweise",
+      "betrifftQuelle": false,
+      "freieKombinationen": 6,
+      "gesamteKombinationen": 7,
+      "paare": [
+        {
+          "aKursId": 742880868,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Vorlesung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 742880868,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Vorlesung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 742880868,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Vorlesung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 742880868,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Vorlesung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 742880868,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Vorlesung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 742880868,
+          "bKursId": 774169038,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 4,
+              "beginnMin": 960,
+              "endeMin": 1080,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 960,
+                "endeMin": 1080,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "CITEC",
+                "roh": "Do 16-18 CITEC"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 960,
+                "endeMin": 1080,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "GZI",
+                "roh": "Do 16-18 GZI"
+              }
+            }
+          ],
+          "aKursType": "Vorlesung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 742880868,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Vorlesung",
+          "bKursType": "Übung"
+        }
+      ],
+      "zusammenfassung": "Do 16:00–18:00 (120 min) – wöchentliche Überschneidung"
+    },
+    {
+      "id": "e2-405818181:mv420556026:mv420564645",
+      "kohorteId": "e2-405818181",
+      "aSchluessel": "mv420556026",
+      "bSchluessel": "mv420564645",
+      "amodulID": 420556013,
+      "bmodulID": 420564638,
+      "schwere": "teilweise",
+      "betrifftQuelle": false,
+      "freieKombinationen": 1,
+      "gesamteKombinationen": 2,
+      "paare": [
+        {
+          "aKursId": 742880868,
+          "bKursId": 748223820,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Vorlesung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 742880868,
+          "bKursId": 748227787,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 4,
+              "beginnMin": 960,
+              "endeMin": 1080,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 960,
+                "endeMin": 1080,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "CITEC",
+                "roh": "Do 16-18 CITEC"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 960,
+                "endeMin": 1080,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S1-501",
+                "roh": "Do 16-18 S1-501"
+              }
+            }
+          ],
+          "aKursType": "Vorlesung",
+          "bKursType": "Übung"
+        }
+      ],
+      "zusammenfassung": "Do 16:00–18:00 (120 min) – wöchentliche Überschneidung"
+    },
+    {
+      "id": "e2-405818181:mv420523241#u:mv71392685",
+      "kohorteId": "e2-405818181",
+      "aSchluessel": "mv420523241#u",
+      "bSchluessel": "mv71392685",
+      "amodulID": 420523238,
+      "bmodulID": 70750995,
+      "schwere": "teilweise",
+      "betrifftQuelle": false,
+      "freieKombinationen": 6,
+      "gesamteKombinationen": 7,
+      "paare": [
+        {
+          "aKursId": 737632989,
+          "bKursId": 747228485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 774167652,
+          "bKursId": 747228485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 774168234,
+          "bKursId": 747228485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 774168485,
+          "bKursId": 747228485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 774168816,
+          "bKursId": 747228485,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 4,
+              "beginnMin": 720,
+              "endeMin": 840,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 720,
+                "endeMin": 840,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "GZI",
+                "roh": "Do 12-14 GZI"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 720,
+                "endeMin": 840,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S0-209",
+                "roh": "Do 12-14 S0-209"
+              }
+            }
+          ],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 774169038,
+          "bKursId": 747228485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 774169214,
+          "bKursId": 747228485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        }
+      ],
+      "zusammenfassung": "Do 12:00–14:00 (120 min) – wöchentliche Überschneidung"
+    },
+    {
+      "id": "e2-405818181:mv420523241#u:mv71392686",
+      "kohorteId": "e2-405818181",
+      "aSchluessel": "mv420523241#u",
+      "bSchluessel": "mv71392686",
+      "amodulID": 420523238,
+      "bmodulID": 70750995,
+      "schwere": "unsicher",
+      "betrifftQuelle": false,
+      "freieKombinationen": 5,
+      "gesamteKombinationen": 7,
+      "paare": [
+        {
+          "aKursId": 737632989,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 774167652,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 774168234,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 774168485,
+          "bKursId": 748241633,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 3,
+              "beginnMin": 720,
+              "endeMin": 840,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 3,
+                "beginnMin": 720,
+                "endeMin": 840,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "GZI",
+                "roh": "Mi 12-14 GZI"
+              },
+              "bSlot": {
+                "wochentag": 3,
+                "beginnMin": 720,
+                "endeMin": 840,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S0-133",
+                "roh": "Mi 12-14 S0-133"
+              }
+            }
+          ],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 774168816,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 774169038,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 774169214,
+          "bKursId": 748241633,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 5,
+              "beginnMin": 600,
+              "endeMin": 720,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "GZI",
+                "roh": "Fr 10-12 GZI"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S0-155",
+                "roh": "Fr 10-12 S0-155"
+              }
+            },
+            {
+              "wochentag": 5,
+              "beginnMin": 600,
+              "endeMin": 720,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "GZI",
+                "roh": "Fr 10-12 GZI"
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S0-133",
+                "roh": "Fr 10-12 S0-133"
+              }
+            }
+          ],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        }
+      ],
+      "zusammenfassung": "Mi 12:00–14:00 (120 min) – wöchentliche Überschneidung | Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
+    },
+    {
+      "id": "e2-405818181:mv420523241#u:mv420564645",
+      "kohorteId": "e2-405818181",
+      "aSchluessel": "mv420523241#u",
+      "bSchluessel": "mv420564645",
+      "amodulID": 420523238,
+      "bmodulID": 420564638,
+      "schwere": "teilweise",
+      "betrifftQuelle": false,
+      "freieKombinationen": 13,
+      "gesamteKombinationen": 14,
+      "paare": [
+        {
+          "aKursId": 737632989,
+          "bKursId": 748223820,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 737632989,
+          "bKursId": 748227787,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774167652,
+          "bKursId": 748223820,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774167652,
+          "bKursId": 748227787,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774168234,
+          "bKursId": 748223820,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774168234,
+          "bKursId": 748227787,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774168485,
+          "bKursId": 748223820,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774168485,
+          "bKursId": 748227787,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774168816,
+          "bKursId": 748223820,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774168816,
+          "bKursId": 748227787,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774169038,
+          "bKursId": 748223820,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774169038,
+          "bKursId": 748227787,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 4,
+              "beginnMin": 960,
+              "endeMin": 1080,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 960,
+                "endeMin": 1080,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "GZI",
+                "roh": "Do 16-18 GZI"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 960,
+                "endeMin": 1080,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S1-501",
+                "roh": "Do 16-18 S1-501"
+              }
+            }
+          ],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774169214,
+          "bKursId": 748223820,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774169214,
+          "bKursId": 748227787,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        }
+      ],
+      "zusammenfassung": "Do 16:00–18:00 (120 min) – wöchentliche Überschneidung"
+    },
+    {
+      "id": "e2-405818181:mv420523241#u:mv420564651",
+      "kohorteId": "e2-405818181",
+      "aSchluessel": "mv420523241#u",
+      "bSchluessel": "mv420564651",
+      "amodulID": 420523238,
+      "bmodulID": 420564638,
+      "schwere": "teilweise",
+      "betrifftQuelle": false,
+      "freieKombinationen": 6,
+      "gesamteKombinationen": 7,
+      "paare": [
+        {
+          "aKursId": 737632989,
+          "bKursId": 748212809,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 774167652,
+          "bKursId": 748212809,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 774168234,
+          "bKursId": 748212809,
           "status": "belegt",
           "kollisionen": [
             {
               "wochentag": 2,
-              "beginnMin": 480,
-              "endeMin": 600,
+              "beginnMin": 720,
+              "endeMin": 840,
               "minuten": 120,
               "sicher": true,
               "einmalig": false,
               "grund": "wöchentliche Überschneidung",
               "aSlot": {
                 "wochentag": 2,
-                "beginnMin": 480,
-                "endeMin": 600,
+                "beginnMin": 720,
+                "endeMin": 840,
                 "von": null,
                 "bis": null,
                 "datum": null,
                 "rhythmusText": null,
                 "rhythmus": "woechentlich",
-                "raum": "Y-0-111 Beginn schon um 7:45 Uhr",
-                "roh": "Di 8-10 Y-0-111 Beginn schon um 7:45 Uhr"
+                "raum": "GZI",
+                "roh": "Di 12-14 GZI"
               },
               "bSlot": {
                 "wochentag": 2,
-                "beginnMin": 480,
-                "endeMin": 600,
+                "beginnMin": 720,
+                "endeMin": 840,
                 "von": null,
                 "bis": null,
                 "datum": null,
                 "rhythmusText": null,
                 "rhythmus": "woechentlich",
-                "raum": "V2-200",
-                "roh": "Di 8-10 V2-200"
+                "raum": "H6",
+                "roh": "Di 12-14 H6"
               }
             }
           ],
-          "aKursType": "Vorlesung / Übung",
-          "bKursType": "Übung"
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 774168485,
+          "bKursId": 748212809,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 774168816,
+          "bKursId": 748212809,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 774169038,
+          "bKursId": 748212809,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
+        },
+        {
+          "aKursId": 774169214,
+          "bKursId": 748212809,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Vorlesung"
         }
       ],
-      "zusammenfassung": "Di 08:00–10:00 (120 min) – wöchentliche Überschneidung"
+      "zusammenfassung": "Di 12:00–14:00 (120 min) – wöchentliche Überschneidung"
+    },
+    {
+      "id": "e2-405818181:mv420742967:mv71392686",
+      "kohorteId": "e2-405818181",
+      "aSchluessel": "mv420742967",
+      "bSchluessel": "mv71392686",
+      "amodulID": 420742960,
+      "bmodulID": 70750995,
+      "schwere": "unsicher",
+      "betrifftQuelle": false,
+      "freieKombinationen": 0,
+      "gesamteKombinationen": 1,
+      "paare": [
+        {
+          "aKursId": 743037726,
+          "bKursId": 748241633,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 4,
+              "beginnMin": 600,
+              "endeMin": 720,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "CITEC",
+                "roh": "Do 10-12 CITEC"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 600,
+                "endeMin": 720,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S1-501",
+                "roh": "Do 10-12 S1-501"
+              }
+            }
+          ],
+          "aKursType": "Vorlesung",
+          "bKursType": "Seminar"
+        }
+      ],
+      "zusammenfassung": "Do 10:00–12:00 (120 min) – wöchentliche Überschneidung"
+    },
+    {
+      "id": "e2-405818181:mv420742973:mv71392686",
+      "kohorteId": "e2-405818181",
+      "aSchluessel": "mv420742973",
+      "bSchluessel": "mv71392686",
+      "amodulID": 420742960,
+      "bmodulID": 70750995,
+      "schwere": "unsicher",
+      "betrifftQuelle": false,
+      "freieKombinationen": 2,
+      "gesamteKombinationen": 3,
+      "paare": [
+        {
+          "aKursId": 743039416,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 743050934,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 743052272,
+          "bKursId": 748241633,
+          "status": "belegt",
+          "kollisionen": [
+            {
+              "wochentag": 5,
+              "beginnMin": 720,
+              "endeMin": 840,
+              "minuten": 120,
+              "sicher": true,
+              "einmalig": false,
+              "grund": "wöchentliche Überschneidung",
+              "aSlot": {
+                "wochentag": 5,
+                "beginnMin": 720,
+                "endeMin": 840,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "GZI V2-221",
+                "roh": "Fr 12-14 GZI V2-221  "
+              },
+              "bSlot": {
+                "wochentag": 5,
+                "beginnMin": 720,
+                "endeMin": 840,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "S1-111",
+                "roh": "Fr 12-14 S1-111"
+              }
+            }
+          ],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        }
+      ],
+      "zusammenfassung": "Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
     }
   ],
-  "sprachhinweise": [],
+  "sprachhinweise": [
+    {
+      "modulId": 420564638,
+      "modulKuerzel": "39-Inf-ML",
+      "modulName": "Grundlagen Maschinelles Lernen",
+      "kohorteId": "e2-405818181",
+      "kohorteBezeichnung": "Künstliche Intelligenz und Kognitive Informatik B.Sc. 1-Fach (fw) FsB WiSe 2023/24",
+      "abschluss": "B.Sc.",
+      "pflicht": true,
+      "veranstaltungen": 3
+    }
+  ],
   "uebersprungeneVarianten": [],
   "machbarkeit": [
     {
       "kohorteId": "e2-405818181",
       "kohorteBezeichnung": "Künstliche Intelligenz und Kognitive Informatik B.Sc. 1-Fach (fw) FsB WiSe 2023/24",
       "fachsemester": [
-        1
+        3
       ],
-      "pflichtAnforderungen": 10,
+      "pflichtAnforderungen": 14,
       "harteKonflikte": 0,
       "pflichtErfuellbar": true,
       "vollstaendigBewertet": true,
@@ -1094,7 +2915,7 @@
       "kohorteId": "e2-405818185",
       "kohorteBezeichnung": "Künstliche Intelligenz und Kognitive Informatik B.Sc. 1-Fach (fw) Modularisierter individueller Kompetenz-Erwerb (MiKE) FsB WiSe 2023/24",
       "fachsemester": [
-        1
+        3
       ],
       "pflichtAnforderungen": 0,
       "harteKonflikte": 0,
@@ -1128,7 +2949,7 @@
       "kohorteId": "e2-405818188",
       "kohorteBezeichnung": "Künstliche Intelligenz und Kognitive Informatik B.Sc. 1-Fach (fw) Strukturierte Ergänzung des fw 1-Fach-Ba FsB WiSe 2023/24",
       "fachsemester": [
-        1
+        3
       ],
       "pflichtAnforderungen": 0,
       "harteKonflikte": 0,
@@ -1139,18 +2960,18 @@
     }
   ],
   "warnungen": [
-    "3 Veranstaltung(en) ohne Zeitangabe (z. B. Blocktermine nach Vereinbarung) – sie können keine Überschneidung auslösen."
+    "5 Veranstaltung(en) ohne Zeitangabe (z. B. Blocktermine nach Vereinbarung) – sie können keine Überschneidung auslösen."
   ],
   "statistik": {
     "kohorten": 3,
     "aktiveKohorten": 1,
-    "veranstaltungen": 11,
-    "ohneZeiten": 3,
+    "veranstaltungen": 29,
+    "ohneZeiten": 5,
     "ausgefallen": 0,
     "wahlpflichtAnforderungen": 6,
-    "nurEnglisch": 0,
+    "nurEnglisch": 1,
     "harteKonflikte": 0,
-    "teilweiseKonflikte": 0,
-    "unsichereKonflikte": 1
+    "teilweiseKonflikte": 6,
+    "unsichereKonflikte": 4
   }
 }

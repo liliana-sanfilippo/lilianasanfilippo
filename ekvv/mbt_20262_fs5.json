@@ -1,0 +1,494 @@
+{
+  "erzeugtAm": "2026-09-09T13:41:50.181Z",
+  "semester": 20262,
+  "semesterName": "WiSe 2026/27",
+  "quelle": {
+    "modus": "studiengang",
+    "veranstaltungId": null,
+    "veranstaltungName": null,
+    "modulIds": [],
+    "modellIds": [],
+    "ebene1": 269202752,
+    "studiengangName": "Molekulare Biotechnologie B.Sc. 1-Fach (fw) FsB WiSe 2022/23",
+    "fachsemester": [
+      5
+    ]
+  },
+  "optionen": {
+    "pufferMin": 0,
+    "nurPflicht": true,
+    "tolerierteFachsemester": "exakt",
+    "kombinationen": false,
+    "sprachpruefung": "pflicht"
+  },
+  "kohorten": [
+    {
+      "ebene2": 269202781,
+      "ebene1": 269202752,
+      "variante": "1-Fach (fw)",
+      "fachtyp": "1-Fach (fw)",
+      "fsbId": 269202747,
+      "fsbName": "Molekulare Biotechnologie / Bachelor of Science",
+      "fach": "Molekulare Biotechnologie",
+      "abschluss": "B.Sc.",
+      "aktuell": true,
+      "semesterVon": 20222,
+      "semesterBis": null,
+      "detailUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/in?id=269202752",
+      "fachsemester": [
+        5
+      ],
+      "pflichtFuerQuelle": true,
+      "id": "e2-269202781",
+      "bezeichnung": "Molekulare Biotechnologie B.Sc. 1-Fach (fw) FsB WiSe 2022/23",
+      "partner": [],
+      "partnerE2": null,
+      "partnerBezeichnung": null,
+      "angebote": [
+        {
+          "schluessel": "mv29615345",
+          "modellId": 29615345,
+          "herkunftE2": 269202781,
+          "herkunftFach": "Molekulare Biotechnologie (1-Fach (fw))",
+          "modellName": "Methoden der Bio- und Gentechnik",
+          "art": "Vorlesung",
+          "teilgruppe": null,
+          "modulId": 26799751,
+          "modulKuerzel": "39-MBT5",
+          "modulName": "Biotechnologie 5",
+          "pflicht": true,
+          "fachsemester": [
+            4
+          ],
+          "optionen": [
+            {
+              "id": 737637175,
+              "name": "Methoden der Bio- und Gentechnik",
+              "art": "Vorlesung",
+              "belegnummer": "391010",
+              "dozenten": [
+                "Prof. Dr. Johann E. Kufs",
+                "Prof. Dr. Kristian Müller"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 840,
+                  "endeMin": 1020,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "H8",
+                  "roh": "Mi 14-17 H8"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=737637175",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv29615343",
+          "modellId": 29615343,
+          "herkunftE2": 269202781,
+          "herkunftFach": "Molekulare Biotechnologie (1-Fach (fw))",
+          "modellName": "Softskill: Präsentationstechniken",
+          "art": "Seminar",
+          "teilgruppe": null,
+          "modulId": 26799751,
+          "modulKuerzel": "39-MBT5",
+          "modulName": "Biotechnologie 5",
+          "pflicht": true,
+          "fachsemester": [
+            4
+          ],
+          "optionen": [
+            {
+              "id": 737643014,
+              "name": "Besprechung neuer Forschungsergebnisse aus der AG zelluläre u mol. Biotechnologie",
+              "art": "Seminar",
+              "belegnummer": "391001",
+              "dozenten": [
+                "Prof. Dr. Kristian Müller"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 630,
+                  "endeMin": 750,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "X-E0-201",
+                  "roh": "Do 10:30-12:30 X-E0-201"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=737643014",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 737533139,
+              "name": "Softskill: Präsentationstechniken",
+              "art": "Seminar",
+              "belegnummer": "391032",
+              "dozenten": [
+                "Dr. Joe Max Risse"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=737533139",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv29615349",
+          "modellId": 29615349,
+          "herkunftE2": 269202781,
+          "herkunftFach": "Molekulare Biotechnologie (1-Fach (fw))",
+          "modellName": "Softskill: Wissenschaftlicher Diskurs in Englisch",
+          "art": "Seminar",
+          "teilgruppe": null,
+          "modulId": 26799751,
+          "modulKuerzel": "39-MBT5",
+          "modulName": "Biotechnologie 5",
+          "pflicht": true,
+          "fachsemester": [
+            4
+          ],
+          "optionen": [
+            {
+              "id": 737547740,
+              "name": "Englisch für Molekulare Biotechnologen",
+              "art": "Seminar",
+              "belegnummer": "391045",
+              "dozenten": [
+                "Beatrix Loghin",
+                "Dr. Joe Max Risse"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 2,
+                  "beginnMin": 735,
+                  "endeMin": 825,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "D5-131",
+                  "roh": "Di 12:15-13:45 D5-131"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=737547740",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": true
+            }
+          ]
+        },
+        {
+          "schluessel": "mv365101822",
+          "modellId": 365101822,
+          "herkunftE2": 269202781,
+          "herkunftFach": "Molekulare Biotechnologie (1-Fach (fw))",
+          "modellName": "Biotechnology 4  Practice Cell Culture Technology and Down stream Processing",
+          "art": "Praktikum",
+          "teilgruppe": null,
+          "modulId": 365101815,
+          "modulKuerzel": "39-MBT4P",
+          "modulName": "Biotechnologie 4 Praktikum",
+          "pflicht": true,
+          "fachsemester": [
+            5
+          ],
+          "optionen": [
+            {
+              "id": 746918906,
+              "name": "Biotechnologie 4 Praktikum a",
+              "art": "Praktikum",
+              "belegnummer": "391009",
+              "dozenten": [
+                "Dr. Raimund Hoffrogge",
+                "Prof. Dr. Kristian Müller",
+                "Dr. Sonja Siwiora-Brenke",
+                "Dr Marco Radukic"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=746918906",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 746919548,
+              "name": "Biotechnologie 4 Praktikum b",
+              "art": "Praktikum",
+              "belegnummer": "391009",
+              "dozenten": [
+                "Dr. Raimund Hoffrogge",
+                "Prof. Dr. Kristian Müller",
+                "Dr. Sonja Siwiora-Brenke",
+                "Dr Marco Radukic"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=746919548",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 746919937,
+              "name": "Biotechnologie 4 Praktikum c",
+              "art": "Praktikum",
+              "belegnummer": "391009",
+              "dozenten": [
+                "Dr. Raimund Hoffrogge",
+                "Prof. Dr. Kristian Müller",
+                "Dr. Sonja Siwiora-Brenke",
+                "Dr Marco Radukic"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=746919937",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv365101889",
+          "modellId": 365101889,
+          "herkunftE2": 269202781,
+          "herkunftFach": "Molekulare Biotechnologie (1-Fach (fw))",
+          "modellName": "Grundlagenmodule",
+          "art": "Praktikum o. Projekt o. Seminar o. Übung o. Vorlesung",
+          "teilgruppe": null,
+          "modulId": 365101882,
+          "modulKuerzel": "39-MBT8_a",
+          "modulName": "Wahlpflicht 2 Molekulare Biotechnologie Bachelor",
+          "pflicht": true,
+          "fachsemester": [
+            5
+          ],
+          "optionen": [
+            {
+              "id": 735804589,
+              "name": "Projektmodul \"Biotechnologische Anwendungen mit Grünalgen A\"",
+              "art": "Projekt",
+              "belegnummer": "200907",
+              "dozenten": [
+                "Prof. Dr. Olaf Kruse",
+                "Dr. Jan H. Mussgnug",
+                "Dr. Thomas Baier"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735804589",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 743601996,
+              "name": "Projektmodul \"Biotechnologische Methoden\"",
+              "art": "Projekt",
+              "belegnummer": "200908",
+              "dozenten": [
+                "Prof. Dr. Romy Schmidt-Schippers",
+                "Dr. Tino Köster",
+                "Stephanie Frings"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=743601996",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 736757201,
+              "name": "Projektmodul \"Bakterielle Biotechnologie\"",
+              "art": "Projekt",
+              "belegnummer": "200923",
+              "dozenten": [
+                "Prof. Dr. Volker F. Wendisch",
+                "Dr. Petra Peters-Wendisch",
+                "Fynn Stegelmann"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=736757201",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": true
+            }
+          ]
+        },
+        {
+          "schluessel": "mv365102110",
+          "modellId": 365102110,
+          "herkunftE2": 269202781,
+          "herkunftFach": "Molekulare Biotechnologie (1-Fach (fw))",
+          "modellName": "Preparation project for bachelor thesis",
+          "art": "Projekt",
+          "teilgruppe": null,
+          "modulId": 365102096,
+          "modulKuerzel": "39-MBT9",
+          "modulName": "Vorbereitung BA-Arbeit",
+          "pflicht": true,
+          "fachsemester": [
+            5,
+            6
+          ],
+          "optionen": [
+            {
+              "id": 737553668,
+              "name": "Vorbereitendes Projekt für die Bachelorarbeit",
+              "art": "Projekt",
+              "belegnummer": "398011",
+              "dozenten": [
+                "Dr. Dominik Cholewa"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=737553668",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        }
+      ],
+      "wahlpflichtAngebote": [],
+      "notiz": null
+    },
+    {
+      "ebene2": 269202785,
+      "ebene1": 269202752,
+      "variante": "Modularisierter individueller Kompetenz-Erwerb (MiKE)",
+      "fachtyp": "1-Fach (fw)",
+      "fsbId": 269202747,
+      "fsbName": "Molekulare Biotechnologie / Bachelor of Science",
+      "fach": "Molekulare Biotechnologie",
+      "abschluss": "B.Sc.",
+      "aktuell": true,
+      "semesterVon": 20222,
+      "semesterBis": null,
+      "detailUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/in?id=269202752",
+      "fachsemester": [
+        5
+      ],
+      "pflichtFuerQuelle": true,
+      "id": "e2-269202785",
+      "bezeichnung": "Molekulare Biotechnologie B.Sc. 1-Fach (fw) Modularisierter individueller Kompetenz-Erwerb (MiKE) FsB WiSe 2022/23",
+      "partner": [],
+      "partnerE2": null,
+      "partnerBezeichnung": null,
+      "angebote": [],
+      "wahlpflichtAngebote": [],
+      "notiz": null
+    },
+    {
+      "ebene2": 354012128,
+      "ebene1": 269202752,
+      "variante": "Individueller Ergänzungsbereich",
+      "fachtyp": "1-Fach (fw)",
+      "fsbId": 269202747,
+      "fsbName": "Molekulare Biotechnologie / Bachelor of Science",
+      "fach": "Molekulare Biotechnologie",
+      "abschluss": "B.Sc.",
+      "aktuell": true,
+      "semesterVon": 20222,
+      "semesterBis": null,
+      "detailUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/in?id=269202752",
+      "fachsemester": [
+        5
+      ],
+      "pflichtFuerQuelle": true,
+      "id": "e2-354012128",
+      "bezeichnung": "Molekulare Biotechnologie B.Sc. 1-Fach (fw) Individueller Ergänzungsbereich FsB WiSe 2022/23",
+      "partner": [],
+      "partnerE2": null,
+      "partnerBezeichnung": null,
+      "angebote": [],
+      "wahlpflichtAngebote": [],
+      "notiz": null
+    }
+  ],
+  "konflikte": [],
+  "sprachhinweise": [],
+  "uebersprungeneVarianten": [],
+  "machbarkeit": [
+    {
+      "kohorteId": "e2-269202781",
+      "kohorteBezeichnung": "Molekulare Biotechnologie B.Sc. 1-Fach (fw) FsB WiSe 2022/23",
+      "fachsemester": [
+        5
+      ],
+      "pflichtAnforderungen": 6,
+      "harteKonflikte": 0,
+      "pflichtErfuellbar": true,
+      "vollstaendigBewertet": true,
+      "wahlpflicht": [],
+      "hinweis": "Die Variante besteht im geprüften Fachsemester nur aus Pflichtmodulen."
+    },
+    {
+      "kohorteId": "e2-269202785",
+      "kohorteBezeichnung": "Molekulare Biotechnologie B.Sc. 1-Fach (fw) Modularisierter individueller Kompetenz-Erwerb (MiKE) FsB WiSe 2022/23",
+      "fachsemester": [
+        5
+      ],
+      "pflichtAnforderungen": 0,
+      "harteKonflikte": 0,
+      "pflichtErfuellbar": null,
+      "vollstaendigBewertet": true,
+      "wahlpflicht": [],
+      "hinweis": "Die Variante besteht im geprüften Fachsemester nur aus Pflichtmodulen."
+    },
+    {
+      "kohorteId": "e2-354012128",
+      "kohorteBezeichnung": "Molekulare Biotechnologie B.Sc. 1-Fach (fw) Individueller Ergänzungsbereich FsB WiSe 2022/23",
+      "fachsemester": [
+        5
+      ],
+      "pflichtAnforderungen": 0,
+      "harteKonflikte": 0,
+      "pflichtErfuellbar": null,
+      "vollstaendigBewertet": true,
+      "wahlpflicht": [],
+      "hinweis": "Die Variante besteht im geprüften Fachsemester nur aus Pflichtmodulen."
+    }
+  ],
+  "warnungen": [
+    "8 von 11 Veranstaltungen haben keine lesbare Zeitangabe. Das deutet darauf hin, dass die Termin-Felder der API anders heißen als erwartet. Rohdaten ansehen mit: ekvv-kollision inspect --modellveranstaltung 29615345 --semester 20262"
+  ],
+  "statistik": {
+    "kohorten": 3,
+    "aktiveKohorten": 1,
+    "veranstaltungen": 11,
+    "ohneZeiten": 8,
+    "ausgefallen": 0,
+    "wahlpflichtAnforderungen": 0,
+    "nurEnglisch": 0,
+    "harteKonflikte": 0,
+    "teilweiseKonflikte": 0,
+    "unsichereKonflikte": 0
+  }
+}

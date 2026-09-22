@@ -1,5 +1,5 @@
 {
-  "erzeugtAm": "2026-08-30T12:15:04.858Z",
+  "erzeugtAm": "2026-09-09T13:26:11.160Z",
   "semester": 20262,
   "semesterName": "WiSe 2026/27",
   "quelle": {
@@ -10,7 +10,9 @@
     "modellIds": [],
     "ebene1": 432277276,
     "studiengangName": "Bioinformatische Genomforschung B.Sc. 1-Fach (fw) FsB WiSe 2024/25",
-    "fachsemester": []
+    "fachsemester": [
+      3
+    ]
   },
   "optionen": {
     "pufferMin": 0,
@@ -34,7 +36,7 @@
       "semesterBis": null,
       "detailUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/in?id=432277276",
       "fachsemester": [
-        1
+        3
       ],
       "pflichtFuerQuelle": true,
       "id": "e2-432277847",
@@ -44,303 +46,33 @@
       "partnerBezeichnung": null,
       "angebote": [
         {
-          "schluessel": "mv467061517",
-          "modellId": 467061517,
+          "schluessel": "mv29615256",
+          "modellId": 29615256,
           "herkunftE2": 432277847,
           "herkunftFach": "Bioinformatische Genomforschung (1-Fach (fw))",
-          "modellName": "Allgemeine Naturwissenschaftliche Grundlagen für Genomik und Postgenomik",
-          "art": "Übung",
+          "modellName": "Grundlagen der Genomforschung",
+          "art": "Seminar",
           "teilgruppe": null,
-          "modulId": 467061485,
-          "modulKuerzel": "20-BIG-GGP",
-          "modulName": "Allgemeine Naturwissenschaftliche Grundlagen für Genomik und Postgenomik",
+          "modulId": 26787727,
+          "modulKuerzel": "20-GF",
+          "modulName": "Genomforschung",
           "pflicht": true,
           "fachsemester": [
-            1
+            2
           ],
           "optionen": [
             {
-              "id": 735901090,
-              "name": "Allgemeine naturwissenschaftliche Grundlagen für Genomik und Postgenomik",
-              "art": "Übung",
-              "belegnummer": "209209",
+              "id": 737619900,
+              "name": "Grundlagen der Genomforschung",
+              "art": "Seminar",
+              "belegnummer": "209215",
               "dozenten": [
-                "PD Dr. Marion Eisenhut",
-                "Dr. Martin Sagasser",
-                "Prof. Dr. Bernd Weisshaar"
-              ],
-              "semester": 20262,
-              "slots": [
-                {
-                  "wochentag": 1,
-                  "beginnMin": 600,
-                  "endeMin": 720,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "G01-101",
-                  "roh": "Mo 10-12 G01-101"
-                }
-              ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735901090",
-              "ohneZeiten": false,
-              "ausgefallen": false,
-              "englisch": false
-            }
-          ]
-        },
-        {
-          "schluessel": "mv467061523",
-          "modellId": 467061523,
-          "herkunftE2": 432277847,
-          "herkunftFach": "Bioinformatische Genomforschung (1-Fach (fw))",
-          "modellName": "Allgemeine Naturwissenschaftliche Grundlagen für Genomik und Postgenomik",
-          "art": "Vorlesung",
-          "teilgruppe": null,
-          "modulId": 467061485,
-          "modulKuerzel": "20-BIG-GGP",
-          "modulName": "Allgemeine Naturwissenschaftliche Grundlagen für Genomik und Postgenomik",
-          "pflicht": true,
-          "fachsemester": [
-            1
-          ],
-          "optionen": [
-            {
-              "id": 735899113,
-              "name": "Allgemeine naturwissenschaftliche Grundlagen für Genomik und Postgenomik",
-              "art": "Vorlesung",
-              "belegnummer": "209208",
-              "dozenten": [
-                "PD Dr. Marion Eisenhut",
-                "Dr. Martin Sagasser",
-                "Prof. Dr. Bernd Weisshaar"
+                "Dr. Thomas Patschkowski"
               ],
               "semester": 20262,
               "slots": [
                 {
                   "wochentag": 3,
-                  "beginnMin": 600,
-                  "endeMin": 720,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "V7-140",
-                  "roh": "Mi 10-12 V7-140"
-                },
-                {
-                  "wochentag": 4,
-                  "beginnMin": 600,
-                  "endeMin": 720,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "W0-135",
-                  "roh": "Do 10-12 W0-135"
-                }
-              ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735899113",
-              "ohneZeiten": false,
-              "ausgefallen": false,
-              "englisch": false
-            }
-          ]
-        },
-        {
-          "schluessel": "mv29615185",
-          "modellId": 29615185,
-          "herkunftE2": 432277847,
-          "herkunftFach": "Bioinformatische Genomforschung (1-Fach (fw))",
-          "modellName": "Grundlagen der molekularen Biologie I",
-          "art": "Vorlesung",
-          "teilgruppe": null,
-          "modulId": 26787415,
-          "modulKuerzel": "20-M2",
-          "modulName": "Grundlagen der molekularen Biologie",
-          "pflicht": true,
-          "fachsemester": [
-            1
-          ],
-          "optionen": [
-            {
-              "id": 743597186,
-              "name": "Grundlagen der Molekularen Biologie I",
-              "art": "Vorlesung",
-              "belegnummer": "209210",
-              "dozenten": [
-                "Prof. Dr. Romy Schmidt-Schippers",
-                "Prof. Dr. Klaus Reinhold"
-              ],
-              "semester": 20262,
-              "slots": [
-                {
-                  "wochentag": 2,
-                  "beginnMin": 510,
-                  "endeMin": 600,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "H16",
-                  "roh": "Di 8:30-10:00 H16"
-                },
-                {
-                  "wochentag": 4,
-                  "beginnMin": 510,
-                  "endeMin": 600,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "CITEC",
-                  "roh": "Do 8:30-10:00 CITEC"
-                }
-              ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=743597186",
-              "ohneZeiten": false,
-              "ausgefallen": false,
-              "englisch": false
-            }
-          ]
-        },
-        {
-          "schluessel": "mv420519994",
-          "modellId": 420519994,
-          "herkunftE2": 432277847,
-          "herkunftFach": "Bioinformatische Genomforschung (1-Fach (fw))",
-          "modellName": "Mathematik für Informatik und Naturwissenschaften 1",
-          "art": "Vorlesung",
-          "teilgruppe": null,
-          "modulId": 420519984,
-          "modulKuerzel": "24-M-INF1_a",
-          "modulName": "Mathematik für Informatik 1",
-          "pflicht": true,
-          "fachsemester": [
-            1
-          ],
-          "optionen": [
-            {
-              "id": 732697609,
-              "name": "Mathematik für Informatik und Naturwissenschaften I",
-              "art": "Vorlesung",
-              "belegnummer": "240100",
-              "dozenten": [
-                "Prof. Dr. Christopher Voll"
-              ],
-              "semester": 20262,
-              "slots": [
-                {
-                  "wochentag": 1,
-                  "beginnMin": 840,
-                  "endeMin": 960,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "H7",
-                  "roh": "Mo 14-16 H7"
-                },
-                {
-                  "wochentag": 2,
-                  "beginnMin": 840,
-                  "endeMin": 960,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "H4",
-                  "roh": "Di 14-16 H4"
-                },
-                {
-                  "wochentag": 3,
-                  "beginnMin": 840,
-                  "endeMin": 960,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "H7",
-                  "roh": "Mi 14-16 H7"
-                }
-              ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=732697609",
-              "ohneZeiten": false,
-              "ausgefallen": false,
-              "englisch": false
-            }
-          ]
-        },
-        {
-          "schluessel": "mv420520000",
-          "modellId": 420520000,
-          "herkunftE2": 432277847,
-          "herkunftFach": "Bioinformatische Genomforschung (1-Fach (fw))",
-          "modellName": "Übungen zu Mathematik für Informatik und Naturwissenschaften 1",
-          "art": "Übung",
-          "teilgruppe": null,
-          "modulId": 420519984,
-          "modulKuerzel": "24-M-INF1_a",
-          "modulName": "Mathematik für Informatik 1",
-          "pflicht": true,
-          "fachsemester": [
-            1
-          ],
-          "optionen": [
-            {
-              "id": 732698646,
-              "name": "Übungen zu Mathematik  für Informatik und Naturwissenschaften I",
-              "art": "Übung",
-              "belegnummer": "240102",
-              "dozenten": [
-                "Prof. Dr. Christopher Voll"
-              ],
-              "semester": 20262,
-              "slots": [],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=732698646",
-              "ohneZeiten": true,
-              "ausgefallen": false,
-              "englisch": false
-            }
-          ]
-        },
-        {
-          "schluessel": "mv99936344",
-          "modellId": 99936344,
-          "herkunftE2": 432277847,
-          "herkunftFach": "Bioinformatische Genomforschung (1-Fach (fw))",
-          "modellName": "Methoden der Bioinformatik",
-          "art": "Vorlesung",
-          "teilgruppe": null,
-          "modulId": 95458304,
-          "modulKuerzel": "39-MBT6a",
-          "modulName": "Einführung in die Bioinformatik (5 LP)",
-          "pflicht": true,
-          "fachsemester": [
-            1
-          ],
-          "optionen": [
-            {
-              "id": 735924802,
-              "name": "Methoden der Bioinformatik",
-              "art": "Vorlesung",
-              "belegnummer": "392162",
-              "dozenten": [
-                "Prof. Dr.-Ing. Tim Wilhelm Nattkemper"
-              ],
-              "semester": 20262,
-              "slots": [
-                {
-                  "wochentag": 5,
                   "beginnMin": 720,
                   "endeMin": 840,
                   "von": null,
@@ -348,11 +80,11 @@
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": "V2-205",
-                  "roh": "Fr 12-14 V2-205"
+                  "raum": "G1-106",
+                  "roh": "Mi 12-14 G1-106"
                 }
               ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735924802",
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=737619900",
               "ohneZeiten": false,
               "ausgefallen": false,
               "englisch": false
@@ -360,145 +92,34 @@
           ]
         },
         {
-          "schluessel": "mv99936345",
-          "modellId": 99936345,
+          "schluessel": "mv29615257",
+          "modellId": 29615257,
           "herkunftE2": 432277847,
           "herkunftFach": "Bioinformatische Genomforschung (1-Fach (fw))",
-          "modellName": "Methoden der Bioinformatik",
-          "art": "Übung",
+          "modellName": "Grundlagen der Genomforschung",
+          "art": "Vorlesung",
           "teilgruppe": null,
-          "modulId": 95458304,
-          "modulKuerzel": "39-MBT6a",
-          "modulName": "Einführung in die Bioinformatik (5 LP)",
+          "modulId": 26787727,
+          "modulKuerzel": "20-GF",
+          "modulName": "Genomforschung",
           "pflicht": true,
           "fachsemester": [
-            1
+            2
           ],
           "optionen": [
             {
-              "id": 735927620,
-              "name": "Übungen 1: Methoden der Bioinformatik",
-              "art": "Übung",
-              "belegnummer": "392163",
+              "id": 735901223,
+              "name": "Grundlagen der Genomforschung",
+              "art": "Vorlesung",
+              "belegnummer": "209214",
               "dozenten": [
-                "Prof. Dr.-Ing. Tim Wilhelm Nattkemper"
+                "Dr. Thomas Patschkowski",
+                "Prof. Dr. Bernd Weisshaar"
               ],
               "semester": 20262,
               "slots": [
                 {
-                  "wochentag": 2,
-                  "beginnMin": 600,
-                  "endeMin": 720,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "V2-200",
-                  "roh": "Di 10-12 V2-200"
-                }
-              ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735927620",
-              "ohneZeiten": false,
-              "ausgefallen": false,
-              "englisch": false
-            },
-            {
-              "id": 735928600,
-              "name": "Übungen 2: Methoden der Bioinformatik",
-              "art": "Übung",
-              "belegnummer": "392163",
-              "dozenten": [
-                "Prof. Dr.-Ing. Tim Wilhelm Nattkemper"
-              ],
-              "semester": 20262,
-              "slots": [
-                {
-                  "wochentag": 2,
-                  "beginnMin": 840,
-                  "endeMin": 960,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "S1-501",
-                  "roh": "Di 14-16 S1-501"
-                }
-              ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735928600",
-              "ohneZeiten": false,
-              "ausgefallen": false,
-              "englisch": false
-            },
-            {
-              "id": 735929365,
-              "name": "Übungen 3: Methoden der Bioinformatik",
-              "art": "Übung",
-              "belegnummer": "392163",
-              "dozenten": [
-                "Prof. Dr.-Ing. Tim Wilhelm Nattkemper"
-              ],
-              "semester": 20262,
-              "slots": [
-                {
-                  "wochentag": 4,
-                  "beginnMin": 720,
-                  "endeMin": 840,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "X-E1-202",
-                  "roh": "Do 12-14 X-E1-202"
-                }
-              ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735929365",
-              "ohneZeiten": false,
-              "ausgefallen": false,
-              "englisch": false
-            },
-            {
-              "id": 735931497,
-              "name": "Übungen 4: Methoden der Bioinformatik",
-              "art": "Übung",
-              "belegnummer": "392163",
-              "dozenten": [
-                "Prof. Dr.-Ing. Tim Wilhelm Nattkemper"
-              ],
-              "semester": 20262,
-              "slots": [
-                {
-                  "wochentag": 2,
-                  "beginnMin": 600,
-                  "endeMin": 720,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": null,
-                  "roh": "Di 10-12"
-                }
-              ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735931497",
-              "ohneZeiten": false,
-              "ausgefallen": false,
-              "englisch": false
-            },
-            {
-              "id": 735932524,
-              "name": "Übungen 5: Methoden der Bioinformatik",
-              "art": "Übung",
-              "belegnummer": "392163",
-              "dozenten": [
-                "Prof. Dr.-Ing. Tim Wilhelm Nattkemper"
-              ],
-              "semester": 20262,
-              "slots": [
-                {
-                  "wochentag": 5,
+                  "wochentag": 3,
                   "beginnMin": 480,
                   "endeMin": 600,
                   "von": null,
@@ -506,11 +127,700 @@
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": "S1-501",
-                  "roh": "Fr 08-10 S1-501"
+                  "raum": "H9",
+                  "roh": "Mi 8-10 H9"
                 }
               ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735932524",
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735901223",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv467061635",
+          "modellId": 467061635,
+          "herkunftE2": 432277847,
+          "herkunftFach": "Bioinformatische Genomforschung (1-Fach (fw))",
+          "modellName": "Populationsgenetik",
+          "art": "Übung",
+          "teilgruppe": null,
+          "modulId": 467061609,
+          "modulKuerzel": "20-BIG-PG",
+          "modulName": "Populationsgenetik",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 735840237,
+              "name": "Evolutionäre Populationsgenetik ",
+              "art": "Vorlesung / Übung",
+              "belegnummer": "200705",
+              "dozenten": [
+                "Prof. Dr. Joseph Hoffman",
+                "Prof. Dr. Oliver Krüger",
+                "Dr. Nayden Chakarov",
+                "Dr. David Vendrami"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "R5-4-112",
+                  "roh": "Do 10-12 R5-4-112"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 840,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "R5-4-112",
+                  "roh": "Do 14-18 R5-4-112"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735840237",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv467061639",
+          "modellId": 467061639,
+          "herkunftE2": 432277847,
+          "herkunftFach": "Bioinformatische Genomforschung (1-Fach (fw))",
+          "modellName": "Populationsgenetik",
+          "art": "Vorlesung",
+          "teilgruppe": null,
+          "modulId": 467061609,
+          "modulKuerzel": "20-BIG-PG",
+          "modulName": "Populationsgenetik",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 735840237,
+              "name": "Evolutionäre Populationsgenetik ",
+              "art": "Vorlesung / Übung",
+              "belegnummer": "200705",
+              "dozenten": [
+                "Prof. Dr. Joseph Hoffman",
+                "Prof. Dr. Oliver Krüger",
+                "Dr. Nayden Chakarov",
+                "Dr. David Vendrami"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "R5-4-112",
+                  "roh": "Do 10-12 R5-4-112"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 840,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "R5-4-112",
+                  "roh": "Do 14-18 R5-4-112"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735840237",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv29611956",
+          "modellId": 29611956,
+          "herkunftE2": 432277847,
+          "herkunftFach": "Bioinformatische Genomforschung (1-Fach (fw))",
+          "modellName": "Genomforschung II",
+          "art": "Praktikum mit Seminaranteil",
+          "teilgruppe": null,
+          "modulId": 26787663,
+          "modulKuerzel": "20-VG",
+          "modulName": "Vertiefung Genetik",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 735897981,
+              "name": "Praktikum Grundlagen der Genomforschung II",
+              "art": "Praktikum",
+              "belegnummer": "209202",
+              "dozenten": [
+                "Dr. Martin Sagasser",
+                "Dr. Daniela Holtgräwe",
+                "Suhail Ashraf",
+                "Prof. Dr. Bernd Weisshaar"
+              ],
+              "semester": 20262,
+              "slots": [],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735897981",
+              "ohneZeiten": true,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv420523062",
+          "modellId": 420523062,
+          "herkunftE2": 432277847,
+          "herkunftFach": "Bioinformatische Genomforschung (1-Fach (fw))",
+          "modellName": "Ausgewählte Kapitel der Analysis",
+          "art": "Vorlesung",
+          "teilgruppe": null,
+          "modulId": 420523059,
+          "modulKuerzel": "24-M-INF3",
+          "modulName": "Mathematik für Informatik 3",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 732698770,
+              "name": "Ausgewählte Kapitel der Analysis",
+              "art": "Vorlesung",
+              "belegnummer": "240107",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "X-E0-001",
+                  "roh": "Mi 14-16 X-E0-001"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=732698770",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv420523065",
+          "modellId": 420523065,
+          "herkunftE2": 432277847,
+          "herkunftFach": "Bioinformatische Genomforschung (1-Fach (fw))",
+          "modellName": "Ausgewählte Kapitel der Analysis",
+          "art": "Übung",
+          "teilgruppe": null,
+          "modulId": 420523059,
+          "modulKuerzel": "24-M-INF3",
+          "modulName": "Mathematik für Informatik 3",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 732698806,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 5,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V4-119",
+                  "roh": "Fr 10-12 V4-119"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=732698806",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773858582,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 1080,
+                  "endeMin": 1200,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V2-216",
+                  "roh": "Mo 18-20 V2-216"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773858582",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773859538,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 5,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V4-112",
+                  "roh": "Fr 14-16 V4-112"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773859538",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773860253,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 1080,
+                  "endeMin": 1200,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V4-119",
+                  "roh": "Do 18-20 V4-119"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773860253",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773860994,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 1080,
+                  "endeMin": 1200,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V2-216",
+                  "roh": "Mi 18-20 V2-216"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773860994",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 774032177,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V4-119",
+                  "roh": "Do 8-10 V4-119"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=774032177",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv467061727",
+          "modellId": 467061727,
+          "herkunftE2": 432277847,
+          "herkunftFach": "Bioinformatische Genomforschung (1-Fach (fw))",
+          "modellName": "Machine Learning Methods and Applications",
+          "art": "Übung",
+          "teilgruppe": null,
+          "modulId": 467061721,
+          "modulKuerzel": "39-Inf-MLMA",
+          "modulName": "Machine Learning Methods and Applications",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 749873146,
+              "name": "Tutorial A: Machine Learning Methods and Applications",
+              "art": "Übung",
+              "belegnummer": "392181",
+              "dozenten": [
+                "Prof'in Dr. Barbara Hammer",
+                "Philipp Hartmann"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 2,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "14-täglich",
+                  "rhythmus": "vierzehntaeglich",
+                  "raum": "S1-501",
+                  "roh": "Di 12-14 14-täglich S1-501"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=749873146",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": true
+            },
+            {
+              "id": 749876578,
+              "name": "Tutorial B: Machine Learning Methods and Applications",
+              "art": "Übung",
+              "belegnummer": "392181",
+              "dozenten": [
+                "Prof'in Dr. Barbara Hammer",
+                "Philipp Hartmann"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 5,
+                  "beginnMin": 720,
+                  "endeMin": 840,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "14-täglich",
+                  "rhythmus": "vierzehntaeglich",
+                  "raum": "S1-138",
+                  "roh": "Fr 12-14 14-täglich S1-138"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=749876578",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": true
+            }
+          ]
+        },
+        {
+          "schluessel": "mv467061730",
+          "modellId": 467061730,
+          "herkunftE2": 432277847,
+          "herkunftFach": "Bioinformatische Genomforschung (1-Fach (fw))",
+          "modellName": "Machine Learning Methods and Applications",
+          "art": "Vorlesung",
+          "teilgruppe": null,
+          "modulId": 467061721,
+          "modulKuerzel": "39-Inf-MLMA",
+          "modulName": "Machine Learning Methods and Applications",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 749844466,
+              "name": "Machine Learning Methods and Applications",
+              "art": "Vorlesung",
+              "belegnummer": "392180",
+              "dozenten": [
+                "Prof'in Dr. Barbara Hammer"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "U2-205",
+                  "roh": "Mo 10-12 U2-205"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=749844466",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": true
+            }
+          ]
+        },
+        {
+          "schluessel": "mv467052159",
+          "modellId": 467052159,
+          "herkunftE2": 432277847,
+          "herkunftFach": "Bioinformatische Genomforschung (1-Fach (fw))",
+          "modellName": "Sequenzanalyse 1",
+          "art": "Vorlesung",
+          "teilgruppe": null,
+          "modulId": 467052073,
+          "modulKuerzel": "39-Inf-SeqA1",
+          "modulName": "Sequenzanalyse 1",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 735005781,
+              "name": " Sequenzanalyse 1",
+              "art": "Vorlesung",
+              "belegnummer": "392105",
+              "dozenten": [
+                "Prof. Dr. Jens Stoye"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 2,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "U10-146",
+                  "roh": "Di 10-12 U10-146"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=735005781",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            }
+          ]
+        },
+        {
+          "schluessel": "mv467052162",
+          "modellId": 467052162,
+          "herkunftE2": 432277847,
+          "herkunftFach": "Bioinformatische Genomforschung (1-Fach (fw))",
+          "modellName": "Übungen zur Sequenzanalyse 1",
+          "art": "Übung",
+          "teilgruppe": null,
+          "modulId": 467052073,
+          "modulKuerzel": "39-Inf-SeqA1",
+          "modulName": "Sequenzanalyse 1",
+          "pflicht": true,
+          "fachsemester": [
+            3
+          ],
+          "optionen": [
+            {
+              "id": 744123934,
+              "name": "Übungen zu Sequenzanalyse 1",
+              "art": "Übung",
+              "belegnummer": "392106",
+              "dozenten": [
+                "Prof. Dr. Jens Stoye",
+                "Leonard Bohnenkämper"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 2,
+                  "beginnMin": 960,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": null,
+                  "roh": "Di 16-18"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=744123934",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 744127275,
+              "name": "Übungen A zu Sequenzanalyse 1",
+              "art": "Übung",
+              "belegnummer": "392106",
+              "dozenten": [
+                "Leonard Bohnenkämper"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 2,
+                  "beginnMin": 960,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "X-E0-212",
+                  "roh": "Di 16-18 X-E0-212"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=744127275",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 744127838,
+              "name": "Übungen B zu Sequenzanalyse 1",
+              "art": "Übung",
+              "belegnummer": "392106",
+              "dozenten": [
+                "Leonard Bohnenkämper"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "U10-146",
+                  "roh": "Do 14-16 U10-146"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=744127838",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 744128781,
+              "name": "Übungen C zu Sequenzanalyse 1",
+              "art": "Übung",
+              "belegnummer": "392106",
+              "dozenten": [
+                "Valentin Kats"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 2,
+                  "beginnMin": 960,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "U10-146",
+                  "roh": "Di 16-18 U10-146"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=744128781",
               "ohneZeiten": false,
               "ausgefallen": false,
               "englisch": false
@@ -524,32 +834,40 @@
   ],
   "konflikte": [
     {
-      "id": "e2-432277847:mv420519994:mv99936345",
+      "id": "e2-432277847:mv467061635:mv467052162",
       "kohorteId": "e2-432277847",
-      "aSchluessel": "mv420519994",
-      "bSchluessel": "mv99936345",
-      "amodulID": 420519984,
-      "bmodulID": 95458304,
+      "aSchluessel": "mv467061635",
+      "bSchluessel": "mv467052162",
+      "amodulID": 467061609,
+      "bmodulID": 467052073,
       "schwere": "teilweise",
       "betrifftQuelle": false,
-      "freieKombinationen": 4,
-      "gesamteKombinationen": 5,
+      "freieKombinationen": 3,
+      "gesamteKombinationen": 4,
       "paare": [
         {
-          "aKursId": 732697609,
-          "bKursId": 735927620,
+          "aKursId": 735840237,
+          "bKursId": 744123934,
           "status": "frei",
           "kollisionen": [],
-          "aKursType": "Vorlesung",
+          "aKursType": "Vorlesung / Übung",
           "bKursType": "Übung"
         },
         {
-          "aKursId": 732697609,
-          "bKursId": 735928600,
+          "aKursId": 735840237,
+          "bKursId": 744127275,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Vorlesung / Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 735840237,
+          "bKursId": 744127838,
           "status": "belegt",
           "kollisionen": [
             {
-              "wochentag": 2,
+              "wochentag": 4,
               "beginnMin": 840,
               "endeMin": 960,
               "minuten": 120,
@@ -557,19 +875,19 @@
               "einmalig": false,
               "grund": "wöchentliche Überschneidung",
               "aSlot": {
-                "wochentag": 2,
+                "wochentag": 4,
                 "beginnMin": 840,
-                "endeMin": 960,
+                "endeMin": 1080,
                 "von": null,
                 "bis": null,
                 "datum": null,
                 "rhythmusText": null,
                 "rhythmus": "woechentlich",
-                "raum": "H4",
-                "roh": "Di 14-16 H4"
+                "raum": "R5-4-112",
+                "roh": "Do 14-18 R5-4-112"
               },
               "bSlot": {
-                "wochentag": 2,
+                "wochentag": 4,
                 "beginnMin": 840,
                 "endeMin": 960,
                 "von": null,
@@ -577,52 +895,47 @@
                 "datum": null,
                 "rhythmusText": null,
                 "rhythmus": "woechentlich",
-                "raum": "S1-501",
-                "roh": "Di 14-16 S1-501"
+                "raum": "U10-146",
+                "roh": "Do 14-16 U10-146"
               }
             }
           ],
-          "aKursType": "Vorlesung",
+          "aKursType": "Vorlesung / Übung",
           "bKursType": "Übung"
         },
         {
-          "aKursId": 732697609,
-          "bKursId": 735929365,
+          "aKursId": 735840237,
+          "bKursId": 744128781,
           "status": "frei",
           "kollisionen": [],
-          "aKursType": "Vorlesung",
-          "bKursType": "Übung"
-        },
-        {
-          "aKursId": 732697609,
-          "bKursId": 735931497,
-          "status": "frei",
-          "kollisionen": [],
-          "aKursType": "Vorlesung",
-          "bKursType": "Übung"
-        },
-        {
-          "aKursId": 732697609,
-          "bKursId": 735932524,
-          "status": "frei",
-          "kollisionen": [],
-          "aKursType": "Vorlesung",
+          "aKursType": "Vorlesung / Übung",
           "bKursType": "Übung"
         }
       ],
-      "zusammenfassung": "Di 14:00–16:00 (120 min) – wöchentliche Überschneidung"
+      "zusammenfassung": "Do 14:00–16:00 (120 min) – wöchentliche Überschneidung"
     }
   ],
-  "sprachhinweise": [],
+  "sprachhinweise": [
+    {
+      "modulId": 467061721,
+      "modulKuerzel": "39-Inf-MLMA",
+      "modulName": "Machine Learning Methods and Applications",
+      "kohorteId": "e2-432277847",
+      "kohorteBezeichnung": "Bioinformatische Genomforschung B.Sc. 1-Fach (fw) FsB WiSe 2024/25",
+      "abschluss": "B.Sc.",
+      "pflicht": true,
+      "veranstaltungen": 3
+    }
+  ],
   "uebersprungeneVarianten": [],
   "machbarkeit": [
     {
       "kohorteId": "e2-432277847",
       "kohorteBezeichnung": "Bioinformatische Genomforschung B.Sc. 1-Fach (fw) FsB WiSe 2024/25",
       "fachsemester": [
-        1
+        3
       ],
-      "pflichtAnforderungen": 7,
+      "pflichtAnforderungen": 11,
       "harteKonflikte": 0,
       "pflichtErfuellbar": true,
       "vollstaendigBewertet": true,
@@ -636,11 +949,11 @@
   "statistik": {
     "kohorten": 1,
     "aktiveKohorten": 1,
-    "veranstaltungen": 11,
+    "veranstaltungen": 19,
     "ohneZeiten": 1,
     "ausgefallen": 0,
     "wahlpflichtAnforderungen": 0,
-    "nurEnglisch": 0,
+    "nurEnglisch": 1,
     "harteKonflikte": 0,
     "teilweiseKonflikte": 1,
     "unsichereKonflikte": 0

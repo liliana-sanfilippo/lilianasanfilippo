@@ -1,0 +1,83 @@
+{
+  "erzeugtAm": "2026-09-09T13:49:36.211Z",
+  "semester": 20262,
+  "semesterName": "WiSe 2026/27",
+  "quelle": {
+    "modus": "studiengang",
+    "veranstaltungId": null,
+    "veranstaltungName": null,
+    "modulIds": [],
+    "modellIds": [],
+    "ebene1": 432277276,
+    "studiengangName": "Bioinformatische Genomforschung B.Sc. 1-Fach (fw) FsB WiSe 2024/25",
+    "fachsemester": [
+      5
+    ]
+  },
+  "optionen": {
+    "pufferMin": 0,
+    "nurPflicht": true,
+    "tolerierteFachsemester": "exakt",
+    "kombinationen": false,
+    "sprachpruefung": "pflicht"
+  },
+  "kohorten": [
+    {
+      "ebene2": 432277847,
+      "ebene1": 432277276,
+      "variante": "1-Fach (fw)",
+      "fachtyp": "1-Fach (fw)",
+      "fsbId": 432276708,
+      "fsbName": "Bioinformatische Genomforschung / Bachelor of Science",
+      "fach": "Bioinformatische Genomforschung",
+      "abschluss": "B.Sc.",
+      "aktuell": true,
+      "semesterVon": 20242,
+      "semesterBis": null,
+      "detailUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/in?id=432277276",
+      "fachsemester": [
+        5
+      ],
+      "pflichtFuerQuelle": true,
+      "id": "e2-432277847",
+      "bezeichnung": "Bioinformatische Genomforschung B.Sc. 1-Fach (fw) FsB WiSe 2024/25",
+      "partner": [],
+      "partnerE2": null,
+      "partnerBezeichnung": null,
+      "angebote": [],
+      "wahlpflichtAngebote": [],
+      "notiz": null
+    }
+  ],
+  "konflikte": [],
+  "sprachhinweise": [],
+  "uebersprungeneVarianten": [],
+  "machbarkeit": [
+    {
+      "kohorteId": "e2-432277847",
+      "kohorteBezeichnung": "Bioinformatische Genomforschung B.Sc. 1-Fach (fw) FsB WiSe 2024/25",
+      "fachsemester": [
+        5
+      ],
+      "pflichtAnforderungen": 0,
+      "harteKonflikte": 0,
+      "pflichtErfuellbar": null,
+      "vollstaendigBewertet": true,
+      "wahlpflicht": [],
+      "hinweis": "Die Variante besteht im geprüften Fachsemester nur aus Pflichtmodulen."
+    }
+  ],
+  "warnungen": [],
+  "statistik": {
+    "kohorten": 1,
+    "aktiveKohorten": 0,
+    "veranstaltungen": 0,
+    "ohneZeiten": 0,
+    "ausgefallen": 0,
+    "wahlpflichtAnforderungen": 0,
+    "nurEnglisch": 0,
+    "harteKonflikte": 0,
+    "teilweiseKonflikte": 0,
+    "unsichereKonflikte": 0
+  }
+}
