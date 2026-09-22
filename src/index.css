@@ -682,3 +682,15 @@ img {
 .cv-inst {
     font-style: italic;
 }
+
+.text-primary{
+    color: var(--text-primary) !important;
+}
+
+.bg-primary{
+    background-color: var(--verylightblue) !important;
+}
+
+.card {
+    background-color: unset;
+}

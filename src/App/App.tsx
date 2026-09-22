@@ -12,10 +12,14 @@ import {StatistikSchlüssel} from "../pages/uni/statistik_schlüssel";
 import {EkvvCollision} from "../pages/Ekvv-Collision";
 import {EkvvStudierbarkeit} from "../pages/EkvvStudierbarkeit";
 import {IGEMData} from "../pages/igem/iGEMData";
+import {TemplateWikiDocu} from "../pages/igem/TemplateWikiDocu";
+import {NavBarContent} from "../routes/navBarContent";
+import {PartTableDocu} from "../pages/igem/template-wiki-docu/PartTableDocu";
+import {ProtocolDocu} from "../pages/igem/template-wiki-docu/ProtocolDocu";
 
 const App = () => {
 
-    const pathMapping = getPathMapping();
+    const pathMapping = getPathMapping(NavBarContent);
     const currentPath =
         window.location.pathname || "/";
 
@@ -59,6 +63,9 @@ const App = () => {
                             <Route path={`${process.env.REACT_APP_COUNSELLING_SYSTEM}/tools/ekvv-studierbarkeit`} element={<EkvvStudierbarkeit/>} />
 
                             <Route path={`${process.env.REACT_APP_IGEM_PATH}/data`} element={<IGEMData/>} />
+                            <Route path={process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH} element={<TemplateWikiDocu/>} />
+                            <Route path={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/part-table`} element={<PartTableDocu/>} />
+                            <Route path={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/protocols-sorted`} element={<ProtocolDocu/>} />
 
                             <Route path={`${process.env.REACT_APP_REACT_REFERENCE_MANAGER_PATH}/:pageName`}
                                    element={<WikiPage folder={"wiki"}/>}/>
