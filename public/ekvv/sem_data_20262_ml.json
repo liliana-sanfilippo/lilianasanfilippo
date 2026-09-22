@@ -1,5 +1,5 @@
 {
-  "erzeugtAm": "2026-08-30T12:15:03.586Z",
+  "erzeugtAm": "2026-09-09T14:08:29.538Z",
   "semester": 20262,
   "semesterName": "WiSe 2026/27",
   "quelle": {
@@ -136,6 +136,146 @@
                 }
               ],
               "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=732698806",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773858582,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 1080,
+                  "endeMin": 1200,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V2-216",
+                  "roh": "Mo 18-20 V2-216"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773858582",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773859538,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 5,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V4-112",
+                  "roh": "Fr 14-16 V4-112"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773859538",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773860253,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 1080,
+                  "endeMin": 1200,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V4-119",
+                  "roh": "Do 18-20 V4-119"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773860253",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773860994,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 1080,
+                  "endeMin": 1200,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V2-216",
+                  "roh": "Mi 18-20 V2-216"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773860994",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 774032177,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V4-119",
+                  "roh": "Do 8-10 V4-119"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=774032177",
               "ohneZeiten": false,
               "ausgefallen": false,
               "englisch": false
@@ -1232,6 +1372,34 @@
               "ohneZeiten": false,
               "ausgefallen": false,
               "englisch": false
+            },
+            {
+              "id": 774050895,
+              "name": "Tutorials for Foundations of Statistics",
+              "art": "Übung",
+              "belegnummer": "240116",
+              "dozenten": [
+                "Dr. Petr Zamolodtchikov"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 600,
+                  "endeMin": 720,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V4-119",
+                  "roh": "Do 10-12 V4-119"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=774050895",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
             }
           ]
         },
@@ -2275,6 +2443,146 @@
                 }
               ],
               "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=732698806",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773858582,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 1080,
+                  "endeMin": 1200,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V2-216",
+                  "roh": "Mo 18-20 V2-216"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773858582",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773859538,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 5,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V4-112",
+                  "roh": "Fr 14-16 V4-112"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773859538",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773860253,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 1080,
+                  "endeMin": 1200,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V4-119",
+                  "roh": "Do 18-20 V4-119"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773860253",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773860994,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 1080,
+                  "endeMin": 1200,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V2-216",
+                  "roh": "Mi 18-20 V2-216"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773860994",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 774032177,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V4-119",
+                  "roh": "Do 8-10 V4-119"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=774032177",
               "ohneZeiten": false,
               "ausgefallen": false,
               "englisch": false
@@ -3649,6 +3957,146 @@
               "ohneZeiten": false,
               "ausgefallen": false,
               "englisch": false
+            },
+            {
+              "id": 773858582,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 1080,
+                  "endeMin": 1200,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V2-216",
+                  "roh": "Mo 18-20 V2-216"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773858582",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773859538,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 5,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V4-112",
+                  "roh": "Fr 14-16 V4-112"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773859538",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773860253,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 1080,
+                  "endeMin": 1200,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V4-119",
+                  "roh": "Do 18-20 V4-119"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773860253",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773860994,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 1080,
+                  "endeMin": 1200,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V2-216",
+                  "roh": "Mi 18-20 V2-216"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773860994",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 774032177,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V4-119",
+                  "roh": "Do 8-10 V4-119"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=774032177",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
             }
           ]
         },
@@ -4305,8 +4753,8 @@
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": null,
-                  "roh": "Di 16-18"
+                  "raum": "X-E0-212",
+                  "roh": "Di 16-18 X-E0-212"
                 }
               ],
               "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=744127275",
@@ -5024,6 +5472,146 @@
                 }
               ],
               "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=732698806",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773858582,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 1,
+                  "beginnMin": 1080,
+                  "endeMin": 1200,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V2-216",
+                  "roh": "Mo 18-20 V2-216"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773858582",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773859538,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 5,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V4-112",
+                  "roh": "Fr 14-16 V4-112"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773859538",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773860253,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 1080,
+                  "endeMin": 1200,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V4-119",
+                  "roh": "Do 18-20 V4-119"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773860253",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 773860994,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 3,
+                  "beginnMin": 1080,
+                  "endeMin": 1200,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V2-216",
+                  "roh": "Mi 18-20 V2-216"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=773860994",
+              "ohneZeiten": false,
+              "ausgefallen": false,
+              "englisch": false
+            },
+            {
+              "id": 774032177,
+              "name": "Übungen Ausgewählte Kapitel der Analysis",
+              "art": "Übung",
+              "belegnummer": "240108",
+              "dozenten": [
+                "PD Dr. Thorsten Hüls"
+              ],
+              "semester": 20262,
+              "slots": [
+                {
+                  "wochentag": 4,
+                  "beginnMin": 480,
+                  "endeMin": 600,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "V4-119",
+                  "roh": "Do 8-10 V4-119"
+                }
+              ],
+              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=774032177",
               "ohneZeiten": false,
               "ausgefallen": false,
               "englisch": false
@@ -8666,8 +9254,8 @@
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": "B2-209",
-                  "roh": "Di 12-14 B2-209"
+                  "raum": "B0-276",
+                  "roh": "Di 12-14 B0-276"
                 },
                 {
                   "wochentag": 4,
@@ -8725,8 +9313,8 @@
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": "V2-135",
-                  "roh": "Di 14-16 V2-135"
+                  "raum": "B0-276",
+                  "roh": "Di 14-16 B0-276"
                 }
               ],
               "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=737530083",
@@ -8875,209 +9463,6 @@
               "ohneZeiten": false,
               "ausgefallen": false,
               "englisch": true
-            }
-          ]
-        },
-        {
-          "schluessel": "mv355769561",
-          "modellId": 355769561,
-          "herkunftE2": 520876288,
-          "herkunftFach": "Germanistik (Nebenfach (fw))",
-          "modellName": "Dramentheorie und Dramenanalyse",
-          "art": "Seminar",
-          "teilgruppe": null,
-          "modulId": 355769515,
-          "modulKuerzel": "23-GER-PLit1",
-          "modulName": "Systematische Aspekte der Literaturwissenschaft",
-          "pflicht": true,
-          "fachsemester": [
-            3,
-            4,
-            5,
-            6
-          ],
-          "optionen": [
-            {
-              "id": 713931993,
-              "name": "Grundlagen der Dramenanalyse: Wie macht man eine Szene? ",
-              "art": "Seminar",
-              "belegnummer": "230049",
-              "dozenten": [
-                "Dr. Anna Lenz"
-              ],
-              "semester": 20262,
-              "slots": [
-                {
-                  "wochentag": 1,
-                  "beginnMin": 600,
-                  "endeMin": 720,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "S0-501",
-                  "roh": "Mo 10-12 S0-501"
-                }
-              ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=713931993",
-              "ohneZeiten": false,
-              "ausgefallen": false,
-              "englisch": false
-            },
-            {
-              "id": 718649587,
-              "name": "Dramentheorie und Dramenanalyse",
-              "art": "Seminar",
-              "belegnummer": "230129",
-              "dozenten": [
-                "Dr. Robin M. Aust"
-              ],
-              "semester": 20262,
-              "slots": [
-                {
-                  "wochentag": 1,
-                  "beginnMin": 960,
-                  "endeMin": 1080,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "V2-121",
-                  "roh": "Mo 16-18 V2-121"
-                }
-              ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=718649587",
-              "ohneZeiten": false,
-              "ausgefallen": false,
-              "englisch": false
-            }
-          ]
-        },
-        {
-          "schluessel": "mv355769564",
-          "modellId": 355769564,
-          "herkunftE2": 520876288,
-          "herkunftFach": "Germanistik (Nebenfach (fw))",
-          "modellName": "Erzähltheorie und Erzähltextanalyse",
-          "art": "Seminar",
-          "teilgruppe": null,
-          "modulId": 355769515,
-          "modulKuerzel": "23-GER-PLit1",
-          "modulName": "Systematische Aspekte der Literaturwissenschaft",
-          "pflicht": true,
-          "fachsemester": [
-            3,
-            4,
-            5,
-            6
-          ],
-          "optionen": [
-            {
-              "id": 721642269,
-              "name": "Erzähltheorie und Erzähltextanalyse",
-              "art": "Seminar",
-              "belegnummer": "230169",
-              "dozenten": [
-                "Dr. Malte Lorenzen"
-              ],
-              "semester": 20262,
-              "slots": [
-                {
-                  "wochentag": 3,
-                  "beginnMin": 840,
-                  "endeMin": 960,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "V2-213",
-                  "roh": "Mi 14-16 V2-213"
-                }
-              ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=721642269",
-              "ohneZeiten": false,
-              "ausgefallen": false,
-              "englisch": false
-            }
-          ]
-        },
-        {
-          "schluessel": "mv355769567",
-          "modellId": 355769567,
-          "herkunftE2": 520876288,
-          "herkunftFach": "Germanistik (Nebenfach (fw))",
-          "modellName": "Lyriktheorie und Lyrikanalyse",
-          "art": "Seminar",
-          "teilgruppe": null,
-          "modulId": 355769515,
-          "modulKuerzel": "23-GER-PLit1",
-          "modulName": "Systematische Aspekte der Literaturwissenschaft",
-          "pflicht": true,
-          "fachsemester": [
-            3,
-            4,
-            5,
-            6
-          ],
-          "optionen": [
-            {
-              "id": 711121319,
-              "name": "Lyriktheorie und Lyrikanalyse",
-              "art": "Seminar",
-              "belegnummer": "230035",
-              "dozenten": [
-                "Prof. Dr. Claudia Hillebrandt"
-              ],
-              "semester": 20262,
-              "slots": [
-                {
-                  "wochentag": 2,
-                  "beginnMin": 840,
-                  "endeMin": 960,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "S1-129",
-                  "roh": "Di 14-16 S1-129"
-                }
-              ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=711121319",
-              "ohneZeiten": false,
-              "ausgefallen": false,
-              "englisch": false
-            },
-            {
-              "id": 724251288,
-              "name": "Lyriktheorie und Lyrikanalyse: Politische Lyrik des 19. Jahrhunderts",
-              "art": "Seminar",
-              "belegnummer": "230325",
-              "dozenten": [
-                "Lisa Jüttner"
-              ],
-              "semester": 20262,
-              "slots": [
-                {
-                  "wochentag": 2,
-                  "beginnMin": 600,
-                  "endeMin": 720,
-                  "von": null,
-                  "bis": null,
-                  "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
-                  "raum": "X-E0-236",
-                  "roh": "Di 10-12 X-E0-236"
-                }
-              ],
-              "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=724251288",
-              "ohneZeiten": false,
-              "ausgefallen": false,
-              "englisch": false
             }
           ]
         }
@@ -9466,8 +9851,8 @@
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": "X-E0-215",
-                  "roh": "Mi 16-18 X-E0-215"
+                  "raum": "X-E0-216",
+                  "roh": "Mi 16-18 X-E0-216"
                 }
               ],
               "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=731282175",
@@ -9579,8 +9964,8 @@
                   "datum": null,
                   "rhythmusText": "einmalig",
                   "rhythmus": "einzeln",
-                  "raum": "Einführung",
-                  "roh": "Mo 16-18 einmalig Einführung"
+                  "raum": "X-E1-103 Einführung",
+                  "roh": "Mo 16-18 einmalig X-E1-103 Einführung"
                 },
                 {
                   "wochentag": 4,
@@ -9603,8 +9988,8 @@
                   "datum": null,
                   "rhythmusText": "einmalig",
                   "rhythmus": "einzeln",
-                  "raum": null,
-                  "roh": "Fr 9-16 einmalig"
+                  "raum": "V2-121",
+                  "roh": "Fr 9-16 einmalig V2-121"
                 },
                 {
                   "wochentag": 4,
@@ -9627,8 +10012,8 @@
                   "datum": null,
                   "rhythmusText": "einmalig",
                   "rhythmus": "einzeln",
-                  "raum": null,
-                  "roh": "Fr 9-13 einmalig"
+                  "raum": "S1-144",
+                  "roh": "Fr 9-13 einmalig S1-144"
                 }
               ],
               "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=551433731",
@@ -9730,8 +10115,8 @@
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": null,
-                  "roh": "Do 14-16"
+                  "raum": "E1-148",
+                  "roh": "Do 14-16 E1-148"
                 }
               ],
               "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=734557910",
@@ -10868,7 +11253,7 @@
               "art": "Seminar",
               "belegnummer": "230297",
               "dozenten": [
-                "Prof. Dr. Joana Cholin"
+                "PD Dr. Johannes Gerwien"
               ],
               "semester": 20262,
               "slots": [
@@ -10942,7 +11327,7 @@
               "art": "Seminar",
               "belegnummer": "230297",
               "dozenten": [
-                "Prof. Dr. Joana Cholin"
+                "PD Dr. Johannes Gerwien"
               ],
               "semester": 20262,
               "slots": [
@@ -11867,8 +12252,8 @@
                   "datum": null,
                   "rhythmusText": "14-täglich",
                   "rhythmus": "vierzehntaeglich",
-                  "raum": null,
-                  "roh": "Do 12-16 14-täglich"
+                  "raum": "U0-131",
+                  "roh": "Do 12-16 14-täglich U0-131"
                 }
               ],
               "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=702714251",
@@ -13142,8 +13527,8 @@
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": "A0-503",
-                  "roh": "Mo 12-14 A0-503"
+                  "raum": "B0-247",
+                  "roh": "Mo 12-14 B0-247"
                 },
                 {
                   "wochentag": 2,
@@ -13154,8 +13539,8 @@
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": "U2-210",
-                  "roh": "Di 12-14 U2-210"
+                  "raum": "B0-247",
+                  "roh": "Di 12-14 B0-247"
                 }
               ],
               "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=737452506",
@@ -13201,8 +13586,8 @@
                   "datum": null,
                   "rhythmusText": null,
                   "rhythmus": "woechentlich",
-                  "raum": "S0-145",
-                  "roh": "Do 12-14 S0-145"
+                  "raum": "B0-247",
+                  "roh": "Do 12-14 B0-247"
                 }
               ],
               "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=737453219",
@@ -13445,10 +13830,22 @@
                   "von": null,
                   "bis": null,
                   "datum": null,
-                  "rhythmusText": null,
-                  "rhythmus": "woechentlich",
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
                   "raum": null,
-                  "roh": "Mo 14-16"
+                  "roh": "Mo 14-16 einmalig"
+                },
+                {
+                  "wochentag": 1,
+                  "beginnMin": 840,
+                  "endeMin": 960,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": "einmalig",
+                  "rhythmus": "einzeln",
+                  "raum": null,
+                  "roh": "Mo 14-16 einmalig"
                 }
               ],
               "detailUrl": "https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=723411804",
@@ -15909,8 +16306,8 @@
       "bmodulID": 420523238,
       "schwere": "teilweise",
       "betrifftQuelle": false,
-      "freieKombinationen": 6,
-      "gesamteKombinationen": 7,
+      "freieKombinationen": 41,
+      "gesamteKombinationen": 42,
       "paare": [
         {
           "aKursId": 732698806,
@@ -16001,6 +16398,286 @@
           ],
           "aKursType": "Übung",
           "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
         }
       ],
       "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -16014,8 +16691,8 @@
       "bmodulID": 70750995,
       "schwere": "unsicher",
       "betrifftQuelle": false,
-      "freieKombinationen": 0,
-      "gesamteKombinationen": 1,
+      "freieKombinationen": 5,
+      "gesamteKombinationen": 6,
       "paare": [
         {
           "aKursId": 732698806,
@@ -16089,6 +16766,46 @@
               }
             }
           ],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
           "aKursType": "Übung",
           "bKursType": "Seminar"
         }
@@ -16882,8 +17599,8 @@
       "bmodulID": 420523238,
       "schwere": "teilweise",
       "betrifftQuelle": false,
-      "freieKombinationen": 6,
-      "gesamteKombinationen": 7,
+      "freieKombinationen": 41,
+      "gesamteKombinationen": 42,
       "paare": [
         {
           "aKursId": 732698806,
@@ -16974,6 +17691,286 @@
           ],
           "aKursType": "Übung",
           "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
         }
       ],
       "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -16987,8 +17984,8 @@
       "bmodulID": 70750995,
       "schwere": "unsicher",
       "betrifftQuelle": false,
-      "freieKombinationen": 0,
-      "gesamteKombinationen": 1,
+      "freieKombinationen": 5,
+      "gesamteKombinationen": 6,
       "paare": [
         {
           "aKursId": 732698806,
@@ -17062,6 +18059,46 @@
               }
             }
           ],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
           "aKursType": "Übung",
           "bKursType": "Seminar"
         }
@@ -17831,8 +18868,8 @@
       "bmodulID": 420523238,
       "schwere": "teilweise",
       "betrifftQuelle": false,
-      "freieKombinationen": 6,
-      "gesamteKombinationen": 7,
+      "freieKombinationen": 41,
+      "gesamteKombinationen": 42,
       "paare": [
         {
           "aKursId": 732698806,
@@ -17923,6 +18960,286 @@
           ],
           "aKursType": "Übung",
           "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 737632989,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774167652,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774168234,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774168485,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774168816,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774169038,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 774169214,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Übung"
         }
       ],
       "zusammenfassung": "Fr 10:00–12:00 (120 min) – wöchentliche Überschneidung"
@@ -17936,8 +19253,8 @@
       "bmodulID": 70750995,
       "schwere": "unsicher",
       "betrifftQuelle": false,
-      "freieKombinationen": 0,
-      "gesamteKombinationen": 1,
+      "freieKombinationen": 5,
+      "gesamteKombinationen": 6,
       "paare": [
         {
           "aKursId": 732698806,
@@ -18011,6 +19328,46 @@
               }
             }
           ],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 773858582,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 773859538,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 773860253,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 773860994,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Übung",
+          "bKursType": "Seminar"
+        },
+        {
+          "aKursId": 774032177,
+          "bKursId": 748241633,
+          "status": "frei",
+          "kollisionen": [],
           "aKursType": "Übung",
           "bKursType": "Seminar"
         }
@@ -18631,8 +19988,8 @@
                 "datum": null,
                 "rhythmusText": null,
                 "rhythmus": "woechentlich",
-                "raum": "B2-209",
-                "roh": "Di 12-14 B2-209"
+                "raum": "B0-276",
+                "roh": "Di 12-14 B0-276"
               }
             }
           ],
@@ -18720,8 +20077,8 @@
                 "datum": null,
                 "rhythmusText": "einmalig",
                 "rhythmus": "einzeln",
-                "raum": null,
-                "roh": "Fr 9-16 einmalig"
+                "raum": "V2-121",
+                "roh": "Fr 9-16 einmalig V2-121"
               }
             }
           ],
@@ -19044,8 +20401,8 @@
                 "datum": null,
                 "rhythmusText": null,
                 "rhythmus": "woechentlich",
-                "raum": null,
-                "roh": "Do 14-16"
+                "raum": "E1-148",
+                "roh": "Do 14-16 E1-148"
               }
             }
           ],
@@ -19299,8 +20656,8 @@
                 "datum": null,
                 "rhythmusText": "einmalig",
                 "rhythmus": "einzeln",
-                "raum": null,
-                "roh": "Fr 9-16 einmalig"
+                "raum": "V2-121",
+                "roh": "Fr 9-16 einmalig V2-121"
               },
               "bSlot": {
                 "wochentag": 5,
@@ -19332,8 +20689,8 @@
                 "datum": null,
                 "rhythmusText": "einmalig",
                 "rhythmus": "einzeln",
-                "raum": null,
-                "roh": "Fr 9-13 einmalig"
+                "raum": "S1-144",
+                "roh": "Fr 9-13 einmalig S1-144"
               },
               "bSlot": {
                 "wochentag": 5,
@@ -19386,8 +20743,8 @@
                 "datum": null,
                 "rhythmusText": null,
                 "rhythmus": "woechentlich",
-                "raum": null,
-                "roh": "Do 14-16"
+                "raum": "E1-148",
+                "roh": "Do 14-16 E1-148"
               }
             },
             {
@@ -19419,8 +20776,8 @@
                 "datum": null,
                 "rhythmusText": null,
                 "rhythmus": "woechentlich",
-                "raum": null,
-                "roh": "Do 14-16"
+                "raum": "E1-148",
+                "roh": "Do 14-16 E1-148"
               }
             }
           ],
@@ -19606,8 +20963,8 @@
                 "datum": null,
                 "rhythmusText": null,
                 "rhythmus": "woechentlich",
-                "raum": "U2-210",
-                "roh": "Di 12-14 U2-210"
+                "raum": "B0-247",
+                "roh": "Di 12-14 B0-247"
               }
             }
           ],
@@ -19805,7 +21162,7 @@
   "statistik": {
     "kohorten": 43,
     "aktiveKohorten": 43,
-    "veranstaltungen": 115,
+    "veranstaltungen": 116,
     "ohneZeiten": 12,
     "ausgefallen": 0,
     "wahlpflichtAnforderungen": 0,

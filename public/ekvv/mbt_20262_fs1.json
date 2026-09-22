@@ -1,5 +1,5 @@
 {
-  "erzeugtAm": "2026-08-30T12:15:03.681Z",
+  "erzeugtAm": "2026-09-09T14:08:30.709Z",
   "semester": 20262,
   "semesterName": "WiSe 2026/27",
   "quelle": {
@@ -223,6 +223,18 @@
                   "rhythmus": "woechentlich",
                   "raum": "S1-502",
                   "roh": "Do 10-12 S1-502"
+                },
+                {
+                  "wochentag": 4,
+                  "beginnMin": 960,
+                  "endeMin": 1080,
+                  "von": null,
+                  "bis": null,
+                  "datum": null,
+                  "rhythmusText": null,
+                  "rhythmus": "woechentlich",
+                  "raum": "U2-147",
+                  "roh": "Do 16-18 U2-147"
                 },
                 {
                   "wochentag": 5,
@@ -1909,6 +1921,253 @@
         }
       ],
       "zusammenfassung": "Do 10:00–12:00 (120 min) – wöchentliche Überschneidung | Fr 12:00–14:00 (120 min) – wöchentliche Überschneidung"
+    },
+    {
+      "id": "e2-269202781:mv29611680:mv29612081",
+      "kohorteId": "e2-269202781",
+      "aSchluessel": "mv29611680",
+      "bSchluessel": "mv29612081",
+      "amodulID": 26787917,
+      "bmodulID": 26787459,
+      "schwere": "teilweise",
+      "betrifftQuelle": false,
+      "freieKombinationen": 2,
+      "gesamteKombinationen": 4,
+      "paare": [
+        {
+          "aKursId": 735874878,
+          "bKursId": 653870200,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Vorlesung / Seminar",
+          "bKursType": "Praktikum"
+        },
+        {
+          "aKursId": 735874878,
+          "bKursId": 653882220,
+          "status": "frei",
+          "kollisionen": [],
+          "aKursType": "Vorlesung / Seminar",
+          "bKursType": "Praktikum"
+        },
+        {
+          "aKursId": 735862660,
+          "bKursId": 653870200,
+          "status": "unsicher",
+          "kollisionen": [
+            {
+              "wochentag": 4,
+              "beginnMin": 960,
+              "endeMin": 1080,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 960,
+                "endeMin": 1080,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "U2-147",
+                "roh": "Do 16-18 U2-147"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "6 Details s.u.",
+                "roh": "Do 14:15-19 Block 6 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 4,
+              "beginnMin": 960,
+              "endeMin": 1080,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 960,
+                "endeMin": 1080,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "U2-147",
+                "roh": "Do 16-18 U2-147"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "4 Details s.u.",
+                "roh": "Do 14:15-19 Block 4 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 4,
+              "beginnMin": 960,
+              "endeMin": 1080,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 960,
+                "endeMin": 1080,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "U2-147",
+                "roh": "Do 16-18 U2-147"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "2 Details s.u.",
+                "roh": "Do 14:15-19 Block 2 (Details s.u.)"
+              }
+            }
+          ],
+          "aKursType": "Seminar",
+          "bKursType": "Praktikum"
+        },
+        {
+          "aKursId": 735862660,
+          "bKursId": 653882220,
+          "status": "unsicher",
+          "kollisionen": [
+            {
+              "wochentag": 4,
+              "beginnMin": 960,
+              "endeMin": 1080,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 960,
+                "endeMin": 1080,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "U2-147",
+                "roh": "Do 16-18 U2-147"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "2 Details s.u.",
+                "roh": "Do 14:15-19 Block 2 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 4,
+              "beginnMin": 960,
+              "endeMin": 1080,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 960,
+                "endeMin": 1080,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "U2-147",
+                "roh": "Do 16-18 U2-147"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "4 Details s.u.",
+                "roh": "Do 14:15-19 Block 4 (Details s.u.)"
+              }
+            },
+            {
+              "wochentag": 4,
+              "beginnMin": 960,
+              "endeMin": 1080,
+              "minuten": 120,
+              "sicher": false,
+              "einmalig": false,
+              "grund": "Blockveranstaltung – genaue Tage nicht auswertbar",
+              "aSlot": {
+                "wochentag": 4,
+                "beginnMin": 960,
+                "endeMin": 1080,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": null,
+                "rhythmus": "woechentlich",
+                "raum": "U2-147",
+                "roh": "Do 16-18 U2-147"
+              },
+              "bSlot": {
+                "wochentag": 4,
+                "beginnMin": 855,
+                "endeMin": 1140,
+                "von": null,
+                "bis": null,
+                "datum": null,
+                "rhythmusText": "Block",
+                "rhythmus": "block",
+                "raum": "6 Details s.u.",
+                "roh": "Do 14:15-19 Block 6 (Details s.u.)"
+              }
+            }
+          ],
+          "aKursType": "Seminar",
+          "bKursType": "Praktikum"
+        }
+      ],
+      "zusammenfassung": "Do 16:00–18:00 (120 min) – Blockveranstaltung – genaue Tage nicht auswertbar"
     },
     {
       "id": "e2-269202781:mv29611680:mv29612089#v",
@@ -5107,7 +5366,7 @@
     "wahlpflichtAnforderungen": 0,
     "nurEnglisch": 0,
     "harteKonflikte": 1,
-    "teilweiseKonflikte": 5,
+    "teilweiseKonflikte": 6,
     "unsichereKonflikte": 3
   }
 }
