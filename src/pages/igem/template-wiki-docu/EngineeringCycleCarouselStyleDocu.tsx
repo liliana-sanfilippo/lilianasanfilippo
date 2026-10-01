@@ -3,7 +3,7 @@ import {H1, H2, H3} from "../../../components/other/H2";
 import {TypeScriptCode} from "../../../components/TypeScriptCode";
 
 
-export function DocuVorlage() {
+export function EngineeringCycleCarouselStyleDocu() {
     return (
         <div>
             <H1>Title</H1>

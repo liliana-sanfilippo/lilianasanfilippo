@@ -1,18 +1,43 @@
 import "../../componentStyling/Karten.css"
-import {ReactNode} from "react";
+import React, {ReactNode} from "react";
+import {ImageExampleCarousel} from "../Carousels/ImageExampleCarousel";
+import {part_table_examples} from "../../data/component_examples";
 
-export function ProjektKarte({url, title, zustand, marken, text, zielgruppen, disabled}: {
+export interface component_example {
+    image: string,
+    example_text: string,
+    example_link: string
+}
+
+export function ProjektKarte({url, title, zustand, marken, text, zielgruppen, disabled, component_examples}: {
     url: string,
     title: string,
     zustand: string,
     text: string | ReactNode,
     marken: string[],
     zielgruppen?: string[],
-    disabled?: boolean
+    disabled?: boolean,
+    component_examples?: component_example[]
 }) {
+    let titl = <a data-zustand={zustand} href={url}>
+        {title}
+    </a>
 
-    const innerei = <><p className="karte-zustand">{zustand}</p>
-        <h3 className="karte-titel">{title}</h3>
+    if (disabled) {
+        titl = <span>{title}</span>
+    }
+
+    const innerei = <>
+        <p className="karte-zustand">{zustand}</p>
+        <h3 className="karte-titel">
+            {titl}
+        </h3>
+        {component_examples &&
+            <ImageExampleCarousel
+                minHeight={"250px"}
+                examples={component_examples}
+            />
+        }
         <p className="karte-text">
             {text}
         </p>
@@ -30,14 +55,8 @@ export function ProjektKarte({url, title, zustand, marken, text, zielgruppen, di
     </>
 
 
-    if (disabled) {
-        return <span className="karte" data-zustand={zustand}>
+    return <span className="karte" data-zustand={zustand}>
             {innerei}
         </span>
-    } else {
-        return <a className="karte" data-zustand={zustand} href={url}>
-            {innerei}
-        </a>
-    }
 
 }

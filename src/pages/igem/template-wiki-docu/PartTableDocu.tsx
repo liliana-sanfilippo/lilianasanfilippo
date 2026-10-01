@@ -4,10 +4,11 @@ import {TypeScriptCode} from "../../../components/TypeScriptCode";
 import {PartTable} from "../../../components/WikiComponents/PartTable";
 import {SimplePart} from "../../../components/WikiComponents/simplePart";
 import {part_table_string} from "../../../components/WikiComponents/code_strings";
+import {part_table_examples} from "../../../data/component_examples";
+import {ImageExampleCarousel} from "../../../components/Carousels/ImageExampleCarousel";
 
 
 export function PartTableDocu() {
-
 
 
     return (
@@ -15,7 +16,12 @@ export function PartTableDocu() {
             <H1>Simple Part Table</H1>
             A simple and not really configurable part table.
             <H2>Example</H2>
+            <H3>Live Example</H3>
             <PartTable part_data={parts}/>
+            <H3>Image Examples</H3>
+            <ImageExampleCarousel
+                examples={part_table_examples}
+            />
             <H2>Usage</H2>
             <TypeScriptCode>
                 {`<PartTable part_data={parts}/>`}
@@ -66,7 +72,8 @@ export interface SimplePart {
                 {`<PartTable part_data={parts} displayimage={true}/>`}
             </TypeScriptCode>
             <H3>Manual changes</H3>
-            <p>Possible through the options chosen for <code>TableChart</code>, the change of header names or order and alike.</p>
+            <p>Possible through the options chosen for <code>TableChart</code>, the change of header names or order and
+                alike.</p>
             <H2>Source Code</H2>
             <TypeScriptCode>
                 {part_table_string}
@@ -101,5 +108,5 @@ const parts: SimplePart[] = [
         source_name: "Example Source",
         source_url: ""
     }
-    ]
+]
 

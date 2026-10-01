@@ -6,7 +6,7 @@
     "@emotion/styled": "^11.14.1",
     "@liliana-sanfilippo/react-bibtex-reference-generator": "^0.1.7",
     "@liliana-sanfilippo/react-bibtex-reference-manager": "^0.2.5",
-    "@liliana-sanfilippo/react-wiki-components": "^0.0.9",
+    "@liliana-sanfilippo/react-wiki-components": "0.0.18",
     "@mdx-js/react": "^3.1.1",
     "@mui/icons-material": "^9.0.1",
     "@mui/lab": "^9.0.0-beta.3",

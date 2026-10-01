@@ -8,7 +8,7 @@ export function IgemOverview() {
         <div>
             <H1>Overview</H1>
             <H2>iGEM Bielefeld</H2>
-            <div className={"karten"} >
+            <div className={"karten"}>
                 <ProjektKarte
                     url={`${process.env.REACT_APP_IGEM_BIELEFELD_PROJECTS_PATH}`}
                     title={"Projects"}
@@ -18,7 +18,7 @@ export function IgemOverview() {
                 />
             </div>
             <H2>iGEM Community</H2>
-            <div className={"karten"} >
+            <div className={"karten"}>
                 <ProjektKarte
                     url={`${process.env.REACT_APP_IGEM_BFH_PATH}`}
                     title={"BFH European Meet-Up"}
@@ -43,7 +43,7 @@ export function IgemOverview() {
             </div>
             <H2>Datasets</H2>
             <p>Contributions welcome.</p>
-            <div className={"karten"} >
+            <div className={"karten"}>
                 <ProjektKarte
                     url={`${process.env.REACT_APP_IGEM_PATH}/data#ai`}
                     title={"AI in iGEM"}
@@ -96,9 +96,9 @@ export function IgemOverview() {
                 />
             </div>
             <br/>
-           <p> Planned: Podcasts, Protocols, SVGs; filtering for the tables.</p>
+            <p> Planned: Podcasts, Protocols, SVGs; filtering for the tables.</p>
             <H2>Wiki Resources</H2>
-            <div className={"karten"} >
+            <div className={"karten"}>
                 <ProjektKarte
                     url={`https://liliana-sanfilippo.github.io/igem-wiki-guide/wiki-guide.pdf`}
                     title={"Project documentation and wiki guide"}
@@ -115,7 +115,8 @@ export function IgemOverview() {
                     zustand={"Not publicly available"}
                     disabled
                     text={<>
-                        Please get in contact, if you wish to use the template wiki. Documentation can be found <a href={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}`}>here</a>.
+                        Please get in contact, if you wish to use the template wiki. Documentation can be found <a
+                        href={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}`}>here</a>.
                     </>}
                 />
                 <ProjektKarte
