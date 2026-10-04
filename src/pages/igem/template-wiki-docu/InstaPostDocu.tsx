@@ -1,5 +1,5 @@
 import React from "react";
-import {H1, H2, H3} from "../../../components/other/H2";
+import {H1, H2} from "../../../components/other/H2";
 import {TypeScriptCode} from "../../../components/TypeScriptCode";
 import {Col, Row} from "react-bootstrap";
 import {InstaPost, InstaPostType} from "@liliana-sanfilippo/react-wiki-components";
@@ -12,9 +12,9 @@ export function InstaPostDocu() {
             post_code: "DZJ6RbeiBRG",
             image: "https://static.igem.wiki/teams/6221/wiki/community-board/insta/hg-tokyo-podcast.avif",
             caption: <span> Podcast Alert: Special Episode of <a href="/ayesdabio/">@ayesdabio</a> The Podcast with HG TOKYO. Be ready to get blown away by this team of Japanese teenagers who initially knew nothing about synthetic biology and ended up winning a gold medal in the iGEM Competition 2025 for their Hay Fever project... Production: Marine Fretel / <a
-                href="/sista_m_paris/" role="link">@sista_m_paris</a> - With interviews from Rikuto Egawa, Linna Sato, Ryota Kamikura, Jacky Man Leuk Yuen... and, as always, an audio twist from yours truly...<a
-                href="/explore/tags/igemcompetition/" role="link">#igemcompetition</a> Listen on all podcast platforms or here: https://lnkd.in/eiKea9bS ryotak_115 <a
-                href="/igem_hgtokyo/" role="link">@igem_hgtokyo</a></span>,
+                href="/sista_m_paris/" >@sista_m_paris</a> - With interviews from Rikuto Egawa, Linna Sato, Ryota Kamikura, Jacky Man Leuk Yuen... and, as always, an audio twist from yours truly...<a
+                href="/explore/tags/igemcompetition/" >#igemcompetition</a> Listen on all podcast platforms or here: https://lnkd.in/eiKea9bS ryotak_115 <a
+                href="/igem_hgtokyo/" >@igem_hgtokyo</a></span>,
             caption_short: <span> Podcast Alert: Special Episode of <a href="/ayesdabio/">@ayesdabio</a> The Podcast with HG TOKYO. Be r</span>,
             profiles: [
                 {
@@ -59,7 +59,8 @@ export function InstaPostDocu() {
     return (
         <div>
             <H1>Title</H1>
-            <p>Since iGEM rules do not allow for iframes, here is a instagram like component to display your social media posts. Through clicking on the post, the user is forwarded to the respective instagram post.</p>
+            <p>Since iGEM rules do not allow for iframes, here is a instagram like component to display your social
+                media posts. Through clicking on the post, the user is forwarded to the respective instagram post.</p>
             <H2>Example</H2>
             <Row>
                 {
