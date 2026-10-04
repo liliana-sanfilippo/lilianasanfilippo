@@ -1,12 +1,15 @@
 import React from "react";
 import {ProjektKarte} from "../../components/cards/Projekt-Karte";
-import {H1, H2, H3} from "../../components/other/H2";
+import {H1, H2} from "../../components/other/H2";
 import {
-    Engineering_Cycle_Carousel_Style, figure_automatic,
-    HP_Timeline_Overview_with_Interviews_below, Instagram_Post,
+    Engineering_Cycle_Carousel_Style,
+    figure_automatic,
+    HP_Timeline_Overview_with_Interviews_below,
+    Instagram_Post,
     part_table_examples,
     protocol_pdfs_1
 } from "../../data/component_examples"
+
 export function TemplateWikiDocu() {
 
     return (
@@ -16,10 +19,11 @@ export function TemplateWikiDocu() {
                 Please be aware these component use bootstrap and some use tailwind. You should add your own styling.
             </p>
             <p>
-                Most of these components are fairly simple. the point is they use JSON-like input, eliminating the need to code.
+                Most of these components are fairly simple. the point is they use JSON-like input, eliminating the need
+                to code.
             </p>
             <H2>Scientific</H2>
-            <div className={"karten"} >
+            <div className={"karten"}>
                 <ProjektKarte
                     url={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/part-table`}
                     title={"Part Table"}
@@ -35,7 +39,8 @@ export function TemplateWikiDocu() {
                     component_examples={protocol_pdfs_1}
                     zustand={"available"}
                     text={<>
-                        Automatically sorts and displays protocol collection. Shows number of protocols in each category.
+                        Automatically sorts and displays protocol collection. Shows number of protocols in each
+                        category.
                     </>}
                 />
                 <ProjektKarte
@@ -45,7 +50,8 @@ export function TemplateWikiDocu() {
                     component_examples={figure_automatic}
                     zustand={"available"}
                     text={<>
-                        <p>Figure that can be used in the PageEnvironment that allows for automatic numbering of figures. <b>Must be used in PageEnvironment!</b></p>
+                        <p>Figure that can be used in the PageEnvironment that allows for automatic numbering of
+                            figures. <b>Must be used in PageEnvironment!</b></p>
                     </>}
                 />
                 <ProjektKarte
@@ -54,7 +60,8 @@ export function TemplateWikiDocu() {
                     marken={[]}
                     zustand={"available"}
                     text={<>
-                        A Citation Manager similar to LateX where the Numbers, Links and Citations are automatically generated. Citation numbers are automatically links to
+                        A Citation Manager similar to LateX where the Numbers, Links and Citations are automatically
+                        generated. Citation numbers are automatically links to
                         the respective citation.
                     </>}
                 />
@@ -77,21 +84,25 @@ export function TemplateWikiDocu() {
                     zustand={"docu in process"}
                     text={<>
                         <p> Docu in progress.</p>
-                        <p> Converter for Benchling csv to gene format <a href={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/benchling-plasmid-viewer-converter`}>here</a> </p>
+                        <p> Converter for Benchling csv to gene format <a
+                            href={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/plasmid-viewer-converter`}>here</a>
+                        </p>
                     </>}
                 />
             </div>
             <H2>Other</H2>
-            <div className={"karten"} >
+            <div className={"karten"}>
                 <ProjektKarte
-                    url={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/instagram-post`}
+                    url={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH_INSTA}`}
                     title={"Instagram Post"}
                     marken={[]}
                     component_examples={Instagram_Post}
                     zustand={"available"}
                     text={<>
-                    Since iGEM rules do not allow for iframes, here is a instagram like component to display your social media posts. Through clicking on the post, the user is forwarded to the respective instagram post.
-                        </>}
+                        Since iGEM rules do not allow for iframes, here is a instagram like component to display your
+                        social media posts. Through clicking on the post, the user is forwarded to the respective
+                        instagram post.
+                    </>}
                 />
                 <ProjektKarte
                     url={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/hp-overview-with-timeline`}
@@ -121,7 +132,8 @@ export function TemplateWikiDocu() {
                     disabled
                     zustand={"docu in process"}
                     text={<>
-                    Docu in progress, types and code can be found <a href={"https://github.com/liliana-sanfilippo/react-wiki-components/tree/main/src/Sidebar"}>here</a>.
+                        Docu in progress, types and code can be found <a
+                        href={"https://github.com/liliana-sanfilippo/react-wiki-components/tree/main/src/Sidebar"}>here</a>.
                     </>}
                 />
 
@@ -131,7 +143,9 @@ export function TemplateWikiDocu() {
         </div>
     )
 }
+
 // TODO page environment
+// TODO Quotes
 /**
  * Für später Part:
  *

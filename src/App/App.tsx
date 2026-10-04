@@ -16,7 +16,7 @@ import {TemplateWikiDocu} from "../pages/igem/TemplateWikiDocu";
 import {NavBarContent} from "../routes/navBarContent";
 import {PartTableDocu} from "../pages/igem/template-wiki-docu/PartTableDocu";
 import {ProtocolDocu} from "../pages/igem/template-wiki-docu/ProtocolDocu";
-import {BenchlingPlasmidViewerConverter} from "../pages/igem/BenchlingPlasmidViewerConverter";
+import {PlasmidViewerConverter} from "../pages/igem/PlasmidViewerConverter";
 import {AutomaticSidebarDocu} from "../pages/igem/template-wiki-docu/AutomaticSidebarDocu";
 import {CommunityBlackboardFlyerDocu} from "../pages/igem/template-wiki-docu/CommunityBlackboardFlyerDocu";
 import {HPOverviewWithTimeline} from "../pages/igem/template-wiki-docu/HPOverviewWithTimeline";
@@ -73,7 +73,7 @@ const App = () => {
                             <Route path={`${process.env.REACT_APP_IGEM_PATH}/data`} element={<IGEMData/>} />
                             <Route path={process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH} element={<TemplateWikiDocu/>} />
                             <Route path={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/part-table`} element={<PartTableDocu/>} />
-                            <Route path={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/benchling-plasmid-viewer-converter`} element={<BenchlingPlasmidViewerConverter/>} />
+                            <Route path={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/plasmid-viewer-converter`} element={<PlasmidViewerConverter/>} />
                             <Route path={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/automatic-sidebar`} element={<AutomaticSidebarDocu/>} />
                             <Route path={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/blackboard-flyer`} element={<CommunityBlackboardFlyerDocu/>} />
                             <Route path={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}/protocols-sorted`} element={<ProtocolDocu/>} />

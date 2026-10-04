@@ -1,6 +1,6 @@
 import {GeneConverter} from "../../services/GeneConverter";
 
-export function BenchlingPlasmidViewerConverter() {
+export function PlasmidViewerConverter() {
     return (<section>
         <GeneConverter/>
     </section>)

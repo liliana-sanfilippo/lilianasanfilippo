@@ -115,7 +115,7 @@ export function IgemOverview() {
                     zustand={"Not publicly available"}
                     disabled
                     text={<>
-                        Please get in contact, if you wish to use the template wiki. Documentation can be found <a
+                        Please get in contact, if you wish to use the template wiki. Some documentation can be found <a
                         href={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}`}>here</a>.
                     </>}
                 />
@@ -132,8 +132,15 @@ export function IgemOverview() {
                     title={"React Wiki Components"}
                     marken={[]}
                     zustand={"In Development - available"}
-                    text={"Including for example an automatically generating sidebar. I wish to expand this in the" +
-                        " future with components adapted from teams as many teams design great ways to display data."}
+                    text={
+                    <>
+                    <p>
+                        Including for example an automatically generating sidebar. I wish to expand this in the
+                        future with components adapted from teams as many teams design great ways to display data.
+                    </p>
+                        <p>Documentation <a
+                            href={`${process.env.REACT_APP_IGEM_TEMPLATE_WIKI_PATH}`}>here</a></p>
+                    </>}
                 />
                 <ProjektKarte
                     disabled
